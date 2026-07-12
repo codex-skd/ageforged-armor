@@ -42,7 +42,7 @@ public class ForgeHumanoidArmorItem extends HumanoidArmorItem{
             public @NotNull Model getHumanoidArmorModel(ItemStack stack, EquipmentClientInfo.LayerType layerType, Model defaultModel) {
                 ArmorModelProvider provider = getProvider(stack);
                 if (provider != null && defaultModel instanceof HumanoidModel<?> humanoidDefault) {
-                    HumanoidModel<?> model = provider.getArmorModel(null);
+                    HumanoidModel<?> model = provider.getArmorModel((Entity) null);
                     if (model != null) {
                         return model;
                     }

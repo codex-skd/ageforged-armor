@@ -46,7 +46,7 @@ public class ArmorModelProvider {
     protected final ArmorModelSupplier modelSupplier;
     private ArmorModel<? extends HumanoidRenderState> armorModel;
     private final ModelLayerLocation modelLayerLocation;
-    private final Identifier resourceLocation;
+    protected final Identifier resourceLocation;
 
     protected ArmorModelProvider(String armorName, EquipmentSlot slot, ArmorModelSupplier modelSupplier, Supplier<LayerDefinition> layerDefinitionSupplier){
         this.layerDefinitionSupplier = layerDefinitionSupplier;
@@ -57,6 +57,11 @@ public class ArmorModelProvider {
 
     @NotNull
     public Identifier getTexture(Entity entity) {
+        return this.resourceLocation;
+    }
+
+    @NotNull
+    public Identifier getTexture(HumanoidRenderState state) {
         return this.resourceLocation;
     }
 
@@ -80,6 +85,13 @@ public class ArmorModelProvider {
     }
 
     public ArmorModel<? extends HumanoidRenderState> getArmorModel(Entity entity) {
+        if(this.armorModel == null){
+            this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
+        }
+        return this.armorModel;
+    }
+
+    public ArmorModel<? extends HumanoidRenderState> getArmorModel(HumanoidRenderState state) {
         if(this.armorModel == null){
             this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
         }
@@ -124,6 +136,12 @@ public class ArmorModelProvider {
             }
             return isSlim(entity) ? slimSkinTextures.get(skin) : skinTextures.get(skin);
         }
+
+        @Override
+        public @NotNull Identifier getTexture(HumanoidRenderState state) {
+            E skin = skinSupplier.get();
+            return skinTextures.get(skin);
+        }
     }
 
     public static class MixedArmorModelProvider extends ArmorModelProvider{
@@ -154,6 +172,11 @@ public class ArmorModelProvider {
         }
 
         @Override
+        public @NotNull Identifier getTexture(HumanoidRenderState state) {
+            return this.resourceLocation;
+        }
+
+        @Override
         public ArmorModel<? extends HumanoidRenderState> getArmorModel(Entity entity) {
             if(ArmorModelProvider.isSlim(entity)){
                 if(this.slimArmorModel == null){
@@ -163,6 +186,11 @@ public class ArmorModelProvider {
             }else{
                 return super.getArmorModel(entity);
             }
+        }
+
+        @Override
+        public ArmorModel<? extends HumanoidRenderState> getArmorModel(HumanoidRenderState state) {
+            return super.getArmorModel(state);
         }
     }
 }
