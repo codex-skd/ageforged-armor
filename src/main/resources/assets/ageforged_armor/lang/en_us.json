@@ -1,0 +1,13 @@
+{
+  "itemGroup.ageforged_armor": "Example Mod Tab",
+  "block.ageforged_armor.example_block": "Example Block",
+  "item.ageforged_armor.example_item": "Example Item",
+
+  "ageforged_armor.configuration.title": "Ageforged Armor Configs",
+  "ageforged_armor.configuration.section.ageforged_armor.common.toml": "Ageforged Armor Configs",
+  "ageforged_armor.configuration.section.ageforged_armor.common.toml.title": "Ageforged Armor Configs",
+  "ageforged_armor.configuration.items": "Item List",
+  "ageforged_armor.configuration.logDirtBlock": "Log Dirt Block",
+  "ageforged_armor.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ageforged_armor.configuration.magicNumber": "Magic Number"
+}
