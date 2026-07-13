@@ -1,7 +1,6 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
@@ -82,9 +81,9 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     }
 
     @Inject(method = "renderArmorPiece", at = @At("HEAD"), cancellable = true)
-    private void onRenderArmorPiece(PoseStack stack, MultiBufferSource buffer, HumanoidRenderState state,
-                                     EquipmentSlot slot, int packedLight, CallbackInfo ci) {
-        ItemStack itemStack = getEquipmentForSlot(state, slot);
+    private void onRenderArmorPiece(PoseStack poseStack, SubmitNodeCollector collector, ItemStack itemStack,
+                                     EquipmentSlot slot, int packedLight, HumanoidRenderState renderState,
+                                     CallbackInfo ci) {
         if (itemStack.getItem() instanceof HumanoidArmorItem) {
             ci.cancel();
         }
