@@ -102,7 +102,7 @@ public class ArmorOfTheAgesForge {
                 .build());
 
         LootModifiers.register(modEventBus);
-        modEventBus.addListener(this::gatherData);
+        modEventBus.addListener(GatherDataEvent.Server.class, this::gatherData);
         modEventBus.addListener(NeoForgePayloadRegistry::register);
         modEventBus.addListener(ForgeHumanoidArmorItem::registerClientExtensions);
 
@@ -130,7 +130,7 @@ public class ArmorOfTheAgesForge {
         }
     }
 
-    public void gatherData(GatherDataEvent event) {
+    public void gatherData(GatherDataEvent.Server event) {
         event.getGenerator().getVanillaPack(true).addProvider((DataProvider.Factory<LootModifierProvider>) output -> new LootModifierProvider(output, event.getLookupProvider()));
     }
 
