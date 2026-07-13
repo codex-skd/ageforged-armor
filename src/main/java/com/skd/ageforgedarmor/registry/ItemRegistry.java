@@ -17,14 +17,9 @@ import static com.skd.ageforgedarmor.Constants.RAIJIN_ARMOR_NAME;
 public abstract class ItemRegistry {
     public static ItemRegistry REGISTRY;
 
-    public final Supplier<Item> TAB_ICON = register(MOD_ID, () -> new Item(new Item.Properties()));
+    public Supplier<Item> TAB_ICON;
 
     public ItemRegistry(){
-        register(BAMBOO_HAT_NAME, () -> new HatItem(
-                AOTAConfig.get().bambooHatDurability,
-                AOTAConfig.get().bambooHatHelmetDef,
-                AOTAConfig.get().bambooHatToughness,
-                AOTAConfig.get().bambooHatEnchantability));
         register(ANUBIS_ARMOR_NAME, AotAMaterials.ANUBIS, HELMET, AOTAConfig.get().anubisDurability);
         register(ANUBIS_ARMOR_NAME, AotAMaterials.ANUBIS, CHESTPLATE, AOTAConfig.get().anubisDurability);
         register(ANUBIS_ARMOR_NAME, AotAMaterials.ANUBIS, LEGGINGS, AOTAConfig.get().anubisDurability);

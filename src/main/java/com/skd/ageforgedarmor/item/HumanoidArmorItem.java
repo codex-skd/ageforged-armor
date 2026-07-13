@@ -40,7 +40,7 @@ public class HumanoidArmorItem extends Item {
     private final String armorPartName;
     private final Holder<ArmorMaterial> material;
 
-    private static Rarity deriveRarity(Holder<ArmorMaterial> material) {
+    public static Rarity deriveRarity(Holder<ArmorMaterial> material) {
         if (material.value().knockbackResistance() > 0f) return Rarity.EPIC;
         if (material.value().toughness() >= 2f) return Rarity.RARE;
         if (material.value().defense().getOrDefault(ArmorType.HELMET, 0) >= 2) return Rarity.UNCOMMON;
@@ -49,6 +49,13 @@ public class HumanoidArmorItem extends Item {
 
     public HumanoidArmorItem(@NotNull String armorSetName, Holder<ArmorMaterial> material, ArmorType type, int durabilityFactor) {
         super(new Properties().stacksTo(1).durability(type.getDurability(durabilityFactor)).rarity(deriveRarity(material)).humanoidArmor(material.value(), type));
+        this.armorSetName = armorSetName;
+        this.armorPartName = armorSetName + "_" + type.getSlot().getName();
+        this.material = material;
+    }
+
+    public HumanoidArmorItem(@NotNull String armorSetName, Item.Properties properties, Holder<ArmorMaterial> material, ArmorType type, int durabilityFactor) {
+        super(properties);
         this.armorSetName = armorSetName;
         this.armorPartName = armorSetName + "_" + type.getSlot().getName();
         this.material = material;

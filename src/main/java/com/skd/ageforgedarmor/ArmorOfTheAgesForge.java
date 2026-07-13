@@ -28,6 +28,8 @@ import org.apache.logging.log4j.Logger;
 import com.skd.ageforgedarmor.client.ArmorOfTheAgesClientForge;
 import com.skd.ageforgedarmor.config.AOTAConfig;
 import com.skd.ageforgedarmor.item.ForgeHumanoidArmorItem;
+import com.skd.ageforgedarmor.item.HatItem;
+import com.skd.ageforgedarmor.item.HumanoidArmorItem;
 import com.skd.ageforgedarmor.loot.LootModifierProvider;
 import com.skd.ageforgedarmor.loot.LootModifiers;
 import com.skd.ageforgedarmor.networking.ForgeConfigSyncNetworkHandler;
@@ -194,13 +196,35 @@ public class ArmorOfTheAgesForge {
         public static final DeferredRegister.Items DEFERRED_REGISTER = DeferredRegister.createItems(MOD_ID);
         public static final Map<String, List<Identifier>> ARMORS_LOCATION_FROM_NAME = new Object2ObjectOpenHashMap<>();
 
+        public ItemRegistryImpl() {
+            this.TAB_ICON = DEFERRED_REGISTER.registerSimpleItem(MOD_ID);
+            // Register Bamboo Hat directly via registerItem to ensure Properties.setId() is called
+            DEFERRED_REGISTER.registerItem(Constants.BAMBOO_HAT_NAME,
+                    props -> new HatItem(props,
+                            AOTAConfig.get().bambooHatDurability,
+                            AOTAConfig.get().bambooHatHelmetDef,
+                            AOTAConfig.get().bambooHatToughness,
+                            AOTAConfig.get().bambooHatEnchantability),
+                    () -> new Item.Properties()
+                            .stacksTo(1)
+                            .durability(net.minecraft.world.item.equipment.ArmorType.HELMET.getDurability(AOTAConfig.get().bambooHatDurability))
+                            .attributes(HatItem.buildModifiers(AOTAConfig.get().bambooHatHelmetDef, AOTAConfig.get().bambooHatToughness))
+                            .equippable(net.minecraft.world.entity.EquipmentSlot.HEAD));
+            ARMORS_LOCATION_FROM_NAME
+                    .computeIfAbsent(Constants.BAMBOO_HAT_NAME, s -> new ObjectArrayList<>())
+                    .add(Identifier.fromNamespaceAndPath(MOD_ID, Constants.BAMBOO_HAT_NAME));
+        }
+
         @Override
         public void register(String armorSetName, Holder<ArmorMaterial> material, ArmorType slot, int durabilityFactor) {
+            String name = armorSetName + "_" + slot.getSlot().getName();
             ARMORS_LOCATION_FROM_NAME
                     .computeIfAbsent(armorSetName, s -> new ObjectArrayList<>())
-                    .add(Identifier.fromNamespaceAndPath(MOD_ID, armorSetName + "_" + slot.getSlot().getName()));
-            DEFERRED_REGISTER.register(armorSetName + "_" + slot.getSlot().getName(),
-                    () -> new ForgeHumanoidArmorItem(armorSetName, material, slot, durabilityFactor));
+                    .add(Identifier.fromNamespaceAndPath(MOD_ID, name));
+            DEFERRED_REGISTER.registerItem(name,
+                    props -> new ForgeHumanoidArmorItem(armorSetName, props, material, slot, durabilityFactor),
+                    () -> new Item.Properties().stacksTo(1).durability(slot.getDurability(durabilityFactor))
+                            .rarity(HumanoidArmorItem.deriveRarity(material)).humanoidArmor(material.value(), slot));
         }
 
         @Override

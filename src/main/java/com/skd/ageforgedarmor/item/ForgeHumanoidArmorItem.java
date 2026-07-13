@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.world.item.ItemStack;
@@ -27,6 +28,10 @@ public class ForgeHumanoidArmorItem extends HumanoidArmorItem{
     */
     public ForgeHumanoidArmorItem(@NotNull String armorSetName, Holder<ArmorMaterial> material, ArmorType type, int durabilityFactor) {
         super(armorSetName, material, type, durabilityFactor);
+    }
+
+    public ForgeHumanoidArmorItem(@NotNull String armorSetName, Item.Properties properties, Holder<ArmorMaterial> material, ArmorType type, int durabilityFactor) {
+        super(armorSetName, properties, material, type, durabilityFactor);
     }
 
     public static void registerClientExtensions(RegisterClientExtensionsEvent event) {

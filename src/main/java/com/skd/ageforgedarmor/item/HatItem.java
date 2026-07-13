@@ -44,7 +44,12 @@ public class HatItem extends Item {
         this.enchantability = enchantability;
     }
 
-    private static ItemAttributeModifiers buildModifiers(int helmetDef, float toughness) {
+    public HatItem(Item.Properties properties, int durabilityFactor, int helmetDef, float toughness, int enchantability) {
+        super(properties);
+        this.enchantability = enchantability;
+    }
+
+    public static ItemAttributeModifiers buildModifiers(int helmetDef, float toughness) {
         ItemAttributeModifiers.Builder builder = ItemAttributeModifiers.builder();
         builder.add(Attributes.ARMOR,
                 new AttributeModifier(
