@@ -39,3 +39,15 @@ run/
 repo/
 !**/src/**/repo/
 lib_ext/
+
+### Migration Artifacts ###
+*.bak
+downloads/
+jar_extract/
+*.py
+cfr.jar
+CheckItemMethods.*
+nul
+_java_files.txt
+repo_tree.json
+SUMMARY.md
