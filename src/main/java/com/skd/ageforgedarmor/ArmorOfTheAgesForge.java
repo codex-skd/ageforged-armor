@@ -59,6 +59,10 @@ public class ArmorOfTheAgesForge {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
     public ArmorOfTheAgesForge(IEventBus modEventBus, ModContainer modContainer) {
+        LOGGER.info("=== Ageforged Armor initializing ===");
+        LOGGER.info("Mod ID: {}, pack.mcmeta format: 64", MOD_ID);
+        LOGGER.info("Assets: assets/{}/textures/item/, assets/{}/textures/models/armor/", MOD_ID, MOD_ID);
+
         // Correct Forge path: .minecraft/config/<modid>.json (DO NOT prefix with "config/")
         Constants.CONFIG_PATH = FMLPaths.CONFIGDIR.get().resolve(MOD_ID + ".json");
 
@@ -198,6 +202,9 @@ public class ArmorOfTheAgesForge {
 
         public ItemRegistryImpl() {
             this.TAB_ICON = DEFERRED_REGISTER.registerSimpleItem(MOD_ID);
+            LOGGER.info("TAB_ICON registered: {}:{}", MOD_ID, MOD_ID);
+            LOGGER.info("  model: assets/{}/models/item/{}.json", MOD_ID, MOD_ID);
+            LOGGER.info("  texture: assets/{}/textures/item/{}.png", MOD_ID, MOD_ID);
             // Register Bamboo Hat directly via registerItem to ensure Properties.setId() is called
             DEFERRED_REGISTER.registerItem(Constants.BAMBOO_HAT_NAME,
                     props -> new HatItem(props,
@@ -213,6 +220,9 @@ public class ArmorOfTheAgesForge {
             ARMORS_LOCATION_FROM_NAME
                     .computeIfAbsent(Constants.BAMBOO_HAT_NAME, s -> new ObjectArrayList<>())
                     .add(Identifier.fromNamespaceAndPath(MOD_ID, Constants.BAMBOO_HAT_NAME));
+            LOGGER.info("Bamboo Hat registered: {}:{}", MOD_ID, Constants.BAMBOO_HAT_NAME);
+            LOGGER.info("  model: assets/{}/models/item/{}.json", MOD_ID, Constants.BAMBOO_HAT_NAME);
+            LOGGER.info("  texture: assets/{}/textures/item/{}.png (item), assets/{}/textures/models/armor/bamboo_hat.png (entity)", MOD_ID, Constants.BAMBOO_HAT_NAME, MOD_ID);
         }
 
         @Override
@@ -225,6 +235,10 @@ public class ArmorOfTheAgesForge {
                     props -> new ForgeHumanoidArmorItem(armorSetName, props, material, slot, durabilityFactor),
                     () -> new Item.Properties().stacksTo(1).durability(slot.getDurability(durabilityFactor))
                             .rarity(HumanoidArmorItem.deriveRarity(material)).humanoidArmor(material.value(), slot));
+            LOGGER.info("Armor registered: {}:{}", MOD_ID, name);
+            LOGGER.info("  item model: assets/{}/models/item/{}.json", MOD_ID, name);
+            LOGGER.info("  item texture: assets/{}/textures/item/{}.png", MOD_ID, name);
+            LOGGER.info("  armor texture: assets/{}/textures/models/armor/{}.png", MOD_ID, armorSetName);
         }
 
         @Override

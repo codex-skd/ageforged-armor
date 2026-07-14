@@ -13,6 +13,8 @@ import net.minecraft.world.item.ItemStack;
 import com.skd.ageforgedarmor.client.ArmorModelProvider;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 import com.skd.ageforgedarmor.item.HumanoidArmorItem;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -23,6 +25,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(HumanoidArmorLayer.class)
 public abstract class MixinHumanoidArmorLayer extends RenderLayer {
 
+    private static final Logger LOGGER = LogManager.getLogger();
+
     public MixinHumanoidArmorLayer(RenderLayerParent parentLayer) {
         super(parentLayer);
     }
@@ -30,6 +34,7 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     @Inject(method = "shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z", at = @At("HEAD"), cancellable = true)
     private static void onShouldRender(ItemStack stack, EquipmentSlot slot, CallbackInfoReturnable<Boolean> cir) {
         if (stack.getItem() instanceof HumanoidArmorItem) {
+            LOGGER.debug("shouldRender: canceling vanilla render for {} slot {}", stack.getItem(), slot);
             cir.setReturnValue(false);
         }
     }
@@ -39,6 +44,7 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     private void afterSubmit(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
                              HumanoidRenderState renderState, float limbSwing, float limbSwingAmount,
                              CallbackInfo ci) {
+        LOGGER.debug("afterSubmit: rendering custom armor pieces");
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.HEAD, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.CHEST, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.LEGS, packedLight);
@@ -56,15 +62,20 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
                 ArmorModel model = provider.getArmorModel(renderState);
                 model.setupAnim(renderState);
                 Identifier texture = provider.getTexture(renderState);
+                LOGGER.debug("renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
                 if (texture != null) {
                     collector.submitModel(model, renderState, poseStack, texture,
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null);
+                    LOGGER.debug("renderCustom: submitted model for slot {} with texture {}", slot, texture);
                 }
                 if (itemStack.hasFoil()) {
                     collector.submitModel(model, renderState, poseStack,
                             net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null);
+                    LOGGER.debug("renderCustom: submitted glint for slot {}", slot);
                 }
+            } else {
+                LOGGER.warn("renderCustom: provider is NULL for item {} slot {}", itemStack.getItem(), slot);
             }
         }
     }
@@ -85,6 +96,7 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
                                      EquipmentSlot slot, int packedLight, HumanoidRenderState renderState,
                                      CallbackInfo ci) {
         if (itemStack.getItem() instanceof HumanoidArmorItem) {
+            LOGGER.debug("renderArmorPiece: canceling for {} slot {}", itemStack.getItem(), slot);
             ci.cancel();
         }
     }

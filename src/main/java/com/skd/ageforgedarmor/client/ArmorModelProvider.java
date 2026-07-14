@@ -13,6 +13,8 @@ import com.skd.ageforgedarmor.client.models.ArmorModel;
 import com.skd.ageforgedarmor.config.AOTAConfig;
 import com.skd.ageforgedarmor.config.PreferredModel;
 import com.skd.ageforgedarmor.config.SkinSyncState;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Function;
@@ -22,6 +24,7 @@ import static com.skd.ageforgedarmor.Constants.MOD_ID;
 
 public class ArmorModelProvider {
     protected static final Identifier PLAYER_RESOURCE_LOCATION = Identifier.withDefaultNamespace("player");
+    private static final Logger LOGGER = LogManager.getLogger();
 
     public interface SkinVariant {
         String getTexturePrefix();
@@ -53,15 +56,18 @@ public class ArmorModelProvider {
         this.modelSupplier = modelSupplier;
         this.modelLayerLocation = new ModelLayerLocation(PLAYER_RESOURCE_LOCATION, armorName + "_" + slot.name().toLowerCase());
         this.resourceLocation = Identifier.fromNamespaceAndPath(MOD_ID, "textures/models/armor/" + armorName + ".png");
+        LOGGER.debug("ArmorModelProvider created: armor={}, slot={}, texture={}", armorName, slot, resourceLocation);
     }
 
     @NotNull
     public Identifier getTexture(Entity entity) {
+        LOGGER.debug("getTexture(entity) called, returning: {}", this.resourceLocation);
         return this.resourceLocation;
     }
 
     @NotNull
     public Identifier getTexture(HumanoidRenderState state) {
+        LOGGER.debug("getTexture(state) called, returning: {}", this.resourceLocation);
         return this.resourceLocation;
     }
 
@@ -87,6 +93,7 @@ public class ArmorModelProvider {
     public ArmorModel<? extends HumanoidRenderState> getArmorModel(Entity entity) {
         if(this.armorModel == null){
             this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
+            LOGGER.debug("getArmorModel(entity): baked new model for layer: {}", this.modelLayerLocation);
         }
         return this.armorModel;
     }
@@ -94,6 +101,7 @@ public class ArmorModelProvider {
     public ArmorModel<? extends HumanoidRenderState> getArmorModel(HumanoidRenderState state) {
         if(this.armorModel == null){
             this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
+            LOGGER.debug("getArmorModel(state): baked new model for layer: {}", this.modelLayerLocation);
         }
         return this.armorModel;
     }

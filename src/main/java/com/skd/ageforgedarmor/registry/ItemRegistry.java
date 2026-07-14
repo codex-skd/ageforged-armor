@@ -7,6 +7,8 @@ import net.minecraft.world.item.equipment.ArmorType;
 import com.skd.ageforgedarmor.config.AOTAConfig;
 import com.skd.ageforgedarmor.item.AotAMaterials;
 import com.skd.ageforgedarmor.item.HatItem;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.function.Supplier;
 
@@ -16,6 +18,7 @@ import static com.skd.ageforgedarmor.Constants.RAIJIN_ARMOR_NAME;
 
 public abstract class ItemRegistry {
     public static ItemRegistry REGISTRY;
+    protected static final Logger LOGGER = LogManager.getLogger();
 
     public Supplier<Item> TAB_ICON;
 
@@ -60,6 +63,7 @@ public abstract class ItemRegistry {
         register(RAIJIN_ARMOR_NAME, AotAMaterials.RAIJIN, CHESTPLATE, AOTAConfig.get().raijinDurability);
         register(RAIJIN_ARMOR_NAME, AotAMaterials.RAIJIN, LEGGINGS, AOTAConfig.get().raijinDurability);
         register(RAIJIN_ARMOR_NAME, AotAMaterials.RAIJIN, BOOTS, AOTAConfig.get().raijinDurability);
+        LOGGER.info("ItemRegistry: registered 44 armor pieces + tab icon");
     }
 
     public abstract Supplier<Item> register(final String name, final Supplier<Item> itemSupplier);
