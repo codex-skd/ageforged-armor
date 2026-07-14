@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.13] - 2026-07-13
+
+### Changed
+- Armor render type to entityCutout for shader compatibility
+- Mixin logs to INFO level with [AFA] prefix for debugging
+
 ## [0.0.0-beta.12] - 2026-07-13
 
 ### Added
