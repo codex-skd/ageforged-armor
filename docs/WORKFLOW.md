@@ -159,7 +159,7 @@ git push
 #    mod_version=0.0.0-beta.3
 
 # 3. Crear release notes
-#    docs/versions/0.0.0-beta.3.md
+#    curseforge/versions/0.0.0-beta.3.md
 
 # 4. Actualizar CHANGELOG.md
 
