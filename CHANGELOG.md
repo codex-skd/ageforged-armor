@@ -1,0 +1,56 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+---
+
+## [0.0.0-beta.8] - 2026-07-13
+
+### Fixed
+- Item model for creative tab icon renamed to match registry name
+- pack.mcmeta format updated to 64 for Minecraft 26.1
+- All textures now load correctly
+
+## [0.0.0-beta.7] - 2026-07-13
+
+### Fixed
+- pack.mcmeta pack_format 8 -> 64 (Minecraft 26.1 requirement)
+
+## [0.0.0-beta.6] - 2026-07-13
+
+### Fixed
+- Mixin descriptor mismatch in renderArmorPiece
+
+## [0.0.0-beta.5] - 2026-07-13
+
+### Fixed
+- Item registration crash: migrated to registerItem() API with pre-configured Item.Properties
+
+## [0.0.0-beta.4] - 2026-07-13
+
+### Fixed
+- Item registration crash: DeferredRegister<Item> -> DeferredRegister.Items
+
+## [0.0.0-beta.3] - 2026-07-13
+
+### Fixed
+- Crash on startup: GatherDataEvent is now abstract, use GatherDataEvent.Server
+
+## [0.0.0-beta.2] - 2026-07-13
+
+### Changed
+- New project logo
+- Cleaned up migration artifacts
+
+## [0.0.0-beta.1] - 2026-07-13
+
+### Added
+- Initial beta release
+- 11 armor sets with custom 3D models and textures
+- Set bonus system with hover tooltips
+- Configurable stats via YACL
+- Loot generation in vanilla structure chests
+- Skin variants for O-Yoroi, Raijin, Pharaoh, Centurion
+- Slim (Alex) model support
+- Bamboo Hat wearable standalone helmet
+- Networking for config and skin sync
