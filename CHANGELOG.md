@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.11] - 2026-07-13
+
+### Fixed
+- Armor not rendering on player when worn
+- Use armorCutoutNoCull RenderType instead of entityCutout for armor models
+
 ## [0.0.0-beta.10] - 2026-07-13
 
 ### Fixed

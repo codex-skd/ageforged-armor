@@ -64,7 +64,8 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
                 Identifier texture = provider.getTexture(renderState);
                 LOGGER.debug("renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
                 if (texture != null) {
-                    collector.submitModel(model, renderState, poseStack, texture,
+                    var renderType = net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture);
+                    collector.submitModel(model, renderState, poseStack, renderType,
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null);
                     LOGGER.debug("renderCustom: submitted model for slot {} with texture {}", slot, texture);
                 }
