@@ -35,6 +35,7 @@ public abstract class ArmorModel<T extends HumanoidRenderState> extends Humanoid
 
     @Override
     public void setupAnim(@NotNull T state) {
+        super.setupAnim(state);
         this.setupArmorPartAnim(state.walkAnimationPos, state.walkAnimationSpeed, state.ageInTicks, state.yRot, state.xRot);
     }
 

@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.12] - 2026-07-13
+
+### Added
+- Spanish translations for set bonus descriptions and tooltips
+- Set bonus keys added to all 31 language files
+
+### Fixed
+- Armor animation on player (ArmorModel.setupAnim now calls super.setupAnim)
+- Head rotation, arm swing, and leg movement now work on worn armor
+
 ## [0.0.0-beta.11] - 2026-07-13
 
 ### Fixed
