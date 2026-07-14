@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.10] - 2026-07-13
+
+### Fixed
+- All items showing as missing texture (purple/black) in MC 26.1
+- MC 26.1 requires items/<name>.json definitions (new format)
+- Added 42 item definition files in assets/ageforged_armor/items/
+
+## [0.0.0-beta.9] - 2026-07-13
+
+### Added
+- Debug logging for texture loading (ItemRegistry, ArmorModelProvider, Mixin)
+
+### Changed
+- docs/curseforge/ directory structure (moved under docs/)
+
 ## [0.0.0-beta.8] - 2026-07-13
 
 ### Fixed
