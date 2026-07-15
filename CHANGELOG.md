@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.14] - 2026-07-13
+
+### Changed
+- Simplified mixin: removed renderArmorPiece cancellation, keep shouldRender cancellation
+- Conditional logging only when equipment is present
+
 ## [0.0.0-beta.13] - 2026-07-13
 
 ### Changed
