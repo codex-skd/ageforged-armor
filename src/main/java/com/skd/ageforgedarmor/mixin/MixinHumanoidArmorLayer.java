@@ -34,7 +34,6 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     @Inject(method = "shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z", at = @At("HEAD"), cancellable = true)
     private static void onShouldRender(ItemStack stack, EquipmentSlot slot, CallbackInfoReturnable<Boolean> cir) {
         if (stack.getItem() instanceof HumanoidArmorItem) {
-            LOGGER.info("[AFA] shouldRender: cancelando rendering vanilla para {} slot {}", stack.getItem(), slot);
             cir.setReturnValue(false);
         }
     }
@@ -44,10 +43,7 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     private void afterSubmit(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
                              HumanoidRenderState renderState, float limbSwing, float limbSwingAmount,
                              CallbackInfo ci) {
-        LOGGER.info("[AFA] afterSubmit: renderizando armaduras personalizadas");
-        LOGGER.info("[AFA] afterSubmit: HEAD={}, CHEST={}, LEGS={}, FEET={}",
-            renderState.headEquipment.getItem(), renderState.chestEquipment.getItem(),
-            renderState.legsEquipment.getItem(), renderState.feetEquipment.getItem());
+        logEquipment("afterSubmit", renderState);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.HEAD, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.CHEST, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.LEGS, packedLight);
@@ -55,30 +51,38 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     }
 
     @Unique
+    private static void logEquipment(String tag, HumanoidRenderState state) {
+        String head = state.headEquipment.getItem().toString();
+        String chest = state.chestEquipment.getItem().toString();
+        String legs = state.legsEquipment.getItem().toString();
+        String feet = state.feetEquipment.getItem().toString();
+        if (!"minecraft:air".equals(head) || !"minecraft:air".equals(chest) ||
+            !"minecraft:air".equals(legs) || !"minecraft:air".equals(feet)) {
+            LOGGER.info("[AFA] {} HEAD={} CHEST={} LEGS={} FEET={}", tag, head, chest, legs, feet);
+        }
+    }
+
+    @Unique
     @SuppressWarnings({"unchecked", "rawtypes"})
     private void renderCustomArmorPiece(PoseStack poseStack, SubmitNodeCollector collector,
                                          HumanoidRenderState renderState, EquipmentSlot slot, int packedLight) {
         ItemStack itemStack = getEquipmentForSlot(renderState, slot);
-        LOGGER.info("[AFA] renderCustom: slot={}, item={}", slot, itemStack.getItem());
         if (itemStack.getItem() instanceof HumanoidArmorItem armorItem) {
             ArmorModelProvider provider = armorItem.getModelProvider();
-            LOGGER.info("[AFA] renderCustom: provider={}", provider);
             if (provider != null) {
                 ArmorModel model = provider.getArmorModel(renderState);
                 model.setupAnim(renderState);
                 Identifier texture = provider.getTexture(renderState);
-                LOGGER.info("[AFA] renderCustom: texture={}", texture);
+                LOGGER.info("[AFA] renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
                 if (texture != null) {
                     var renderType = net.minecraft.client.renderer.rendertype.RenderTypes.entityCutout(texture);
                     collector.submitModel(model, renderState, poseStack, renderType,
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null);
-                    LOGGER.info("[AFA] renderCustom: submitModel llamado para slot {}", slot);
                 }
                 if (itemStack.hasFoil()) {
                     collector.submitModel(model, renderState, poseStack,
                             net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null);
-                    LOGGER.info("[AFA] renderCustom: glint enviado para slot {}", slot);
                 }
             }
         }
@@ -93,15 +97,5 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
             case FEET -> state.feetEquipment;
             default -> ItemStack.EMPTY;
         };
-    }
-
-    @Inject(method = "renderArmorPiece", at = @At("HEAD"), cancellable = true)
-    private void onRenderArmorPiece(PoseStack poseStack, SubmitNodeCollector collector, ItemStack itemStack,
-                                     EquipmentSlot slot, int packedLight, HumanoidRenderState renderState,
-                                     CallbackInfo ci) {
-        if (itemStack.getItem() instanceof HumanoidArmorItem) {
-            LOGGER.info("[AFA] renderArmorPiece: cancelando para {} slot {}", itemStack.getItem(), slot);
-            ci.cancel();
-        }
     }
 }
