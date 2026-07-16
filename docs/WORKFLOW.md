@@ -1,4 +1,7 @@
-# Flujo de trabajo — Mods Minecraft (NeoForge)
+# Flujo de trabajo — Armor Cosmetic (NeoForge)
+
+> Este archivo pertenece al proyecto **Armor Cosmetic**. Cada proyecto tiene su propio `WORKFLOW.md`.
+> No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 
 ## Estructura del proyecto
 
@@ -23,6 +26,7 @@
 ├── docs/
 │   ├── WORKFLOW.md                    # Este documento
 │   └── curseforge/                    # Documentación para publicación en CurseForge
+│       ├── project_vars.md             # Variables del proyecto (ID, token, versiones)
 │       ├── project_description.md      # Descripción del proyecto
 │       └── versions/                   # Release notes por versión
 │           ├── 0.0.0-beta.1.md
@@ -105,16 +109,16 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 #### Ejemplo de estructura HTML para release notes
 
 ```html
-<h2>v1.0.21 - Feature Title</h2>
+<h2>v1.0.21 - Tombstone Compatibility: Real Armor Captured</h2>
 
 <h3>Fix</h3>
 <ul>
-<li><strong>Issue</strong>: Description with <code>code</code>.</li>
+<li><strong>Real armor lost on death with Tombstone</strong>: The player&#8217;s real armor is now added to <code>LivingDropsEvent</code> alongside cosmetic armor.</li>
 </ul>
 
 <h3>Technical Changes</h3>
 <ul>
-<li><code>Class.method()</code> — description.</li>
+<li><code>InventoryManager.handlePlayerDrops()</code> now iterates the player&#8217;s armor slots...</li>
 </ul>
 ```
 
@@ -182,9 +186,7 @@ El JAR generado sigue el formato `<mod_id>-<minecraft_version>-<framework>-<mod_
 
 | Ejemplo | Significado |
 |---------|-------------|
-| `ageforged_armor-1.21.1-neoforge-0.0.0-beta.2.jar` | NeoForge 1.21.1, beta 2 |
-| `ageforged_armor-1.21.1-neoforge-1.0.0.jar` | NeoForge 1.21.1, release 1.0.0 |
-| `ageforged_armor-26.1.2-neoforge-0.0.0-beta.14.jar` | NeoForge 26.1.2, beta 14 |
+| `player_animation_core-26.1.2-neoforge-0.0.0-beta.21.jar` | NeoForge 26.1.2, beta 21 |
 
 El framework puede ser `neoforge`, `forge` o `fabric` según corresponda. Se configura en `build.gradle`:
 
@@ -247,7 +249,7 @@ Cada vez que se sube una versión a CurseForge se debe crear un tag en GitLab.
 
 | Estado | Formato | Ejemplo |
 |--------|---------|---------|
-| Beta | `<mc-version>-neoforge-beta.X` | `26.1.2-neoforge-beta.15` |
+| Beta | `<mc-version>-neoforge-beta.X` | `26.1.2-neoforge-beta.21` |
 | Release | `<mc-version>-neoforge-X.Y.Z` | `26.1.2-neoforge-1.0.0` |
 
 El prefijo `<mc-version>-neoforge` se adapta según la versión de Minecraft y el framework de la rama actual.
@@ -256,8 +258,8 @@ El prefijo `<mc-version>-neoforge` se adapta según la versión de Minecraft y e
 
 ```bash
 # Beta
-git tag -a 26.1.2-neoforge-beta.15 -m "v0.0.0-beta.15: Updated WORKFLOW.md"
-git push origin 26.1.2-neoforge-beta.15
+git tag -a 26.1.2-neoforge-beta.21 -m "v0.0.0-beta.21: Update WORKFLOW.md"
+git push origin 26.1.2-neoforge-beta.21
 
 # Release estable
 git tag -a 26.1.2-neoforge-1.0.0 -m "v1.0.0: First stable release"
@@ -311,7 +313,7 @@ git tag -a 26.1.2-neoforge-beta.3 -m "v0.0.0-beta.3: Bugfix release"
 git push origin 26.1.2-neoforge-beta.3
 
 # 7. Subir JAR a CurseForge manualmente
-#    El JAR está en build/libs/<mod_id>-<minecraft_version>-neoforge-<version>.jar
+#    El JAR está en build/libs/<mod_id>-<minecraft_version>-<framework>-<version>.jar
 ```
 
 ### 3. Release estable
@@ -342,4 +344,4 @@ git push origin 26.1.2-neoforge-1.0.0
 | Documentación interna, GitLab (README, CHANGELOG) | **Castellano** (es-ES) |
 | CurseForge (descripción del proyecto, release notes) | **Inglés** (en-US) — plataforma global |
 
-El código y los logs siguen el estándar internacional de programación en inglés. La documentación interna y el repositorio se mantienen en castellano por ser el idioma del equipo. CurseForge se publica en inglés para llegar a la mayor audiencia posible.
+El código, los logs y los commits siguen el estándar internacional de programación en inglés. La documentación interna y el repositorio se mantienen en castellano por ser el idioma del equipo. CurseForge se publica en inglés para llegar a la mayor audiencia posible.
