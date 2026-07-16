@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.17] - 2026-07-16
+
+### Docs
+- Actualizado WORKFLOW.md con secciones de Ramas, tags con prefijo MC/NeoForge y git checkout en flujo
+
 ## [0.0.0-beta.16] - 2026-07-16
 
 ### Fixed
