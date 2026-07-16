@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.15] - 2026-07-16
+
+### Fixed
+- Armor not rendering on player when equipped: replaced @Inject shouldRender with @WrapOperation for robustness
+- Mixin no longer crashes if shouldRender/renderArmorPiece methods have different signatures across MC versions
+- Added `require = 0` to all mixin injections for graceful handling of version mismatches
+
+### Changed
+- Mixin now uses MixinExtras WrapOperation instead of plain @Inject
+- Better compatibility with MC 26.1 render system changes
+
 ## [0.0.0-beta.14] - 2026-07-13
 
 ### Changed
