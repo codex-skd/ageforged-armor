@@ -2,9 +2,7 @@ package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.SubmitNodeCollector;
-import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.layers.RenderLayer;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
@@ -13,6 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import com.skd.ageforgedarmor.client.ArmorModelProvider;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 import com.skd.ageforgedarmor.item.HumanoidArmorItem;
+import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
@@ -20,30 +20,44 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(HumanoidArmorLayer.class)
-public abstract class MixinHumanoidArmorLayer extends RenderLayer {
+public abstract class MixinHumanoidArmorLayer {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public MixinHumanoidArmorLayer(RenderLayerParent parentLayer) {
-        super(parentLayer);
-    }
-
-    @Inject(method = "shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z", at = @At("HEAD"), cancellable = true)
-    private static void onShouldRender(ItemStack stack, EquipmentSlot slot, CallbackInfoReturnable<Boolean> cir) {
+    /**
+     * Wraps the shouldRender call to skip vanilla rendering for our custom armor items.
+     * Uses WrapOperation instead of @Inject for better robustness if the method doesn't exist.
+     */
+    @WrapOperation(
+        method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
+        at = @At(
+            value = "INVOKE",
+            target = "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z"
+        ),
+        require = 0
+    )
+    private boolean wrapShouldRender(ItemStack stack, EquipmentSlot slot, Operation<Boolean> original) {
         if (stack.getItem() instanceof HumanoidArmorItem) {
-            cir.setReturnValue(false);
+            return false;
         }
+        return original.call(stack, slot);
     }
 
-    @Inject(method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
-            at = @At("TAIL"))
+    /**
+     * Injects AFTER the vanilla submit finishes to render our custom armor.
+     * This captures all 4 equipment slots and renders our custom models.
+     * The PoseStack is already at the correct entity-root position.
+     */
+    @Inject(
+        method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
+        at = @At("TAIL"),
+        require = 0
+    )
     private void afterSubmit(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
                              HumanoidRenderState renderState, float limbSwing, float limbSwingAmount,
                              CallbackInfo ci) {
-        logEquipment("afterSubmit", renderState);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.HEAD, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.CHEST, packedLight);
         renderCustomArmorPiece(poseStack, collector, renderState, EquipmentSlot.LEGS, packedLight);
@@ -51,40 +65,32 @@ public abstract class MixinHumanoidArmorLayer extends RenderLayer {
     }
 
     @Unique
-    private static void logEquipment(String tag, HumanoidRenderState state) {
-        String head = state.headEquipment.getItem().toString();
-        String chest = state.chestEquipment.getItem().toString();
-        String legs = state.legsEquipment.getItem().toString();
-        String feet = state.feetEquipment.getItem().toString();
-        if (!"minecraft:air".equals(head) || !"minecraft:air".equals(chest) ||
-            !"minecraft:air".equals(legs) || !"minecraft:air".equals(feet)) {
-            LOGGER.info("[AFA] {} HEAD={} CHEST={} LEGS={} FEET={}", tag, head, chest, legs, feet);
-        }
-    }
-
-    @Unique
     @SuppressWarnings({"unchecked", "rawtypes"})
     private void renderCustomArmorPiece(PoseStack poseStack, SubmitNodeCollector collector,
                                          HumanoidRenderState renderState, EquipmentSlot slot, int packedLight) {
         ItemStack itemStack = getEquipmentForSlot(renderState, slot);
-        if (itemStack.getItem() instanceof HumanoidArmorItem armorItem) {
-            ArmorModelProvider provider = armorItem.getModelProvider();
-            if (provider != null) {
-                ArmorModel model = provider.getArmorModel(renderState);
-                model.setupAnim(renderState);
-                Identifier texture = provider.getTexture(renderState);
-                LOGGER.info("[AFA] renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
-                if (texture != null) {
-                    var renderType = net.minecraft.client.renderer.rendertype.RenderTypes.entityCutout(texture);
-                    collector.submitModel(model, renderState, poseStack, renderType,
-                            packedLight, OverlayTexture.NO_OVERLAY, -1, null);
-                }
-                if (itemStack.hasFoil()) {
-                    collector.submitModel(model, renderState, poseStack,
-                            net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
-                            packedLight, OverlayTexture.NO_OVERLAY, -1, null);
-                }
-            }
+        if (!(itemStack.getItem() instanceof HumanoidArmorItem armorItem)) return;
+
+        ArmorModelProvider provider = armorItem.getModelProvider();
+        if (provider == null) return;
+
+        ArmorModel model = provider.getArmorModel(renderState);
+        if (model == null) return;
+
+        model.setupAnim(renderState);
+        Identifier texture = provider.getTexture(renderState);
+        if (texture == null) return;
+
+        LOGGER.info("[AFA] renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
+
+        collector.submitModel(model, renderState, poseStack,
+                net.minecraft.client.renderer.rendertype.RenderTypes.entityCutout(texture),
+                packedLight, OverlayTexture.NO_OVERLAY, -1, null);
+
+        if (itemStack.hasFoil()) {
+            collector.submitModel(model, renderState, poseStack,
+                    net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
+                    packedLight, OverlayTexture.NO_OVERLAY, -1, null);
         }
     }
 
