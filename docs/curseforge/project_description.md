@@ -1,4 +1,4 @@
-<h1 align="center">🏺 Ageforged Armor</h1>
+<h1 align="center">🗡️ Ageforged Armor</h1>
 
 <p align="center"><strong>11 unique armor sets with custom 3D models, set bonuses, and loot integration.</strong></p>
 
@@ -10,32 +10,48 @@
 
 <h2>✨ Overview</h2>
 
-<p>Ageforged Armor adds 11 hand-crafted armor sets to Minecraft, each with unique 3D models, custom textures, set bonuses, and loot generation. From the iron-clad O-Yoroi to the divine Raijin, every set brings a distinct visual and gameplay identity.</p>
+<p>Ageforged Armor adds 11 hand-crafted armor sets to Minecraft, each with custom 3D models, unique stats, and set bonuses. Every set can be found as loot in vanilla structures — no crafting required.</p>
+
+<br>
+
+<h2>🎯 Armor Sets</h2>
+
+<table>
+<tr><th>Armor</th><th>Theme</th><th>Special Feature</th></tr>
+<tr><td><strong>Bamboo Hat</strong></td><td>Samurai-inspired</td><td>Lightweight, repairable with bamboo</td></tr>
+<tr><td><strong>Iron Plate</strong></td><td>Reinforced iron</td><td>Classic heavy protection</td></tr>
+<tr><td><strong>Holy</strong></td><td>Sacred paladin</td><td>Knockback resistance</td></tr>
+<tr><td><strong>Exalted Aurum</strong></td><td>Ancient gold-forged</td><td>High enchantability</td></tr>
+<tr><td><strong>Japanese Light</strong></td><td>Light samurai</td><td>Agility-focused</td></tr>
+<tr><td><strong>O-Yoroi</strong></td><td>Samurai warlord</td><td>8 skin variants</td></tr>
+<tr><td><strong>Raijin</strong></td><td>Storm god</td><td>3 skin variants</td></tr>
+<tr><td><strong>Pharaoh</strong></td><td>Egyptian royal</td><td>2 skin variants</td></tr>
+<tr><td><strong>Anubis</strong></td><td>Jackal god</td><td>Desert pyramid loot</td></tr>
+<tr><td><strong>Centurion</strong></td><td>Roman legion</td><td>2 skin variants</td></tr>
+<tr><td><strong>Quetzalcoatl</strong></td><td>Feathered serpent</td><td>End city loot</td></tr>
+</table>
 
 <br>
 
 <h2>🎯 Features</h2>
 
-<h3>🏗️ Custom 3D Models</h3>
-<p>Every armor piece has its own unique 3D model — not just retextured vanilla armor. Each set has dedicated models for head, chest, legs, and feet, with slim (Alex) model support for all pieces.</p>
+<h3>🎨 Custom 3D Models</h3>
+<p>Every armor piece has a unique 3D model, not just a retextured vanilla armor. Each set is visually distinct and themed after different cultures and eras.</p>
 
 <h3>⚡ Set Bonuses</h3>
-<p>Wear a full set to unlock special effects: Resistance, Strength, Speed, Fire Resistance, Regeneration, and more. Hover over any piece to see the set bonus details.</p>
+<p>Wear a full set to unlock special bonuses. Hover over any armor piece in your inventory to see the set bonus details.</p>
 
-<h3>🎨 Skin Variants</h3>
-<p>Five armor sets include alternate skins: O-Yoroi (9 skins), Raijin (3), Pharaoh (2), Centurion (2), and Iron Plate (2). Choose your look in the config screen. Patreon supporters unlock exclusive skins.</p>
+<h3>⚙️ Configurable Stats</h3>
+<p>Durability, defense, toughness, and enchantability are all configurable via YACL. Tune every set to your preferred balance.</p>
 
-<h3>🎲 Loot Integration</h3>
-<p>All armor sets generate naturally in vanilla structure chests — pyramids, dungeons, strongholds, end cities, and more. Configurable per set and per structure.</p>
+<h3>🏆 Loot Generation</h3>
+<p>Armor pieces generate naturally in vanilla structure chests. Each set appears in specific structures — configurable per set and per structure.</p>
 
-<h3>⚙️ Fully Configurable</h3>
-<p>Every stat (durability, defense, toughness, enchantability) is adjustable per armor set via the YACL config screen. Loot generation can be toggled per set.</p>
+<h3>🎭 Patron Skins</h3>
+<p>O-Yoroi, Raijin, Pharaoh, and Centurion sets feature alternate skin variants. Cycle through them in the crafting grid.</p>
 
-<h3>🌐 Network Synced</h3>
-<p>Skin choices and model preferences are synced between players in multiplayer. Everyone sees your chosen look.</p>
-
-<h3>🏆 Patreon Skins</h3>
-<p>Exclusive skins for supporters: O-Yoroi Silver (tier 1), O-Yoroi Amethyst (tier 4), Centurion Silver (tier 1), Raijin Crystal (tier 3), and more.</p>
+<h3>👤 Slim Model Support</h3>
+<p>All armor sets support both Steve (wide) and Alex (slim) player models.</p>
 
 <br>
 
@@ -43,27 +59,20 @@
 
 <table>
 <tr><td><strong>Minecraft</strong></td><td>26.1.2</td></tr>
-<tr><td><strong>NeoForge</strong></td><td>26.1.2.78</td></tr>
-<tr><td><strong>YACL</strong></td><td>3.9+</td></tr>
+<tr><td><strong>NeoForge</strong></td><td>26.1.2.78+</td></tr>
+<tr><td><strong>YACL</strong></td><td>3.0+</td></tr>
 </table>
 
 <br>
 
-<h2>🎮 Armor Sets</h2>
+<h2>🎮 How to Use</h2>
 
-<table>
-<tr><td><strong>Bamboo Hat</strong></td><td>Samurai-inspired helmet, repairable with bamboo</td></tr>
-<tr><td><strong>Iron Plate</strong></td><td>Reinforced iron armor with 2 skins</td></tr>
-<tr><td><strong>Holy</strong></td><td>Sacred paladin armor with knockback resistance</td></tr>
-<tr><td><strong>Exalted Aurum</strong></td><td>Ancient gold-forged armor, high enchantability</td></tr>
-<tr><td><strong>Japanese Light</strong></td><td>Light samurai armor, agility-focused</td></tr>
-<tr><td><strong>O-Yoroi</strong></td><td>Full samurai warlord armor, 9 skins</td></tr>
-<tr><td><strong>Raijin</strong></td><td>Storm god armor, weather-dependent effects</td></tr>
-<tr><td><strong>Pharaoh</strong></td><td>Egyptian royal armor, fire resistance</td></tr>
-<tr><td><strong>Anubis</strong></td><td>Jackal god armor, desert pyramid loot</td></tr>
-<tr><td><strong>Centurion</strong></td><td>Roman legion armor, saturation bonus</td></tr>
-<tr><td><strong>Quetzalcoatl</strong></td><td>Feathered serpent armor, end city loot</td></tr>
-</table>
+<ol>
+<li>Install the mod and Yet Another Config Lib (YACL).</li>
+<li>Explore vanilla structures to find armor pieces as loot.</li>
+<li>Wear a full set to activate set bonuses.</li>
+<li>Open the config screen to adjust armor stats to your preference.</li>
+</ol>
 
 <br>
 
@@ -73,8 +82,7 @@
 
 <h2>🙏 Credits</h2>
 
-<p>Developed by <strong>Stalking Dragons</strong>.<br>
-Models and textures by <strong>Stalking Dragons Team</strong>.</p>
+<p>Developed by <strong>Stalking Dragons</strong>.</p>
 
 <br>
 <br>
