@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.16] - 2026-07-16
+
+### Fixed
+- NullPointerException al renderizar armadura: `isSlim()` con entity=null (desde IClientItemExtensions)
+- Crash "Cannot invoke Entity.getUUID() because entity is null" 
+- Vanilla EquipmentLayerRenderer ya no intenta renderizar items custom (WrapOperation renderArmorPiece)
+- `ForgeHumanoidArmorItem.getHumanoidArmorModel()` simplificado para no acceder al provider sin entidad
+
 ## [0.0.0-beta.15] - 2026-07-16
 
 ### Fixed

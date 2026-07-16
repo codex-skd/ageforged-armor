@@ -36,30 +36,9 @@ public class ForgeHumanoidArmorItem extends HumanoidArmorItem{
 
     public static void registerClientExtensions(RegisterClientExtensionsEvent event) {
         IClientItemExtensions extensions = new IClientItemExtensions() {
-            private ArmorModelProvider getProvider(ItemStack stack) {
-                if (stack.getItem() instanceof ForgeHumanoidArmorItem armorItem) {
-                    return armorItem.getModelProvider();
-                }
-                return null;
-            }
-
             @Override
             public @NotNull Model getHumanoidArmorModel(ItemStack stack, EquipmentClientInfo.LayerType layerType, Model defaultModel) {
-                ArmorModelProvider provider = getProvider(stack);
-                if (provider != null && defaultModel instanceof HumanoidModel<?> humanoidDefault) {
-                    HumanoidModel<?> model = provider.getArmorModel((Entity) null);
-                    if (model != null) {
-                        return model;
-                    }
-                }
                 return defaultModel;
-            }
-
-            @Override
-            public void setupModelAnimations(LivingEntity living, ItemStack stack, EquipmentSlot slot, Model model, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scale) {
-                if (model instanceof HumanoidModel<?> humanoidModel) {
-                    // crouching handled by state in new API
-                }
             }
         };
 

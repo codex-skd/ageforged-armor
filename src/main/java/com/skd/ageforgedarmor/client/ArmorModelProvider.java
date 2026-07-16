@@ -81,6 +81,7 @@ public class ArmorModelProvider {
     }
 
     public static boolean isSlim(Entity entity) {
+        if (entity == null) return false;
         if (entity == Minecraft.getInstance().player) {
             return AOTAConfig.get().preferredModel == PreferredModel.FEMALE;
         }

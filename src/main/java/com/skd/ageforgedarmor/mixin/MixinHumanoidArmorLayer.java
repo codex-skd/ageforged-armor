@@ -27,28 +27,29 @@ public abstract class MixinHumanoidArmorLayer {
     private static final Logger LOGGER = LogManager.getLogger();
 
     /**
-     * Wraps the shouldRender call to skip vanilla rendering for our custom armor items.
-     * Uses WrapOperation instead of @Inject for better robustness if the method doesn't exist.
+     * Wraps renderArmorPiece to skip vanilla rendering for our custom armor items
+     * and render them ourselves.
      */
     @WrapOperation(
         method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
         at = @At(
             value = "INVOKE",
-            target = "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z"
+            target = "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;renderArmorPiece(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;)V"
         ),
         require = 0
     )
-    private boolean wrapShouldRender(ItemStack stack, EquipmentSlot slot, Operation<Boolean> original) {
+    private void wrapRenderArmorPiece(PoseStack poseStack, SubmitNodeCollector collector, ItemStack stack,
+                                       EquipmentSlot slot, int packedLight, HumanoidRenderState state,
+                                       Operation<Void> original) {
         if (stack.getItem() instanceof HumanoidArmorItem) {
-            return false;
+            original.call(poseStack, collector, ItemStack.EMPTY, slot, packedLight, state);
+        } else {
+            original.call(poseStack, collector, stack, slot, packedLight, state);
         }
-        return original.call(stack, slot);
     }
 
     /**
      * Injects AFTER the vanilla submit finishes to render our custom armor.
-     * This captures all 4 equipment slots and renders our custom models.
-     * The PoseStack is already at the correct entity-root position.
      */
     @Inject(
         method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
