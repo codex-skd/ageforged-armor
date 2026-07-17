@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.21] - 2026-07-17
+
+### Fixed
+- Armadura blanca/brillante y skin visible: cambiado `submitModel` a la firma de 10 parámetros con `collector.order()`, igual que `EquipmentLayerRenderer` vanilla. La versión de 8 parámetros usaba un overload por defecto con defaults incorrectos.
+
 ## [0.0.0-beta.20] - 2026-07-17
 
 ### Fixed

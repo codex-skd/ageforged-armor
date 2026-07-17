@@ -66,7 +66,7 @@ public abstract class MixinHumanoidArmorLayer {
     }
 
     @Unique
-    @SuppressWarnings({"unchecked", "rawtypes"})
+    @SuppressWarnings({"unchecked", "rawtypes", "DataFlowIssue"})
     private void renderCustomArmorPiece(PoseStack poseStack, SubmitNodeCollector collector,
                                          HumanoidRenderState renderState, EquipmentSlot slot, int packedLight) {
         ItemStack itemStack = getEquipmentForSlot(renderState, slot);
@@ -82,16 +82,18 @@ public abstract class MixinHumanoidArmorLayer {
         Identifier texture = provider.getTexture(renderState);
         if (texture == null) return;
 
-        LOGGER.info("[AFA] renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
+        int order = slot.ordinal() * 2;
 
-        collector.submitModel(model, renderState, poseStack,
-                net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
-                packedLight, OverlayTexture.NO_OVERLAY, -1, null);
+        collector.order(order)
+                .submitModel(model, renderState, poseStack,
+                        net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
+                        packedLight, OverlayTexture.NO_OVERLAY, -1, null, 0, null);
 
         if (itemStack.hasFoil()) {
-            collector.submitModel(model, renderState, poseStack,
-                    net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
-                    packedLight, OverlayTexture.NO_OVERLAY, -1, null);
+            collector.order(order + 1)
+                    .submitModel(model, renderState, poseStack,
+                            net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
+                            packedLight, OverlayTexture.NO_OVERLAY, -1, null, 0, null);
         }
     }
 
