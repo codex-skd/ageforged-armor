@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.19] - 2026-07-17
+
+### Fixed
+- Crash al equipar cualquier armadura del mod: `Can't find part hat` — todos los modelos de cabeza reemplazaban el `head` con `addOrReplaceChild`, perdiendo el child `hat` que MC 26.1 exige en `HumanoidModel`. Cambiado a `getChild("head")` para preservarlo.
+- `ArmorModel.templateLayerDefinition()` añadía `hat` como sibling de `head` en lugar de child.
+
 ## [0.0.0-beta.18] - 2026-07-17
 
 ### Fixed
