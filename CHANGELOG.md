@@ -7,10 +7,9 @@ All notable changes to this project will be documented in this file.
 ## [0.0.0-beta.27] - 2026-07-17
 
 ### Fixed
-- Restaurado `model.setupAnim(renderState)` antes de copiar pose del PlayerModel. La armadura ahora tiene animación base vanilla más las modificaciones de Player Animation Core.
-- `getPlayerModel()` refactorizado: usa `Minecraft.getInstance().player` y `EntityRenderDispatcher.getRenderer()` con casteo explícito a `AvatarRenderer`, en lugar del casteo frágil `(RenderLayer) this.getParentModel()` que fallaba en ciertos contextos.
-
-## [0.0.0-beta.26] - 2026-07-17
+- **Animación perdida (T-pose)**: restaurado `model.setupAnim(renderState)` antes de copiar pose del PlayerModel. La armadura ahora tiene animación base vanilla más las modificaciones de Player Animation Core.
+- **Posición del casco**: `copyPart` solo copia rotación y escala, no posición. Las posiciones base del modelo de armadura (ej: head en y=1) se preservan.
+- **PlayerModel access refactorizado**: `getPlayerModel()` usa `Minecraft.getInstance().player` + `EntityRenderDispatcher.getRenderer()` con casteo explícito a `AvatarRenderer`, en lugar del frágil `(RenderLayer) this.getParentModel()`.
 
 ## [0.0.0-beta.24] - 2026-07-17
 
