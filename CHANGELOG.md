@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.22] - 2026-07-17
+
+### Added
+- Armadura en brazos en primera persona: mixin en `AvatarRenderer.renderRightHand/renderLeftHand`.
+
+### Fixed
+- Animaciones de armadura sincronizadas con el jugador vía `setupAnim()` con el render state.
+
 ## [0.0.0-beta.21] - 2026-07-17
 
 ### Fixed
