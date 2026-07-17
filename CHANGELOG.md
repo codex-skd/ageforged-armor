@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.18] - 2026-07-17
+
+### Fixed
+- Crash al iniciar el juego: el handler `@WrapOperation` de MixinExtras no incluía el parámetro `HumanoidArmorLayer` (target instance) necesario para envolver un `INVOKEVIRTUAL`. Esto provocaba un `MixinApplyError` al cargar `HumanoidArmorLayer`, crasheando el juego durante el registro de entity renderers.
+
 ## [0.0.0-beta.17] - 2026-07-16
 
 ### Docs
