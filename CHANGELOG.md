@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.23] - 2026-07-17
+
+### Fixed
+- Sincronización de animaciones: el modelo de armadura copia pose (posición, rotación, escala) del `PlayerModel` tras `setupAnim()`, compatible con Player Animation Core y cualquier mod de animaciones.
+
 ## [0.0.0-beta.22] - 2026-07-17
 
 ### Added

@@ -1,8 +1,11 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.layers.RenderLayer;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
@@ -79,6 +82,7 @@ public abstract class MixinHumanoidArmorLayer {
         if (model == null) return;
 
         model.setupAnim(renderState);
+        copyPoseFromPlayer(model);
         Identifier texture = provider.getTexture(renderState);
         if (texture == null) return;
 
@@ -95,6 +99,42 @@ public abstract class MixinHumanoidArmorLayer {
                             net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null, 0, null);
         }
+    }
+
+    @Unique
+    @SuppressWarnings("unchecked")
+    private HumanoidModel<?> getPlayerModel() {
+        try {
+            return (HumanoidModel<?>) ((RenderLayer) (Object) this).getParentModel();
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    @Unique
+    private void copyPoseFromPlayer(HumanoidModel<?> armorModel) {
+        HumanoidModel<?> playerModel = getPlayerModel();
+        if (playerModel == null) return;
+        copyPart(armorModel.head, playerModel.head);
+        copyPart(armorModel.hat, playerModel.hat);
+        copyPart(armorModel.body, playerModel.body);
+        copyPart(armorModel.rightArm, playerModel.rightArm);
+        copyPart(armorModel.leftArm, playerModel.leftArm);
+        copyPart(armorModel.rightLeg, playerModel.rightLeg);
+        copyPart(armorModel.leftLeg, playerModel.leftLeg);
+    }
+
+    @Unique
+    private static void copyPart(ModelPart target, ModelPart source) {
+        target.x = source.x;
+        target.y = source.y;
+        target.z = source.z;
+        target.xRot = source.xRot;
+        target.yRot = source.yRot;
+        target.zRot = source.zRot;
+        target.xScale = source.xScale;
+        target.yScale = source.yScale;
+        target.zScale = source.zScale;
     }
 
     @Unique
