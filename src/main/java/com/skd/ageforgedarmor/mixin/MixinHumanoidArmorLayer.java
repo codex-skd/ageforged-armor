@@ -38,13 +38,13 @@ public abstract class MixinHumanoidArmorLayer {
         ),
         require = 0
     )
-    private void wrapRenderArmorPiece(PoseStack poseStack, SubmitNodeCollector collector, ItemStack stack,
+    private void wrapRenderArmorPiece(HumanoidArmorLayer instance, PoseStack poseStack, SubmitNodeCollector collector, ItemStack stack,
                                        EquipmentSlot slot, int packedLight, HumanoidRenderState state,
                                        Operation<Void> original) {
         if (stack.getItem() instanceof HumanoidArmorItem) {
-            original.call(poseStack, collector, ItemStack.EMPTY, slot, packedLight, state);
+            original.call(instance, poseStack, collector, ItemStack.EMPTY, slot, packedLight, state);
         } else {
-            original.call(poseStack, collector, stack, slot, packedLight, state);
+            original.call(instance, poseStack, collector, stack, slot, packedLight, state);
         }
     }
 
