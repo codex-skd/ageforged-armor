@@ -1,6 +1,6 @@
-# Flujo de trabajo — Armor Cosmetic (NeoForge)
+# Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> Este archivo pertenece al proyecto **Armor Cosmetic**. Cada proyecto tiene su propio `WORKFLOW.md`.
+> Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 
 ## Estructura del proyecto

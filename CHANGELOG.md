@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.27] - 2026-07-17
+
+### Fixed
+- `getPlayerModel()` refactorizado: usa `Minecraft.getInstance().player` y `EntityRenderDispatcher.getRenderer()` con casteo explícito a `AvatarRenderer`, en lugar del casteo frágil `(RenderLayer) this.getParentModel()` que fallaba en ciertos contextos.
+
 ## [0.0.0-beta.26] - 2026-07-17
 
 ### Fixed

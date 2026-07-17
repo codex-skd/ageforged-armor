@@ -5,7 +5,6 @@ import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.layers.RenderLayer;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
@@ -102,16 +101,20 @@ public abstract class MixinHumanoidArmorLayer {
     }
 
     @Unique
-    @SuppressWarnings("unchecked")
     private HumanoidModel<?> getPlayerModel() {
         try {
-            HumanoidModel<?> pm = (HumanoidModel<?>) ((RenderLayer) (Object) this).getParentModel();
-            if (pm == null) LOGGER.warn("[AFA] getPlayerModel returned null");
-            return pm;
+            var player = net.minecraft.client.Minecraft.getInstance().player;
+            if (player == null) return null;
+            var renderer = net.minecraft.client.Minecraft.getInstance()
+                    .getEntityRenderDispatcher()
+                    .getRenderer(player);
+            if (renderer instanceof net.minecraft.client.renderer.entity.player.AvatarRenderer avatarRenderer) {
+                return (HumanoidModel<?>) avatarRenderer.getModel();
+            }
         } catch (Exception e) {
             LOGGER.warn("[AFA] getPlayerModel failed: {}", e.getMessage());
-            return null;
         }
+        return null;
     }
 
     @Unique
