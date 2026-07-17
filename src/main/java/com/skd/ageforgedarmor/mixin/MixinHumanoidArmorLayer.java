@@ -105,8 +105,11 @@ public abstract class MixinHumanoidArmorLayer {
     @SuppressWarnings("unchecked")
     private HumanoidModel<?> getPlayerModel() {
         try {
-            return (HumanoidModel<?>) ((RenderLayer) (Object) this).getParentModel();
+            HumanoidModel<?> pm = (HumanoidModel<?>) ((RenderLayer) (Object) this).getParentModel();
+            if (pm == null) LOGGER.warn("[AFA] getPlayerModel returned null");
+            return pm;
         } catch (Exception e) {
+            LOGGER.warn("[AFA] getPlayerModel failed: {}", e.getMessage());
             return null;
         }
     }
