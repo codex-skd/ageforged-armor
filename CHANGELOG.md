@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.24] - 2026-07-17
+
+### Fixed
+- Posición del casco: `copyPart` copiaba `x/y/z` del PlayerModel, pero el modelo de armadura tiene posiciones base diferentes (ej: head en y=1 vs y=0). Ahora solo copia rotación y escala.
+
 ## [0.0.0-beta.23] - 2026-07-17
 
 ### Fixed

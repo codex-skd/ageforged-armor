@@ -126,9 +126,6 @@ public abstract class MixinHumanoidArmorLayer {
 
     @Unique
     private static void copyPart(ModelPart target, ModelPart source) {
-        target.x = source.x;
-        target.y = source.y;
-        target.z = source.z;
         target.xRot = source.xRot;
         target.yRot = source.yRot;
         target.zRot = source.zRot;
