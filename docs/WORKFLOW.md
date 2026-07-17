@@ -106,6 +106,8 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 | `changelogType` | `html` |
 | `changelog` | Código HTML con `<h2>`, `<h3>`, `<ul>/<li>`, `<p>`, `<strong>`, `<code>`, `<blockquote>` |
 
+**Regla importante**: El valor del campo `changelog` en la subida a CurseForge debe ser **exactamente el contenido del archivo** `docs/curseforge/versions/<version>.md`. No resumir, no modificar, no acortar. El archivo ya contiene el HTML que se envía.
+
 #### Ejemplo de estructura HTML para release notes
 
 ```html
@@ -341,7 +343,7 @@ git push origin 26.1.2-neoforge-beta.3
 #    El JAR está en build/libs/<mod_id>-<minecraft_version>-<framework>-<version>.jar
 ```
 
-### 3. Release estable
+### 5. Release estable
 
 ```bash
 # gradle.properties → mod_version=1.0.0
