@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.20] - 2026-07-17
+
+### Fixed
+- **Armadura blanca brillante**: Cambiado de `RenderTypes.entityCutout` a `RenderTypes.armorCutoutNoCull` — el pipeline correcto para armadura vanilla. Soluciona la iluminación faltante, el z-fighting con la skin del jugador y el culling incorrecto de caras.
+- **Skin visible a través del casco**: El pipeline `armorCutoutNoCull` usa `VIEW_OFFSET_Z_LAYERING` que evita el z-fighting entre la armadura y la skin.
+
 ## [0.0.0-beta.19] - 2026-07-17
 
 ### Fixed

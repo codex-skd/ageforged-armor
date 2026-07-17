@@ -85,7 +85,7 @@ public abstract class MixinHumanoidArmorLayer {
         LOGGER.info("[AFA] renderCustom: slot={}, item={}, texture={}", slot, itemStack.getItem(), texture);
 
         collector.submitModel(model, renderState, poseStack,
-                net.minecraft.client.renderer.rendertype.RenderTypes.entityCutout(texture),
+                net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
                 packedLight, OverlayTexture.NO_OVERLAY, -1, null);
 
         if (itemStack.hasFoil()) {
