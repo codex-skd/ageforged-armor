@@ -45,7 +45,7 @@ Ejemplo: `26.1.2-neoforge-0.0.0-beta.17`
 | `displayName` | `Ageforged Armor (0.0.0-beta.17)` | Nombre visible: `display_name (version)` |
 | `changelog` | HTML (no Markdown) | Ver estructura abajo |
 | `changelogType` | `html` | Obligatorio para que se vea bien |
-| `releaseType` | `release` o `beta` | Según el tipo de versión |
+| `releaseType` | `beta` (durante desarrollo) / `release` (estable) | Según el workflow: beta → `beta`, release → `release` |
 | `gameVersionNames` | `["Client", "Server", "26.1.2", "NeoForge"]` | Entorno + MC + modloader |
 
 ## Estructura del changelog (HTML)
@@ -85,7 +85,7 @@ metadata = {
     "changelog": "<h2>v0.0.0-beta.17 - Titulo</h2>",
     "changelogType": "html",
     "gameVersionNames": ["Client", "Server", "26.1.2", "NeoForge"],
-    "releaseType": "release"
+    "releaseType": "beta"  # "beta" durante desarrollo, "release" para estables
 }
 
 with open(f"build/libs/ageforged_armor-26.1.2-neoforge-{version}.jar", "rb") as f:
