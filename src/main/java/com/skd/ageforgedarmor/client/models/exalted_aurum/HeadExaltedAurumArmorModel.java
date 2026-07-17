@@ -20,7 +20,8 @@ public class HeadExaltedAurumArmorModel<T extends HumanoidRenderState> extends A
     public static LayerDefinition createLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
                 .texOffs(0, 15).addBox(-4.5F, -8.5F, -4.5F, 9.0F, 3.0F, 9.0F, new CubeDeformation(0.1F))
                 .texOffs(27, 6).addBox(-4.5F, -6.5F, -4.5F, 9.0F, 2.0F, 9.0F, new CubeDeformation(0.05F))
                 .texOffs(0, 0).addBox(-4.5F, -14.0F, -4.5F, 9.0F, 6.0F, 9.0F, new CubeDeformation(0.3F)),

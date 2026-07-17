@@ -25,10 +25,17 @@ public class HeadHolyArmorModel<T extends HumanoidRenderState> extends ArmorMode
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
 
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
-                        .texOffs(0, 0).addBox(-4.5F, -9.0F, -4.5F, 9, 10, 9, new CubeDeformation(0.1F))
-                        .texOffs(0, 0).addBox(-6.0F, -6.0F, -1.0F, 2, 2, 2, CubeDeformation.NONE)
-                        .texOffs(0, 0).addBox(4.0F, -6.0F, -1.0F, 2, 2, 2, CubeDeformation.NONE)
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
+                        .texOffs(0, 0).addBox(-4.5F, -9.0F, -4.5F, 9, 10, 9, new CubeDeformation(0.1F)),
+                PartPose.ZERO);
+        head.addOrReplaceChild("cube_r2", CubeListBuilder.create()
+                        .texOffs(0, 0).addBox(-6.0F, -6.0F, -1.0F, 2, 2, 2, CubeDeformation.NONE),
+                PartPose.ZERO);
+        head.addOrReplaceChild("cube_r3", CubeListBuilder.create()
+                        .texOffs(0, 0).addBox(4.0F, -6.0F, -1.0F, 2, 2, 2, CubeDeformation.NONE),
+                PartPose.ZERO);
+        head.addOrReplaceChild("cube_r4", CubeListBuilder.create()
                         .texOffs(36, 0).addBox(-1.0F, -9.5F, -3.0F, 2, 7, 8, CubeDeformation.NONE),
                 PartPose.ZERO);
 

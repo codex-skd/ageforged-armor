@@ -32,8 +32,7 @@ public class HeadRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     public static LayerDefinition createLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create(),
-                PartPose.offset(0.0F, 0.0F, 0.0F));
+        PartDefinition head = root.getChild("head");
 
         PartDefinition headHornLeftA = head.addOrReplaceChild("headHornLeftA", CubeListBuilder.create()
                         .texOffs(0, 0).addBox(-0.5F, -3.0F, 0.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.2F)),
@@ -97,8 +96,7 @@ public class HeadRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     public static LayerDefinition createSlimLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create(),
-                PartPose.offset(0.0F, 0.0F, 0.0F));
+        PartDefinition head = root.getChild("head");
 
         PartDefinition headHornLeftA = head.addOrReplaceChild("headHornLeftA", CubeListBuilder.create()
                         .texOffs(0, 0).addBox(-0.5F, -3.0F, 0.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.2F)),

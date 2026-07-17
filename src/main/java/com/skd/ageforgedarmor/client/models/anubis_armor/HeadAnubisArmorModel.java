@@ -28,7 +28,8 @@ public class HeadAnubisArmorModel<T extends HumanoidRenderState> extends ArmorMo
     public static LayerDefinition createLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
                         .texOffs(96, 48).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.5F))
                         .texOffs(34, 0).addBox(-4.5F, -10.25F, -4.5F, 9.0F, 12.0F, 9.0F, new CubeDeformation(0.05F))
                         .texOffs(0, 0).addBox(-4.0F, -10.0F, -6.0F, 8.0F, 7.0F, 9.0F, CubeDeformation.NONE),
@@ -78,7 +79,8 @@ public class HeadAnubisArmorModel<T extends HumanoidRenderState> extends ArmorMo
     public static LayerDefinition createSlimLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
                         .texOffs(96, 48).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.5F))
                         .texOffs(34, 0).addBox(-4.5F, -10.25F, -4.5F, 9.0F, 12.0F, 9.0F, new CubeDeformation(0.05F))
                         .texOffs(0, 0).addBox(-4.0F, -10.0F, -6.0F, 8.0F, 7.0F, 9.0F, CubeDeformation.NONE),

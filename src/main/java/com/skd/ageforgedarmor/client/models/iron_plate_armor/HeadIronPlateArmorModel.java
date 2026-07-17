@@ -25,7 +25,8 @@ public class HeadIronPlateArmorModel<T extends HumanoidRenderState> extends Armo
     public static LayerDefinition createLayerDefinition() {
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
                         .texOffs(62, 11).addBox(-4.5F, -8.2F, -4.5F, 9.0F, 9.0F, 9.0F, new CubeDeformation(0.1F)),
                 PartPose.offset(0.0F, 0.0F, 0.0F));
 

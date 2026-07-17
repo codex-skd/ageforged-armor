@@ -27,7 +27,8 @@ public class HeadQuetzalcoatlArmorModel<T extends HumanoidRenderState> extends A
         MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
         PartDefinition root = meshdefinition.getRoot();
 
-        PartDefinition head = root.addOrReplaceChild("head", CubeListBuilder.create()
+        PartDefinition head = root.getChild("head");
+        head.addOrReplaceChild("cube_r1", CubeListBuilder.create()
                         .texOffs(28, 0)
                         .addBox(-2.0F, -15.0F, -1.0F, 4.0F, 5.0F, 2.0F, CubeDeformation.NONE)
                         .texOffs(52, 0)
