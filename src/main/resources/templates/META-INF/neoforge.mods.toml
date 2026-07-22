@@ -1,6 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
 license="${mod_license}"
+credits="Fork of Armor of the Ages by AlxR00T. Maintained by Stalking Dragons."
 
 [[mods]]
 modId="${mod_id}"

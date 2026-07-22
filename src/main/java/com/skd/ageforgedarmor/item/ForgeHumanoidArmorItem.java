@@ -15,7 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import com.skd.ageforgedarmor.ArmorOfTheAgesForge;
+import com.skd.ageforgedarmor.AgeforgedArmor;
 import com.skd.ageforgedarmor.client.ArmorModelProvider;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -42,7 +42,7 @@ public class ForgeHumanoidArmorItem extends HumanoidArmorItem{
             }
         };
 
-        ArmorOfTheAgesForge.ItemRegistryImpl.DEFERRED_REGISTER.getEntries()
+        AgeforgedArmor.ItemRegistryImpl.DEFERRED_REGISTER.getEntries()
             .stream()
             .map(DeferredHolder::get)
             .filter(item -> item instanceof ForgeHumanoidArmorItem)

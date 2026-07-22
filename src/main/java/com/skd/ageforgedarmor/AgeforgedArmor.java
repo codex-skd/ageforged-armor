@@ -25,7 +25,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.skd.ageforgedarmor.client.ArmorOfTheAgesClientForge;
+import com.skd.ageforgedarmor.client.AgeforgedArmorClient;
 import com.skd.ageforgedarmor.config.AOTAConfig;
 import com.skd.ageforgedarmor.item.ForgeHumanoidArmorItem;
 import com.skd.ageforgedarmor.item.HatItem;
@@ -52,13 +52,13 @@ import java.util.function.Supplier;
 import static com.skd.ageforgedarmor.Constants.MOD_ID;
 
 @Mod(MOD_ID)
-public class ArmorOfTheAgesForge {
+public class AgeforgedArmor {
     private static final Logger LOGGER = LogManager.getLogger();
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
-    public ArmorOfTheAgesForge(IEventBus modEventBus, ModContainer modContainer) {
+    public AgeforgedArmor(IEventBus modEventBus, ModContainer modContainer) {
         LOGGER.info("=== Ageforged Armor initializing ===");
         LOGGER.info("Mod ID: {}, pack.mcmeta format: 64", MOD_ID);
         LOGGER.info("Assets: assets/{}/textures/item/, assets/{}/textures/models/armor/", MOD_ID, MOD_ID);
@@ -113,16 +113,16 @@ public class ArmorOfTheAgesForge {
         modEventBus.addListener(ForgeHumanoidArmorItem::registerClientExtensions);
 
         // Armor set effects — run at the end of each player tick, server-side only
-        NeoForge.EVENT_BUS.addListener(ArmorOfTheAgesForge::onPlayerTick);
+        NeoForge.EVENT_BUS.addListener(AgeforgedArmor::onPlayerTick);
 
         // Send patron tier to player on login
-        NeoForge.EVENT_BUS.addListener(ArmorOfTheAgesForge::onPlayerLoggedIn);
+        NeoForge.EVENT_BUS.addListener(AgeforgedArmor::onPlayerLoggedIn);
 
         // Client init
         if (FMLEnvironment.getDist().isClient()) {
             modContainer.registerExtensionPoint(IConfigScreenFactory.class, (modContainer2, parent) -> AOTAConfig.createScreen().generateScreen(parent));
-            modEventBus.addListener(ArmorOfTheAgesClientForge::registerLayerDefinitions);
-            NeoForge.EVENT_BUS.addListener(ArmorOfTheAgesClientForge::playerLoggedInEvent);
+            modEventBus.addListener(AgeforgedArmorClient::registerLayerDefinitions);
+            NeoForge.EVENT_BUS.addListener(AgeforgedArmorClient::playerLoggedInEvent);
         }
     }
 

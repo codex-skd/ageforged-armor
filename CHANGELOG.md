@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.28] - 2026-07-22
+
+### Refactor
+- Clase principal renombrada: `ArmorOfTheAgesForge` → `AgeforgedArmor` (PascalCase según naming convention)
+- Clase cliente renombrada: `ArmorOfTheAgesClientForge` → `AgeforgedArmorClient`
+- Loot modifier renombrado: `ArmorOfTheAgesLootModifier` → `AgeforgedArmorLootModifier`
+- Template movido: `src/main/templates/` → `src/main/resources/templates/`
+
+### Docs
+- WORKFLOW.md renombrado a `WORKFLOW_AGEFORGED_ARMOR_26-1-2.md` y alineado con genérico v1.0.0
+- Añadida atribución de fork a README.md y neoforge.mods.toml (Armor of the Ages by AlxR00T)
+
+### Infrastructure
+- Creado `.gitlab-ci.yml` para mirror a GitHub vía CI/CD
+- Creados directorios `temp/` y `libs/`
+- Eliminado archivo `nul`
+- `.gitignore` actualizado con `temp/`
+
 ## [0.0.0-beta.27] - 2026-07-17
 
 ### Fixed

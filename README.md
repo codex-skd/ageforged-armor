@@ -2,6 +2,8 @@
 
 Adds 11 unique armor sets with custom 3D models, set bonuses, and configurable stats. Inspired by different cultures and eras of history.
 
+This mod is a fork of [Armor of the Ages](https://www.curseforge.com/minecraft/mc-mods/armor-of-the-ages) by AlxR00T. Ported from Forge 1.21.1 to NeoForge 26.1.2 with significant refactoring, new features, and custom 3D models.
+
 ## Requirements
 
 - Minecraft 26.1.2
@@ -24,7 +26,7 @@ Adds 11 unique armor sets with custom 3D models, set bonuses, and configurable s
 
 ## Development
 
-See [docs/WORKFLOW.md](docs/WORKFLOW.md) for contribution guidelines.
+See [docs/WORKFLOW_AGEFORGED_ARMOR_26-1-2.md](docs/WORKFLOW_AGEFORGED_ARMOR_26-1-2.md) for contribution guidelines.
 
 ## License
 

@@ -16,7 +16,7 @@ import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.NumberProvider;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.common.loot.LootModifier;
-import com.skd.ageforgedarmor.ArmorOfTheAgesForge;
+import com.skd.ageforgedarmor.AgeforgedArmor;
 import com.skd.ageforgedarmor.config.AOTAConfig;
 import org.jetbrains.annotations.NotNull;
 
@@ -24,13 +24,13 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Supplier;
 
-public class ArmorOfTheAgesLootModifier extends LootModifier {
-    public static final Supplier<MapCodec<ArmorOfTheAgesLootModifier>> CODEC = Suppliers.memoize(
+public class AgeforgedArmorLootModifier extends LootModifier {
+    public static final Supplier<MapCodec<AgeforgedArmorLootModifier>> CODEC = Suppliers.memoize(
             () -> RecordCodecBuilder.mapCodec(
                     instance -> codecStart(instance)
                             .and(Codec.STRING.fieldOf("armor_name").forGetter(m -> m.armorSetName))
                             .and(Codec.FLOAT.fieldOf("armor_state").forGetter(m -> m.state))
-                            .apply(instance, ArmorOfTheAgesLootModifier::new)
+                            .apply(instance, AgeforgedArmorLootModifier::new)
             )
     );
 
@@ -39,7 +39,7 @@ public class ArmorOfTheAgesLootModifier extends LootModifier {
     private final float state;
     private final Random RANDOM = new Random();
 
-    public ArmorOfTheAgesLootModifier(LootItemCondition[] conditionsIn, int priority, String armorSetName, float state) {
+    public AgeforgedArmorLootModifier(LootItemCondition[] conditionsIn, int priority, String armorSetName, float state) {
         super(conditionsIn, priority);
         this.armorSetName = armorSetName;
         this.state = state;
@@ -54,7 +54,7 @@ public class ArmorOfTheAgesLootModifier extends LootModifier {
         boolean shouldGenerate = LootTablesToModify.ARMOR_GENERATION_MAP.getOrDefault(armorSetName, false);
 
         if (AOTAConfig.get().generateArmorLoot && shouldGenerate) {
-            List<Identifier> armorPieceLocations = ArmorOfTheAgesForge.ItemRegistryImpl
+            List<Identifier> armorPieceLocations = AgeforgedArmor.ItemRegistryImpl
                     .ARMORS_LOCATION_FROM_NAME
                     .get(armorSetName);
 

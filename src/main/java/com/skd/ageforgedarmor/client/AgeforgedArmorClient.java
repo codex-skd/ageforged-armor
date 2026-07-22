@@ -6,7 +6,7 @@ import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import com.skd.ageforgedarmor.CommonClass;
 import com.skd.ageforgedarmor.registry.ModelProviderRegistry;
 
-public class ArmorOfTheAgesClientForge {
+public class AgeforgedArmorClient {
 
     static {
         CommonClass.LOCAL_PLAYER_SUPPLIER = () -> Minecraft.getInstance().player;
