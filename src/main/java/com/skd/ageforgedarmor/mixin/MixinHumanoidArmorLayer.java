@@ -1,8 +1,7 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.model.HumanoidModel;
-import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
@@ -15,8 +14,6 @@ import com.skd.ageforgedarmor.client.models.ArmorModel;
 import com.skd.ageforgedarmor.item.HumanoidArmorItem;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -26,12 +23,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(HumanoidArmorLayer.class)
 public abstract class MixinHumanoidArmorLayer {
 
-    private static final Logger LOGGER = LogManager.getLogger();
-
-    /**
-     * Wraps renderArmorPiece to skip vanilla rendering for our custom armor items
-     * and render them ourselves.
-     */
     @WrapOperation(
         method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
         at = @At(
@@ -50,9 +41,6 @@ public abstract class MixinHumanoidArmorLayer {
         }
     }
 
-    /**
-     * Injects AFTER the vanilla submit finishes to render our custom armor.
-     */
     @Inject(
         method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HumanoidRenderState;FF)V",
         at = @At("TAIL"),
@@ -68,7 +56,6 @@ public abstract class MixinHumanoidArmorLayer {
     }
 
     @Unique
-    @SuppressWarnings({"unchecked", "rawtypes", "DataFlowIssue"})
     private void renderCustomArmorPiece(PoseStack poseStack, SubmitNodeCollector collector,
                                          HumanoidRenderState renderState, EquipmentSlot slot, int packedLight) {
         ItemStack itemStack = getEquipmentForSlot(renderState, slot);
@@ -77,12 +64,11 @@ public abstract class MixinHumanoidArmorLayer {
         ArmorModelProvider provider = armorItem.getModelProvider();
         if (provider == null) return;
 
-        ArmorModel model = provider.getArmorModel(renderState);
+        ArmorModel model = provider.getArmorModel(Minecraft.getInstance().player);
         if (model == null) return;
 
         model.setupAnim(renderState);
-        copyPoseFromPlayer(model);
-        Identifier texture = provider.getTexture(renderState);
+        Identifier texture = provider.getTexture(Minecraft.getInstance().player);
         if (texture == null) return;
 
         int order = slot.ordinal() * 2;
@@ -98,46 +84,6 @@ public abstract class MixinHumanoidArmorLayer {
                             net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null, 0, null);
         }
-    }
-
-    @Unique
-    private HumanoidModel<?> getPlayerModel() {
-        try {
-            var player = net.minecraft.client.Minecraft.getInstance().player;
-            if (player == null) return null;
-            var renderer = net.minecraft.client.Minecraft.getInstance()
-                    .getEntityRenderDispatcher()
-                    .getRenderer(player);
-            if (renderer instanceof net.minecraft.client.renderer.entity.player.AvatarRenderer avatarRenderer) {
-                return (HumanoidModel<?>) avatarRenderer.getModel();
-            }
-        } catch (Exception e) {
-            LOGGER.warn("[AFA] getPlayerModel failed: {}", e.getMessage());
-        }
-        return null;
-    }
-
-    @Unique
-    private void copyPoseFromPlayer(HumanoidModel<?> armorModel) {
-        HumanoidModel<?> playerModel = getPlayerModel();
-        if (playerModel == null) return;
-        copyPart(armorModel.head, playerModel.head);
-        copyPart(armorModel.hat, playerModel.hat);
-        copyPart(armorModel.body, playerModel.body);
-        copyPart(armorModel.rightArm, playerModel.rightArm);
-        copyPart(armorModel.leftArm, playerModel.leftArm);
-        copyPart(armorModel.rightLeg, playerModel.rightLeg);
-        copyPart(armorModel.leftLeg, playerModel.leftLeg);
-    }
-
-    @Unique
-    private static void copyPart(ModelPart target, ModelPart source) {
-        target.xRot = source.xRot;
-        target.yRot = source.yRot;
-        target.zRot = source.zRot;
-        target.xScale = source.xScale;
-        target.yScale = source.yScale;
-        target.zScale = source.zScale;
     }
 
     @Unique

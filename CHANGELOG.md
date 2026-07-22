@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.29] - 2026-07-22
+
+### Fixed
+- **Helmet rendering: front disappeared when looking up** — eliminado `copyPoseFromPlayer()`. El método copiaba rotaciones del PlayerModel sobre el modelo de armadura después de `setupAnim(renderState)`, pero la pose del PlayerModel podía estar desfasada o incompleta, causando que el casco no rotara correctamente con la cabeza. Ahora `setupAnim(renderState)` es la única fuente de pose, usando directamente los valores del render state.
+- **Slim/Alex model support** — `getArmorModel()` ahora usa la ruta entity-based (`Minecraft.getInstance().player`) en lugar de state-based, lo que permite que `MixedArmorModelProvider` seleccione correctamente la variante slim.
+
 ## [0.0.0-beta.28] - 2026-07-22
 
 ### Refactor
