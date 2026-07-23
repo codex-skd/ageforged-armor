@@ -1,5 +1,12 @@
 # CurseForge — Variables del proyecto
 
+> Las siguientes variables son leídas automáticamente por `../codex-docs/scripts/curseforge-upload.ps1`
+
+project_id = 1608149
+api_token = ee776b0a-ee95-4850-b554-06be02a8657f
+game_versions = Client, Server, 26.1.2, NeoForge
+release_type = beta
+
 ## Proyecto
 
 | Variable | Valor |
@@ -72,51 +79,15 @@ Ejemplo: `26.1.2-neoforge-0.0.0-beta.17`
 <p><strong>JAR</strong>: <code>ageforged_armor-26.1.2-neoforge-0.0.0-beta.17.jar</code></p>
 ```
 
-## Subir archivo (JAR) con Python
+## Subir archivo (JAR)
 
-```python
-import json, uuid, urllib.request
+Usar el script compartido desde la raíz del proyecto:
 
-boundary = uuid.uuid4().hex
-version = "0.0.0-beta.17"
-
-metadata = {
-    "displayName": f"Ageforged Armor ({version})",
-    "changelog": "<h2>v0.0.0-beta.17 - Titulo</h2>",
-    "changelogType": "html",
-    "gameVersionNames": ["Client", "Server", "26.1.2", "NeoForge"],
-    "releaseType": "beta"  # "beta" durante desarrollo, "release" para estables
-}
-
-with open(f"build/libs/ageforged_armor-26.1.2-neoforge-{version}.jar", "rb") as f:
-    jar_data = f.read()
-
-meta_bytes = json.dumps(metadata, ensure_ascii=False).encode("utf-8")
-
-body = b""
-body += f"--{boundary}\r\n".encode()
-body += b'Content-Disposition: form-data; name="metadata"\r\n'
-body += b"Content-Type: application/json\r\n\r\n"
-body += meta_bytes + b"\r\n"
-body += f"--{boundary}\r\n".encode()
-body += f'Content-Disposition: form-data; name="file"; filename="ageforged_armor-26.1.2-neoforge-{version}.jar"\r\n'.encode()
-body += b"Content-Type: application/java-archive\r\n\r\n"
-body += jar_data + b"\r\n"
-body += f"--{boundary}--\r\n".encode()
-
-req = urllib.request.Request(
-    f"https://minecraft.curseforge.com/api/projects/1608149/upload-file",
-    data=body,
-    headers={
-        "X-Api-Token": "ee776b0a-ee95-4850-b554-06be02a8657f",
-        "Content-Type": f"multipart/form-data; boundary={boundary}"
-    },
-    method="POST"
-)
-
-resp = urllib.request.urlopen(req)
-print(resp.read().decode())
+```powershell
+powershell -File ../codex-docs/scripts/curseforge-upload.ps1
 ```
+
+El script lee `project_id`, `api_token` y `game_versions` de este archivo, y `mod_id`, `mod_name`, `minecraft_version`, `mod_version` de `gradle.properties`. Sube automáticamente el JAR desde `build/libs/` con el changelog de `docs/curseforge/versions/<version>.md`.
 
 ## Verificar con GET
 
@@ -141,6 +112,6 @@ No hay endpoint API para actualizar la descripcion. Se edita manualmente desde l
 3. Actualizar `CHANGELOG.md`
 4. `git commit -m "fix: descripcion\n\nvX.Y.Z"` + `git push`
 5. `git tag -a 26.1.2-neoforge-<version> -m "vX.Y.Z: descripcion"` + `git push origin <tag>`
-6. Subir JAR a CurseForge con Python
+6. `powershell -File ../codex-docs/scripts/curseforge-upload.ps1` (o `cd build/libs && python -c "..."` manual)
 7. Verificar con GET que el changelog se vea bien
 8. Liberar manualmente desde la web si es necesario
