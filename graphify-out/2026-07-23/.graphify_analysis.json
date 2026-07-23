@@ -262,6 +262,10 @@
     ],
     "6": [
       "custompacketpayload",
+      "registerpayloadhandlersevent",
+      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry",
+      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry",
+      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry_register",
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disablepreferencespayload",
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disablepreferencespayload_disablepreferencespayload",
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disablepreferencespayload_disablepreferencespayload_type",
@@ -275,7 +279,14 @@
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_friendlybytebuf",
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_override",
       "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_streamcodec",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_type"
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_type",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_friendlybytebuf",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_override",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_streamcodec",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_type",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_patrontierpayload",
+      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_patrontierpayload_type"
     ],
     "7": [
       "equipmentasset",
@@ -366,21 +377,21 @@
     "11": [
       "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant",
       "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant_gettextureprefix",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_default",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_silver_patreon",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_getrequiredtier",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_gettextureprefix",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_java_override",
-      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_tostring",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_gettextureprefix",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_ashes",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_default",
       "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_java_override",
-      "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_tostring"
+      "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_tostring",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_getrequiredtier",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_gettextureprefix",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_java_override",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_default",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_silver_patreon",
+      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_tostring"
     ],
     "12": [
       "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_armormodelprovider_getarmormodel",
@@ -896,17 +907,14 @@
       "src_main_java_com_skd_ageforgedarmor_loot_lootmodifierprovider_lootmodifierprovider_start"
     ],
     "56": [
-      "registerpayloadhandlersevent",
-      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry",
-      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry",
-      "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry_register",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_friendlybytebuf",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_override",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_streamcodec",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_java_type",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_patrontierpayload",
-      "src_main_java_com_skd_ageforgedarmor_networking_packets_patrontierpayload_patrontierpayload_type"
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_default",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_silver_patreon",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_getrequiredtier",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_gettextureprefix",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_java_override",
+      "src_main_java_com_skd_ageforgedarmor_config_centurionskin_tostring"
     ],
     "57": [
       "src_main_java_com_skd_ageforgedarmor_loot_lootmodifiers",
@@ -1003,16 +1011,6 @@
     ],
     "78": [
       "suppresswarnings"
-    ],
-    "79": [
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_getrequiredtier",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_gettextureprefix",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_java_override",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_default",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_silver_patreon",
-      "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_tostring"
     ]
   },
   "cohesion": {
@@ -1022,7 +1020,7 @@
     "3": 0.09615384615384616,
     "4": 0.12643678160919541,
     "5": 0.27635327635327633,
-    "6": 0.22857142857142856,
+    "6": 0.13230769230769232,
     "7": 0.14285714285714285,
     "8": 0.14210526315789473,
     "9": 0.15789473684210525,
@@ -1072,7 +1070,7 @@
     "53": 0.3611111111111111,
     "54": 0.4166666666666667,
     "55": 0.32142857142857145,
-    "56": 0.2545454545454545,
+    "56": 0.2857142857142857,
     "57": 0.47619047619047616,
     "58": 0.42857142857142855,
     "59": 0.3333333333333333,
@@ -1094,8 +1092,7 @@
     "75": 1.0,
     "76": 1.0,
     "77": 1.0,
-    "78": 1.0,
-    "79": 0.2857142857142857
+    "78": 1.0
   },
   "gods": [
     {
@@ -1173,10 +1170,10 @@
       "why": "bridges separate communities"
     },
     {
-      "source": "OYoroiSkin",
+      "source": "CenturionSkin",
       "target": "SkinVariant",
       "source_files": [
-        "src/main/java/com/skd/ageforgedarmor/config/OYoroiSkin.java",
+        "src/main/java/com/skd/ageforgedarmor/config/CenturionSkin.java",
         "src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java"
       ],
       "confidence": "EXTRACTED",
@@ -1184,10 +1181,10 @@
       "why": "bridges separate communities"
     },
     {
-      "source": "PharaohSkin",
+      "source": "OYoroiSkin",
       "target": "SkinVariant",
       "source_files": [
-        "src/main/java/com/skd/ageforgedarmor/config/PharaohSkin.java",
+        "src/main/java/com/skd/ageforgedarmor/config/OYoroiSkin.java",
         "src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java"
       ],
       "confidence": "EXTRACTED",
@@ -1206,41 +1203,8 @@
       "why": "bridges separate communities"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `ArmorModel` connect `ArmorModel` to `.templateLayerDefinition`, `ModelProviderRegistry.java`, `HumanoidRenderState`, `.sinPI`, `MixinAvatarRenderer.java`, `HeadAnubisArmorModel`, `ChestExaltedAurumArmorModel`, `LegsExaltedAurumArmorModel`, `ChestHolyArmorModel`, `ChestJapaneseLightArmorModel`, `ChestQuetzalcoatlArmorModel`, `HeadRaijinArmorModel`, `LegsRaijinArmorModel`, `FeetAnubisArmorModel`, `Community 27`, `Community 28`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `HeadHolyArmorModel`, `LegsHolyArmorModel`, `FeetIronPlateArmorModel`, `HeadIronPlateArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `LegsJapaneseLightArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `HeadPharaohArmorModel`, `LegsPharaohArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`?",
-      "why": "High betweenness centrality (0.464) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `ArmorModelProvider` connect `ModelProviderRegistry.java` to `HatItem.java`, `HumanoidRenderState`, `CenturionSkin.java`, `ArmorModel`, `OYoroiSkin`, `PharaohSkin.java`, `MixinAvatarRenderer.java`, `RaijinSkin.java`?",
-      "why": "High betweenness centrality (0.102) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `SkinSyncState` connect `SkinSyncState` to `ModelProviderRegistry.java`, `CenturionSkin.java`, `OYoroiSkin`, `PharaohSkin.java`, `RaijinSkin.java`, `GlobalSkinSyncPayload`, `SkinSyncPayload`?",
-      "why": "High betweenness centrality (0.092) - this node is a cross-community bridge."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `AotATags`, `Constants`, `ClientPatronState` to the rest of the system?",
-      "why": "24 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `.templateLayerDefinition` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06095791001451379 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `HatItem.java` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.07918552036199095 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `ModelProviderRegistry.java` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.12173913043478261 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }
