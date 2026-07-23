@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.2.2 (codex-docs)
+> **Versión del workflow**: 1.2.4 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -195,7 +195,7 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 
 | Rama | Propósito |
 |---|---|
-| `main` | Vacía. Solo contiene un commit inicial. No se usa para desarrollo |
+| `main` | ~~Vacía. Solo contiene un commit inicial. No se usa para desarrollo~~ **Eliminar**. La rama por defecto pasa a ser `production`. El `main` raíz sobra y puede borrarse |
 | `minecraft/<mc-version>/neoforge-<neo-version>/production` | Rama de trabajo para una versión específica de Minecraft/NeoForge. Contiene todo el proyecto (código + docs/ + lib_ext/ + graphify-out/ + tokens reales) |
 | `minecraft/<mc-version>/neoforge-<neo-version>/main` | Rama pública para mirror a GitHub. Solo contiene código fuente compilable. Se actualiza automáticamente vía CI/CD desde su hermana production |
 
@@ -229,14 +229,16 @@ Cada versión de Minecraft/NeoForge tiene su propio par `production` ↔ `main`.
 
 ### Inicialización única de cada rama `*/main`
 
-Cada vez que se crea una rama `production` para una nueva versión, la agente (sesión) debe crear su hermana `main` inmediatamente después. Sin este paso, el CI/CD fallará.
+Cada vez que se crea una rama `production` para una nueva versión, la agente (sesión) debe crear su hermana `main` inmediatamente después. Sin este paso, el CI/CD fallará (ya no la crea automáticamente).
+
+> La rama `main` raíz (vacía) puede y debe eliminarse. La rama por defecto del repositorio debe ser `*/production`. Si GitLab no permite borrar la rama por defecto, cámbiala primero a `*/production` en Settings → Repository → Default branch.
 
 **Responsabilidades:**
 
 | Rol | Acción |
 |---|---|
 | **Agente (sesión)** | Crear la rama `*/main` desde `*/production` y pushearla |
-| **Operador (desarrollador)** | Proteger la rama en GitLab **y** configurar el mirror a GitHub |
+| **Operador (desarrollador)** | Cambiar rama por defecto a `*/production` y eliminar `main` raíz. También proteger ramas `*/main` y configurar mirror a GitHub |
 
 **1. La agente crea la rama `*/main`** (al crear `production`):
 
@@ -250,16 +252,13 @@ git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
 
 Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `*/main` actualizada con force push automático.
 
-**2. El operador protege la rama y configura el mirror** (desde la UI de GitLab, una sola vez por repo):
+**2. El operador elimina la rama `main` raíz** (si existe, una sola vez por repo):
 
-1. **Settings → Repository → Protected branches**
-   - Branch: `minecraft/*/neoforge-*/main`
-   - Allow force push: ✅ (necesario para CI)
-2. **Settings → Repository → Mirroring repositories**
-   - Git repository URL: `https://<token>@github.com/codex-skd/<mod>.git`
-   - Mirror direction: **Push**
-   - Only mirror protected branches: ✅
-   - Keep divergent refs: ❌ (desmarcado)
+1. **Settings → Repository → Default branch**: cambiar a `minecraft/*/neoforge-*/production`
+2. **Settings → Repository → Protected branches**: desproteger `main` si está protegida
+3. **Settings → Repository → Branches**: eliminar `main`
+4. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
+5. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
 
 > ⚠️  Las ramas `*/main` nunca se tocan manualmente después de creadas. Solo el CI/CD escribe en ellas con force push.
 
@@ -569,6 +568,8 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.2.4 | 2026-07-23 | Roles clarificados: agente crea `*/main`, operador elimina `main` raíz + protege + mirror |
+| 1.2.3 | 2026-07-23 | CI: elimina creación automática de `*/main` (orphan). Si no existe, falla. Rama `main` raíz marcada para eliminar |
 | 1.2.2 | 2026-07-23 | CI: `libs/` separado como opcional en checkout para no fallar si el mod no lo tiene |
 | 1.2.1 | 2026-07-21 | Limpieza de tabla de ramas (eliminadas filas duplicadas) |
 | 1.2.0 | 2026-07-21 | Separación clara de roles: agente crea `*/main`, operador protege + mirror. Sección reescrita con tabla de responsabilidades |
