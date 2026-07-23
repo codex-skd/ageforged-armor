@@ -20,7 +20,7 @@ public class HeadPharaohArmorModel<T extends HumanoidRenderState> extends ArmorM
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
         head.addOrReplaceChild("cube_r1", CubeListBuilder.create()

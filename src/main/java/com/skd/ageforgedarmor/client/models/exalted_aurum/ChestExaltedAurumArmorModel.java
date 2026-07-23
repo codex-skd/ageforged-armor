@@ -32,7 +32,7 @@ public class ChestExaltedAurumArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(0, 27).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 12.0F, 4.0F, new CubeDeformation(0.4F))
                 .texOffs(27, 0).addBox(-4.0F, -1.0F, -1.75F, 8.0F, 1.0F, 4.0F, new CubeDeformation(0.24F))
@@ -115,7 +115,7 @@ public class ChestExaltedAurumArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(0, 27).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 12.0F, 4.0F, new CubeDeformation(0.4F))
                 .texOffs(27, 0).addBox(-4.0F, -1.0F, -1.75F, 8.0F, 1.0F, 4.0F, new CubeDeformation(0.24F))

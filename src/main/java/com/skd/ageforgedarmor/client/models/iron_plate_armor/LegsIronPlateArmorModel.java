@@ -24,7 +24,7 @@ public class LegsIronPlateArmorModel<T extends HumanoidRenderState> extends Armo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create(),
                 PartPose.offset(0.0F, 0.0F, 0.0F));

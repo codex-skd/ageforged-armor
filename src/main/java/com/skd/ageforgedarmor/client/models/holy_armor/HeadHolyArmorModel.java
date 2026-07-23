@@ -22,7 +22,7 @@ public class HeadHolyArmorModel<T extends HumanoidRenderState> extends ArmorMode
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition head = root.getChild("head");

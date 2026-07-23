@@ -24,7 +24,7 @@ public class HeadQuetzalcoatlArmorModel<T extends HumanoidRenderState> extends A
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition head = root.getChild("head");

@@ -22,7 +22,7 @@ public class LegsPharaohArmorModel<T extends HumanoidRenderState> extends ArmorM
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(28, 10)

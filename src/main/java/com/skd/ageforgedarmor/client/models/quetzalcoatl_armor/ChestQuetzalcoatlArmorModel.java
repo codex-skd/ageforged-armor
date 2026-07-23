@@ -36,7 +36,7 @@ public class ChestQuetzalcoatlArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(0, 20)
@@ -219,7 +219,7 @@ public class ChestQuetzalcoatlArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()

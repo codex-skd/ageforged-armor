@@ -27,7 +27,7 @@ public class LegsOYoroiArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(0, 22).addBox(-5.0F, 12.0F, -2.0F, 1.0F, 4.0F, 4.0F),

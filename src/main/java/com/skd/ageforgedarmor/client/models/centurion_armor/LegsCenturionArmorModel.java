@@ -18,7 +18,7 @@ public class LegsCenturionArmorModel<T extends HumanoidRenderState> extends Armo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         root.addOrReplaceChild("right_leg", CubeListBuilder.create()
                         .texOffs(40, 0).addBox(-2.6F, 0.3F, -2.5F, 5.0F, 8.0F, 5.0F, CubeDeformation.NONE)

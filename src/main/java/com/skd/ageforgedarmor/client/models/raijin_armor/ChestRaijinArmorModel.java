@@ -40,7 +40,7 @@ public class ChestRaijinArmorModel<T extends HumanoidRenderState> extends ArmorM
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition left_arm = root.addOrReplaceChild("left_arm", CubeListBuilder.create()
@@ -111,7 +111,7 @@ public class ChestRaijinArmorModel<T extends HumanoidRenderState> extends ArmorM
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition left_arm = root.addOrReplaceChild("left_arm", CubeListBuilder.create()

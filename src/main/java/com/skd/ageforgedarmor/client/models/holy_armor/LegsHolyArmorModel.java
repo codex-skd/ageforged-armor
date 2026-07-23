@@ -18,7 +18,7 @@ public class LegsHolyArmorModel<T extends HumanoidRenderState> extends ArmorMode
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition chest = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(0, 23).addBox(-1.0F, 9.5F, -3.3F, 2.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));

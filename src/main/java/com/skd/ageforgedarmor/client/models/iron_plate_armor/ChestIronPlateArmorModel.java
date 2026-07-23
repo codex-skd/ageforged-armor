@@ -20,7 +20,7 @@ public class ChestIronPlateArmorModel<T extends HumanoidRenderState> extends Arm
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
@@ -86,7 +86,7 @@ public class ChestIronPlateArmorModel<T extends HumanoidRenderState> extends Arm
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(0, 4).addBox(-4.5F, -0.1F, -2.5F, 9.0F, 13.0F, 5.0F),

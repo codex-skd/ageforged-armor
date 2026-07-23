@@ -18,7 +18,7 @@ public class FeetExaltedAurumArmorModel<T extends HumanoidRenderState> extends A
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         root.addOrReplaceChild("right_leg", CubeListBuilder.create()
                         .texOffs(0, 43).addBox(-2.0F, 0.0F, -2.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.3F)),

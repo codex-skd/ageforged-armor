@@ -18,7 +18,7 @@ public class FeetJapaneseLightArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         root.getChild("right_leg").addOrReplaceChild("right_leg_prot", CubeListBuilder.create().texOffs(40, 0).addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, new CubeDeformation(0.3F)), PartPose.ZERO);
         root.getChild("left_leg").addOrReplaceChild("left_leg_prot", CubeListBuilder.create().mirror().texOffs(40, 0).addBox(-2.0F, 0.0F, -2.0F, 4, 12, 4, new CubeDeformation(0.3F)), PartPose.ZERO);

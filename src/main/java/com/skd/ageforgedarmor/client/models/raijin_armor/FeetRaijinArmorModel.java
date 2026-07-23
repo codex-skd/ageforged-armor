@@ -18,7 +18,7 @@ public class FeetRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition left_leg = root.addOrReplaceChild("left_leg", CubeListBuilder.create()
                         .texOffs(30, 0).addBox(-2.5F, 8.5F, -2.5F, 5.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)),

@@ -22,7 +22,7 @@ public class FeetHolyArmorModel<T extends HumanoidRenderState> extends ArmorMode
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition leg_left = root.addOrReplaceChild("left_leg", CubeListBuilder.create().texOffs(66, 31).addBox(-2.5F, -0.7F, -2.5F, 5.0F, 13.0F, 5.0F, new CubeDeformation(-0.2F))

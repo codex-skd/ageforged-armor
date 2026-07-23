@@ -22,7 +22,7 @@ public class HeadJapaneseLightArmorModel<T extends HumanoidRenderState> extends 
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
         head.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(26, 16).addBox(-4.0F, -6.5F, -4.0F, 8.0F, 2.0F, 8.0F, new CubeDeformation(0.55F)), PartPose.ZERO);

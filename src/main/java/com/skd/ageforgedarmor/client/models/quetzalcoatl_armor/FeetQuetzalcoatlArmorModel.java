@@ -22,7 +22,7 @@ public class FeetQuetzalcoatlArmorModel<T extends HumanoidRenderState> extends A
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition rightLeg = root.addOrReplaceChild("right_leg", CubeListBuilder.create()

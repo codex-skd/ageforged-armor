@@ -18,7 +18,7 @@ public class HeadCenturionArmorModel<T extends HumanoidRenderState> extends Armo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
         head.addOrReplaceChild("cube_r1", CubeListBuilder.create()

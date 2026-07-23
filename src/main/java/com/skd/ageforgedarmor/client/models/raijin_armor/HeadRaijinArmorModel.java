@@ -30,7 +30,7 @@ public class HeadRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
 
@@ -94,7 +94,7 @@ public class HeadRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
 

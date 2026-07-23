@@ -18,7 +18,7 @@ public class ChestJapaneseLightArmorModel<T extends HumanoidRenderState> extends
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, new CubeDeformation(0.45F)), PartPose.ZERO);
         root.addOrReplaceChild("right_arm", CubeListBuilder.create().mirror()
@@ -33,7 +33,7 @@ public class ChestJapaneseLightArmorModel<T extends HumanoidRenderState> extends
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, 0.0F, -2.0F, 8, 12, 4, new CubeDeformation(0.45F)), PartPose.ZERO);
         body.addOrReplaceChild("breast", CubeListBuilder.create().texOffs(0, 26).addBox(-3.0F, 0.0F, -3.65F, 6, 2, 3, new CubeDeformation(0.1F)), PartPose.offsetAndRotation(0.0F, 1.3F, -2.0F, 0.9948376736367678F, 0.0F, 0.0F));

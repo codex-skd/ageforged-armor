@@ -18,7 +18,7 @@ public class ChestPharaohArmorModel<T extends HumanoidRenderState> extends Armor
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(0, 0)
@@ -44,7 +44,7 @@ public class ChestPharaohArmorModel<T extends HumanoidRenderState> extends Armor
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
 
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
