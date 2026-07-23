@@ -22,7 +22,7 @@ public class LegsExaltedAurumArmorModel<T extends HumanoidRenderState> extends A
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(19, 40).addBox(-4.475F, 8.75F, -2.525F, 9.0F, 3.0F, 5.0F, CubeDeformation.NONE), PartPose.offset(0.0F, 0.0F, 0.0F));
 
@@ -52,7 +52,7 @@ public class LegsExaltedAurumArmorModel<T extends HumanoidRenderState> extends A
     }
 
     public static LayerDefinition createSlimLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create().texOffs(19, 40).addBox(-4.475F, 8.75F, -2.525F, 9.0F, 3.0F, 5.0F, CubeDeformation.NONE), PartPose.offset(0.0F, 0.0F, 0.0F));
 

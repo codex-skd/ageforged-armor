@@ -18,7 +18,7 @@ public class HeadOYoroiArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition head = root.getChild("head");
         head.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(28, 21).addBox(-4.5F, -8.5F, -4.5F, 9.0F, 4.0F, 9.0F, new CubeDeformation(0.02F)), PartPose.offset(0.0F, 0.0F, 0.0F));

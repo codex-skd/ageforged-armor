@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.31] - 2026-07-23
+
+### Fixed
+- **Casco renderizado 1 unidad abajo**: todos los modelos llamaban `templateLayerDefinition(1.0F)`, desplazando todas las piezas de armadura 1 bloque hacia abajo respecto al modelo del jugador. La skin se veía por encima del casco al mirar arriba/abajo. Cambiado a `0.0F` para que las posiciones coincidan con el jugador, igual que la armadura vanilla.
+
 ## [0.0.0-beta.30] - 2026-07-22
 
 ### Fixed

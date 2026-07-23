@@ -20,7 +20,7 @@ public class LegsAnubisArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     public static LayerDefinition createLayerDefinition() {
-        MeshDefinition meshdefinition = templateLayerDefinition(1.0F);
+        MeshDefinition meshdefinition = templateLayerDefinition(0.0F);
         PartDefinition root = meshdefinition.getRoot();
         PartDefinition body = root.addOrReplaceChild("body", CubeListBuilder.create()
                         .texOffs(65, 18).addBox(-4.5F, 9.5F, -2.5F, 9.0F, 2.0F, 5.0F, new CubeDeformation(0.1F))
