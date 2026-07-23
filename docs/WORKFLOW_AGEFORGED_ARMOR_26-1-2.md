@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.2.4 (codex-docs)
+> **Versión del workflow**: 1.2.6 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -195,9 +195,9 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 
 | Rama | Propósito |
 |---|---|
-| `main` | ~~Vacía. Solo contiene un commit inicial. No se usa para desarrollo~~ **Eliminar**. La rama por defecto pasa a ser `production`. El `main` raíz sobra y puede borrarse |
-| `minecraft/<mc-version>/neoforge-<neo-version>/production` | Rama de trabajo para una versión específica de Minecraft/NeoForge. Contiene todo el proyecto (código + docs/ + lib_ext/ + graphify-out/ + tokens reales) |
-| `minecraft/<mc-version>/neoforge-<neo-version>/main` | Rama pública para mirror a GitHub. Solo contiene código fuente compilable. Se actualiza automáticamente vía CI/CD desde su hermana production |
+| `main` | ~~Eliminar.~~ Ya no existe como rama por defecto. La default ahora es `*/main` |
+| `minecraft/<mc-version>/neoforge-<neo-version>/production` | Rama de trabajo. Contiene todo el proyecto: código, docs/, lib_ext/, graphify-out/, tokens reales |
+| `minecraft/<mc-version>/neoforge-<neo-version>/main` | Rama pública por defecto. Recibe el mirror a GitHub. Solo contiene código fuente compilable |
 
 ### Ejemplos
 
@@ -252,13 +252,12 @@ git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
 
 Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `*/main` actualizada con force push automático.
 
-**2. El operador elimina la rama `main` raíz** (si existe, una sola vez por repo):
+**2. El operador configura el repositorio** (una sola vez por repo):
 
-1. **Settings → Repository → Default branch**: cambiar a `minecraft/*/neoforge-*/production`
-2. **Settings → Repository → Protected branches**: desproteger `main` si está protegida
-3. **Settings → Repository → Branches**: eliminar `main`
-4. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
-5. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
+1. **Settings → Repository → Default branch**: cambiar a `minecraft/*/neoforge-*/main` (la rama pública que recibe el mirror)
+2. **Settings → Repository → Branches**: eliminar `main` raíz (si existe)
+3. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
+4. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
 
 > ⚠️  Las ramas `*/main` nunca se tocan manualmente después de creadas. Solo el CI/CD escribe en ellas con force push.
 
@@ -568,6 +567,8 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.2.6 | 2026-07-23 | Fix YAML en CI: `|| (&&)` reemplazado por bloque `if` para evitar error de sintaxis |
+| 1.2.5 | 2026-07-23 | `*/main` es ahora la rama por defecto, `main` raíz eliminada |
 | 1.2.4 | 2026-07-23 | Roles clarificados: agente crea `*/main`, operador elimina `main` raíz + protege + mirror |
 | 1.2.3 | 2026-07-23 | CI: elimina creación automática de `*/main` (orphan). Si no existe, falla. Rama `main` raíz marcada para eliminar |
 | 1.2.2 | 2026-07-23 | CI: `libs/` separado como opcional en checkout para no fallar si el mod no lo tiene |
