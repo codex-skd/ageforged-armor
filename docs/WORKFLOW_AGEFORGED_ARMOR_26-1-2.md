@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.1.0 (codex-docs)
+> **Versión del workflow**: 1.2.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -229,28 +229,39 @@ Cada versión de Minecraft/NeoForge tiene su propio par `production` ↔ `main`.
 
 ### Inicialización única de cada rama `*/main`
 
-Al crear una nueva rama `production` para una versión, su hermana `main` debe existir en el remoto al menos una vez antes de que el CI funcione:
+Cada vez que se crea una rama `production` para una nueva versión, la agente (sesión) debe crear su hermana `main` inmediatamente después. Sin este paso, el CI/CD fallará.
+
+**Responsabilidades:**
+
+| Rol | Acción |
+|---|---|
+| **Agente (sesión)** | Crear la rama `*/main` desde `*/production` y pushearla |
+| **Operador (desarrollador)** | Proteger la rama en GitLab **y** configurar el mirror a GitHub |
+
+**1. La agente crea la rama `*/main`** (al crear `production`):
 
 ```bash
-# Crear la rama main desde production (solo la primera vez)
+# Ejemplo: para minecraft/26.1.2/neoforge-26.1.2.78/production
 git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
 git checkout -b minecraft/26.1.2/neoforge-26.1.2.78/main
 git push origin minecraft/26.1.2/neoforge-26.1.2.78/main
 git checkout minecraft/26.1.2/neoforge-26.1.2.78/production
 ```
 
-Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD se encarga de mantenerla actualizada con force push.
+Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `*/main` actualizada con force push automático.
 
-Configuración del mirror en GitLab:
-1. **Settings → Repository → Mirroring repositories**
-2. Añadir `https://<token>@github.com/tuusuario/<mod>.git`
-3. Dirección: **Push**
-4. Marcar **"Only mirror protected branches"**
-5. Proteger las ramas con el patrón `minecraft/*/neoforge-*/main`
-6. Desmarcar **"Keep divergent refs"** para permitir force push desde CI
+**2. El operador protege la rama y configura el mirror** (desde la UI de GitLab, una sola vez por repo):
 
-> ⚠️  Las ramas `*/main` nunca se tocan manualmente. Solo el CI/CD escribe en ellas con force push.
-> La primera vez que el CI se ejecute, creará la rama automáticamente (orphan). Tras el primer push, el desarrollador debe protegerla y permitir force push desde GitLab.
+1. **Settings → Repository → Protected branches**
+   - Branch: `minecraft/*/neoforge-*/main`
+   - Allow force push: ✅ (necesario para CI)
+2. **Settings → Repository → Mirroring repositories**
+   - Git repository URL: `https://<token>@github.com/codex-skd/<mod>.git`
+   - Mirror direction: **Push**
+   - Only mirror protected branches: ✅
+   - Keep divergent refs: ❌ (desmarcado)
+
+> ⚠️  Las ramas `*/main` nunca se tocan manualmente después de creadas. Solo el CI/CD escribe en ellas con force push.
 
 ---
 
@@ -558,5 +569,6 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.2.0 | 2026-07-21 | Separación clara de roles: agente crea `*/main`, operador protege + mirror. Sección reescrita con tabla de responsabilidades |
 | 1.1.0 | 2026-07-21 | CI: eliminado `mod_curseforge_token` (nunca en gradle.properties). Script: displayName usa `mod_name`. Workflow: añadido paso de subida con el script compartido |
 | 1.0.0 | 2026-07-21 | Versión inicial: estructura, naming, tipografía, CI/CD, Graphify, fork attribution, temp/, README en inglés |

@@ -71,7 +71,7 @@ public abstract class MixinHumanoidArmorLayer {
         Identifier texture = provider.getTexture(Minecraft.getInstance().player);
         if (texture == null) return;
 
-        int order = slot.ordinal() * 2;
+        int order = 1000 + slot.ordinal() * 2;
 
         collector.order(order)
                 .submitModel(model, renderState, poseStack,
