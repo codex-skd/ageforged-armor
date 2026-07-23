@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.30] - 2026-07-22
+
+### Fixed
+- **Helmet renderizado detrás de la skin**: aumentado el `order` de `slot.ordinal() * 2` a `1000 + slot.ordinal() * 2`. La skin del jugador se renderizaba con un orden superior al de la armadura, tapando el casco al mirar arriba/abajo.
+
+### Infrastructure
+- **Script de subida**: reemplazado script Python inline por el script compartido `codex-docs/scripts/curseforge-upload.ps1`. Ahora el nombre del JAR en CurseForge se genera correctamente.
+- **WORKFLOW** actualizado a v1.2.1 (separación de roles, tabla de ramas limpia).
+- **Rama `*/main`** creada en remoto para mirror a GitHub.
+
 ## [0.0.0-beta.29] - 2026-07-22
 
 ### Fixed
