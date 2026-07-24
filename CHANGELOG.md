@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.33] - 2026-07-23
+
+### Fixed
+- **Flicker al abrir inventario**: la rotación del brazo se capturaba en TAIL, pero el modelo podía haber cambiado entre el renderizado de la mano y ese punto. Ahora se captura en HEAD (antes de renderizar la mano) y se reusa en TAIL para la armadura.
+
 ## [0.0.0-beta.32] - 2026-07-23
 
 ### Fixed
