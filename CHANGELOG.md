@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.32] - 2026-07-23
+
+### Fixed
+- **Brazo en primera persona desalineado al agacharse**: la armadura del brazo usaba rotaciones hardcodeadas (`xRot = -0.1F`) en lugar de copiar la rotación real del brazo del modelo del jugador. Ahora lee la pose del AvatarRenderer y la aplica al brazo de la armadura.
+
 ## [0.0.0-beta.31] - 2026-07-23
 
 ### Fixed
