@@ -1233,41 +1233,8 @@
       "why": "bridges separate communities"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `ArmorModel` connect `ArmorModel` to `ModelProviderRegistry.java`, `.sinPI`, `HumanoidRenderState`, `ChestQuetzalcoatlArmorModel`, `ChestCenturionArmorModel`, `ChestExaltedAurumArmorModel`, `LegsExaltedAurumArmorModel`, `ChestIronPlateArmorModel`, `ChestJapaneseLightArmorModel`, `ChestOYoroiArmorModel`, `ChestPharaohArmorModel`, `ChestRaijinArmorModel`, `HeadRaijinArmorModel`, `LegsRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `LegsHolyArmorModel`, `FeetIronPlateArmorModel`, `HeadIronPlateArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `LegsJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `FeetPharaohArmorModel`, `HeadPharaohArmorModel`, `LegsPharaohArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`, `.templateLayerDefinition`, `HeadAnubisArmorModel`?",
-      "why": "High betweenness centrality (0.451) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `ArmorModelProvider` connect `ModelProviderRegistry.java` to `OYoroiSkin`, `HumanoidRenderState`, `ArmorModel`, `HatItem.java`?",
-      "why": "High betweenness centrality (0.105) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `SkinSyncState` connect `ModelProviderRegistry.java` to `HatItem.java`, `PreferredModel`, `OYoroiSkin`, `GlobalSkinSyncPayload`, `SkinSyncPayload`?",
-      "why": "High betweenness centrality (0.092) - this node is a cross-community bridge."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `AotATags`, `Constants`, `ClientPatronState` to the rest of the system?",
-      "why": "24 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `ModelProviderRegistry.java` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.05510388437217705 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `HatItem.java` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.06153846153846154 - nodes in this community are weakly interconnected."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `.sinPI` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.08367071524966262 - nodes in this community are weakly interconnected."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }

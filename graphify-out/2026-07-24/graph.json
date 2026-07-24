@@ -137,7 +137,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "ieventbus",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": ".AgeforgedArmor",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_ieventbus"
     },
     {
@@ -148,7 +148,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "modcontainer",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": ".AgeforgedArmor",
       "id": "modcontainer"
     },
     {
@@ -313,7 +313,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "player",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_commonclass_java_player"
     },
     {
@@ -533,7 +533,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": "modelpart",
-      "community_name": "ArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel_java_modelpart"
     },
     {
@@ -588,7 +588,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": "layerdefinition",
-      "community_name": ".templateLayerDefinition",
+      "community_name": ".sinPI",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_chestanubisarmormodel_java_layerdefinition"
     },
     {
@@ -654,7 +654,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": "layerdefinition",
-      "community_name": ".templateLayerDefinition",
+      "community_name": "HeadAnubisArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_java_layerdefinition"
     },
     {
@@ -665,7 +665,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "modelpart",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_java_modelpart"
     },
     {
@@ -676,7 +676,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "override",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_java_override"
     },
     {
@@ -687,7 +687,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "layerdefinition",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_java_layerdefinition"
     },
     {
@@ -698,7 +698,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "modelpart",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_modelpart"
     },
     {
@@ -709,7 +709,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "override",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_override"
     },
     {
@@ -720,7 +720,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "layerdefinition",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_layerdefinition"
     },
     {
@@ -731,7 +731,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": "modelpart",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_java_modelpart"
     },
     {
@@ -742,7 +742,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": "override",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_java_override"
     },
     {
@@ -753,7 +753,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": "layerdefinition",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_java_layerdefinition"
     },
     {
@@ -962,7 +962,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "modelpart",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_java_modelpart"
     },
     {
@@ -973,7 +973,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "override",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_java_override"
     },
     {
@@ -984,7 +984,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "layerdefinition",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_java_layerdefinition"
     },
     {
@@ -995,7 +995,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "modelpart",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_modelpart"
     },
     {
@@ -1006,7 +1006,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "override",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_override"
     },
     {
@@ -1017,7 +1017,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "layerdefinition",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_layerdefinition"
     },
     {
@@ -1028,7 +1028,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "modelpart",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_java_modelpart"
     },
     {
@@ -1039,7 +1039,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "override",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_java_override"
     },
     {
@@ -1050,7 +1050,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "layerdefinition",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_java_layerdefinition"
     },
     {
@@ -1094,7 +1094,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "modelpart",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_java_modelpart"
     },
     {
@@ -1105,7 +1105,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "override",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_java_override"
     },
     {
@@ -1116,7 +1116,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "layerdefinition",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_java_layerdefinition"
     },
     {
@@ -1358,7 +1358,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "modelpart",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_java_modelpart"
     },
     {
@@ -1369,7 +1369,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "override",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_java_override"
     },
     {
@@ -1380,7 +1380,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "layerdefinition",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_java_layerdefinition"
     },
     {
@@ -1391,7 +1391,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": "modelpart",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_java_modelpart"
     },
     {
@@ -1402,7 +1402,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": "override",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_java_override"
     },
     {
@@ -1413,7 +1413,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": "layerdefinition",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_java_layerdefinition"
     },
     {
@@ -1457,7 +1457,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "modelpart",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_java_modelpart"
     },
     {
@@ -1468,7 +1468,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "override",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_java_override"
     },
     {
@@ -1479,7 +1479,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "layerdefinition",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_java_layerdefinition"
     },
     {
@@ -1490,7 +1490,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "modelpart",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_modelpart"
     },
     {
@@ -1501,7 +1501,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "override",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_override"
     },
     {
@@ -1512,7 +1512,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "layerdefinition",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_layerdefinition"
     },
     {
@@ -1523,7 +1523,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": "modelpart",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_java_modelpart"
     },
     {
@@ -1534,7 +1534,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": "override",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_java_override"
     },
     {
@@ -1545,7 +1545,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": "layerdefinition",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_java_layerdefinition"
     },
     {
@@ -1754,7 +1754,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "modelpart",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_java_modelpart"
     },
     {
@@ -1765,7 +1765,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "override",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_java_override"
     },
     {
@@ -1776,7 +1776,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "layerdefinition",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_java_layerdefinition"
     },
     {
@@ -1897,7 +1897,7 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "yetanotherconfiglib",
-      "community_name": "AOTAConfig.java",
+      "community_name": ".AgeforgedArmor",
       "id": "yetanotherconfiglib"
     },
     {
@@ -1908,7 +1908,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "override",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_java_override"
     },
     {
@@ -1919,7 +1919,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "override",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_java_override"
     },
     {
@@ -1941,7 +1941,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "override",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_java_override"
     },
     {
@@ -1952,7 +1952,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "override",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_java_override"
     },
     {
@@ -2403,7 +2403,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "objectarraylist",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": "AgeforgedArmorLootModifier.java",
       "id": "objectarraylist"
     },
     {
@@ -2557,7 +2557,7 @@
       "_origin": "ast",
       "community": 71,
       "norm_label": "mixin",
-      "community_name": "Mixin",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_mixin"
     },
     {
@@ -2568,7 +2568,7 @@
       "_origin": "ast",
       "community": 72,
       "norm_label": "posestack",
-      "community_name": "PoseStack",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_posestack"
     },
     {
@@ -2579,7 +2579,7 @@
       "_origin": "ast",
       "community": 73,
       "norm_label": "submitnodecollector",
-      "community_name": "SubmitNodeCollector",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_submitnodecollector"
     },
     {
@@ -2590,7 +2590,7 @@
       "_origin": "ast",
       "community": 69,
       "norm_label": "identifier",
-      "community_name": "Identifier",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_identifier"
     },
     {
@@ -2601,7 +2601,7 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "abstractclientplayer",
-      "community_name": "HumanoidRenderState",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "abstractclientplayer"
     },
     {
@@ -2612,7 +2612,7 @@
       "_origin": "ast",
       "community": 68,
       "norm_label": "callbackinfo",
-      "community_name": "CallbackInfo",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_callbackinfo"
     },
     {
@@ -2623,7 +2623,7 @@
       "_origin": "ast",
       "community": 70,
       "norm_label": "inject",
-      "community_name": "Inject",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_inject"
     },
     {
@@ -2634,7 +2634,7 @@
       "_origin": "ast",
       "community": 74,
       "norm_label": "unique",
-      "community_name": "Unique",
+      "community_name": "MixinAvatarRenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_java_unique"
     },
     {
@@ -2821,7 +2821,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "serverplayer",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_java_serverplayer"
     },
     {
@@ -2832,7 +2832,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "override",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_java_override"
     },
     {
@@ -2843,7 +2843,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "serverplayer",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_java_serverplayer"
     },
     {
@@ -2854,7 +2854,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "minecraftserver",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "minecraftserver"
     },
     {
@@ -2876,7 +2876,7 @@
       "_origin": "ast",
       "community": 64,
       "norm_label": "registerpayloadhandlersevent",
-      "community_name": "NeoForgePayloadRegistry.java",
+      "community_name": "PatronTierPayload",
       "id": "registerpayloadhandlersevent"
     },
     {
@@ -2942,7 +2942,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "type",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_type"
     },
     {
@@ -2953,7 +2953,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "streamcodec",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_streamcodec"
     },
     {
@@ -2964,7 +2964,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "friendlybytebuf",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_friendlybytebuf"
     },
     {
@@ -2975,7 +2975,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "override",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_java_override"
     },
     {
@@ -3261,7 +3261,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": "aotatags.java",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_aotatags"
     },
     {
@@ -3272,7 +3272,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": "aotatags",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_aotatags_aotatags"
     },
     {
@@ -3283,7 +3283,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": "items",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_aotatags_items"
     },
     {
@@ -3294,7 +3294,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": ".tag()",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_aotatags_items_tag"
     },
     {
@@ -3305,7 +3305,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": "tagkey",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "tagkey"
     },
     {
@@ -3316,7 +3316,7 @@
       "_origin": "ast",
       "community": 62,
       "norm_label": "item",
-      "community_name": "AotATags.java",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_aotatags_java_item"
     },
     {
@@ -3327,7 +3327,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterial",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_java_armormaterial"
     },
     {
@@ -3338,7 +3338,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "holder",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_java_holder"
     },
     {
@@ -3349,7 +3349,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "identifier",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_java_identifier"
     },
     {
@@ -3360,7 +3360,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterial",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge_java_armormaterial"
     },
     {
@@ -3371,7 +3371,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "holder",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge_java_holder"
     },
     {
@@ -3382,7 +3382,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "override",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge_java_override"
     },
     {
@@ -3668,7 +3668,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".ageforgedarmor()",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": ".AgeforgedArmor",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_ageforgedarmor_ageforgedarmor"
     },
     {
@@ -3712,7 +3712,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".migrateforgeconfigifneeded()",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": ".AgeforgedArmor",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_ageforgedarmor_migrateforgeconfigifneeded"
     },
     {
@@ -3734,7 +3734,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "items",
-      "community_name": "HatItem.java",
+      "community_name": "AgeforgedArmor.java",
       "id": "items"
     },
     {
@@ -3745,7 +3745,7 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".itemregistryimpl()",
-      "community_name": "AgeforgedArmor.java",
+      "community_name": "AgeforgedArmorLootModifier.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_itemregistryimpl_itemregistryimpl"
     },
     {
@@ -4009,7 +4009,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "commonclass.java",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_commonclass"
     },
     {
@@ -4020,7 +4020,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "commonclass",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_commonclass_commonclass"
     },
     {
@@ -4031,7 +4031,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".init()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_commonclass_commonclass_init"
     },
     {
@@ -4218,7 +4218,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "skinvariant",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant"
     },
     {
@@ -4229,7 +4229,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".gettextureprefix()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant_gettextureprefix"
     },
     {
@@ -4471,7 +4471,7 @@
       "_origin": "ast",
       "community": 14,
       "norm_label": ".armormodel()",
-      "community_name": "ArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel_armormodel_armormodel"
     },
     {
@@ -4581,7 +4581,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": ".createlayerdefinition()",
-      "community_name": ".templateLayerDefinition",
+      "community_name": ".sinPI",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_chestanubisarmormodel_chestanubisarmormodel_createlayerdefinition"
     },
     {
@@ -4592,7 +4592,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": ".templateLayerDefinition",
+      "community_name": ".sinPI",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_chestanubisarmormodel_chestanubisarmormodel_createslimlayerdefinition"
     },
     {
@@ -4746,7 +4746,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": ".createlayerdefinition()",
-      "community_name": ".templateLayerDefinition",
+      "community_name": "HeadAnubisArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_createlayerdefinition"
     },
     {
@@ -4757,7 +4757,7 @@
       "_origin": "ast",
       "community": 55,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": ".templateLayerDefinition",
+      "community_name": "HeadAnubisArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_createslimlayerdefinition"
     },
     {
@@ -4779,7 +4779,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "legsanubisarmormodel.java",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel"
     },
     {
@@ -4790,7 +4790,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "legsanubisarmormodel",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_legsanubisarmormodel"
     },
     {
@@ -4801,7 +4801,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".legsanubisarmormodel()",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_legsanubisarmormodel_legsanubisarmormodel"
     },
     {
@@ -4812,7 +4812,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".create()",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_legsanubisarmormodel_create"
     },
     {
@@ -4823,7 +4823,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_legsanubisarmormodel_createlayerdefinition"
     },
     {
@@ -4834,7 +4834,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "LegsAnubisArmorModel",
+      "community_name": "Community 27",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_legsanubisarmormodel_legsanubisarmormodel_setuparmorpartanim"
     },
     {
@@ -4845,7 +4845,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "chestcenturionarmormodel.java",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel"
     },
     {
@@ -4856,7 +4856,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "chestcenturionarmormodel",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel"
     },
     {
@@ -4867,7 +4867,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".chestcenturionarmormodel()",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_chestcenturionarmormodel"
     },
     {
@@ -4878,7 +4878,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".create()",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_create"
     },
     {
@@ -4889,7 +4889,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_createlayerdefinition"
     },
     {
@@ -4900,7 +4900,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_createslimlayerdefinition"
     },
     {
@@ -4911,7 +4911,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestCenturionArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_setuparmorpartanim"
     },
     {
@@ -4922,7 +4922,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": "feetcenturionarmormodel.java",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel"
     },
     {
@@ -4933,7 +4933,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": "feetcenturionarmormodel",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_feetcenturionarmormodel"
     },
     {
@@ -4944,7 +4944,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": ".feetcenturionarmormodel()",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_feetcenturionarmormodel_feetcenturionarmormodel"
     },
     {
@@ -4955,7 +4955,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": ".create()",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_feetcenturionarmormodel_create"
     },
     {
@@ -4966,7 +4966,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_feetcenturionarmormodel_createlayerdefinition"
     },
     {
@@ -4977,7 +4977,7 @@
       "_origin": "ast",
       "community": 29,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "FeetCenturionArmorModel",
+      "community_name": "Community 28",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_feetcenturionarmormodel_feetcenturionarmormodel_setuparmorpartanim"
     },
     {
@@ -5406,7 +5406,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "chestholyarmormodel.java",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel"
     },
     {
@@ -5417,7 +5417,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "chestholyarmormodel",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel"
     },
     {
@@ -5428,7 +5428,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".chestholyarmormodel()",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel_chestholyarmormodel"
     },
     {
@@ -5439,7 +5439,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".create()",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel_create"
     },
     {
@@ -5450,7 +5450,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".createlayerdefinition()",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel_createlayerdefinition"
     },
     {
@@ -5461,7 +5461,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel_createslimlayerdefinition"
     },
     {
@@ -5472,7 +5472,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": ".sinPI",
+      "community_name": "ChestHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_chestholyarmormodel_chestholyarmormodel_setuparmorpartanim"
     },
     {
@@ -5483,7 +5483,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "feetholyarmormodel.java",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel"
     },
     {
@@ -5494,7 +5494,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "feetholyarmormodel",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel"
     },
     {
@@ -5505,7 +5505,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".feetholyarmormodel()",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_feetholyarmormodel"
     },
     {
@@ -5516,7 +5516,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".create()",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_create"
     },
     {
@@ -5527,7 +5527,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".createlayerdefinition()",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_createlayerdefinition"
     },
     {
@@ -5538,7 +5538,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": ".sinPI",
+      "community_name": "FeetHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_setuparmorpartanim"
     },
     {
@@ -5549,7 +5549,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "headholyarmormodel.java",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel"
     },
     {
@@ -5560,7 +5560,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "headholyarmormodel",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_headholyarmormodel"
     },
     {
@@ -5571,7 +5571,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".headholyarmormodel()",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_headholyarmormodel_headholyarmormodel"
     },
     {
@@ -5582,7 +5582,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".create()",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_headholyarmormodel_create"
     },
     {
@@ -5593,7 +5593,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".createlayerdefinition()",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_headholyarmormodel_createlayerdefinition"
     },
     {
@@ -5604,7 +5604,7 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": ".sinPI",
+      "community_name": "HeadHolyArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_headholyarmormodel_headholyarmormodel_setuparmorpartanim"
     },
     {
@@ -5681,7 +5681,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "chestironplatearmormodel.java",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel"
     },
     {
@@ -5692,7 +5692,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": "chestironplatearmormodel",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel"
     },
     {
@@ -5703,7 +5703,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": ".chestironplatearmormodel()",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_chestironplatearmormodel"
     },
     {
@@ -5714,7 +5714,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": ".create()",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_create"
     },
     {
@@ -5725,7 +5725,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_createlayerdefinition"
     },
     {
@@ -5736,7 +5736,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_createslimlayerdefinition"
     },
     {
@@ -5747,7 +5747,7 @@
       "_origin": "ast",
       "community": 18,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestIronPlateArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_setuparmorpartanim"
     },
     {
@@ -6231,7 +6231,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "chestoyoroiarmormodel.java",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel"
     },
     {
@@ -6242,7 +6242,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "chestoyoroiarmormodel",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel"
     },
     {
@@ -6253,7 +6253,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": ".chestoyoroiarmormodel()",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel_chestoyoroiarmormodel"
     },
     {
@@ -6264,7 +6264,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": ".create()",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel_create"
     },
     {
@@ -6275,7 +6275,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel_createlayerdefinition"
     },
     {
@@ -6286,7 +6286,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel_createslimlayerdefinition"
     },
     {
@@ -6297,7 +6297,7 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestOYoroiArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_chestoyoroiarmormodel_chestoyoroiarmormodel_setuparmorpartanim"
     },
     {
@@ -6308,7 +6308,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": "feetoyoroiarmormodel.java",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel"
     },
     {
@@ -6319,7 +6319,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": "feetoyoroiarmormodel",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_feetoyoroiarmormodel"
     },
     {
@@ -6330,7 +6330,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": ".feetoyoroiarmormodel()",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_feetoyoroiarmormodel_feetoyoroiarmormodel"
     },
     {
@@ -6341,7 +6341,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": ".create()",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_feetoyoroiarmormodel_create"
     },
     {
@@ -6352,7 +6352,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_feetoyoroiarmormodel_createlayerdefinition"
     },
     {
@@ -6363,7 +6363,7 @@
       "_origin": "ast",
       "community": 41,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "FeetOYoroiArmorModel",
+      "community_name": "HumanoidRenderState",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_feetoyoroiarmormodel_feetoyoroiarmormodel_setuparmorpartanim"
     },
     {
@@ -6440,7 +6440,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "legsoyoroiarmormodel.java",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel"
     },
     {
@@ -6451,7 +6451,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "legsoyoroiarmormodel",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_legsoyoroiarmormodel"
     },
     {
@@ -6462,7 +6462,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".legsoyoroiarmormodel()",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_legsoyoroiarmormodel_legsoyoroiarmormodel"
     },
     {
@@ -6473,7 +6473,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".create()",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_legsoyoroiarmormodel_create"
     },
     {
@@ -6484,7 +6484,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_legsoyoroiarmormodel_createlayerdefinition"
     },
     {
@@ -6495,7 +6495,7 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestQuetzalcoatlArmorModel",
+      "community_name": "LegsOYoroiArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_legsoyoroiarmormodel_legsoyoroiarmormodel_setuparmorpartanim"
     },
     {
@@ -6506,7 +6506,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "chestpharaoharmormodel.java",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel"
     },
     {
@@ -6517,7 +6517,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": "chestpharaoharmormodel",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel"
     },
     {
@@ -6528,7 +6528,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": ".chestpharaoharmormodel()",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_chestpharaoharmormodel"
     },
     {
@@ -6539,7 +6539,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": ".create()",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_create"
     },
     {
@@ -6550,7 +6550,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_createlayerdefinition"
     },
     {
@@ -6561,7 +6561,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_createslimlayerdefinition"
     },
     {
@@ -6572,7 +6572,7 @@
       "_origin": "ast",
       "community": 21,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_setuparmorpartanim"
     },
     {
@@ -6583,7 +6583,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": "feetpharaoharmormodel.java",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel"
     },
     {
@@ -6594,7 +6594,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": "feetpharaoharmormodel",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_feetpharaoharmormodel"
     },
     {
@@ -6605,7 +6605,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": ".feetpharaoharmormodel()",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_feetpharaoharmormodel_feetpharaoharmormodel"
     },
     {
@@ -6616,7 +6616,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": ".create()",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_feetpharaoharmormodel_create"
     },
     {
@@ -6627,7 +6627,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_feetpharaoharmormodel_createlayerdefinition"
     },
     {
@@ -6638,7 +6638,7 @@
       "_origin": "ast",
       "community": 43,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "FeetPharaohArmorModel",
+      "community_name": "ArmorModel",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_feetpharaoharmormodel_feetpharaoharmormodel_setuparmorpartanim"
     },
     {
@@ -7056,7 +7056,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "chestraijinarmormodel.java",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel"
     },
     {
@@ -7067,7 +7067,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": "chestraijinarmormodel",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel"
     },
     {
@@ -7078,7 +7078,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": ".chestraijinarmormodel()",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel_chestraijinarmormodel"
     },
     {
@@ -7089,7 +7089,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": ".create()",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel_create"
     },
     {
@@ -7100,7 +7100,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": ".createlayerdefinition()",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel_createlayerdefinition"
     },
     {
@@ -7111,7 +7111,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": ".createslimlayerdefinition()",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel_createslimlayerdefinition"
     },
     {
@@ -7122,7 +7122,7 @@
       "_origin": "ast",
       "community": 22,
       "norm_label": ".setuparmorpartanim()",
-      "community_name": "ChestRaijinArmorModel",
+      "community_name": ".templateLayerDefinition",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_chestraijinarmormodel_chestraijinarmormodel_setuparmorpartanim"
     },
     {
@@ -7397,7 +7397,7 @@
       "_origin": "ast",
       "community": 25,
       "norm_label": ".get()",
-      "community_name": "ItemRegistry.java",
+      "community_name": "AgeforgedArmorLootModifier.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_aotaconfig_aotaconfig_get"
     },
     {
@@ -7408,7 +7408,7 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": ".createscreen()",
-      "community_name": "AOTAConfig.java",
+      "community_name": ".AgeforgedArmor",
       "id": "src_main_java_com_skd_ageforgedarmor_config_aotaconfig_aotaconfig_createscreen"
     },
     {
@@ -7419,7 +7419,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "centurionskin.java",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin"
     },
     {
@@ -7430,7 +7430,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "centurionskin",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin"
     },
     {
@@ -7441,7 +7441,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "default",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_default"
     },
     {
@@ -7452,7 +7452,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "silver_patreon",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_silver_patreon"
     },
     {
@@ -7463,7 +7463,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "gettextureprefix()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_gettextureprefix"
     },
     {
@@ -7474,7 +7474,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "getrequiredtier()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_getrequiredtier"
     },
     {
@@ -7485,7 +7485,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "tostring()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_centurionskin_tostring"
     },
     {
@@ -7496,7 +7496,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ironplateskin.java",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin"
     },
     {
@@ -7507,7 +7507,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ironplateskin",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin"
     },
     {
@@ -7518,7 +7518,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "default",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_default"
     },
     {
@@ -7529,7 +7529,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "ashes",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_ashes"
     },
     {
@@ -7540,7 +7540,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "gettextureprefix()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_gettextureprefix"
     },
     {
@@ -7551,7 +7551,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "tostring()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "CenturionSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ironplateskin_tostring"
     },
     {
@@ -7716,7 +7716,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "pharaohskin.java",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin"
     },
     {
@@ -7727,7 +7727,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "pharaohskin",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin"
     },
     {
@@ -7738,7 +7738,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "default",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_default"
     },
     {
@@ -7749,7 +7749,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "silver_patreon",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_silver_patreon"
     },
     {
@@ -7760,7 +7760,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "gettextureprefix()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_gettextureprefix"
     },
     {
@@ -7771,7 +7771,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "getrequiredtier()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_getrequiredtier"
     },
     {
@@ -7782,7 +7782,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "tostring()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "PharaohSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_pharaohskin_tostring"
     },
     {
@@ -7793,7 +7793,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "preferredmodel.java",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_preferredmodel"
     },
     {
@@ -7804,7 +7804,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "preferredmodel",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_preferredmodel_preferredmodel"
     },
     {
@@ -7815,7 +7815,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "male",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_preferredmodel_preferredmodel_male"
     },
     {
@@ -7826,7 +7826,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "female",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_preferredmodel_preferredmodel_female"
     },
     {
@@ -7837,7 +7837,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "raijinskin.java",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin"
     },
     {
@@ -7848,7 +7848,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "raijinskin",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin"
     },
     {
@@ -7859,7 +7859,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "default",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_default"
     },
     {
@@ -7870,7 +7870,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "silver_patreon",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_silver_patreon"
     },
     {
@@ -7881,7 +7881,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "crystal_patreon",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_crystal_patreon"
     },
     {
@@ -7892,7 +7892,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "gettextureprefix()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_gettextureprefix"
     },
     {
@@ -7903,7 +7903,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "getrequiredtier()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_getrequiredtier"
     },
     {
@@ -7914,7 +7914,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "tostring()",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "RaijinSkin.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_raijinskin_tostring"
     },
     {
@@ -7925,7 +7925,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "skinsyncstate.java",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_skinsyncstate"
     },
     {
@@ -7936,7 +7936,7 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "skinsyncstate",
-      "community_name": "ModelProviderRegistry.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_config_skinsyncstate_skinsyncstate"
     },
     {
@@ -8365,7 +8365,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "configsyncnetworkhandler.java",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler"
     },
     {
@@ -8376,7 +8376,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "configsyncnetworkhandler",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler"
     },
     {
@@ -8387,7 +8387,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".syncconfig()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler_syncconfig"
     },
     {
@@ -8398,7 +8398,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".registerhandler()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler_registerhandler"
     },
     {
@@ -8409,7 +8409,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".registerskinhandler()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler_registerskinhandler"
     },
     {
@@ -8420,7 +8420,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".setup()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler_setup"
     },
     {
@@ -8431,7 +8431,7 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".sendpatrontiertoplayer()",
-      "community_name": "HatItem.java",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_configsyncnetworkhandler_configsyncnetworkhandler_sendpatrontiertoplayer"
     },
     {
@@ -8442,7 +8442,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "forgeconfigsyncnetworkhandler.java",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler"
     },
     {
@@ -8453,7 +8453,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "forgeconfigsyncnetworkhandler",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler"
     },
     {
@@ -8464,7 +8464,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".syncconfig()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_syncconfig"
     },
     {
@@ -8475,7 +8475,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".registerhandler()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_registerhandler"
     },
     {
@@ -8486,7 +8486,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".registerskinhandler()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_registerskinhandler"
     },
     {
@@ -8497,7 +8497,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".setup()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_setup"
     },
     {
@@ -8508,7 +8508,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".sendpatrontiertoplayer()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_sendpatrontiertoplayer"
     },
     {
@@ -8519,7 +8519,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".globalsync()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_globalsync"
     },
     {
@@ -8530,7 +8530,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".globalskinsync()",
-      "community_name": "PreferredModel",
+      "community_name": "SkinSyncState",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_forgeconfigsyncnetworkhandler_forgeconfigsyncnetworkhandler_globalskinsync"
     },
     {
@@ -8640,7 +8640,7 @@
       "_origin": "ast",
       "community": 64,
       "norm_label": "neoforgepayloadregistry.java",
-      "community_name": "NeoForgePayloadRegistry.java",
+      "community_name": "PatronTierPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry"
     },
     {
@@ -8651,7 +8651,7 @@
       "_origin": "ast",
       "community": 64,
       "norm_label": "neoforgepayloadregistry",
-      "community_name": "NeoForgePayloadRegistry.java",
+      "community_name": "PatronTierPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry"
     },
     {
@@ -8662,7 +8662,7 @@
       "_origin": "ast",
       "community": 64,
       "norm_label": ".register()",
-      "community_name": "NeoForgePayloadRegistry.java",
+      "community_name": "PatronTierPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_neoforgepayloadregistry_neoforgepayloadregistry_register"
     },
     {
@@ -8706,7 +8706,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "disableskinsyncpayload.java",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload"
     },
     {
@@ -8717,7 +8717,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": "disableskinsyncpayload",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_disableskinsyncpayload"
     },
     {
@@ -8728,7 +8728,7 @@
       "_origin": "ast",
       "community": 58,
       "norm_label": ".type()",
-      "community_name": "DisableSkinSyncPayload",
+      "community_name": "CustomPacketPayload",
       "id": "src_main_java_com_skd_ageforgedarmor_networking_packets_disableskinsyncpayload_disableskinsyncpayload_type"
     },
     {
@@ -9113,7 +9113,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterialregistry.java",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry"
     },
     {
@@ -9124,7 +9124,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterialregistry",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_armormaterialregistry"
     },
     {
@@ -9135,7 +9135,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".register()",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_armormaterialregistry_register"
     },
     {
@@ -9146,7 +9146,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".id()",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "AotAMaterials.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistry_armormaterialregistry_id"
     },
     {
@@ -9157,7 +9157,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterialregistryneoforge.java",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge"
     },
     {
@@ -9168,7 +9168,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "armormaterialregistryneoforge",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge_armormaterialregistryneoforge"
     },
     {
@@ -9179,7 +9179,7 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": ".register()",
-      "community_name": "ArmorMaterialRegistry",
+      "community_name": "ArmorMaterialRegistryNeoForge.java",
       "id": "src_main_java_com_skd_ageforgedarmor_registry_armormaterialregistryneoforge_armormaterialregistryneoforge_register"
     },
     {
@@ -9364,10 +9364,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "mixinavatarrenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": "mixinavatarrenderer.java"
     },
     {
       "label": "MixinAvatarRenderer",
@@ -9375,10 +9374,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "mixinavatarrenderer",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": "mixinavatarrenderer"
     },
     {
       "label": ".beforeRenderRightHand()",
@@ -9386,10 +9384,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".beforerenderrighthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": ".beforerenderrighthand()"
     },
     {
       "label": "Identifier",
@@ -9397,10 +9394,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "identifier",
       "id": "identifier",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": "identifier"
     },
     {
       "label": ".beforeRenderLeftHand()",
@@ -9408,10 +9404,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".beforerenderlefthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": ".beforerenderlefthand()"
     },
     {
       "label": ".afterRenderRightHand()",
@@ -9419,10 +9414,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".afterrenderrighthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": ".afterrenderrighthand()"
     },
     {
       "label": ".afterRenderLeftHand()",
@@ -9430,10 +9424,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".afterrenderlefthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": ".afterrenderlefthand()"
     },
     {
       "label": ".renderArmorOnArm()",
@@ -9441,10 +9434,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L80",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".renderarmoronarm()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "community_name": "HumanoidRenderState"
+      "community": 3,
+      "norm_label": ".renderarmoronarm()"
     }
   ],
   "links": [
@@ -10991,9 +10983,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "humanoidmodel"
+      "target": "humanoidmodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -15651,9 +15643,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15662,9 +15654,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15673,9 +15665,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15684,9 +15676,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15695,9 +15687,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15706,9 +15698,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -17649,9 +17641,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17660,9 +17652,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17726,9 +17718,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17737,9 +17729,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17748,9 +17740,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17759,9 +17751,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17770,9 +17762,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17781,9 +17773,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17814,9 +17806,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17825,9 +17817,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17836,9 +17828,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17847,9 +17839,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17858,9 +17850,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17869,9 +17861,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17913,9 +17905,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "itemstack"
+      "target": "itemstack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17946,9 +17938,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "equipmentslot"
+      "target": "equipmentslot",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18595,9 +18587,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18606,9 +18598,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18617,9 +18609,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18628,9 +18620,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18639,9 +18631,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -18650,9 +18642,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18661,9 +18653,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18672,9 +18664,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18683,9 +18675,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18694,9 +18686,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -18727,9 +18719,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "unique"
+      "target": "unique",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18738,9 +18730,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "unique"
+      "target": "unique",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -20459,9 +20451,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider"
+      "target": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -21149,9 +21141,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel"
+      "target": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -27780,9 +27772,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_item_humanoidarmoritem"
+      "target": "src_main_java_com_skd_ageforgedarmor_item_humanoidarmoritem",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29195,9 +29187,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29205,9 +29197,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29215,9 +29207,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29225,9 +29217,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29235,9 +29227,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29245,9 +29237,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29255,9 +29247,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L80",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29266,9 +29258,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderrighthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29277,9 +29269,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29288,9 +29280,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29299,9 +29291,9 @@
       "source_location": "L43",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_beforerenderlefthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -29310,9 +29302,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -29321,9 +29313,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": []
