@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.34] - 2026-07-24
+
+### Fixed
+- **Brazo en primera persona desalineado**: la rotación copiada del AvatarRenderer no coincidía con la pose real de primera persona (el modelo tiene la animación de tercera persona). Ahora usa valores fijos que imitan la posición real del brazo en primera persona, con ajuste al agacharse.
+
 ## [0.0.0-beta.33] - 2026-07-23
 
 ### Fixed

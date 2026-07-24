@@ -1,7 +1,6 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
@@ -22,39 +21,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(AvatarRenderer.class)
 public abstract class MixinAvatarRenderer {
 
-    @Unique private float capturedRightX, capturedRightY, capturedRightZ;
-    @Unique private float capturedLeftX, capturedLeftY, capturedLeftZ;
-
-    @Inject(
-        method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/client/player/AbstractClientPlayer;)V",
-        at = @At("HEAD")
-    )
-    private void beforeRenderRightHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                       Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
-                                       CallbackInfo ci) {
-        HumanoidModel<?> pm = (HumanoidModel<?>) ((AvatarRenderer) (Object) this).getModel();
-        if (pm != null) {
-            capturedRightX = pm.rightArm.xRot;
-            capturedRightY = pm.rightArm.yRot;
-            capturedRightZ = pm.rightArm.zRot;
-        }
-    }
-
-    @Inject(
-        method = "renderLeftHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/client/player/AbstractClientPlayer;)V",
-        at = @At("HEAD")
-    )
-    private void beforeRenderLeftHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                      Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
-                                      CallbackInfo ci) {
-        HumanoidModel<?> pm = (HumanoidModel<?>) ((AvatarRenderer) (Object) this).getModel();
-        if (pm != null) {
-            capturedLeftX = pm.leftArm.xRot;
-            capturedLeftY = pm.leftArm.yRot;
-            capturedLeftZ = pm.leftArm.zRot;
-        }
-    }
-
     @Inject(
         method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/client/player/AbstractClientPlayer;)V",
         at = @At("TAIL")
@@ -62,8 +28,7 @@ public abstract class MixinAvatarRenderer {
     private void afterRenderRightHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
                                       Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
                                       CallbackInfo ci) {
-        renderArmorOnArm(poseStack, collector, packedLight, player, false,
-                capturedRightX, capturedRightY, capturedRightZ);
+        renderArmorOnArm(poseStack, collector, packedLight, player, false);
     }
 
     @Inject(
@@ -73,14 +38,12 @@ public abstract class MixinAvatarRenderer {
     private void afterRenderLeftHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
                                      Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
                                      CallbackInfo ci) {
-        renderArmorOnArm(poseStack, collector, packedLight, player, true,
-                capturedLeftX, capturedLeftY, capturedLeftZ);
+        renderArmorOnArm(poseStack, collector, packedLight, player, true);
     }
 
     @Unique
     private void renderArmorOnArm(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                   AbstractClientPlayer player, boolean isLeft,
-                                   float rotX, float rotY, float rotZ) {
+                                   AbstractClientPlayer player, boolean isLeft) {
         ItemStack chestStack = player.getItemBySlot(EquipmentSlot.CHEST);
         if (!(chestStack.getItem() instanceof HumanoidArmorItem armorItem)) return;
 
@@ -94,9 +57,10 @@ public abstract class MixinAvatarRenderer {
         if (texture == null) return;
 
         ModelPart armorArm = isLeft ? model.leftArm : model.rightArm;
-        armorArm.xRot = rotX;
-        armorArm.yRot = rotY;
-        armorArm.zRot = rotZ;
+        float sneak = player.isCrouching() ? -0.35F : 0.0F;
+        armorArm.xRot = -1.2F + sneak;
+        armorArm.yRot = 0.0F;
+        armorArm.zRot = isLeft ? -0.1F : 0.1F;
 
         collector.submitModelPart(armorArm, poseStack,
                 net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
