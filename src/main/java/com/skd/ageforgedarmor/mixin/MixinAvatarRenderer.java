@@ -1,7 +1,7 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
@@ -57,12 +57,17 @@ public abstract class MixinAvatarRenderer {
         Identifier texture = provider.getTexture(player);
         if (texture == null) return;
 
-        ModelPart armPart = isLeft ? model.leftArm : model.rightArm;
-        armPart.xRot = -0.1F;
-        armPart.yRot = 0.0F;
-        armPart.zRot = isLeft ? -0.1F : 0.1F;
+        ModelPart armorArm = isLeft ? model.leftArm : model.rightArm;
 
-        collector.submitModelPart(armPart, poseStack,
+        HumanoidModel<?> playerModel = (HumanoidModel<?>) ((AvatarRenderer) (Object) this).getModel();
+        if (playerModel != null) {
+            ModelPart playerArm = isLeft ? playerModel.leftArm : playerModel.rightArm;
+            armorArm.xRot = playerArm.xRot;
+            armorArm.yRot = playerArm.yRot;
+            armorArm.zRot = playerArm.zRot;
+        }
+
+        collector.submitModelPart(armorArm, poseStack,
                 net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
                 packedLight, OverlayTexture.NO_OVERLAY, null);
     }
