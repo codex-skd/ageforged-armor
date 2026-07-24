@@ -345,9 +345,9 @@
     "semantic_hash": "a6ac1dbd1c86f270aa050ca28bda6884"
   },
   "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java": {
-    "mtime": 1784893723.9786587,
-    "ast_hash": "2915515e50a2cf50cece481f7050ec3b",
-    "semantic_hash": "2915515e50a2cf50cece481f7050ec3b"
+    "mtime": 1784902686.148325,
+    "ast_hash": "2c6bd436b4f4a3f7c7e5cf9a4f026c39",
+    "semantic_hash": "2c6bd436b4f4a3f7c7e5cf9a4f026c39"
   },
   "src/main/java/com/skd/ageforgedarmor/mixin/MixinHumanoidArmorLayer.java": {
     "mtime": 1784825693.3624623,
