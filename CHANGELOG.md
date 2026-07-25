@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.35] - 2026-07-24
+
+### Fixed
+- **Brazo en primera persona**: reseteadas las posiciones x/y/z del brazo (setupAnim las modifica) antes de aplicar rotación fija. Base xRot = -0.1F (brazo colgando recto), con ajuste al agacharse (-0.4F). Se descartó copiar la rotación del AvatarRenderer porque su modelo tiene la pose animada de tercera persona, no la de primera.
+
 ## [0.0.0-beta.34] - 2026-07-24
 
 ### Fixed
