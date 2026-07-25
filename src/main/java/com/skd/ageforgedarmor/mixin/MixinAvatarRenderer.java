@@ -57,8 +57,11 @@ public abstract class MixinAvatarRenderer {
         if (texture == null) return;
 
         ModelPart armorArm = isLeft ? model.leftArm : model.rightArm;
-        float sneak = player.isCrouching() ? -0.35F : 0.0F;
-        armorArm.xRot = -1.2F + sneak;
+        float sneak = player.isCrouching() ? -0.4F : 0.0F;
+        armorArm.x = 0.0F;
+        armorArm.y = 0.0F;
+        armorArm.z = 0.0F;
+        armorArm.xRot = -0.1F + sneak;
         armorArm.yRot = 0.0F;
         armorArm.zRot = isLeft ? -0.1F : 0.1F;
 
