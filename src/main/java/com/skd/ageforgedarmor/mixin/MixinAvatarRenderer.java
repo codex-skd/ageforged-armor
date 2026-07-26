@@ -57,10 +57,27 @@ public abstract class MixinAvatarRenderer {
         if (texture == null) return;
 
         ModelPart armorArm = isLeft ? model.leftArm : model.rightArm;
-        float sneak = player.isCrouching() ? -0.4F : 0.0F;
-        armorArm.xRot = -0.1F + sneak;
-        armorArm.yRot = 0.0F;
-        armorArm.zRot = isLeft ? -0.1F : 0.1F;
+
+        // Reset x/y/z to default — setupAnim modifies these for sneaking/animations
+        // but in first person the arm position should be fixed
+        if (isLeft) {
+            armorArm.x = 5.0F;
+            armorArm.y = model.isSlim ? 2.5F : 2.0F;
+        } else {
+            armorArm.x = -5.0F;
+            armorArm.y = model.isSlim ? 2.5F : 2.0F;
+        }
+        armorArm.z = 0.0F;
+
+        // Read rotation from AvatarRenderer's model — already set to first-person pose at TAIL
+        AvatarRenderer renderer = (AvatarRenderer) (Object) this;
+        net.minecraft.client.model.HumanoidModel<?> pm = (net.minecraft.client.model.HumanoidModel<?>) renderer.getModel();
+        if (pm != null) {
+            ModelPart playerArm = isLeft ? pm.leftArm : pm.rightArm;
+            armorArm.xRot = playerArm.xRot;
+            armorArm.yRot = playerArm.yRot;
+            armorArm.zRot = playerArm.zRot;
+        }
 
         collector.submitModelPart(armorArm, poseStack,
                 net.minecraft.client.renderer.rendertype.RenderTypes.armorCutoutNoCull(texture),
