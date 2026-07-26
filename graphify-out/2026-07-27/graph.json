@@ -192,7 +192,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "identifier",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_identifier"
     },
     {
@@ -203,7 +203,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "holder",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_holder"
     },
     {
@@ -214,7 +214,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "armormaterial",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_armormaterial"
     },
     {
@@ -225,7 +225,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "armortype",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_armortype"
     },
     {
@@ -236,7 +236,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "override",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_override"
     },
     {
@@ -247,7 +247,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "item",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_java_item"
     },
     {
@@ -2403,7 +2403,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "objectarraylist",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "objectarraylist"
     },
     {
@@ -3723,7 +3723,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "itemregistryimpl",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_itemregistryimpl"
     },
     {
@@ -3745,7 +3745,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".itemregistryimpl()",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_itemregistryimpl_itemregistryimpl"
     },
     {
@@ -3756,7 +3756,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".register()",
-      "community_name": ".register",
+      "community_name": "AgeforgedArmor.java",
       "id": "src_main_java_com_skd_ageforgedarmor_ageforgedarmor_itemregistryimpl_register"
     },
     {
@@ -7397,7 +7397,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".get()",
-      "community_name": ".register",
+      "community_name": "ItemRegistry.java",
       "id": "src_main_java_com_skd_ageforgedarmor_config_aotaconfig_aotaconfig_get"
     },
     {
@@ -9375,10 +9375,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "mixinavatarrenderer.java",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "community_name": "MixinHumanoidArmorLayer.java"
+      "community": 4,
+      "norm_label": "mixinavatarrenderer.java"
     },
     {
       "label": "MixinAvatarRenderer",
@@ -9386,10 +9385,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "mixinavatarrenderer",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "community_name": "MixinHumanoidArmorLayer.java"
+      "community": 4,
+      "norm_label": "mixinavatarrenderer"
     },
     {
       "label": ".afterRenderRightHand()",
@@ -9397,10 +9395,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": ".afterrenderrighthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "community_name": "MixinHumanoidArmorLayer.java"
+      "community": 4,
+      "norm_label": ".afterrenderrighthand()"
     },
     {
       "label": ".afterRenderLeftHand()",
@@ -9408,10 +9405,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": ".afterrenderlefthand()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "community_name": "MixinHumanoidArmorLayer.java"
+      "community": 4,
+      "norm_label": ".afterrenderlefthand()"
     },
     {
       "label": ".renderArmorOnArm()",
@@ -9419,10 +9415,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": ".renderarmoronarm()",
       "id": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "community_name": "MixinHumanoidArmorLayer.java"
+      "community": 4,
+      "norm_label": ".renderarmoronarm()"
     }
   ],
   "links": [
@@ -15618,9 +15613,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15629,9 +15624,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15640,9 +15635,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -15651,9 +15646,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "abstractclientplayer"
+      "target": "abstractclientplayer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -17594,9 +17589,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17605,9 +17600,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "mixin"
+      "target": "mixin",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17671,9 +17666,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17682,9 +17677,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17693,9 +17688,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17704,9 +17699,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "posestack"
+      "target": "posestack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17737,9 +17732,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17748,9 +17743,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17759,9 +17754,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17770,9 +17765,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "submitnodecollector"
+      "target": "submitnodecollector",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17814,9 +17809,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "itemstack"
+      "target": "itemstack",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -17847,9 +17842,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "equipmentslot"
+      "target": "equipmentslot",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18496,9 +18491,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18507,9 +18502,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18518,9 +18513,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "callbackinfo"
+      "target": "callbackinfo",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -18529,9 +18524,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18540,9 +18535,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18551,9 +18546,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "inject"
+      "target": "inject",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -18584,9 +18579,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "unique"
+      "target": "unique",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -18595,9 +18590,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "context": "attribute",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
-      "target": "unique"
+      "target": "unique",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -20316,9 +20311,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider"
+      "target": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -21006,9 +21001,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel"
+      "target": "src_main_java_com_skd_ageforgedarmor_client_models_armormodel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -27637,9 +27632,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_item_humanoidarmoritem"
+      "target": "src_main_java_com_skd_ageforgedarmor_item_humanoidarmoritem",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29052,9 +29047,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29063,9 +29058,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -29074,9 +29069,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "context": "parameter_type",
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "identifier"
+      "target": "identifier",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29084,9 +29079,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29094,9 +29089,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29104,9 +29099,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -29114,9 +29109,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -29125,9 +29120,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderrighthand",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -29136,9 +29131,9 @@
       "source_file": "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_afterrenderlefthand",
-      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm"
+      "target": "src_main_java_com_skd_ageforgedarmor_mixin_mixinavatarrenderer_mixinavatarrenderer_renderarmoronarm",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": []
