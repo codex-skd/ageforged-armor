@@ -527,7 +527,7 @@ git push origin 26.1.2-neoforge-beta.3
 #    El JAR está en build/libs/<mod_id>-<minecraft_version>-<framework>-<version>.jar
 
 # 9. Subir a CurseForge usando el script compartido
-#    powershell -File ../codex-docs/scripts/curseforge-upload.ps1
+#    powershell -File ../../codex-docs/scripts/curseforge-upload.ps1
 #
 #    Este script lee project_vars.md (project_id, api_token) y gradle.properties
 #    (mod_id, mod_name, mod_version) y sube el JAR automáticamente.

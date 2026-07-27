@@ -1,6 +1,6 @@
 # CurseForge — Variables del proyecto
 
-> Las siguientes variables son leídas automáticamente por `../codex-docs/scripts/curseforge-upload.ps1`
+> Las siguientes variables son leídas automáticamente por `../../codex-docs/scripts/curseforge-upload.ps1`
 
 project_id = 1608149
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
@@ -84,7 +84,7 @@ Ejemplo: `26.1.2-neoforge-0.0.0-beta.17`
 Usar el script compartido desde la raíz del proyecto:
 
 ```powershell
-powershell -File ../codex-docs/scripts/curseforge-upload.ps1
+powershell -File ../../codex-docs/scripts/curseforge-upload.ps1
 ```
 
 El script lee `project_id`, `api_token` y `game_versions` de este archivo, y `mod_id`, `mod_name`, `minecraft_version`, `mod_version` de `gradle.properties`. Sube automáticamente el JAR desde `build/libs/` con el changelog de `docs/curseforge/versions/<version>.md`.
@@ -112,6 +112,6 @@ No hay endpoint API para actualizar la descripcion. Se edita manualmente desde l
 3. Actualizar `CHANGELOG.md`
 4. `git commit -m "fix: descripcion\n\nvX.Y.Z"` + `git push`
 5. `git tag -a 26.1.2-neoforge-<version> -m "vX.Y.Z: descripcion"` + `git push origin <tag>`
-6. `powershell -File ../codex-docs/scripts/curseforge-upload.ps1` (o `cd build/libs && python -c "..."` manual)
+6. `powershell -File ../../codex-docs/scripts/curseforge-upload.ps1` (o `cd build/libs && python -c "..."` manual)
 7. Verificar con GET que el changelog se vea bien
 8. Liberar manualmente desde la web si es necesario
