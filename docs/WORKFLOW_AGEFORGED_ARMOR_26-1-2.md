@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.2.6 (codex-docs)
+> **Versión del workflow**: 1.4.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -30,6 +30,47 @@ Reglas:
 - Las clases Java principales deben seguir el naming del `mod_id` pero en **PascalCase**:
   - `ageforged_armor` → clase `AgeforgedArmor`, no `Ageforged_armor` ni `AgeforgedArmorMod`
 - Las config keys en camelCase: `ageforgedArmor.enableFeature`
+
+## Organización en el workspace
+
+Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`), tengan una o varias versiones de Minecraft:
+
+```
+<mod_id>/                    # Carpeta padre del mod (solo organizativa, sin .git)
+└── <minecraft_version>/     # Proyecto real con su propio .git y repositorio GitLab
+    ├── .git/
+    ├── build.gradle
+    ├── gradle.properties
+    ├── src/
+    ├── docs/
+    └── ...
+```
+
+Ejemplo real actual:
+
+```
+teleport_animation/          # Mod padre (organizativo)
+├── 1.21.1/                  # Repositorio independiente en GitLab
+│   ├── .git/
+│   ├── gradle.properties → minecraft_version=1.21.1
+│   └── ...
+└── 26.1.2/                  # Repositorio independiente en GitLab
+    ├── .git/
+    ├── gradle.properties → minecraft_version=26.1.2
+    └── ...
+
+ageforged_armor/
+└── 26.1.2/                  # Este proyecto
+    ├── .git/
+    └── ...
+```
+
+**Reglas:**
+- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
+- Cada `<minecraft_version>/` tiene su propio `.git/` y es un repositorio independiente en GitLab
+- El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
+- La rama default del repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md` (ej: `WORKFLOW_AGEFORGED_ARMOR_26-1-2.md`)
 
 ## Tipografía
 
@@ -195,9 +236,9 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 
 | Rama | Propósito |
 |---|---|
-| `main` | ~~Eliminar.~~ Ya no existe como rama por defecto. La default ahora es `*/main` |
-| `minecraft/<mc-version>/neoforge-<neo-version>/production` | Rama de trabajo. Contiene todo el proyecto: código, docs/, lib_ext/, graphify-out/, tokens reales |
-| `minecraft/<mc-version>/neoforge-<neo-version>/main` | Rama pública por defecto. Recibe el mirror a GitHub. Solo contiene código fuente compilable |
+| `main` | ~~Eliminar.~~ Ya no existe. La default ahora es `*/production` |
+| `minecraft/<mc-version>/neoforge-<neo-version>/production` | **Rama por defecto**. Rama de trabajo con todo el proyecto: código, docs/, lib_ext/, graphify-out/, tokens reales |
+| `minecraft/<mc-version>/neoforge-<neo-version>/main` | **Rama protegida**. Recibe el mirror a GitHub. Solo contiene código fuente compilable. Se actualiza vía CI/CD con force push |
 
 ### Ejemplos
 
@@ -254,9 +295,9 @@ Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `
 
 **2. El operador configura el repositorio** (una sola vez por repo):
 
-1. **Settings → Repository → Default branch**: cambiar a `minecraft/*/neoforge-*/main` (la rama pública que recibe el mirror)
+1. **Settings → Repository → Default branch**: cambiar a `minecraft/*/neoforge-*/production` (la rama de trabajo, la que se ve al clonar)
 2. **Settings → Repository → Branches**: eliminar `main` raíz (si existe)
-3. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
+3. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido (es la rama del mirror, necesita protección)
 4. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
 
 > ⚠️  Las ramas `*/main` nunca se tocan manualmente después de creadas. Solo el CI/CD escribe en ellas con force push.
@@ -567,6 +608,9 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.4.0 | 2026-07-23 | Organización en workspace: todos los mods usan `<mod_id>/<mc-version>/` tengan 1 o N versiones |
+| 1.3.0 | 2026-07-23 | Nueva sección: organización multi-versión con estructura `<mod_id>/<mc-version>/` |
+| 1.2.7 | 2026-07-23 | Corrección: default branch = production, protected branch = */main |
 | 1.2.6 | 2026-07-23 | Fix YAML en CI: `|| (&&)` reemplazado por bloque `if` para evitar error de sintaxis |
 | 1.2.5 | 2026-07-23 | `*/main` es ahora la rama por defecto, `main` raíz eliminada |
 | 1.2.4 | 2026-07-23 | Roles clarificados: agente crea `*/main`, operador elimina `main` raíz + protege + mirror |
