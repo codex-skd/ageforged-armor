@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "ageforged_armor:item/quetzalcoatl_armor_chest"
-    }
-}
