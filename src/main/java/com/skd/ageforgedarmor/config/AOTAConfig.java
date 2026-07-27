@@ -1,0 +1,1369 @@
+package com.skd.ageforgedarmor.config;
+
+import com.google.gson.GsonBuilder;
+import dev.isxander.yacl3.api.*;
+import dev.isxander.yacl3.config.v2.api.ConfigClassHandler;
+import dev.isxander.yacl3.config.v2.api.SerialEntry;
+import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
+import dev.isxander.yacl3.impl.controller.BooleanControllerBuilderImpl;
+import dev.isxander.yacl3.impl.controller.EnumControllerBuilderImpl;
+import dev.isxander.yacl3.impl.controller.FloatFieldControllerBuilderImpl;
+import dev.isxander.yacl3.impl.controller.IntegerFieldControllerBuilderImpl;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
+import com.skd.ageforgedarmor.CommonClass;
+import com.skd.ageforgedarmor.Constants;
+import com.skd.ageforgedarmor.client.patreon.ClientPatronState;
+
+public class AOTAConfig {
+    public static ConfigClassHandler<AOTAConfig> CONFIG_CLASS_HANDLER = ConfigClassHandler
+            .createBuilder(AOTAConfig.class)
+            .id(Identifier.tryBuild(Constants.MOD_ID, "config"))
+            .serializer(config -> GsonConfigSerializerBuilder
+                    .create(config)
+                    .setPath(Constants.CONFIG_PATH)
+                    .appendGsonBuilder(GsonBuilder::setPrettyPrinting).build())
+            .build();
+
+    // Preferred Model
+    @SerialEntry public PreferredModel preferredModel = PreferredModel.MALE;
+
+    // Armor Skins
+    @SerialEntry public OYoroiSkin oYoroiSkin = OYoroiSkin.DEFAULT;
+    @SerialEntry public IronPlateSkin ironPlateSkin = IronPlateSkin.DEFAULT;
+    @SerialEntry public CenturionSkin centurionSkin = CenturionSkin.DEFAULT;
+    @SerialEntry public RaijinSkin raijinSkin = RaijinSkin.DEFAULT;
+    @SerialEntry public PharaohSkin pharaohSkin = PharaohSkin.DEFAULT;
+
+    // BAMBOO_HAT (HEAD only)
+    @SerialEntry public int bambooHatDurability = 5;
+    @SerialEntry public int bambooHatHelmetDef = 1;
+    @SerialEntry public int bambooHatEnchantability = 15;
+    @SerialEntry public float bambooHatToughness = 0.0F;
+
+    // IRON_PLATE armor
+    @SerialEntry public int ironPlateDurability = 15;
+    @SerialEntry public int ironPlateHelmetDef = 2;
+    @SerialEntry public int ironPlateChestDef = 6;
+    @SerialEntry public int ironPlateLegsDef = 5;
+    @SerialEntry public int ironPlateFeetDef = 2;
+    @SerialEntry public int ironPlateEnchantability = 9;
+    @SerialEntry public float ironPlateToughness = 0.0F;
+
+    // HOLY armor
+    @SerialEntry public int holyDurability = 37;
+    @SerialEntry public int holyHelmetDef = 3;
+    @SerialEntry public int holyChestDef = 8;
+    @SerialEntry public int holyLegsDef = 6;
+    @SerialEntry public int holyFeetDef = 3;
+    @SerialEntry public int holyEnchantability = 15;
+    @SerialEntry public float holyToughness = 3.0F;
+    @SerialEntry public float holyKnockbackResistance = 0.1F;
+
+    // EXALTED_AURUM armor
+    @SerialEntry public int exaltedAurumDurability = 37;
+    @SerialEntry public int exaltedAurumHelmetDef = 3;
+    @SerialEntry public int exaltedAurumChestDef = 8;
+    @SerialEntry public int exaltedAurumLegsDef = 6;
+    @SerialEntry public int exaltedAurumFeetDef = 3;
+    @SerialEntry public int exaltedAurumEnchantability = 15;
+    @SerialEntry public float exaltedAurumToughness = 3.0F;
+    @SerialEntry public float exaltedAurumKnockbackResistance = 0.1F;
+
+    // JAPANESE_LIGHT armor
+    @SerialEntry public int japaneseLightDurability = 5;
+    @SerialEntry public int japaneseLightHelmetDef = 1;
+    @SerialEntry public int japaneseLightChestDef = 3;
+    @SerialEntry public int japaneseLightLegsDef = 2;
+    @SerialEntry public int japaneseLightFeetDef = 1;
+    @SerialEntry public int japaneseLightEnchantability = 15;
+    @SerialEntry public float japaneseLightToughness = 0.0F;
+
+    // O_YOROI armor
+    @SerialEntry public int oYoroiDurability = 15;
+    @SerialEntry public int oYoroiHelmetDef = 2;
+    @SerialEntry public int oYoroiChestDef = 6;
+    @SerialEntry public int oYoroiLegsDef = 5;
+    @SerialEntry public int oYoroiFeetDef = 2;
+    @SerialEntry public int oYoroiEnchantability = 9;
+    @SerialEntry public float oYoroiToughness = 0.0F;
+
+    // RAIJIN armor
+    @SerialEntry public int raijinDurability = 37;
+    @SerialEntry public int raijinHelmetDef = 3;
+    @SerialEntry public int raijinChestDef = 8;
+    @SerialEntry public int raijinLegsDef = 6;
+    @SerialEntry public int raijinFeetDef = 3;
+    @SerialEntry public int raijinEnchantability = 15;
+    @SerialEntry public float raijinToughness = 3.0F;
+    @SerialEntry public float raijinKnockbackResistance = 0.1F;
+
+    // PHARAOH armor
+    @SerialEntry public int pharaohDurability = 33;
+    @SerialEntry public int pharaohHelmetDef = 3;
+    @SerialEntry public int pharaohChestDef = 8;
+    @SerialEntry public int pharaohLegsDef = 6;
+    @SerialEntry public int pharaohFeetDef = 3;
+    @SerialEntry public int pharaohEnchantability = 10;
+    @SerialEntry public float pharaohToughness = 2.0F;
+
+    // ANUBIS
+    @SerialEntry public int anubisDurability = 37;
+    @SerialEntry public int anubisHelmetDef = 3;
+    @SerialEntry public int anubisChestDef = 8;
+    @SerialEntry public int anubisLegsDef = 6;
+    @SerialEntry public int anubisFeetDef = 3;
+    @SerialEntry public int anubisEnchantability = 15;
+    @SerialEntry public float anubisToughness = 3.0F;
+    @SerialEntry public float anubisKnockbackResistance = 0.1F;
+
+    // CENTURION armor
+    @SerialEntry public int centurionDurability = 15;
+    @SerialEntry public int centurionHelmetDef = 2;
+    @SerialEntry public int centurionChestDef = 6;
+    @SerialEntry public int centurionLegsDef = 5;
+    @SerialEntry public int centurionFeetDef = 2;
+    @SerialEntry public int centurionEnchantability = 9;
+    @SerialEntry public float centurionToughness = 0.0F;
+
+    // QUETZALCOATL armor
+    @SerialEntry public int quetzalcoatlDurability = 37;
+    @SerialEntry public int quetzalcoatlHelmetDef = 3;
+    @SerialEntry public int quetzalcoatlChestDef = 8;
+    @SerialEntry public int quetzalcoatlLegsDef = 6;
+    @SerialEntry public int quetzalcoatlFeetDef = 3;
+    @SerialEntry public int quetzalcoatlEnchantability = 15;
+    @SerialEntry public float quetzalcoatlToughness = 3.0F;
+    @SerialEntry public float quetzalcoatlKnockbackResistance = 0.1F;
+
+    @SerialEntry
+    public boolean generateArmorLoot = true;
+    @SerialEntry
+    public boolean generateBambooHat = true;
+    @SerialEntry
+    public boolean generateAnubisArmor = true;
+    @SerialEntry
+    public boolean generateCenturionArmor = true;
+    @SerialEntry
+    public boolean generateExaltedAurumArmor = true;
+    @SerialEntry
+    public boolean generateHolyArmor = true;
+    @SerialEntry
+    public boolean generateIronPlateArmor = true;
+    @SerialEntry
+    public boolean generateJapaneseLightArmor = true;
+    @SerialEntry
+    public boolean generateOYoroiArmor = true;
+    @SerialEntry
+    public boolean generatePharaohArmor = true;
+    @SerialEntry
+    public boolean generateQuetzalcoatlArmor = true;
+    @SerialEntry
+    public boolean generateRaijinArmor = true;
+
+    public static AOTAConfig get() {
+        return CONFIG_CLASS_HANDLER.instance();
+    }
+
+    public static YetAnotherConfigLib createScreen() {
+        return YetAnotherConfigLib.create(CONFIG_CLASS_HANDLER,
+                (AOTAConfig defaults, AOTAConfig config, YetAnotherConfigLib.Builder builder) -> {
+
+                    // Body Type option -- always visible, always synced
+                    var preferredModelOption = Option.<PreferredModel>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.preferred_model"))
+                            .description(OptionDescription.of(Component.translatable("config.ageforged_armor.preferred_model.description")))
+                            .binding(defaults.preferredModel, () -> config.preferredModel, val -> config.preferredModel = val)
+                            .controller(opt -> new EnumControllerBuilderImpl<>(opt).enumClass(PreferredModel.class))
+                            .build();
+
+                    // Armor Skin options
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiDefaultRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiAmberRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiNightblueRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiDuskRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiInkRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiJadeRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiPinkyRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiSilverPatreonRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] oYoroiAmethystPatreonRef = new Option[1];
+
+                    var oYoroiSkinDefaultOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.default"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.DEFAULT,
+                                    () -> config.oYoroiSkin == OYoroiSkin.DEFAULT,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.DEFAULT; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiDefaultRef[0] = oYoroiSkinDefaultOption;
+
+                    var oYoroiSkinAmberOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.amber"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.AMBER,
+                                    () -> config.oYoroiSkin == OYoroiSkin.AMBER,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.AMBER; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiAmberRef[0] = oYoroiSkinAmberOption;
+
+                    var oYoroiSkinNightblueOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.nightblue"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.NIGHTBLUE,
+                                    () -> config.oYoroiSkin == OYoroiSkin.NIGHTBLUE,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.NIGHTBLUE; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiNightblueRef[0] = oYoroiSkinNightblueOption;
+
+                    var oYoroiSkinDuskOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.dusk"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.DUSK,
+                                    () -> config.oYoroiSkin == OYoroiSkin.DUSK,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.DUSK; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiDuskRef[0] = oYoroiSkinDuskOption;
+
+                    var oYoroiSkinInkOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.ink"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.INK,
+                                    () -> config.oYoroiSkin == OYoroiSkin.INK,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.INK; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiInkRef[0] = oYoroiSkinInkOption;
+
+                    var oYoroiSkinJadeOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.jade"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.JADE,
+                                    () -> config.oYoroiSkin == OYoroiSkin.JADE,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.JADE; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiJadeRef[0] = oYoroiSkinJadeOption;
+
+                    var oYoroiSkinPinkyOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.pinky"))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.PINKY,
+                                    () -> config.oYoroiSkin == OYoroiSkin.PINKY,
+                                    val -> { if (val) config.oYoroiSkin = OYoroiSkin.PINKY; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    oYoroiPinkyRef[0] = oYoroiSkinPinkyOption;
+
+                    var oYoroiAmethystPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.amethyst_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 4)
+                            ))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.AMETHYST_PATREON,
+                                    () -> config.oYoroiSkin == OYoroiSkin.AMETHYST_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 4) {
+                                            config.oYoroiSkin = OYoroiSkin.AMETHYST_PATREON;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiSilverPatreonRef[0] != null) oYoroiSilverPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .available(ClientPatronState.playerTier >= 4)
+                            .build();
+                    oYoroiAmethystPatreonRef[0] = oYoroiAmethystPatreonOption;
+
+                    var oYoroiSilverPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.o_yoroi.silver_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 1)
+                            ))
+                            .binding(
+                                    defaults.oYoroiSkin == OYoroiSkin.SILVER_PATREON,
+                                    () -> config.oYoroiSkin == OYoroiSkin.SILVER_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 1) {
+                                            config.oYoroiSkin = OYoroiSkin.SILVER_PATREON;
+                                        } else if (!val) {
+                                            config.oYoroiSkin = OYoroiSkin.DEFAULT;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (oYoroiDefaultRef[0] != null) oYoroiDefaultRef[0].requestSet(false);
+                                    if (oYoroiAmberRef[0] != null) oYoroiAmberRef[0].requestSet(false);
+                                    if (oYoroiNightblueRef[0] != null) oYoroiNightblueRef[0].requestSet(false);
+                                    if (oYoroiDuskRef[0] != null) oYoroiDuskRef[0].requestSet(false);
+                                    if (oYoroiInkRef[0] != null) oYoroiInkRef[0].requestSet(false);
+                                    if (oYoroiJadeRef[0] != null) oYoroiJadeRef[0].requestSet(false);
+                                    if (oYoroiPinkyRef[0] != null) oYoroiPinkyRef[0].requestSet(false);
+                                    if (oYoroiAmethystPatreonRef[0] != null) oYoroiAmethystPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .available(ClientPatronState.playerTier >= 1)
+                            .build();
+                    oYoroiSilverPatreonRef[0] = oYoroiSilverPatreonOption;
+
+                    var centurionSilverPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.centurion.silver_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 1)
+                            ))
+                            .binding(
+                                    defaults.centurionSkin == CenturionSkin.SILVER_PATREON,
+                                    () -> config.centurionSkin == CenturionSkin.SILVER_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 1) {
+                                            config.centurionSkin = CenturionSkin.SILVER_PATREON;
+                                        } else if (!val) {
+                                            config.centurionSkin = CenturionSkin.DEFAULT;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(ClientPatronState.playerTier >= 1)
+                            .build();
+
+                    var pharaohSilverPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.pharaoh.silver_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 1)
+                            ))
+                            .binding(
+                                    defaults.pharaohSkin == PharaohSkin.SILVER_PATREON,
+                                    () -> config.pharaohSkin == PharaohSkin.SILVER_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 1) {
+                                            config.pharaohSkin = PharaohSkin.SILVER_PATREON;
+                                        } else if (!val) {
+                                            config.pharaohSkin = PharaohSkin.DEFAULT;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(ClientPatronState.playerTier >= 1)
+                            .build();
+
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] raijinSilverPatreonRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] raijinCrystalPatreonRef = new Option[1];
+
+                    var raijinSilverPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.raijin.silver_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 1)
+                            ))
+                            .binding(
+                                    defaults.raijinSkin == RaijinSkin.SILVER_PATREON,
+                                    () -> config.raijinSkin == RaijinSkin.SILVER_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 1) {
+                                            config.raijinSkin = RaijinSkin.SILVER_PATREON;
+                                        } else if (!val && config.raijinSkin == RaijinSkin.SILVER_PATREON) {
+                                            config.raijinSkin = RaijinSkin.DEFAULT;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (raijinCrystalPatreonRef[0] != null) raijinCrystalPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .available(ClientPatronState.playerTier >= 1)
+                            .build();
+                    raijinSilverPatreonRef[0] = raijinSilverPatreonOption;
+
+                    var raijinCrystalPatreonOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.raijin.crystal_patreon"))
+                            .description(OptionDescription.of(
+                                    Component.translatable("config.ageforged_armor.skin.patreon_required", 3)
+                            ))
+                            .binding(
+                                    defaults.raijinSkin == RaijinSkin.CRYSTAL_PATREON,
+                                    () -> config.raijinSkin == RaijinSkin.CRYSTAL_PATREON,
+                                    val -> {
+                                        if (val && ClientPatronState.playerTier >= 3) {
+                                            config.raijinSkin = RaijinSkin.CRYSTAL_PATREON;
+                                        } else if (!val && config.raijinSkin == RaijinSkin.CRYSTAL_PATREON) {
+                                            config.raijinSkin = RaijinSkin.DEFAULT;
+                                        }
+                                    })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (raijinSilverPatreonRef[0] != null) raijinSilverPatreonRef[0].requestSet(false);
+                                }
+                            })
+                            .available(ClientPatronState.playerTier >= 3)
+                            .build();
+                    raijinCrystalPatreonRef[0] = raijinCrystalPatreonOption;
+
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] ironPlateDefaultRef = new Option[1];
+                    @SuppressWarnings("unchecked")
+                    Option<Boolean>[] ironPlateAshesRef = new Option[1];
+
+                    var ironPlateSkinDefaultOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.iron_plate.default"))
+                            .binding(
+                                    defaults.ironPlateSkin == IronPlateSkin.DEFAULT,
+                                    () -> config.ironPlateSkin == IronPlateSkin.DEFAULT,
+                                    val -> { if (val) config.ironPlateSkin = IronPlateSkin.DEFAULT; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (ironPlateAshesRef[0] != null) ironPlateAshesRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    ironPlateDefaultRef[0] = ironPlateSkinDefaultOption;
+
+                    var ironPlateSkinAshesOption = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.skin.iron_plate.ashes"))
+                            .binding(
+                                    defaults.ironPlateSkin == IronPlateSkin.ASHES,
+                                    () -> config.ironPlateSkin == IronPlateSkin.ASHES,
+                                    val -> { if (val) config.ironPlateSkin = IronPlateSkin.ASHES; })
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE && Boolean.TRUE.equals(option.pendingValue())) {
+                                    if (ironPlateDefaultRef[0] != null) ironPlateDefaultRef[0].requestSet(false);
+                                }
+                            })
+                            .build();
+                    ironPlateAshesRef[0] = ironPlateSkinAshesOption;
+
+                    // IRON_PLATE Options
+                    var ironPlateDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_durability"))
+                            .binding(defaults.ironPlateDurability, () -> config.ironPlateDurability, val -> config.ironPlateDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_helmet_def"))
+                            .binding(defaults.ironPlateHelmetDef, () -> config.ironPlateHelmetDef, val -> config.ironPlateHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_chest_def"))
+                            .binding(defaults.ironPlateChestDef, () -> config.ironPlateChestDef, val -> config.ironPlateChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_legs_def"))
+                            .binding(defaults.ironPlateLegsDef, () -> config.ironPlateLegsDef, val -> config.ironPlateLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_feet_def"))
+                            .binding(defaults.ironPlateFeetDef, () -> config.ironPlateFeetDef, val -> config.ironPlateFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_enchantability"))
+                            .binding(defaults.ironPlateEnchantability, () -> config.ironPlateEnchantability, val -> config.ironPlateEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var ironPlateToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.iron_plate_toughness"))
+                            .binding(defaults.ironPlateToughness, () -> config.ironPlateToughness, val -> config.ironPlateToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // HOLY Options
+                    var holyDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_durability"))
+                            .binding(defaults.holyDurability, () -> config.holyDurability, val -> config.holyDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_helmet_def"))
+                            .binding(defaults.holyHelmetDef, () -> config.holyHelmetDef, val -> config.holyHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_chest_def"))
+                            .binding(defaults.holyChestDef, () -> config.holyChestDef, val -> config.holyChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_legs_def"))
+                            .binding(defaults.holyLegsDef, () -> config.holyLegsDef, val -> config.holyLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_feet_def"))
+                            .binding(defaults.holyFeetDef, () -> config.holyFeetDef, val -> config.holyFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_enchantability"))
+                            .binding(defaults.holyEnchantability, () -> config.holyEnchantability, val -> config.holyEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var holyToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.holy_toughness"))
+                            .binding(defaults.holyToughness, () -> config.holyToughness, val -> config.holyToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // EXALTED_AURUM Options
+                    var exaltedAurumDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_durability"))
+                            .binding(defaults.exaltedAurumDurability, () -> config.exaltedAurumDurability, val -> config.exaltedAurumDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_helmet_def"))
+                            .binding(defaults.exaltedAurumHelmetDef, () -> config.exaltedAurumHelmetDef, val -> config.exaltedAurumHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_chest_def"))
+                            .binding(defaults.exaltedAurumChestDef, () -> config.exaltedAurumChestDef, val -> config.exaltedAurumChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_legs_def"))
+                            .binding(defaults.exaltedAurumLegsDef, () -> config.exaltedAurumLegsDef, val -> config.exaltedAurumLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_feet_def"))
+                            .binding(defaults.exaltedAurumFeetDef, () -> config.exaltedAurumFeetDef, val -> config.exaltedAurumFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_enchantability"))
+                            .binding(defaults.exaltedAurumEnchantability, () -> config.exaltedAurumEnchantability, val -> config.exaltedAurumEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var exaltedAurumToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.exalted_aurum_toughness"))
+                            .binding(defaults.exaltedAurumToughness, () -> config.exaltedAurumToughness, val -> config.exaltedAurumToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // JAPANESE_LIGHT Options
+                    var japaneseLightDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_durability"))
+                            .binding(defaults.japaneseLightDurability, () -> config.japaneseLightDurability, val -> config.japaneseLightDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_helmet_def"))
+                            .binding(defaults.japaneseLightHelmetDef, () -> config.japaneseLightHelmetDef, val -> config.japaneseLightHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_chest_def"))
+                            .binding(defaults.japaneseLightChestDef, () -> config.japaneseLightChestDef, val -> config.japaneseLightChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_legs_def"))
+                            .binding(defaults.japaneseLightLegsDef, () -> config.japaneseLightLegsDef, val -> config.japaneseLightLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_feet_def"))
+                            .binding(defaults.japaneseLightFeetDef, () -> config.japaneseLightFeetDef, val -> config.japaneseLightFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_enchantability"))
+                            .binding(defaults.japaneseLightEnchantability, () -> config.japaneseLightEnchantability, val -> config.japaneseLightEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var japaneseLightToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.japanese_light_toughness"))
+                            .binding(defaults.japaneseLightToughness, () -> config.japaneseLightToughness, val -> config.japaneseLightToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // O_YOROI Options
+                    var oYoroiDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_durability"))
+                            .binding(defaults.oYoroiDurability, () -> config.oYoroiDurability, val -> config.oYoroiDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_helmet_def"))
+                            .binding(defaults.oYoroiHelmetDef, () -> config.oYoroiHelmetDef, val -> config.oYoroiHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_chest_def"))
+                            .binding(defaults.oYoroiChestDef, () -> config.oYoroiChestDef, val -> config.oYoroiChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_legs_def"))
+                            .binding(defaults.oYoroiLegsDef, () -> config.oYoroiLegsDef, val -> config.oYoroiLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_feet_def"))
+                            .binding(defaults.oYoroiFeetDef, () -> config.oYoroiFeetDef, val -> config.oYoroiFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_enchantability"))
+                            .binding(defaults.oYoroiEnchantability, () -> config.oYoroiEnchantability, val -> config.oYoroiEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var oYoroiToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.o_yoroi_toughness"))
+                            .binding(defaults.oYoroiToughness, () -> config.oYoroiToughness, val -> config.oYoroiToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // RAIJIN Options
+                    var raijinDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_durability"))
+                            .binding(defaults.raijinDurability, () -> config.raijinDurability, val -> config.raijinDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_helmet_def"))
+                            .binding(defaults.raijinHelmetDef, () -> config.raijinHelmetDef, val -> config.raijinHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_chest_def"))
+                            .binding(defaults.raijinChestDef, () -> config.raijinChestDef, val -> config.raijinChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_legs_def"))
+                            .binding(defaults.raijinLegsDef, () -> config.raijinLegsDef, val -> config.raijinLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_feet_def"))
+                            .binding(defaults.raijinFeetDef, () -> config.raijinFeetDef, val -> config.raijinFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_enchantability"))
+                            .binding(defaults.raijinEnchantability, () -> config.raijinEnchantability, val -> config.raijinEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var raijinToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.raijin_toughness"))
+                            .binding(defaults.raijinToughness, () -> config.raijinToughness, val -> config.raijinToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // PHARAOH Options
+                    var pharaohDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_durability"))
+                            .binding(defaults.pharaohDurability, () -> config.pharaohDurability, val -> config.pharaohDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_helmet_def"))
+                            .binding(defaults.pharaohHelmetDef, () -> config.pharaohHelmetDef, val -> config.pharaohHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_chest_def"))
+                            .binding(defaults.pharaohChestDef, () -> config.pharaohChestDef, val -> config.pharaohChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_legs_def"))
+                            .binding(defaults.pharaohLegsDef, () -> config.pharaohLegsDef, val -> config.pharaohLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_feet_def"))
+                            .binding(defaults.pharaohFeetDef, () -> config.pharaohFeetDef, val -> config.pharaohFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_enchantability"))
+                            .binding(defaults.pharaohEnchantability, () -> config.pharaohEnchantability, val -> config.pharaohEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var pharaohToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.pharaoh_toughness"))
+                            .binding(defaults.pharaohToughness, () -> config.pharaohToughness, val -> config.pharaohToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // ANUBIS Options
+                    var anubisDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_durability"))
+                            .binding(defaults.anubisDurability, () -> config.anubisDurability, val -> config.anubisDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_helmet_def"))
+                            .binding(defaults.anubisHelmetDef, () -> config.anubisHelmetDef, val -> config.anubisHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_chest_def"))
+                            .binding(defaults.anubisChestDef, () -> config.anubisChestDef, val -> config.anubisChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_legs_def"))
+                            .binding(defaults.anubisLegsDef, () -> config.anubisLegsDef, val -> config.anubisLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_feet_def"))
+                            .binding(defaults.anubisFeetDef, () -> config.anubisFeetDef, val -> config.anubisFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_enchantability"))
+                            .binding(defaults.anubisEnchantability, () -> config.anubisEnchantability, val -> config.anubisEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var anubisToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.anubis_toughness"))
+                            .binding(defaults.anubisToughness, () -> config.anubisToughness, val -> config.anubisToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // CENTURION Options
+                    var centurionDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_durability"))
+                            .binding(defaults.centurionDurability, () -> config.centurionDurability, val -> config.centurionDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_helmet_def"))
+                            .binding(defaults.centurionHelmetDef, () -> config.centurionHelmetDef, val -> config.centurionHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_chest_def"))
+                            .binding(defaults.centurionChestDef, () -> config.centurionChestDef, val -> config.centurionChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_legs_def"))
+                            .binding(defaults.centurionLegsDef, () -> config.centurionLegsDef, val -> config.centurionLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_feet_def"))
+                            .binding(defaults.centurionFeetDef, () -> config.centurionFeetDef, val -> config.centurionFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_enchantability"))
+                            .binding(defaults.centurionEnchantability, () -> config.centurionEnchantability, val -> config.centurionEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var centurionToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.centurion_toughness"))
+                            .binding(defaults.centurionToughness, () -> config.centurionToughness, val -> config.centurionToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // QUETZALCOATL Options
+                    var quetzalcoatlDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_durability"))
+                            .binding(defaults.quetzalcoatlDurability, () -> config.quetzalcoatlDurability, val -> config.quetzalcoatlDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_helmet_def"))
+                            .binding(defaults.quetzalcoatlHelmetDef, () -> config.quetzalcoatlHelmetDef, val -> config.quetzalcoatlHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlChestDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_chest_def"))
+                            .binding(defaults.quetzalcoatlChestDef, () -> config.quetzalcoatlChestDef, val -> config.quetzalcoatlChestDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlLegsDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_legs_def"))
+                            .binding(defaults.quetzalcoatlLegsDef, () -> config.quetzalcoatlLegsDef, val -> config.quetzalcoatlLegsDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlFeetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_feet_def"))
+                            .binding(defaults.quetzalcoatlFeetDef, () -> config.quetzalcoatlFeetDef, val -> config.quetzalcoatlFeetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_enchantability"))
+                            .binding(defaults.quetzalcoatlEnchantability, () -> config.quetzalcoatlEnchantability, val -> config.quetzalcoatlEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var quetzalcoatlToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.quetzalcoatl_toughness"))
+                            .binding(defaults.quetzalcoatlToughness, () -> config.quetzalcoatlToughness, val -> config.quetzalcoatlToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    // BAMBOO_HAT Options
+                    var bambooHatDurability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.bamboo_hat_durability"))
+                            .binding(defaults.bambooHatDurability, () -> config.bambooHatDurability, val -> config.bambooHatDurability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var bambooHatHelmetDef = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.bamboo_hat_helmet_def"))
+                            .binding(defaults.bambooHatHelmetDef, () -> config.bambooHatHelmetDef, val -> config.bambooHatHelmetDef = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var bambooHatEnchantability = Option.<Integer>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.bamboo_hat_enchantability"))
+                            .binding(defaults.bambooHatEnchantability, () -> config.bambooHatEnchantability, val -> config.bambooHatEnchantability = val)
+                            .controller(IntegerFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var bambooHatToughness = Option.<Float>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.bamboo_hat_toughness"))
+                            .binding(defaults.bambooHatToughness, () -> config.bambooHatToughness, val -> config.bambooHatToughness = val)
+                            .controller(FloatFieldControllerBuilderImpl::new)
+                            .build();
+
+                    var generateBambooHat = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_bamboo_hat"))
+                            .binding(defaults.generateBambooHat,
+                                    () -> config.generateBambooHat,
+                                    v -> config.generateBambooHat = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateAnubisArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_anubis_armor"))
+                            .binding(defaults.generateAnubisArmor,
+                                    () -> config.generateAnubisArmor,
+                                    v -> config.generateAnubisArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateCenturionArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_centurion_armor"))
+                            .binding(defaults.generateCenturionArmor,
+                                    () -> config.generateCenturionArmor,
+                                    v -> config.generateCenturionArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateExaltedAurumArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_exalted_aurum_armor"))
+                            .binding(defaults.generateExaltedAurumArmor,
+                                    () -> config.generateExaltedAurumArmor,
+                                    v -> config.generateExaltedAurumArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateHolyArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_holy_armor"))
+                            .binding(defaults.generateHolyArmor,
+                                    () -> config.generateHolyArmor,
+                                    v -> config.generateHolyArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateIronPlateArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_iron_plate_armor"))
+                            .binding(defaults.generateIronPlateArmor,
+                                    () -> config.generateIronPlateArmor,
+                                    v -> config.generateIronPlateArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateJapaneseLightArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_japanese_light_armor"))
+                            .binding(defaults.generateJapaneseLightArmor,
+                                    () -> config.generateJapaneseLightArmor,
+                                    v -> config.generateJapaneseLightArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateOYoroiArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_o_yoroi_armor"))
+                            .binding(defaults.generateOYoroiArmor,
+                                    () -> config.generateOYoroiArmor,
+                                    v -> config.generateOYoroiArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generatePharaohArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_pharaoh_armor"))
+                            .binding(defaults.generatePharaohArmor,
+                                    () -> config.generatePharaohArmor,
+                                    v -> config.generatePharaohArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateQuetzalcoatlArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_quetzalcoatl_armor"))
+                            .binding(defaults.generateQuetzalcoatlArmor,
+                                    () -> config.generateQuetzalcoatlArmor,
+                                    v -> config.generateQuetzalcoatlArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateRaijinArmor = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_raijin_armor"))
+                            .binding(defaults.generateRaijinArmor,
+                                    () -> config.generateRaijinArmor,
+                                    v -> config.generateRaijinArmor = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .available(config.generateArmorLoot)
+                            .build();
+
+                    var generateArmorLoot = Option.<Boolean>createBuilder()
+                            .name(Component.translatable("config.ageforged_armor.generate_armor_loot"))
+                            .description(OptionDescription.of(Component.translatable("config.ageforged_armor.generate_armor_loot.description")))
+                            .binding(defaults.generateArmorLoot,
+                                    () -> config.generateArmorLoot,
+                                    v -> config.generateArmorLoot = v)
+                            .controller(opt -> new BooleanControllerBuilderImpl(opt).coloured(true).trueFalseFormatter())
+                            .addListener((option, event) -> {
+                                if (event == OptionEventListener.Event.STATE_CHANGE) {
+                                    boolean available = option.pendingValue();
+                                    generateBambooHat.setAvailable(available);
+                                    generateAnubisArmor.setAvailable(available);
+                                    generateCenturionArmor.setAvailable(available);
+                                    generateExaltedAurumArmor.setAvailable(available);
+                                    generateHolyArmor.setAvailable(available);
+                                    generateIronPlateArmor.setAvailable(available);
+                                    generateJapaneseLightArmor.setAvailable(available);
+                                    generateOYoroiArmor.setAvailable(available);
+                                    generatePharaohArmor.setAvailable(available);
+                                    generateQuetzalcoatlArmor.setAvailable(available);
+                                    generateRaijinArmor.setAvailable(available);
+                                }
+                            })
+                            .build();
+
+
+                    // Build the config screen
+                    return builder
+                            .title(Component.translatable("config.ageforged_armor.title"))
+                            .category(
+                                    ConfigCategory.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.category.armor_skin"))
+                                            .option(LabelOption.create(Component.translatable("config.ageforged_armor.skin.skins_section_notice")))
+                                            .option(preferredModelOption)
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.o_yoroi").withStyle(ChatFormatting.YELLOW))
+                                                    .option(oYoroiSkinDefaultOption)
+                                                    .option(oYoroiSkinAmberOption)
+                                                    .option(oYoroiSkinNightblueOption)
+                                                    .option(oYoroiSkinDuskOption)
+                                                    .option(oYoroiSkinInkOption)
+                                                    .option(oYoroiSkinJadeOption)
+                                                    .option(oYoroiSkinPinkyOption)
+                                                    .collapsed(false)
+                                                    .build()
+                                            )
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.iron_plate").withStyle(ChatFormatting.YELLOW))
+                                                    .option(ironPlateSkinDefaultOption)
+                                                    .option(ironPlateSkinAshesOption)
+                                                    .collapsed(false)
+                                                    .build()
+                                            )
+                                            .build()
+                            )
+                            .category(ConfigCategory.createBuilder()
+                                    .name(Component.translatable("config.ageforged_armor.category.patreon_skins")
+                                            .withStyle(ChatFormatting.GOLD))
+                                    .option(LabelOption.create(Component.translatable("config.ageforged_armor.patreon_tab_notice")
+                                            .withStyle(ChatFormatting.LIGHT_PURPLE)))
+                                    .option(ButtonOption.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.patreon_unlock_button"))
+                                            .action((screen, opt) -> {
+                                                    try {
+                            java.awt.Desktop.getDesktop().browse(java.net.URI.create("https://www.patreon.com/dawnoftimemod"));
+                                                    } catch (Exception ignored) {}
+                                            })
+                                            .build()
+                                    )
+                                    .group(OptionGroup.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.patreon.tier", 1).withStyle(ChatFormatting.WHITE))
+                                            .option(oYoroiSilverPatreonOption)
+                                            .option(centurionSilverPatreonOption)
+                                            .option(pharaohSilverPatreonOption)
+                                            .option(raijinSilverPatreonOption)
+                                            .collapsed(true)
+                                            .build()
+                                    )
+                                    .group(OptionGroup.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.patreon.tier", 3).withStyle(ChatFormatting.AQUA))
+                                            .option(raijinCrystalPatreonOption)
+                                            .collapsed(true)
+                                            .build()
+                                    )
+                                    .group(OptionGroup.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.patreon.tier", 4).withStyle(ChatFormatting.LIGHT_PURPLE))
+                                            .option(oYoroiAmethystPatreonOption)
+                                            .collapsed(true)
+                                            .build()
+                                    )
+                                    .build()
+                            )
+                            .category(
+                                    ConfigCategory.createBuilder()
+                                            .name(Component.translatable("config.ageforged_armor.armor_properties_title"))
+
+                                            // BAMBOO_HAT
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.bamboo_hat").withStyle(ChatFormatting.WHITE))
+                                                    .option(bambooHatDurability)
+                                                    .option(bambooHatHelmetDef)
+                                                    .option(bambooHatEnchantability)
+                                                    .option(bambooHatToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // JAPANESE_LIGHT
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.japanese_light").withStyle(ChatFormatting.WHITE))
+                                                    .option(japaneseLightDurability)
+                                                    .option(japaneseLightHelmetDef)
+                                                    .option(japaneseLightChestDef)
+                                                    .option(japaneseLightLegsDef)
+                                                    .option(japaneseLightFeetDef)
+                                                    .option(japaneseLightEnchantability)
+                                                    .option(japaneseLightToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // IRON_PLATE
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.iron_plate").withStyle(ChatFormatting.YELLOW))
+                                                    .option(ironPlateDurability)
+                                                    .option(ironPlateHelmetDef)
+                                                    .option(ironPlateChestDef)
+                                                    .option(ironPlateLegsDef)
+                                                    .option(ironPlateFeetDef)
+                                                    .option(ironPlateEnchantability)
+                                                    .option(ironPlateToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // O_YOROI
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.o_yoroi").withStyle(ChatFormatting.YELLOW))
+                                                    .option(oYoroiDurability)
+                                                    .option(oYoroiHelmetDef)
+                                                    .option(oYoroiChestDef)
+                                                    .option(oYoroiLegsDef)
+                                                    .option(oYoroiFeetDef)
+                                                    .option(oYoroiEnchantability)
+                                                    .option(oYoroiToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // CENTURION
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.centurion").withStyle(ChatFormatting.YELLOW))
+                                                    .option(centurionDurability)
+                                                    .option(centurionHelmetDef)
+                                                    .option(centurionChestDef)
+                                                    .option(centurionLegsDef)
+                                                    .option(centurionFeetDef)
+                                                    .option(centurionEnchantability)
+                                                    .option(centurionToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // PHARAOH
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.pharaoh").withStyle(ChatFormatting.BLUE))
+                                                    .option(pharaohDurability)
+                                                    .option(pharaohHelmetDef)
+                                                    .option(pharaohChestDef)
+                                                    .option(pharaohLegsDef)
+                                                    .option(pharaohFeetDef)
+                                                    .option(pharaohEnchantability)
+                                                    .option(pharaohToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // HOLY
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.holy").withStyle(ChatFormatting.LIGHT_PURPLE))
+                                                    .option(holyDurability)
+                                                    .option(holyHelmetDef)
+                                                    .option(holyChestDef)
+                                                    .option(holyLegsDef)
+                                                    .option(holyFeetDef)
+                                                    .option(holyEnchantability)
+                                                    .option(holyToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // EXALTED_AURUM
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.exalted_aurum").withStyle(ChatFormatting.LIGHT_PURPLE))
+                                                    .option(exaltedAurumDurability)
+                                                    .option(exaltedAurumHelmetDef)
+                                                    .option(exaltedAurumChestDef)
+                                                    .option(exaltedAurumLegsDef)
+                                                    .option(exaltedAurumFeetDef)
+                                                    .option(exaltedAurumEnchantability)
+                                                    .option(exaltedAurumToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // RAIJIN
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.raijin").withStyle(ChatFormatting.LIGHT_PURPLE))
+                                                    .option(raijinDurability)
+                                                    .option(raijinHelmetDef)
+                                                    .option(raijinChestDef)
+                                                    .option(raijinLegsDef)
+                                                    .option(raijinFeetDef)
+                                                    .option(raijinEnchantability)
+                                                    .option(raijinToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // ANUBIS
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.anubis").withStyle(ChatFormatting.LIGHT_PURPLE))
+                                                    .option(anubisDurability)
+                                                    .option(anubisHelmetDef)
+                                                    .option(anubisChestDef)
+                                                    .option(anubisLegsDef)
+                                                    .option(anubisFeetDef)
+                                                    .option(anubisEnchantability)
+                                                    .option(anubisToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+
+                                            // QUETZALCOATL
+                                            .group(OptionGroup.createBuilder()
+                                                    .name(Component.translatable("config.ageforged_armor.group.quetzalcoatl").withStyle(ChatFormatting.LIGHT_PURPLE))
+                                                    .option(quetzalcoatlDurability)
+                                                    .option(quetzalcoatlHelmetDef)
+                                                    .option(quetzalcoatlChestDef)
+                                                    .option(quetzalcoatlLegsDef)
+                                                    .option(quetzalcoatlFeetDef)
+                                                    .option(quetzalcoatlEnchantability)
+                                                    .option(quetzalcoatlToughness)
+                                                    .collapsed(true)
+                                                    .build()
+                                            )
+                                            .build()
+                            )
+                            .category(ConfigCategory.createBuilder()
+                                    .name(Component.translatable("config.ageforged_armor.category.armor_loot"))
+                                    .option(generateArmorLoot)
+                                    .option(generateBambooHat)
+                                    .option(generateAnubisArmor)
+                                    .option(generateCenturionArmor)
+                                    .option(generateExaltedAurumArmor)
+                                    .option(generateHolyArmor)
+                                    .option(generateIronPlateArmor)
+                                    .option(generateJapaneseLightArmor)
+                                    .option(generateOYoroiArmor)
+                                    .option(generatePharaohArmor)
+                                    .option(generateQuetzalcoatlArmor)
+                                    .option(generateRaijinArmor)
+                                    .build())
+                            .save(() -> {
+                                CONFIG_CLASS_HANDLER.save();
+                                CommonClass.CONFIG_SYNC_HANDLER.syncConfig();
+                            });
+                });
+    }
+
+}
