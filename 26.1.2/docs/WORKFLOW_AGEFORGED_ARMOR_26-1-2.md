@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.4.0 (codex-docs)
+> **Versión del workflow**: 1.5.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -49,6 +49,22 @@ Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`)
 Ejemplo real actual:
 
 ```
+teleport_animation/          # Único repositorio Git (un solo .git/)
+├── 1.21.1/                  # Solo existe en su rama: minecraft/1.21.1/neoforge-21.1/production
+│   ├── src/
+│   ├── docs/
+│   └── ...
+└── 26.1.2/                  # Solo existe en su rama: minecraft/26.1.2/neoforge-26.1.2/production
+    ├── src/
+    ├── docs/
+    └── ...
+```
+
+Cada versión de Minecraft es una **rama** dentro del mismo repositorio. La carpeta de cada versión **solo existe en su propia rama** — no hay rastro de otras versiones al cambiar de rama.
+
+Ejemplo real actual:
+
+```
 teleport_animation/          # Mod padre (organizativo)
 ├── 1.21.1/                  # Repositorio independiente en GitLab
 │   ├── .git/
@@ -59,18 +75,25 @@ teleport_animation/          # Mod padre (organizativo)
     ├── gradle.properties → minecraft_version=26.1.2
     └── ...
 
-ageforged_armor/
-└── 26.1.2/                  # Este proyecto
-    ├── .git/
+ageforged_armor/            # Único repositorio Git (un solo .git/)
+├── 26.1.2/                  # Esta versión — solo existe en su propia rama
+│   ├── src/
+│   ├── docs/
+│   └── ...
+└── .git/
+
+info_tab/
+└── 26.1.2/
     └── ...
 ```
 
 **Reglas:**
-- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
-- Cada `<minecraft_version>/` tiene su propio `.git/` y es un repositorio independiente en GitLab
+- `mod_id/` es el repositorio Git, contiene el `.git/`
+- Cada `<minecraft_version>/` es una subcarpeta **sin `.git/` propio**
+- Cada versión tiene su propia rama `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- Cada rama solo contiene los archivos de su versión. Las carpetas de otras versiones **no existen** en esa rama
 - El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
-- La rama default del repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
-- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md` (ej: `WORKFLOW_AGEFORGED_ARMOR_26-1-2.md`)
+- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
 
 ## Tipografía
 
@@ -527,7 +550,7 @@ git push origin 26.1.2-neoforge-beta.3
 #    El JAR está en build/libs/<mod_id>-<minecraft_version>-<framework>-<version>.jar
 
 # 9. Subir a CurseForge usando el script compartido
-#    powershell -File ../../codex-docs/scripts/curseforge-upload.ps1
+#    powershell -File ../codex-docs/scripts/curseforge-upload.ps1
 #
 #    Este script lee project_vars.md (project_id, api_token) y gradle.properties
 #    (mod_id, mod_name, mod_version) y sube el JAR automáticamente.
@@ -608,6 +631,7 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.5.0 | 2026-07-27 | Un solo `.git/` por mod, ramas por versión. Cada rama solo tiene los archivos de su versión |
 | 1.4.0 | 2026-07-23 | Organización en workspace: todos los mods usan `<mod_id>/<mc-version>/` tengan 1 o N versiones |
 | 1.3.0 | 2026-07-23 | Nueva sección: organización multi-versión con estructura `<mod_id>/<mc-version>/` |
 | 1.2.7 | 2026-07-23 | Corrección: default branch = production, protected branch = */main |
