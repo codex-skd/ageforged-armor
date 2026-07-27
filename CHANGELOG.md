@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.0] - 2026-07-27
+
+### First Stable Release
+
+Tras 37 betas, Ageforged Armor llega a su primera versión estable. Incluye todas las correcciones desde beta.27 hasta beta.37:
+
+- Casco: posición corregida (templateLayerDefinition scale 1.0 → 0.0), renderizado sobre la skin, sin copia de pose del PlayerModel
+- Brazo primera persona: rotación fija con ajuste al agacharse, posición reseteada al hombro, captura en TAIL
+- Refactor completo de clases (eliminados residuos del mod original "Armor of the Ages")
+- WORKFLOW alineado con codex-docs v1.6.0
+- Atribución de fork añadida
+
 ## [0.0.0-beta.35] - 2026-07-24
 
 ### Fixed
