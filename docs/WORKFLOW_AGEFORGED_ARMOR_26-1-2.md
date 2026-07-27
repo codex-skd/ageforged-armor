@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.5.0 (codex-docs)
+> **Versión del workflow**: 1.6.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -36,63 +36,44 @@ Reglas:
 Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`), tengan una o varias versiones de Minecraft:
 
 ```
-<mod_id>/                    # Carpeta padre del mod (solo organizativa, sin .git)
-└── <minecraft_version>/     # Proyecto real con su propio .git y repositorio GitLab
-    ├── .git/
-    ├── build.gradle
-    ├── gradle.properties
-    ├── src/
-    ├── docs/
-    └── ...
-```
-
-Ejemplo real actual:
-
-```
-teleport_animation/          # Único repositorio Git (un solo .git/)
-├── 1.21.1/                  # Solo existe en su rama: minecraft/1.21.1/neoforge-21.1/production
+<mod_id>/                    # Carpeta padre organizativa (sin .git)
+├── <minecraft_version>/     # Repositorio independiente con su propio .git
+│   ├── .git/
+│   ├── build.gradle
+│   ├── gradle.properties
 │   ├── src/
 │   ├── docs/
 │   └── ...
-└── 26.1.2/                  # Solo existe en su rama: minecraft/26.1.2/neoforge-26.1.2/production
-    ├── src/
-    ├── docs/
+└── <minecraft_version>/
+    ├── .git/
     └── ...
 ```
 
-Cada versión de Minecraft es una **rama** dentro del mismo repositorio. La carpeta de cada versión **solo existe en su propia rama** — no hay rastro de otras versiones al cambiar de rama.
+Cada versión de Minecraft es un **repositorio independiente** con su propio `.git/`. Así puedes tener todas las versiones en local simultáneamente sin cambiar de rama.
 
 Ejemplo real actual:
 
 ```
-teleport_animation/          # Mod padre (organizativo)
-├── 1.21.1/                  # Repositorio independiente en GitLab
-│   ├── .git/
-│   ├── gradle.properties → minecraft_version=1.21.1
-│   └── ...
-└── 26.1.2/                  # Repositorio independiente en GitLab
+ageforged_armor/             # Carpeta organizativa, sin .git
+└── 26.1.2/                  # Repositorio independiente (.git aquí)
     ├── .git/
     ├── gradle.properties → minecraft_version=26.1.2
     └── ...
 
-ageforged_armor/            # Único repositorio Git (un solo .git/)
-├── 26.1.2/                  # Esta versión — solo existe en su propia rama
-│   ├── src/
-│   ├── docs/
+teleport_animation/          # Carpeta organizativa, sin .git
+├── 1.21.1/                  # Repositorio independiente (.git aquí)
+│   ├── gradle.properties → minecraft_version=1.21.1
 │   └── ...
-└── .git/
-
-info_tab/
-└── 26.1.2/
+└── 26.1.2/                  # Repositorio independiente (.git aquí)
+    ├── gradle.properties → minecraft_version=26.1.2
     └── ...
 ```
 
 **Reglas:**
-- `mod_id/` es el repositorio Git, contiene el `.git/`
-- Cada `<minecraft_version>/` es una subcarpeta **sin `.git/` propio**
-- Cada versión tiene su propia rama `minecraft/<mc-version>/neoforge-<neo-version>/production`
-- Cada rama solo contiene los archivos de su versión. Las carpetas de otras versiones **no existen** en esa rama
+- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
+- Cada `<minecraft_version>/` tiene su propio `.git/` y remoto en GitLab
 - El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
+- La rama default de cada repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
 - El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
 
 ## Tipografía
@@ -631,6 +612,7 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.6.0 | 2026-07-27 | Cada versión tiene su propio `.git/` (repositorios independientes por versión) |
 | 1.5.0 | 2026-07-27 | Un solo `.git/` por mod, ramas por versión. Cada rama solo tiene los archivos de su versión |
 | 1.4.0 | 2026-07-23 | Organización en workspace: todos los mods usan `<mod_id>/<mc-version>/` tengan 1 o N versiones |
 | 1.3.0 | 2026-07-23 | Nueva sección: organización multi-versión con estructura `<mod_id>/<mc-version>/` |
