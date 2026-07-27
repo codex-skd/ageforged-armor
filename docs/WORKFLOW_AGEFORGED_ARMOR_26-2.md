@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.6.0 (codex-docs)
+> **Versión del workflow**: 1.8.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -29,6 +29,9 @@ Reglas:
 - El display name en `README.md` y `CHANGELOG.md` debe estar en **Title Case**
 - Las clases Java principales deben seguir el naming del `mod_id` pero en **PascalCase**:
   - `ageforged_armor` → clase `AgeforgedArmor`, no `Ageforged_armor` ni `AgeforgedArmorMod`
+  - `armor_cosmetic` → clase `ArmorCosmetic`, no `Armor_cosmetic`
+  - `carry_mechanics` → clase `CarryMechanics`, no `Carrymechanics`
+  - `dinamyc_combat` → clase `DinamycCombat` (respetando el mod_id existente)
 - Las config keys en camelCase: `ageforgedArmor.enableFeature`
 
 ## Organización en el workspace
@@ -74,6 +77,30 @@ teleport_animation/          # Carpeta organizativa, sin .git
 - Cada `<minecraft_version>/` tiene su propio `.git/` y remoto en GitLab
 - El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
 - La rama default de cada repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
+
+### Modelo alternativo: un solo repositorio con ramas por versión
+
+Alternativamente, el repositorio Git puede estar en `<mod_id>/` y cada versión de Minecraft ser una subcarpeta manejada por ramas:
+
+```
+teleport_animation/          # Un solo repositorio Git
+├── 1.21.1/                  # Rama: minecraft/1.21.1/neoforge-21.1/production
+│   ├── build.gradle
+│   ├── src/
+│   └── ...
+└── 26.2/                  # Rama: minecraft/26.2/neoforge-26.2.0.32-beta/production
+    ├── build.gradle
+    ├── src/
+    └── ...
+```
+
+**Reglas:**
+- `mod_id/` es el repositorio Git, contiene el `.git/`
+- Cada `<minecraft_version>/` es una subcarpeta **sin `.git/` propio**
+- Cada versión tiene su propia rama `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- Cada rama solo contiene los archivos de su versión. Las carpetas de otras versiones **no existen** en esa rama
+- El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
 - El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
 
 ## Tipografía
@@ -191,6 +218,7 @@ Footer:    Créditos
 - **Títulos diferenciados**: h1 muy visible (centrado), h2 para secciones, h3 para cada feature
 - **Logo en el footer**: Centrado, con enlace a la web y eslogan
 - **Sin carácter retroactivo**: Solo aplicamos el formato a nuevas versiones; las existentes no se modifican
+- **Idioma**: CurseForge en **inglés** (en-US) — plataforma global
 
 #### Formato del changelog
 
@@ -431,13 +459,84 @@ Cada vez que se hace push a una rama `production`, GitLab CI ejecuta automática
 5. Commitea con force push a la rama `*/main` hermana
 6. El mirror de GitLab replica esa rama a GitHub automáticamente
 
+### Variables de CI/CD (grupo GitLab)
+
+Estas variables se configuran en **Settings → CI/CD → Variables** a nivel de grupo `stalking-dragons/minecraft`. Así todos los proyectos del grupo tienen acceso automático sin repetirlas:
+
+| Variable | Propósito |
+|---|---|
+| `GITLAB_PUSH_TOKEN` | Token de GitLab con permisos de API y push. Usado por el CI para hacer force push a `*/main` |
+| `GH_USERNAME` | Usuario de GitHub (`santiagolosadaborrajo`) |
+| `GH_TOKEN` | Token de GitHub con permisos de push a repos. Usado para autenticar el mirror |
+
+> Los tokens personales del desarrollador se almacenan localmente en `codex-docs/secrets.md` (excluido vía `.gitignore`). No se suben al repositorio.
+
 ### Requisito previo
 
 Antes de que el CI/CD funcione, la rama `main` hermana debe existir al menos una vez en el remoto. Ver [Inicialización única de cada rama `*/main`](#inicialización-única-de-cada-rama-main).
 
 ### .gitlab-ci.yml
 
-Ver el archivo `.gitlab-ci.yml` en la raíz del proyecto.
+Crear en la raíz del proyecto:
+
+```yaml
+image: alpine:latest
+
+variables:
+  GIT_DEPTH: 0
+
+stages:
+  - publish
+
+publish-public:
+  stage: publish
+  only:
+    - /^minecraft\/.*\/.*\/production$/
+  except:
+    - main
+  script:
+    - apk add --no-cache git
+    - git config user.email "ci@mods-minecraft.dev"
+    - git config user.name "Mods Minecraft CI"
+
+    # Derivar la rama main: minecraft/X/N/production → minecraft/X/N/main
+    - MAIN_BRANCH=$(echo "$CI_COMMIT_BRANCH" | sed 's|/production$|/main|')
+    - echo "Publishing to $MAIN_BRANCH"
+
+    # Obtener la rama main hermana. Si no existe, falla — el agente debe crearla manualmente.
+    - |
+      if ! git fetch origin "$MAIN_BRANCH" 2>/dev/null; then
+        echo "ERROR: $MAIN_BRANCH no existe. Créala desde production primero."
+        exit 1
+      fi
+    - git checkout "$MAIN_BRANCH"
+
+    # Limpiar y copiar solo archivos públicos desde production
+    - git rm -rf --ignore-unmatch --quiet . 2>/dev/null || true
+
+    # Archivos obligatorios (deben existir en todos los mods)
+    - git checkout "$CI_COMMIT_SHA" -- src/ build.gradle settings.gradle gradle.properties gradlew gradlew.bat .gitignore README.md CHANGELOG.md
+
+    # Archivos opcionales (pueden no existir en algunos mods)
+    - git checkout "$CI_COMMIT_SHA" -- libs/ 2>/dev/null || true
+
+    # Sanitizar secrets en gradle.properties
+    - sed -i 's/^mod_version=.*/mod_version=0.0.0/' gradle.properties
+    - sed -i 's/^mod_group_id=.*/mod_group_id=com\.skd\.placeholder/' gradle.properties
+    - sed -i 's/^mod_curseforge_project_id=.*/mod_curseforge_project_id=/' gradle.properties
+    # Nota: el API token de CurseForge está en docs/curseforge/project_vars.md,
+    # no en gradle.properties. No se sanitiza aquí porque GitLab es privado.
+
+    # Commit y push (force push a la rama main hermana)
+    - git add -A
+    - |
+      if ! git diff --cached --quiet; then
+        git commit -m "chore: sync public code from ${CI_COMMIT_SHORT_SHA}"
+        git push --force "https://oauth2:${GITLAB_PUSH_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" HEAD:"$MAIN_BRANCH"
+      else
+        echo "No changes to publish"
+      fi
+```
 
 ### Archivos que pasan a GitHub
 
@@ -459,6 +558,14 @@ Ver el archivo `.gitlab-ci.yml` en la raíz del proyecto.
 ---
 
 ## Flujo completo (paso a paso)
+
+### 0. Determinar alcance de versión
+
+Antes de comenzar cualquier tarea sobre un mod, la agente debe:
+
+1. Listar las carpetas de versión dentro del mod (ej: `26.1.2`, `26.2`)
+2. Preguntar al usuario usando un selector con opciones: **"Todas"** + cada versión disponible
+3. Si no hay respuesta del usuario, **no asumir** — esperar instrucción
 
 ### 1. Desarrollo
 
@@ -612,6 +719,8 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.8.0 | 2026-07-27 | Nuevo: Step 0 (alcance de versión), CI/CD variables y .gitlab-ci.yml completo. Sección de modelos organizativos: añadido modelo alternativo (rama por versión) |
+| 1.7.0 | 2026-07-27 | Actualización: ejemplos extra de PascalCase, buena práctica de idioma en CurseForge, tabla de ramas con descripción de versión más reciente |
 | 1.6.0 | 2026-07-27 | Cada versión tiene su propio `.git/` (repositorios independientes por versión) |
 | 1.5.0 | 2026-07-27 | Un solo `.git/` por mod, ramas por versión. Cada rama solo tiene los archivos de su versión |
 | 1.4.0 | 2026-07-23 | Organización en workspace: todos los mods usan `<mod_id>/<mc-version>/` tengan 1 o N versiones |
