@@ -1,6 +1,7 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
@@ -22,23 +23,29 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class MixinAvatarRenderer {
 
     @Inject(
-        method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/client/player/AbstractClientPlayer;)V",
+        method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;Z)V",
         at = @At("TAIL")
     )
     private void afterRenderRightHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                      Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
+                                      Identifier skinTexture, boolean hasSleeve,
                                       CallbackInfo ci) {
-        renderArmorOnArm(poseStack, collector, packedLight, player, false);
+        AbstractClientPlayer player = Minecraft.getInstance().player;
+        if (player != null) {
+            renderArmorOnArm(poseStack, collector, packedLight, player, false);
+        }
     }
 
     @Inject(
-        method = "renderLeftHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/client/player/AbstractClientPlayer;)V",
+        method = "renderLeftHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;Z)V",
         at = @At("TAIL")
     )
     private void afterRenderLeftHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                     Identifier skinTexture, boolean hasSleeve, AbstractClientPlayer player,
+                                     Identifier skinTexture, boolean hasSleeve,
                                      CallbackInfo ci) {
-        renderArmorOnArm(poseStack, collector, packedLight, player, true);
+        AbstractClientPlayer player = Minecraft.getInstance().player;
+        if (player != null) {
+            renderArmorOnArm(poseStack, collector, packedLight, player, true);
+        }
     }
 
     @Unique
@@ -58,8 +65,6 @@ public abstract class MixinAvatarRenderer {
 
         ModelPart armorArm = isLeft ? model.leftArm : model.rightArm;
 
-        // Reset x/y/z to default — setupAnim modifies these for sneaking/animations
-        // but in first person the arm position should be fixed
         if (isLeft) {
             armorArm.x = 5.0F;
             armorArm.y = model.isSlim ? 2.5F : 2.0F;
@@ -69,7 +74,6 @@ public abstract class MixinAvatarRenderer {
         }
         armorArm.z = 0.0F;
 
-        // Read rotation from AvatarRenderer's model — already set to first-person pose at TAIL
         AvatarRenderer renderer = (AvatarRenderer) (Object) this;
         net.minecraft.client.model.HumanoidModel<?> pm = (net.minecraft.client.model.HumanoidModel<?>) renderer.getModel();
         if (pm != null) {
