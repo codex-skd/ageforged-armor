@@ -1,13 +1,13 @@
 package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.player.AvatarRenderer;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
+import net.minecraft.world.entity.Avatar;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
 import com.skd.ageforgedarmor.client.ArmorModelProvider;
@@ -23,27 +23,25 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class MixinAvatarRenderer {
 
     @Inject(
-        method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;Z)V",
+        method = "renderRightHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/world/entity/Avatar;)V",
         at = @At("TAIL")
     )
     private void afterRenderRightHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                      Identifier skinTexture, boolean hasSleeve,
+                                      Identifier skinTexture, boolean hasSleeve, Avatar entity,
                                       CallbackInfo ci) {
-        AbstractClientPlayer player = Minecraft.getInstance().player;
-        if (player != null) {
+        if (entity instanceof AbstractClientPlayer player) {
             renderArmorOnArm(poseStack, collector, packedLight, player, false);
         }
     }
 
     @Inject(
-        method = "renderLeftHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;Z)V",
+        method = "renderLeftHand(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/resources/Identifier;ZLnet/minecraft/world/entity/Avatar;)V",
         at = @At("TAIL")
     )
     private void afterRenderLeftHand(PoseStack poseStack, SubmitNodeCollector collector, int packedLight,
-                                     Identifier skinTexture, boolean hasSleeve,
+                                     Identifier skinTexture, boolean hasSleeve, Avatar entity,
                                      CallbackInfo ci) {
-        AbstractClientPlayer player = Minecraft.getInstance().player;
-        if (player != null) {
+        if (entity instanceof AbstractClientPlayer player) {
             renderArmorOnArm(poseStack, collector, packedLight, player, true);
         }
     }

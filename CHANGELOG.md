@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.3] - 2026-07-27
+
+### Fix
+
+- **First-person armor not visible**: el mixin injectaba al método de 5 parámetros, pero `ItemInHandRenderer` llama al de 6 parámetros (`renderRightHand` con `Avatar`). Corregido.
+
 ## [0.0.0-beta.2] - 2026-07-27
 
 ### Fix
