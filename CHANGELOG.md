@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [0.0.0-beta.2] - 2026-07-27
+
+### Fix
+
+- **Crash on startup**: `MixinAvatarRenderer` apuntaba a la firma antigua de `renderRightHand`/`renderLeftHand` (con `AbstractClientPlayer`). MC 26.2 eliminó ese parámetro. Ahora usa la versión de 5 parámetros y obtiene el player via `Minecraft.getInstance().player`.
+
 ## [0.0.0-beta.1] - 2026-07-27
 
 ### Port to Minecraft 26.2 / NeoForge 26.2.0.32-beta
