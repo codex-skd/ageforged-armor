@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.0] - 2026-07-29
+
+### Fix
+
+- **Armadura descuadrada al atacar con BetterCombat/PlayerAnimationLib**: `PlayerAnimationLib` inyecta la pose de sus animaciones (torso, brazos, piernas) directamente en `PlayerModel.setupAnim()`, pero nuestro `ArmorModel` es una instancia separada que extiende `HumanoidModel` y nunca recibía esos cambios — solo reproducía la animación vainilla base. Ahora `MixinHumanoidArmorLayer` fuerza un `setupAnim()` fresco sobre el `PlayerModel` real del jugador y copia su pose resultante (torso, brazos, piernas, casco) sobre la armadura. Sin mods de animación instalados el comportamiento es idéntico al anterior.
+
 ## [1.0.0] - 2026-07-29
 
 ### First Stable Release (26.2 track)
