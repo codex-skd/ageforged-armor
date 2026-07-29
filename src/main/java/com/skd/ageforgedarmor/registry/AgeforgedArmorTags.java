@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 import static com.skd.ageforgedarmor.Constants.MOD_ID;
 
-public class AotATags {
+public class AgeforgedArmorTags {
     public static class Items {
         private static TagKey<Item> tag(String path) {
             return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MOD_ID, path));

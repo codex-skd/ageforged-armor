@@ -1,12 +1,18 @@
-# Graph Report - G:\Proyectos\Mods_Minecraft\ageforged_armor\26.1.2  (2026-07-27)
+# Graph Report - 26.2  (2026-07-29)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 319 files · ~138,614 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 963 nodes · 1532 edges · 276 communities (45 shown, 231 thin omitted)
+- 999 nodes · 1346 edges · 316 communities (37 shown, 279 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `f450f2b3`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - ArmorModel
@@ -169,6 +175,7 @@
 - Items
 - Mixin
 - PoseStack
+- settings.gradle
 - ArmorMaterial
 - ArmorType
 - DeferredRegister
@@ -176,10 +183,6 @@
 - Identifier
 - IEventBus
 - Item
-- Logger
-- Override
-- EquipmentSlot
-- Holder
 - ItemStack
 - Player
 - Entity
@@ -283,227 +286,218 @@
 - SubmitNodeCollector
 - SuppressWarnings
 - Unique
+- LayerDefinition
+- ModelPart
+- Override
+- LayerDefinition
+- ModelPart
+- Override
+- LayerDefinition
+- ModelPart
+- Override
+- LayerDefinition
+- ModelPart
+- Override
+- LayerDefinition
+- ModelPart
+- Override
+- LayerDefinition
+- ModelPart
+- Override
+- ArmorMaterial
+- ArmorType
+- Component
+- EquipmentSlot
+- Holder
+- ItemStack
+- Override
+- Player
+- TooltipContext
+- TooltipDisplay
+- TooltipFlag
+- Override
+- CallbackInfo
+- EquipmentSlot
+- HumanoidRenderState
+- Inject
+- ItemStack
+- Mixin
+- PoseStack
+- SubmitNodeCollector
+- Unique
 
 ## God Nodes (most connected - your core abstractions)
 1. `ArmorModel` - 138 edges
-2. `ArmorModelProvider` - 28 edges
-3. `ArmorSetEffectHandler` - 21 edges
-4. `ArmorModelSupplier` - 15 edges
-5. `HumanoidArmorItem` - 14 edges
-6. `MixedArmorModelProvider` - 13 edges
-7. `OYoroiSkin` - 11 edges
-8. `ChestAnubisArmorModel` - 10 edges
-9. `ForgeConfigSyncNetworkHandler` - 10 edges
-10. `GlobalPreferenceSyncPayload` - 10 edges
+2. `Changelog` - 38 edges
+3. `ArmorModelProvider` - 30 edges
+4. `ArmorSetEffectHandler` - 21 edges
+5. `ArmorModelSupplier` - 15 edges
+6. `MixedArmorModelProvider` - 14 edges
+7. `Flujo de trabajo — Ageforged Armor (NeoForge)` - 14 edges
+8. `SkinSyncState` - 13 edges
+9. `CurseForge — Variables del proyecto` - 13 edges
+10. `OYoroiSkin` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `ItemRegistryImpl` --references--> `Items`  [EXTRACTED]
+  src/main/java/com/skd/ageforgedarmor/AgeforgedArmor.java → src/main/java/com/skd/ageforgedarmor/registry/AgeforgedArmorTags.java
 - `ArmorModelProvider` --references--> `ArmorModel`  [EXTRACTED]
   src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java → src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java
+- `SkinnedMixedArmorModelProvider` --references--> `SkinSyncState`  [EXTRACTED]
+  src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java → src/main/java/com/skd/ageforgedarmor/config/SkinSyncState.java
 - `MixedArmorModelProvider` --references--> `ArmorModel`  [EXTRACTED]
   src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java → src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java
 - `ArmorModel` --implements--> `ArmorModelSupplier`  [EXTRACTED]
   src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java → src/main/java/com/skd/ageforgedarmor/client/ArmorModelSupplier.java
-- `FeetAnubisArmorModel` --inherits--> `ArmorModel`  [EXTRACTED]
-  src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/FeetAnubisArmorModel.java → src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java
-- `HeadAnubisArmorModel` --inherits--> `ArmorModel`  [EXTRACTED]
-  src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/HeadAnubisArmorModel.java → src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (276 total, 231 thin omitted)
+## Communities (316 total, 279 thin omitted)
 
 ### Community 0 - "ArmorModel"
-Cohesion: 0.05
-Nodes (28): ArmorModel, ChestAnubisArmorModel, ModelPart, Override, HeadHolyArmorModel, LayerDefinition, ModelPart, Override (+20 more)
+Cohesion: 0.15
+Nodes (5): LegsOYoroiArmorModel, HeadQuetzalcoatlArmorModel, ArmorModel, HumanoidModel, MeshDefinition
 
 ### Community 1 - "AgeforgedArmor.java"
-Cohesion: 0.05
-Nodes (29): CreativeModeTab, EquipmentAsset, AgeforgedArmor, ItemRegistryImpl, AotAMaterials, AgeforgedArmorLootModifier, LootModifiers, ArmorMaterialRegistry (+21 more)
+Cohesion: 0.07
+Nodes (27): CreativeModeTab, LootModifiers, ArmorMaterialRegistry, ArmorMaterialRegistryNeoForge, Mod, ModContainer, ObjectArrayList, Post (+19 more)
 
 ### Community 2 - "CustomPacketPayload"
-Cohesion: 0.08
-Nodes (14): CustomPacketPayload, ForgeConfigSyncNetworkHandler, NeoForgePacketHandlers, NeoForgePayloadRegistry, DisablePreferencesPayload, DisableSkinSyncPayload, GlobalPreferenceSyncPayload, GlobalSkinSyncPayload (+6 more)
+Cohesion: 0.05
+Nodes (26): ConfigClassHandler, CustomPacketPayload, PreferredModel, FEMALE, MALE, SkinSyncState, ConfigSyncNetworkHandler, NeoForgePacketHandlers (+18 more)
 
 ### Community 3 - "HumanoidRenderState"
-Cohesion: 0.11
-Nodes (15): EquipmentSlot, AnimatedArmorModelProvider, AnimatedMixedArmorModelProvider, ArmorModelProvider, MixedArmorModelProvider, SkinnedMixedArmorModelProvider, ArmorModelSupplier, ForgeHumanoidArmorItem (+7 more)
+Cohesion: 0.13
+Nodes (18): AnimatedArmorModelProvider, AnimatedMixedArmorModelProvider, ArmorModelSupplier, ModelLayerLocation, ArmorModelProvider, Entity, EquipmentSlot, HumanoidRenderState (+10 more)
 
 ### Community 4 - "OYoroiSkin"
 Cohesion: 0.05
-Nodes (24): SkinVariant, CenturionSkin, DEFAULT, SILVER_PATREON, IronPlateSkin, ASHES, DEFAULT, OYoroiSkin (+16 more)
-
-### Community 5 - ".templateLayerDefinition"
-Cohesion: 0.07
-Nodes (17): LayerDefinition, ChestCenturionArmorModel, LayerDefinition, ModelPart, Override, ChestOYoroiArmorModel, LayerDefinition, ModelPart (+9 more)
+Nodes (24): CenturionSkin, DEFAULT, SILVER_PATREON, IronPlateSkin, ASHES, DEFAULT, OYoroiSkin, AMBER (+16 more)
 
 ### Community 6 - "HatItem.java"
-Cohesion: 0.08
-Nodes (15): ChatFormatting, ConfigClassHandler, CommonClass, AOTAConfig, HatItem, ConfigSyncNetworkHandler, SetBonus, SetBonusRegistry (+7 more)
+Cohesion: 0.10
+Nodes (15): ChatFormatting, HumanoidArmorItem, ForgeHumanoidArmorItem, HatItem, SetBonus, SetBonusRegistry, InteractionHand, InteractionResult (+7 more)
 
 ### Community 7 - "HumanoidArmorItem.java"
-Cohesion: 0.14
-Nodes (22): AbstractClientPlayer, Rarity, HumanoidArmorItem, ArmorMaterial, ArmorType, Component, EquipmentSlot, Holder (+14 more)
-
-### Community 8 - "ArmorSetEffectHandler"
-Cohesion: 0.26
-Nodes (3): ArmorSetEffectHandler, ItemStack, MobEffect
+Cohesion: 0.35
+Nodes (10): AbstractClientPlayer, Avatar, CallbackInfo, Identifier, Inject, Mixin, PoseStack, SubmitNodeCollector (+2 more)
 
 ### Community 9 - "MixinHumanoidArmorLayer.java"
-Cohesion: 0.27
-Nodes (13): HumanoidArmorLayer, Operation, CallbackInfo, EquipmentSlot, HumanoidRenderState, Inject, ItemStack, Mixin (+5 more)
+Cohesion: 0.36
+Nodes (4): MixinHumanoidArmorLayer, HumanoidArmorLayer, Operation, WrapOperation
 
 ### Community 10 - "PatronConfig"
 Cohesion: 0.16
 Nodes (7): PatronConfig, PatronData, PatronEntry, PatronFetcher, PatronSyncHandler, Gson, PlayerLoggedInEvent
 
 ### Community 11 - "HeadAnubisArmorModel"
-Cohesion: 0.33
-Nodes (4): HeadAnubisArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.22
+Nodes (10): EquipmentAsset, ResourceKey, AgeforgedArmorMaterials, ArmorMaterial, ArmorType, Holder, AgeforgedArmorTags, Items (+2 more)
 
 ### Community 12 - "ChestExaltedAurumArmorModel"
-Cohesion: 0.33
-Nodes (4): ChestExaltedAurumArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.14
+Nodes (13): [0.0.0-beta.1] - 2026-07-13, [0.0.0-beta.23] - 2026-07-17, [0.0.0-beta.24] - 2026-07-17, [0.0.0-beta.31] - 2026-07-23, [0.0.0-beta.35] - 2026-07-24, [0.0.0-beta.7] - 2026-07-13, Added, Changelog (+5 more)
 
 ### Community 13 - "LegsExaltedAurumArmorModel"
-Cohesion: 0.33
-Nodes (4): LayerDefinition, ModelPart, Override, LegsExaltedAurumArmorModel
-
-### Community 14 - "ChestHolyArmorModel"
-Cohesion: 0.33
-Nodes (4): ChestHolyArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.14
+Nodes (13): Changelog, CurseForge — Variables del proyecto, Descripcion del proyecto, Estructura del changelog (HTML), Flujo completo, Parámetros del upload, Proyecto, Rama (+5 more)
 
 ### Community 15 - "ChestIronPlateArmorModel"
-Cohesion: 0.33
-Nodes (4): ChestIronPlateArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.22
+Nodes (9): Archivos de CurseForge, Buenas prácticas, Ejemplo de estructura HTML para release notes, Elementos HTML disponibles, Elementos HTML permitidos, Estructura de la descripción general, Estructura del proyecto, Formato de descripciones CurseForge (+1 more)
 
 ### Community 16 - "ChestJapaneseLightArmorModel"
-Cohesion: 0.31
-Nodes (4): ChestJapaneseLightArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.25
+Nodes (6): Ageforged Armor, Armor Sets, Development, Features, License, Requirements
 
 ### Community 17 - "ChestQuetzalcoatlArmorModel"
-Cohesion: 0.33
-Nodes (4): ChestQuetzalcoatlArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.25
+Nodes (8): 0. Determinar alcance de versión, 1. Desarrollo, 2. Copiar a instancia de pruebas, 3. Probar en instancia, 4. Preparar versión para CurseForge, 5. Release estable, 6. Actualizar Knowledge Graph (Graphify), Flujo completo (paso a paso)
 
 ### Community 18 - "ChestRaijinArmorModel"
-Cohesion: 0.33
-Nodes (4): ChestRaijinArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 19 - "HeadRaijinArmorModel"
-Cohesion: 0.33
-Nodes (4): HeadRaijinArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 20 - "FeetAnubisArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetAnubisArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 21 - "LegsAnubisArmorModel"
-Cohesion: 0.36
-Nodes (4): LayerDefinition, ModelPart, Override, LegsAnubisArmorModel
-
-### Community 22 - "FeetCenturionArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetCenturionArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 23 - "HeadCenturionArmorModel"
-Cohesion: 0.33
-Nodes (4): HeadCenturionArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 24 - "LegsCenturionArmorModel"
-Cohesion: 0.33
-Nodes (4): LayerDefinition, ModelPart, Override, LegsCenturionArmorModel
-
-### Community 25 - "FeetExaltedAurumArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetExaltedAurumArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 26 - "HeadExaltedAurumArmorModel"
-Cohesion: 0.33
-Nodes (4): HeadExaltedAurumArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 27 - "FeetHolyArmorModel"
-Cohesion: 0.36
-Nodes (4): FeetHolyArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 28 - "LegsHolyArmorModel"
-Cohesion: 0.33
-Nodes (4): LayerDefinition, ModelPart, Override, LegsHolyArmorModel
-
-### Community 29 - "LegsIronPlateArmorModel"
-Cohesion: 0.36
-Nodes (4): LayerDefinition, ModelPart, Override, LegsIronPlateArmorModel
-
-### Community 30 - "FeetJapaneseLightArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetJapaneseLightArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 31 - "HeadJapaneseLightArmorModel"
-Cohesion: 0.36
-Nodes (4): HeadJapaneseLightArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 32 - "FeetOYoroiArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetOYoroiArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 33 - "HeadOYoroiArmorModel"
-Cohesion: 0.33
-Nodes (4): HeadOYoroiArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 34 - "LegsOYoroiArmorModel"
-Cohesion: 0.36
-Nodes (4): LayerDefinition, ModelPart, Override, LegsOYoroiArmorModel
-
-### Community 35 - "FeetPharaohArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetPharaohArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 36 - "FeetQuetzalcoatlArmorModel"
-Cohesion: 0.36
-Nodes (4): FeetQuetzalcoatlArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 37 - "HeadQuetzalcoatlArmorModel"
-Cohesion: 0.36
-Nodes (4): HeadQuetzalcoatlArmorModel, LayerDefinition, ModelPart, Override
-
-### Community 38 - "LegsQuetzalcoatlArmorModel"
-Cohesion: 0.36
-Nodes (4): LayerDefinition, ModelPart, Override, LegsQuetzalcoatlArmorModel
-
-### Community 39 - "FeetRaijinArmorModel"
-Cohesion: 0.33
-Nodes (4): FeetRaijinArmorModel, LayerDefinition, ModelPart, Override
+Cohesion: 0.25
+Nodes (8): Buenas prácticas, Convenciones de nomenclatura, Ficheros de documentación, Flujo de trabajo — Ageforged Armor (NeoForge), Historial de versiones del workflow, Idioma, Organización en el workspace, Tipografía
 
 ### Community 40 - "AgeforgedArmorClient"
 Cohesion: 0.33
 Nodes (3): AgeforgedArmorClient, LoggingIn, RegisterLayerDefinitions
 
-### Community 41 - "PreferredModel"
-Cohesion: 0.50
-Nodes (3): PreferredModel, FEMALE, MALE
+### Community 68 - "Entity"
+Cohesion: 0.40
+Nodes (5): Archivos que pasan a GitHub, .gitlab-ci.yml, Publicación a GitHub (CI/CD), Requisito previo, Variables de CI/CD (grupo GitLab)
 
-### Community 42 - "gradlew"
+### Community 69 - "EquipmentSlot"
+Cohesion: 0.40
+Nodes (5): Ejemplos, Esquema de publicación, Estructura, Inicialización única de cada rama `*/main`, Ramas
+
+### Community 70 - "HumanoidRenderState"
+Cohesion: 0.50
+Nodes (4): [0.0.0-beta.28] - 2026-07-22, Docs, Infrastructure, Refactor
+
+### Community 71 - "Identifier"
+Cohesion: 0.50
+Nodes (3): CLAUDE.md — ageforged_armor (26.2), Paso 0 obligatorio, Prioridad de instrucciones
+
+### Community 72 - "LayerDefinition"
+Cohesion: 0.50
+Nodes (4): ¿Cuándo incrementar versión?, Esquema, Nombre del JAR, Versionado
+
+### Community 73 - "Logger"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
+### Community 74 - "NotNull"
+Cohesion: 0.67
+Nodes (3): [0.0.0-beta.12] - 2026-07-13, Added, Fixed
+
+### Community 75 - "Override"
+Cohesion: 0.67
+Nodes (3): [0.0.0-beta.15] - 2026-07-16, Changed, Fixed
+
+### Community 79 - "Player"
+Cohesion: 0.67
+Nodes (3): [0.0.0-beta.22] - 2026-07-17, Added, Fixed
+
+### Community 85 - "ArmorMaterial"
+Cohesion: 0.67
+Nodes (3): [0.0.0-beta.30] - 2026-07-22, Fixed, Infrastructure
+
+### Community 86 - "ArmorType"
+Cohesion: 0.67
+Nodes (3): [0.0.0-beta.9] - 2026-07-13, Added, Changed
+
+### Community 87 - "Holder"
+Cohesion: 0.67
+Nodes (3): Commits (Conventional Commits), Ejemplos, Tipos
+
+### Community 100 - "IGlobalLootModifier"
+Cohesion: 0.67
+Nodes (3): Ejemplos, Formato del tag, Tags (GitLab)
+
+### Community 213 - "IGlobalLootModifier"
+Cohesion: 0.16
+Nodes (13): LootModifierProvider, GlobalLootModifierProvider, LootContext, LootItemCondition, LootModifier, PackOutput, Provider, AgeforgedArmorLootModifier (+5 more)
+
 ## Knowledge Gaps
-- **25 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+20 more)
+- **122 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+117 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **231 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **279 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ArmorModel` connect `ArmorModel` to `HumanoidRenderState`, `.templateLayerDefinition`, `HumanoidArmorItem.java`, `MixinHumanoidArmorLayer.java`, `HeadAnubisArmorModel`, `ChestExaltedAurumArmorModel`, `LegsExaltedAurumArmorModel`, `ChestHolyArmorModel`, `ChestIronPlateArmorModel`, `ChestJapaneseLightArmorModel`, `ChestQuetzalcoatlArmorModel`, `ChestRaijinArmorModel`, `HeadRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `LegsHolyArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `FeetPharaohArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`?**
-  _High betweenness centrality (0.371) - this node is a cross-community bridge._
+- **Why does `ArmorModel` connect `ArmorModel` to `HumanoidRenderState`, `.templateLayerDefinition`, `HumanoidArmorItem.java`, `MixinHumanoidArmorLayer.java`, `ChestHolyArmorModel`, `HeadRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `LegsHolyArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `FeetPharaohArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`, `PreferredModel`, `gradlew`, `SkinSyncState.java`, `LootTablesToModify.java`, `CallbackInfo`, `ArmorMaterial`, `ArmorType`, `DeferredRegister`, `Holder`, `Identifier`, `IEventBus`, `Item`, `Logger`, `Override`?**
+  _High betweenness centrality (0.248) - this node is a cross-community bridge._
 - **Why does `ArmorModelProvider` connect `HumanoidRenderState` to `ArmorModel`, `OYoroiSkin`, `HatItem.java`, `HumanoidArmorItem.java`, `MixinHumanoidArmorLayer.java`?**
-  _High betweenness centrality (0.118) - this node is a cross-community bridge._
-- **Why does `AgeforgedArmor` connect `AgeforgedArmor.java` to `PatronConfig`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `HumanoidArmorItem` connect `HatItem.java` to `MixinHumanoidArmorLayer.java`, `AgeforgedArmor.java`, `HumanoidArmorItem.java`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **What connects `Constants`, `ClientPatronState`, `DEFAULT` to the rest of the system?**
-  _25 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `ArmorModel` be split into smaller, more focused modules?**
-  _Cohesion score 0.05285592497868713 - nodes in this community are weakly interconnected._
+  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `AgeforgedArmor.java` be split into smaller, more focused modules?**
-  _Cohesion score 0.05201636469900643 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06763285024154589 - nodes in this community are weakly interconnected._
 - **Should `CustomPacketPayload` be split into smaller, more focused modules?**
-  _Cohesion score 0.07547169811320754 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05263157894736842 - nodes in this community are weakly interconnected._
+- **Should `HumanoidRenderState` be split into smaller, more focused modules?**
+  _Cohesion score 0.12579281183932348 - nodes in this community are weakly interconnected._

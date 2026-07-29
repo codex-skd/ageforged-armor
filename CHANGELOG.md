@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.0] - 2026-07-29
+
+### First Stable Release (26.2 track)
+
+Primera versión estable del port a Minecraft 26.2, tras las betas 1-3 de esta rama.
+
+- Refactor: eliminados los últimos residuos de naming del mod original "Armor of the Ages" (`AOTAConfig` → `AgeforgedArmorConfig`, `AotAMaterials` → `AgeforgedArmorMaterials`, `AotATags` → `AgeforgedArmorTags`)
+- WORKFLOW alineado con codex-docs v1.11.0
+- Incluye las correcciones de beta.1 a beta.3 (port a 26.2, fix de `MixinAvatarRenderer` para brazos en primera persona)
+
 ## [0.0.0-beta.3] - 2026-07-27
 
 ### Fix
@@ -24,18 +34,6 @@ All notable changes to this project will be documented in this file.
 - Updated NeoGradle plugin to 2.0.142
 - Updated YACL dependency to 3.9.6+26.2-neoforge
 - Initial beta for the 26.2 version track
-
-## [1.0.0] - 2026-07-27
-
-### First Stable Release
-
-Tras 37 betas, Ageforged Armor llega a su primera versión estable. Incluye todas las correcciones desde beta.27 hasta beta.37:
-
-- Casco: posición corregida (templateLayerDefinition scale 1.0 → 0.0), renderizado sobre la skin, sin copia de pose del PlayerModel
-- Brazo primera persona: rotación fija con ajuste al agacharse, posición reseteada al hombro, captura en TAIL
-- Refactor completo de clases (eliminados residuos del mod original "Armor of the Ages")
-- WORKFLOW alineado con codex-docs v1.6.0
-- Atribución de fork añadida
 
 ## [0.0.0-beta.35] - 2026-07-24
 

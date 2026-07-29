@@ -1,6 +1,6 @@
 # Flujo de trabajo — Ageforged Armor (NeoForge)
 
-> **Versión del workflow**: 1.8.0 (codex-docs)
+> **Versión del workflow**: 1.11.0 (codex-docs)
 > Este archivo pertenece al proyecto **Ageforged Armor**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -36,52 +36,7 @@ Reglas:
 
 ## Organización en el workspace
 
-Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`), tengan una o varias versiones de Minecraft:
-
-```
-<mod_id>/                    # Carpeta padre organizativa (sin .git)
-├── <minecraft_version>/     # Repositorio independiente con su propio .git
-│   ├── .git/
-│   ├── build.gradle
-│   ├── gradle.properties
-│   ├── src/
-│   ├── docs/
-│   └── ...
-└── <minecraft_version>/
-    ├── .git/
-    └── ...
-```
-
-Cada versión de Minecraft es un **repositorio independiente** con su propio `.git/`. Así puedes tener todas las versiones en local simultáneamente sin cambiar de rama.
-
-Ejemplo real actual:
-
-```
-ageforged_armor/             # Carpeta organizativa, sin .git
-└── 26.2/                  # Repositorio independiente (.git aquí)
-    ├── .git/
-    ├── gradle.properties → minecraft_version=26.2
-    └── ...
-
-teleport_animation/          # Carpeta organizativa, sin .git
-├── 1.21.1/                  # Repositorio independiente (.git aquí)
-│   ├── gradle.properties → minecraft_version=1.21.1
-│   └── ...
-└── 26.2/                  # Repositorio independiente (.git aquí)
-    ├── gradle.properties → minecraft_version=26.2
-    └── ...
-```
-
-**Reglas:**
-- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
-- Cada `<minecraft_version>/` tiene su propio `.git/` y remoto en GitLab
-- El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
-- La rama default de cada repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
-- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
-
-### Modelo alternativo: un solo repositorio con ramas por versión
-
-Alternativamente, el repositorio Git puede estar en `<mod_id>/` y cada versión de Minecraft ser una subcarpeta manejada por ramas:
+El patrón vigente en `WORKFLOW_GENERIC.md` (desde v1.10.0) es **un repositorio Git por mod**, con **una rama por versión de Minecraft** (par `production`/`main` cada una):
 
 ```
 teleport_animation/          # Un solo repositorio Git
@@ -89,7 +44,7 @@ teleport_animation/          # Un solo repositorio Git
 │   ├── build.gradle
 │   ├── src/
 │   └── ...
-└── 26.2/                  # Rama: minecraft/26.2/neoforge-26.2.0.32-beta/production
+└── 26.2/                    # Rama: minecraft/26.2/neoforge-26.2.0.32-beta/production
     ├── build.gradle
     ├── src/
     └── ...
@@ -102,6 +57,8 @@ teleport_animation/          # Un solo repositorio Git
 - Cada rama solo contiene los archivos de su versión. Las carpetas de otras versiones **no existen** en esa rama
 - El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
 - El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
+
+> **Estado actual de `ageforged_armor` (pendiente de migrar)**: este mod todavía usa el patrón legacy de **repositorio Git independiente por versión** (`ageforged_armor/26.2/.git`, `ageforged_armor/26.1.2/.git` por separado), documentado en `codex-docs/docs/MODS_AUDIT.md` como pendiente transversal. No se ha consolidado a un único repo con ramas porque implica reescribir historial — se hará en una sesión dedicada, no como parte de un release. Hasta entonces, cada versión (`26.1.2`, `26.2`) sigue siendo un repositorio Git separado con su propio `.git/` y remoto en GitLab.
 
 ## Tipografía
 
@@ -656,15 +613,18 @@ git push origin 26.2-neoforge-1.0.0
 
 ### 6. Actualizar Knowledge Graph (Graphify)
 
-Después de cada push a remoto, actualizar el grafo de conocimiento:
+Después de cada push a remoto, actualizar el grafo de conocimiento. **`build` no es un comando válido** (versión instalada: 0.9.12) — usar `extract` o `update`:
 
 ```bash
-# 1. Regenerar el grafo del mod
-#    Ruta al ejecutable (Windows):
-"C:\Users\llagu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts\graphify.exe" build .
+# Ruta al ejecutable (Windows), o "graphify" a secas si está en PATH:
+GRAPHIFY="C:\Users\llagu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts\graphify.exe"
 
-#    O si graphify está en PATH:
-#    graphify build .
+# 1. Regenerar el grafo del mod
+#    Si graphify-out/ NO existe todavía (primera vez): extracción completa con LLM
+"$GRAPHIFY" extract .
+
+#    Si graphify-out/ YA existe (actualización tras cambios de código): más barato, sin LLM
+"$GRAPHIFY" update . --force
 
 # 2. Commit del grafo actualizado
 git add graphify-out/
@@ -673,6 +633,10 @@ git commit -m "chore: update knowledge graph"
 # 3. Push
 git push
 ```
+
+**Regla importante — nunca crear copias fechadas**: `graphify-out/` contiene únicamente el snapshot **actual** del grafo. No se deben crear subcarpetas tipo `graphify-out/2026-07-27/` como "backup manual" — el historial ya vive en los commits de git (`git log -- graphify-out/`). Si aparecen, hay que borrarlas.
+
+**Qué archivo leer**: **`GRAPH_REPORT.md`** — el resumen legible (nodos, comunidades, hubs de navegación). Es el que debe leer el agente para entender la arquitectura antes de tocar código. `graph.json` y `graph.html` son datos crudos para el visor interactivo — **no leerlos directamente como contexto** (`graph.json` puede pesar >1MB y anula el ahorro de tokens).
 
 > **Nota**: El grafo permite a los asistentes de IA entender la arquitectura del mod sin leer todo el código fuente, reduciendo el consumo de tokens hasta 71×.
 
@@ -719,6 +683,9 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.11.0 | 2026-07-28 | Graphify: comando correcto (`extract`/`update --force`, `build` no existe en 0.9.12), regla de leer solo `GRAPH_REPORT.md` y prohibición de copias fechadas |
+| 1.10.0 | 2026-07-28 | Organización en el workspace: eliminado el modelo de "repo independiente por versión" del genérico — patrón vigente es un repo por mod con rama por versión. Añadida nota de que `ageforged_armor` sigue en el patrón legacy pendiente de migrar |
+| 1.9.0 | 2026-07-28 | Sin cambios de contenido para este mod (cambio en WORKFLOW_AGENT.md, no en WORKFLOW_GENERIC.md) |
 | 1.8.0 | 2026-07-27 | Nuevo: Step 0 (alcance de versión), CI/CD variables y .gitlab-ci.yml completo. Sección de modelos organizativos: añadido modelo alternativo (rama por versión) |
 | 1.7.0 | 2026-07-27 | Actualización: ejemplos extra de PascalCase, buena práctica de idioma en CurseForge, tabla de ramas con descripción de versión más reciente |
 | 1.6.0 | 2026-07-27 | Cada versión tiene su propio `.git/` (repositorios independientes por versión) |

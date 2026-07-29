@@ -36,6 +36,7 @@ bin/
 run/
 !**/src/**/run/
 temp/
+lib_ext/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
