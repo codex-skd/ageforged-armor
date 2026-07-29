@@ -340,9 +340,9 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/mixin/MixinHumanoidArmorLayer.java": {
-    "mtime": 1785167746.9333293,
-    "ast_hash": "1b71a09874126cba5cca4ef645222f92",
-    "semantic_hash": "1b71a09874126cba5cca4ef645222f92"
+    "mtime": 1785336836.7302833,
+    "ast_hash": "c6f6f4e44c7d3e361acbf9664d27d97a",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/networking/ConfigSyncNetworkHandler.java": {
     "mtime": 1785167746.9876788,
@@ -1560,8 +1560,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785329843.7900434,
-    "ast_hash": "c46391f6474b97c18721994f22dedc2e",
+    "mtime": 1785336976.2412457,
+    "ast_hash": "06f567abaff4471b72c0fd35831a11b1",
     "semantic_hash": ""
   },
   "README.md": {
@@ -2042,6 +2042,16 @@
   "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_raijin_armor_slim.png": {
     "mtime": 1785167746.6461039,
     "ast_hash": "908b5803c60a77c2ef3ab51ac0b41163",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1785330233.7928367,
+    "ast_hash": "b3975e3aae74fc9ddd6f8b6256550f36",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.0.md": {
+    "mtime": 1785336981.3756566,
+    "ast_hash": "3160f316605634df3bd00bc02284a5e7",
     "semantic_hash": ""
   }
 }

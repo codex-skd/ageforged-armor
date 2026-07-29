@@ -2,8 +2,14 @@ package com.skd.ageforgedarmor.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.player.PlayerModel;
+import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.SubmitNodeCollector;
+import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.player.AvatarRenderer;
+import net.minecraft.client.renderer.entity.state.AvatarRenderState;
 import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
@@ -68,6 +74,7 @@ public abstract class MixinHumanoidArmorLayer {
         if (model == null) return;
 
         model.setupAnim(renderState);
+        syncPoseWithLivePlayerModel(model, renderState);
         Identifier texture = provider.getTexture(Minecraft.getInstance().player);
         if (texture == null) return;
 
@@ -95,5 +102,52 @@ public abstract class MixinHumanoidArmorLayer {
             case FEET -> state.feetEquipment;
             default -> ItemStack.EMPTY;
         };
+    }
+
+    /**
+     * Compatibility with animation mods (PlayerAnimationLib / BetterCombat) that rewrite the
+     * live player's ModelPart pose directly (e.g. on attack swings) instead of going through
+     * HumanoidRenderState. Our armor uses a separate ArmorModel instance, so it never receives
+     * those overwrites via its own setupAnim(). We re-run setupAnim() on the actual PlayerModel
+     * (forcing a fresh, current-frame pose rather than trusting whatever it last held) and copy
+     * the resulting body-part transforms onto the armor model. Harmless when no such mod is
+     * installed: PlayerModel.setupAnim() is a pure function of renderState, so the copied pose
+     * matches vanilla's own animation.
+     */
+    @Unique
+    private static void syncPoseWithLivePlayerModel(ArmorModel<?> model, HumanoidRenderState renderState) {
+        if (!(renderState instanceof AvatarRenderState avatarState)) return;
+
+        AbstractClientPlayer player = Minecraft.getInstance().player;
+        if (player == null) return;
+
+        EntityRenderer<?, ?> renderer = Minecraft.getInstance().getEntityRenderDispatcher().getRenderer(player);
+        if (!(renderer instanceof AvatarRenderer<?> avatarRenderer)) return;
+
+        Object rawPlayerModel = avatarRenderer.getModel();
+        if (!(rawPlayerModel instanceof PlayerModel playerModel)) return;
+
+        //noinspection unchecked
+        playerModel.setupAnim(avatarState);
+
+        copyPart(model.head, playerModel.head);
+        copyPart(model.body, playerModel.body);
+        copyPart(model.rightArm, playerModel.rightArm);
+        copyPart(model.leftArm, playerModel.leftArm);
+        copyPart(model.rightLeg, playerModel.rightLeg);
+        copyPart(model.leftLeg, playerModel.leftLeg);
+    }
+
+    @Unique
+    private static void copyPart(ModelPart target, ModelPart source) {
+        target.x = source.x;
+        target.y = source.y;
+        target.z = source.z;
+        target.xRot = source.xRot;
+        target.yRot = source.yRot;
+        target.zRot = source.zRot;
+        target.xScale = source.xScale;
+        target.yScale = source.yScale;
+        target.zScale = source.zScale;
     }
 }

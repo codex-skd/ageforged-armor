@@ -307,12 +307,5 @@
   "305": "Override",
   "306": "CallbackInfo",
   "307": "EquipmentSlot",
-  "308": "HumanoidRenderState",
-  "309": "Inject",
-  "310": "ItemStack",
-  "311": "Mixin",
-  "312": "PoseStack",
-  "313": "SubmitNodeCollector",
-  "314": "Unique",
   "315": "settings.gradle"
 }
