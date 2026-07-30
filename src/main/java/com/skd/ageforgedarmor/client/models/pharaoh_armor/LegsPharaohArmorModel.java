@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.pharaoh_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class LegsPharaohArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class LegsPharaohArmorModel extends ArmorModel {
     private final ModelPart bodyGoldenStrip;
     private final ModelPart bodyJewel;
 
@@ -17,8 +16,8 @@ public class LegsPharaohArmorModel<T extends HumanoidRenderState> extends ArmorM
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new LegsPharaohArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new LegsPharaohArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

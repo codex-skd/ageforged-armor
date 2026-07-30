@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.iron_plate_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class ChestIronPlateArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class ChestIronPlateArmorModel extends ArmorModel {
     private final ModelPart miscA;
 
     public ChestIronPlateArmorModel(ModelPart root, boolean isSlim) {
@@ -15,8 +14,8 @@ public class ChestIronPlateArmorModel<T extends HumanoidRenderState> extends Arm
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new ChestIronPlateArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new ChestIronPlateArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

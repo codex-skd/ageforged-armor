@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.exalted_aurum;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class LegsExaltedAurumArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class LegsExaltedAurumArmorModel extends ArmorModel {
     private final ModelPart beltFront;
     private final ModelPart beltBack;
 
@@ -17,8 +16,8 @@ public class LegsExaltedAurumArmorModel<T extends HumanoidRenderState> extends A
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new LegsExaltedAurumArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new LegsExaltedAurumArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

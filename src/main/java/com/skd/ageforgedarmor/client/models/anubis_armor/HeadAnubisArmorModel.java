@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.anubis_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class HeadAnubisArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class HeadAnubisArmorModel extends ArmorModel {
     private final ModelPart ribbonLeft;
     private final ModelPart ribbonRight;
     private final ModelPart earLeft;
@@ -21,8 +20,8 @@ public class HeadAnubisArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new HeadAnubisArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new HeadAnubisArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

@@ -3,18 +3,17 @@ package com.skd.ageforgedarmor.client.models.centurion_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class LegsCenturionArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class LegsCenturionArmorModel extends ArmorModel {
 
     public LegsCenturionArmorModel(ModelPart root, boolean isSlim) {
         super(root, isSlim);
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new LegsCenturionArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new LegsCenturionArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

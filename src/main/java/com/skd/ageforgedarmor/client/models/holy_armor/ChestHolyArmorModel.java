@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.holy_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class ChestHolyArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class ChestHolyArmorModel extends ArmorModel {
     private final ModelPart chestEffectFrontA;
     private final ModelPart chestEffectFrontB;
     private final ModelPart chestEffectBig;
@@ -42,8 +41,8 @@ public class ChestHolyArmorModel<T extends HumanoidRenderState> extends ArmorMod
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new ChestHolyArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new ChestHolyArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {
