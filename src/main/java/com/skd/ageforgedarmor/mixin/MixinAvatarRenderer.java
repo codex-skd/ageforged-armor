@@ -55,7 +55,7 @@ public abstract class MixinAvatarRenderer {
         ArmorModelProvider provider = armorItem.getModelProvider();
         if (provider == null) return;
 
-        ArmorModel<?> model = provider.getArmorModel(player);
+        ArmorModel model = provider.getArmorModel(player);
         if (model == null) return;
 
         Identifier texture = provider.getTexture(player);

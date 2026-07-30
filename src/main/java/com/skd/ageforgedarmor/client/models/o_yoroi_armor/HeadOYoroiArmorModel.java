@@ -3,18 +3,17 @@ package com.skd.ageforgedarmor.client.models.o_yoroi_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class HeadOYoroiArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class HeadOYoroiArmorModel extends ArmorModel {
 
     public HeadOYoroiArmorModel(ModelPart root, boolean isSlim) {
         super(root, isSlim);
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new HeadOYoroiArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new HeadOYoroiArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

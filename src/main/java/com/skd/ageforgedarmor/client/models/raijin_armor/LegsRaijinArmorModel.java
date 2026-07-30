@@ -3,10 +3,9 @@ package com.skd.ageforgedarmor.client.models.raijin_armor;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class LegsRaijinArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class LegsRaijinArmorModel extends ArmorModel {
     private final ModelPart chestBeltHangA;
     private final ModelPart chestBeltHangB;
 
@@ -17,8 +16,8 @@ public class LegsRaijinArmorModel<T extends HumanoidRenderState> extends ArmorMo
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new LegsRaijinArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new LegsRaijinArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {

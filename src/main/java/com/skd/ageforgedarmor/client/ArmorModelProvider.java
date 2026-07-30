@@ -47,7 +47,7 @@ public class ArmorModelProvider {
 
     private final Supplier<LayerDefinition> layerDefinitionSupplier;
     protected final ArmorModelSupplier modelSupplier;
-    private ArmorModel<? extends HumanoidRenderState> armorModel;
+    private ArmorModel armorModel;
     private final ModelLayerLocation modelLayerLocation;
     protected final Identifier resourceLocation;
 
@@ -91,7 +91,7 @@ public class ArmorModelProvider {
         return entity instanceof AbstractClientPlayer player && "slim".equals(player.getSkin().model().name());
     }
 
-    public ArmorModel<? extends HumanoidRenderState> getArmorModel(Entity entity) {
+    public ArmorModel getArmorModel(Entity entity) {
         if(this.armorModel == null){
             this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
             LOGGER.debug("getArmorModel(entity): baked new model for layer: {}", this.modelLayerLocation);
@@ -99,7 +99,7 @@ public class ArmorModelProvider {
         return this.armorModel;
     }
 
-    public ArmorModel<? extends HumanoidRenderState> getArmorModel(HumanoidRenderState state) {
+    public ArmorModel getArmorModel(HumanoidRenderState state) {
         if(this.armorModel == null){
             this.armorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.modelLayerLocation), false);
             LOGGER.debug("getArmorModel(state): baked new model for layer: {}", this.modelLayerLocation);
@@ -157,7 +157,7 @@ public class ArmorModelProvider {
         private final Supplier<LayerDefinition> slimLayerDefinitionSupplier;
         private final ModelLayerLocation slimModelLayerLocation;
         private final Identifier slimIdentifier;
-        private ArmorModel<? extends HumanoidRenderState> slimArmorModel;
+        private ArmorModel slimArmorModel;
 
         protected MixedArmorModelProvider(String armorName, EquipmentSlot slot, ArmorModelSupplier modelSupplier, Supplier<LayerDefinition> layerDefinitionSupplier, Supplier<LayerDefinition> slimLayerDefinitionSupplier){
             super(armorName, slot, modelSupplier, layerDefinitionSupplier);
@@ -186,7 +186,7 @@ public class ArmorModelProvider {
         }
 
         @Override
-        public ArmorModel<? extends HumanoidRenderState> getArmorModel(Entity entity) {
+        public ArmorModel getArmorModel(Entity entity) {
             if(ArmorModelProvider.isSlim(entity)){
                 if(this.slimArmorModel == null){
                     this.slimArmorModel = this.modelSupplier.create(Minecraft.getInstance().getEntityModels().bakeLayer(this.slimModelLayerLocation), true);
@@ -198,7 +198,7 @@ public class ArmorModelProvider {
         }
 
         @Override
-        public ArmorModel<? extends HumanoidRenderState> getArmorModel(HumanoidRenderState state) {
+        public ArmorModel getArmorModel(HumanoidRenderState state) {
             return super.getArmorModel(state);
         }
     }

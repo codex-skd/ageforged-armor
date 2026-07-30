@@ -45,219 +45,219 @@
     "semantic_hash": "76985c56408c27fd1a481dc7c14a0fd5"
   },
   "src/main/java/com/skd/ageforgedarmor/client/ArmorModelProvider.java": {
-    "mtime": 1785328061.600268,
-    "ast_hash": "c539a827205e5358ab4b626c346883e6",
+    "mtime": 1785416582.4462092,
+    "ast_hash": "bee3527a92d1e2895622f457657b1e6f",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/ArmorModelSupplier.java": {
-    "mtime": 1785167746.9983644,
-    "ast_hash": "0609dabc9ea0f299b1cc548a6453e93b",
-    "semantic_hash": "0609dabc9ea0f299b1cc548a6453e93b"
+    "mtime": 1785416540.881714,
+    "ast_hash": "29a7b4edbfed8e5066fecdf0a53ede3e",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/ArmorModel.java": {
-    "mtime": 1785167747.0318081,
-    "ast_hash": "5791cb6cb75f90ff43831d2ed497ffd5",
-    "semantic_hash": "5791cb6cb75f90ff43831d2ed497ffd5"
+    "mtime": 1785416534.3970058,
+    "ast_hash": "66f5e5cf982ddaf45c10a715efce1baa",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/ChestAnubisArmorModel.java": {
-    "mtime": 1785167747.0343318,
-    "ast_hash": "ac200dc3371e0bd8cb95918a6dc813a7",
-    "semantic_hash": "ac200dc3371e0bd8cb95918a6dc813a7"
+    "mtime": 1785416571.1438868,
+    "ast_hash": "8afffb07b3b17d715cf661a260a489b6",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/FeetAnubisArmorModel.java": {
-    "mtime": 1785167747.0353677,
-    "ast_hash": "3efd8b20faca896c96aa84091d70c97f",
-    "semantic_hash": "3efd8b20faca896c96aa84091d70c97f"
+    "mtime": 1785416571.270186,
+    "ast_hash": "a7d26d4bc52007ce90fba202dd70e356",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/HeadAnubisArmorModel.java": {
-    "mtime": 1785167747.0363674,
-    "ast_hash": "34bb2cfaf0fce312ef1c7c8ea9f2cf09",
-    "semantic_hash": "34bb2cfaf0fce312ef1c7c8ea9f2cf09"
+    "mtime": 1785416571.4132214,
+    "ast_hash": "963419a296eaaa5a9495eaf769b1db5e",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/anubis_armor/LegsAnubisArmorModel.java": {
-    "mtime": 1785167747.037373,
-    "ast_hash": "740a4811e51d5a2a4ca2d8d697b0f3e4",
-    "semantic_hash": "740a4811e51d5a2a4ca2d8d697b0f3e4"
+    "mtime": 1785416571.549219,
+    "ast_hash": "d32df36ff6b96fdfcdfaacb815d21d46",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/centurion_armor/ChestCenturionArmorModel.java": {
-    "mtime": 1785167747.040444,
-    "ast_hash": "a5d71dd12cf4ff552bffa1c7ab64f96a",
-    "semantic_hash": "a5d71dd12cf4ff552bffa1c7ab64f96a"
+    "mtime": 1785416571.663726,
+    "ast_hash": "79948eee2030b2ebdd03a6f798ae66a3",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/centurion_armor/FeetCenturionArmorModel.java": {
-    "mtime": 1785167747.0414438,
-    "ast_hash": "0dfb8ebd3c8ffc3ed75cae0ead710004",
-    "semantic_hash": "0dfb8ebd3c8ffc3ed75cae0ead710004"
+    "mtime": 1785416571.8322122,
+    "ast_hash": "fa67d38e8f86ca0dc164a5236fc1c9f6",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/centurion_armor/HeadCenturionArmorModel.java": {
-    "mtime": 1785167747.0439599,
-    "ast_hash": "5c7d20dfc3a0ca8c33bd5ac40f65b91f",
-    "semantic_hash": "5c7d20dfc3a0ca8c33bd5ac40f65b91f"
+    "mtime": 1785416572.0028508,
+    "ast_hash": "4522c8b0d41f346588fc30e004d141a4",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/centurion_armor/LegsCenturionArmorModel.java": {
-    "mtime": 1785167747.0424495,
-    "ast_hash": "74e31ecd734d7c2e5846a2abd0d56aea",
-    "semantic_hash": "74e31ecd734d7c2e5846a2abd0d56aea"
+    "mtime": 1785416572.1607437,
+    "ast_hash": "691bcabfffa79b668af58e792a1e8584",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/exalted_aurum/ChestExaltedAurumArmorModel.java": {
-    "mtime": 1785167747.089589,
-    "ast_hash": "64c5feb66cd0e019236c4149be8b85cd",
-    "semantic_hash": "64c5feb66cd0e019236c4149be8b85cd"
+    "mtime": 1785416572.3295658,
+    "ast_hash": "a098a6a0791402efc6bf251e67f06f0f",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/exalted_aurum/FeetExaltedAurumArmorModel.java": {
-    "mtime": 1785167747.090589,
-    "ast_hash": "1bc9c0aa94a5e959dc5251a2e1fdb874",
-    "semantic_hash": "1bc9c0aa94a5e959dc5251a2e1fdb874"
+    "mtime": 1785416572.4688008,
+    "ast_hash": "b665dbc649e13e9aa6ed0d359320dad7",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/exalted_aurum/HeadExaltedAurumArmorModel.java": {
-    "mtime": 1785167747.098223,
-    "ast_hash": "05017fa1f8cf12c7b0b7c3185d20c1f9",
-    "semantic_hash": "05017fa1f8cf12c7b0b7c3185d20c1f9"
+    "mtime": 1785416572.6329367,
+    "ast_hash": "839f0e2304743ee78275ffbccef194b2",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/exalted_aurum/LegsExaltedAurumArmorModel.java": {
-    "mtime": 1785167747.0961857,
-    "ast_hash": "feb4f950f0b84b918140afabf0d0d14b",
-    "semantic_hash": "feb4f950f0b84b918140afabf0d0d14b"
+    "mtime": 1785416572.7802098,
+    "ast_hash": "08c6d569ef905f66fc5ddcfa6aa40443",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/holy_armor/ChestHolyArmorModel.java": {
-    "mtime": 1785167747.0511315,
-    "ast_hash": "9345ffb71d982fbcc234ac2e368ef8e0",
-    "semantic_hash": "9345ffb71d982fbcc234ac2e368ef8e0"
+    "mtime": 1785416572.9488928,
+    "ast_hash": "346d52633283c2ed8c94a0ac89cfb650",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/holy_armor/FeetHolyArmorModel.java": {
-    "mtime": 1785167747.0521562,
-    "ast_hash": "09b392bd712256004a56e2a8bef6bdec",
-    "semantic_hash": "09b392bd712256004a56e2a8bef6bdec"
+    "mtime": 1785416573.078987,
+    "ast_hash": "f8bbe6e2cabde2eb296d5638c88bd242",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/holy_armor/HeadHolyArmorModel.java": {
-    "mtime": 1785167747.0475402,
-    "ast_hash": "3b4ff51cc8805c731ccbbde8db4eae89",
-    "semantic_hash": "3b4ff51cc8805c731ccbbde8db4eae89"
+    "mtime": 1785416573.2280324,
+    "ast_hash": "50da784cfc93984a5919e0d749af2283",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/holy_armor/LegsHolyArmorModel.java": {
-    "mtime": 1785167747.050126,
-    "ast_hash": "62eddfb0cadea60e3cb6dac6c1cd9abe",
-    "semantic_hash": "62eddfb0cadea60e3cb6dac6c1cd9abe"
+    "mtime": 1785416573.3877935,
+    "ast_hash": "29e58ea173727bb94600fa76c9f75373",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/iron_plate_armor/ChestIronPlateArmorModel.java": {
-    "mtime": 1785167747.055688,
-    "ast_hash": "6ee14c98e8352c540c1302f383dbf931",
-    "semantic_hash": "6ee14c98e8352c540c1302f383dbf931"
+    "mtime": 1785416573.555707,
+    "ast_hash": "b67ce1c20267e0642eb0abc1f868bd3d",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/iron_plate_armor/FeetIronPlateArmorModel.java": {
-    "mtime": 1785167747.0572712,
-    "ast_hash": "2eb26d1d5f8990762a2a468484e06701",
-    "semantic_hash": "2eb26d1d5f8990762a2a468484e06701"
+    "mtime": 1785416573.7048337,
+    "ast_hash": "19f8e921d83bdca04038badf2cd94256",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/iron_plate_armor/HeadIronPlateArmorModel.java": {
-    "mtime": 1785167747.0582712,
-    "ast_hash": "21d9a82e256d16211d466ac7c3f68404",
-    "semantic_hash": "21d9a82e256d16211d466ac7c3f68404"
+    "mtime": 1785416573.8384387,
+    "ast_hash": "74399498c53a8f1e367cbdffec4be6c3",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/iron_plate_armor/LegsIronPlateArmorModel.java": {
-    "mtime": 1785167747.0618198,
-    "ast_hash": "82e2af54389a5a230cbc040a5e10cbd3",
-    "semantic_hash": "82e2af54389a5a230cbc040a5e10cbd3"
+    "mtime": 1785416573.9965124,
+    "ast_hash": "31f9f9a2bed366c0c26793f2cbeec669",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/japanese_light_armor/ChestJapaneseLightArmorModel.java": {
-    "mtime": 1785167747.0009062,
-    "ast_hash": "d5fbc6630bf30c1be94c03a6856cc9d5",
-    "semantic_hash": "d5fbc6630bf30c1be94c03a6856cc9d5"
+    "mtime": 1785416574.163892,
+    "ast_hash": "260d324ac14e333d88874e74940cb352",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/japanese_light_armor/FeetJapaneseLightArmorModel.java": {
-    "mtime": 1785167747.0019114,
-    "ast_hash": "a07381a2d1e4efd4d89fe7483d374fb3",
-    "semantic_hash": "a07381a2d1e4efd4d89fe7483d374fb3"
+    "mtime": 1785416574.332134,
+    "ast_hash": "d219c45d7a8a21945f2524ca5275f5e6",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/japanese_light_armor/HeadJapaneseLightArmorModel.java": {
-    "mtime": 1785167747.004935,
-    "ast_hash": "e84bb76a924450529d6a7dde8cc7168d",
-    "semantic_hash": "e84bb76a924450529d6a7dde8cc7168d"
+    "mtime": 1785416574.480001,
+    "ast_hash": "3f18bea4d3eba68bcd348bcbcfd774a7",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/japanese_light_armor/LegsJapaneseLightArmorModel.java": {
-    "mtime": 1785167747.0135696,
-    "ast_hash": "2792ac4bfa29774640122153034c4f4c",
-    "semantic_hash": "2792ac4bfa29774640122153034c4f4c"
+    "mtime": 1785416574.6111157,
+    "ast_hash": "d836357637e768bc2534c4abef7455f0",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/o_yoroi_armor/ChestOYoroiArmorModel.java": {
-    "mtime": 1785167747.016117,
-    "ast_hash": "a172cbb35833c5f6f59532895aef7acb",
-    "semantic_hash": "a172cbb35833c5f6f59532895aef7acb"
+    "mtime": 1785416574.7504916,
+    "ast_hash": "758bf5640b40c55b78dc42016051d9f5",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/o_yoroi_armor/FeetOYoroiArmorModel.java": {
-    "mtime": 1785167747.0166173,
-    "ast_hash": "1c9c6bc8f70a427d5d43f78e89b9c108",
-    "semantic_hash": "1c9c6bc8f70a427d5d43f78e89b9c108"
+    "mtime": 1785416574.878138,
+    "ast_hash": "156b89f82f935e37090ee6bd6e99ddd0",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/o_yoroi_armor/HeadOYoroiArmorModel.java": {
-    "mtime": 1785167747.0181465,
-    "ast_hash": "bc82af4267c5f748421d6d6384c93856",
-    "semantic_hash": "bc82af4267c5f748421d6d6384c93856"
+    "mtime": 1785416575.0120926,
+    "ast_hash": "55cc4944db889a6b4a157c95bf7a7cc8",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/o_yoroi_armor/LegsOYoroiArmorModel.java": {
-    "mtime": 1785167747.0191476,
-    "ast_hash": "c7c5610687f65346c8b46d3245f10086",
-    "semantic_hash": "c7c5610687f65346c8b46d3245f10086"
+    "mtime": 1785416575.1545415,
+    "ast_hash": "6a049845e61b6f21ba890313ecac48f2",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/pharaoh_armor/ChestPharaohArmorModel.java": {
-    "mtime": 1785167747.0729575,
-    "ast_hash": "eebf03c67eeab8e24e90a478e4f483ba",
-    "semantic_hash": "eebf03c67eeab8e24e90a478e4f483ba"
+    "mtime": 1785416575.2992465,
+    "ast_hash": "9702a98562f2f7d05d0e61f77dd3cc1f",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/pharaoh_armor/FeetPharaohArmorModel.java": {
-    "mtime": 1785167747.080068,
-    "ast_hash": "86b95318ccdd41ee6cbfba9557a0f70b",
-    "semantic_hash": "86b95318ccdd41ee6cbfba9557a0f70b"
+    "mtime": 1785416575.450507,
+    "ast_hash": "eb8c11f1f592693c2d7c43bd7a5b9153",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/pharaoh_armor/HeadPharaohArmorModel.java": {
-    "mtime": 1785167747.0830922,
-    "ast_hash": "d685571b62e217793298a7c9d6ffb3fd",
-    "semantic_hash": "d685571b62e217793298a7c9d6ffb3fd"
+    "mtime": 1785416575.6037965,
+    "ast_hash": "1821797e0f41582112283a0ce733c649",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/pharaoh_armor/LegsPharaohArmorModel.java": {
-    "mtime": 1785167747.0861275,
-    "ast_hash": "f236f1dfba8e666d582ec7e357ddb116",
-    "semantic_hash": "f236f1dfba8e666d582ec7e357ddb116"
+    "mtime": 1785416575.7426698,
+    "ast_hash": "72fc1894ccb3708bc39bf4d1713c0a50",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/quetzalcoatl_armor/ChestQuetzalcoatlArmorModel.java": {
-    "mtime": 1785167747.0653765,
-    "ast_hash": "217b5bf3ce1fbe25faa7e432de69357f",
-    "semantic_hash": "217b5bf3ce1fbe25faa7e432de69357f"
+    "mtime": 1785416575.913109,
+    "ast_hash": "a6c1f66d109c1ca718484077f3b01a6d",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/quetzalcoatl_armor/FeetQuetzalcoatlArmorModel.java": {
-    "mtime": 1785167747.0663762,
-    "ast_hash": "8a19c7e40da0d8b05e88759e3cf28b31",
-    "semantic_hash": "8a19c7e40da0d8b05e88759e3cf28b31"
+    "mtime": 1785416576.0677373,
+    "ast_hash": "499304053abc5daa7f24cc0612e38770",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/quetzalcoatl_armor/HeadQuetzalcoatlArmorModel.java": {
-    "mtime": 1785167747.068912,
-    "ast_hash": "5c5ec1dd426b31b466d43d8babe0c01c",
-    "semantic_hash": "5c5ec1dd426b31b466d43d8babe0c01c"
+    "mtime": 1785416576.205755,
+    "ast_hash": "98f3f2a68dab2d17a36d7209622c75c5",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/quetzalcoatl_armor/LegsQuetzalcoatlArmorModel.java": {
-    "mtime": 1785167747.0699177,
-    "ast_hash": "5f777f2e7af8b2462f89fcb32d57c290",
-    "semantic_hash": "5f777f2e7af8b2462f89fcb32d57c290"
+    "mtime": 1785416576.380031,
+    "ast_hash": "8688c9d62f01a63cdc63d278947c31ab",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/raijin_armor/ChestRaijinArmorModel.java": {
-    "mtime": 1785167747.021683,
-    "ast_hash": "bde507c4603d88a699eda6c7030bccb4",
-    "semantic_hash": "bde507c4603d88a699eda6c7030bccb4"
+    "mtime": 1785416576.5476165,
+    "ast_hash": "fda54d94d4f176636d1e665e4e118167",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/raijin_armor/FeetRaijinArmorModel.java": {
-    "mtime": 1785167747.0257256,
-    "ast_hash": "0b6f9b4a80485f4bd99a94c8229718bc",
-    "semantic_hash": "0b6f9b4a80485f4bd99a94c8229718bc"
+    "mtime": 1785416576.7194054,
+    "ast_hash": "0b43631482fc281851cf9f13c9f6d419",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/raijin_armor/HeadRaijinArmorModel.java": {
-    "mtime": 1785167747.0292745,
-    "ast_hash": "488af8ff7a731c65a8af3ee8278ac4c7",
-    "semantic_hash": "488af8ff7a731c65a8af3ee8278ac4c7"
+    "mtime": 1785416576.8459496,
+    "ast_hash": "235d7589e84ad232d9db0f64293a862f",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/models/raijin_armor/LegsRaijinArmorModel.java": {
-    "mtime": 1785167747.030802,
-    "ast_hash": "f295b145d0cdf1cca51fc39f000bbe3a",
-    "semantic_hash": "f295b145d0cdf1cca51fc39f000bbe3a"
+    "mtime": 1785416577.0153248,
+    "ast_hash": "94c8bf844b0a1909a10f47117934d769",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/client/patreon/ClientPatronState.java": {
     "mtime": 1785167746.995829,
@@ -335,13 +335,13 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/mixin/MixinAvatarRenderer.java": {
-    "mtime": 1785227914.66379,
-    "ast_hash": "854745afecf8331114ec83203a9a93bb",
+    "mtime": 1785416757.6630833,
+    "ast_hash": "298aa7e5eb086690700d6a2fdb6d10c5",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/mixin/MixinHumanoidArmorLayer.java": {
-    "mtime": 1785336836.7302833,
-    "ast_hash": "c6f6f4e44c7d3e361acbf9664d27d97a",
+    "mtime": 1785416782.9466994,
+    "ast_hash": "5da7960f3e82bd8219a937b441d48139",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/networking/ConfigSyncNetworkHandler.java": {
@@ -1560,8 +1560,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785336976.2412457,
-    "ast_hash": "06f567abaff4471b72c0fd35831a11b1",
+    "mtime": 1785417881.94921,
+    "ast_hash": "277912e7623862716d1977d7802a0823",
     "semantic_hash": ""
   },
   "README.md": {
@@ -2052,6 +2052,11 @@
   "docs/curseforge/versions/1.1.0.md": {
     "mtime": 1785336981.3756566,
     "ast_hash": "3160f316605634df3bd00bc02284a5e7",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.1.md": {
+    "mtime": 1785417889.281257,
+    "ast_hash": "51d9a26972a4fe23eaba1e20b97b6d1d",
     "semantic_hash": ""
   }
 }

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.1] - 2026-07-30
+
+### Fix
+
+- **Fix de 1.1.0 insuficiente**: la copia manual de pose por-hueso no arreglaba el descuadre durante el ataque "dash" de BetterCombat (torso/piernas/casco seguían flotando desconectados del cuerpo). Causa real: la armadura vainilla usa instancias de `PlayerModel` (no `HumanoidModel` genérico) precisamente para que mods como PlayerAnimationLib, que mixinean en `PlayerModel.setupAnim()`, la sincronicen automáticamente. `ArmorModel` heredaba de `HumanoidModel` directo, así que ese mixin nunca la tocaba.
+- **Fix real**: `ArmorModel` ahora extiende `PlayerModel` (igual que la armadura vainilla), con las partes vacías (`jacket`, `left_sleeve`, `right_sleeve`, `left_pants`, `right_pants`) que `PlayerModel` exige internamente. Eliminado el hack de copia manual de 1.1.0 — ya no hace falta, el mixin de PlayerAnimationLib aplica solo.
+
 ## [1.1.0] - 2026-07-29
 
 ### Fix

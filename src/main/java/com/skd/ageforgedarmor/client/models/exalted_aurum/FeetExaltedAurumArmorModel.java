@@ -3,18 +3,17 @@ package com.skd.ageforgedarmor.client.models.exalted_aurum;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
 
-public class FeetExaltedAurumArmorModel<T extends HumanoidRenderState> extends ArmorModel<T> {
+public class FeetExaltedAurumArmorModel extends ArmorModel {
 
     public FeetExaltedAurumArmorModel(ModelPart root, boolean isSlim) {
         super(root, isSlim);
     }
 
     @Override
-    public <E extends HumanoidRenderState> ArmorModel<E> create(ModelPart root, boolean isSlim) {
-        return new FeetExaltedAurumArmorModel<>(root, isSlim);
+    public ArmorModel create(ModelPart root, boolean isSlim) {
+        return new FeetExaltedAurumArmorModel(root, isSlim);
     }
 
     public static LayerDefinition createLayerDefinition() {
