@@ -2,9 +2,16 @@ bin/
 build/
 .gradle/
 .vscode/
+.eclipse/
 .run/
 *.jar
 run/
+
+# Temp files (investigations, prototypes, extracted JARs)
+temp/
+
+# Session libraries (not real dependencies)
+lib_ext/
 
 # Graphify - solo el snapshot actual, sin copias fechadas
 graphify-out/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
