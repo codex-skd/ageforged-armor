@@ -1,14 +1,14 @@
 {
   "type": "ageforged_armor:add_item",
-  "armor_name": "bamboo_hat",
-  "armor_state": 1.0,
+  "armor_name": "quetzalcoatl_armor",
+  "armor_state": 0.0,
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_taiga_house"
+      "loot_table_id": "minecraft:chests/end_city_treasure"
     },
     {
-      "chance": 0.35,
+      "chance": 0.3,
       "condition": "minecraft:random_chance"
     }
   ],
