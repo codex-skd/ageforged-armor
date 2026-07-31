@@ -1,8 +1,8 @@
 {
   "build.gradle": {
-    "mtime": 1785150501.0529466,
-    "ast_hash": "f44e790a63408b4a223758ae912947a3",
-    "semantic_hash": "f44e790a63408b4a223758ae912947a3"
+    "mtime": 1785502494.320518,
+    "ast_hash": "24f4beae9029300cdaca0570b592097a",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1785150501.0617025,
@@ -1044,485 +1044,25 @@
     "ast_hash": "d7492b7682b32370897596703d7d64d9",
     "semantic_hash": "d7492b7682b32370897596703d7d64d9"
   },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/anubis_armor_chest.json": {
-    "mtime": 1785150501.338283,
-    "ast_hash": "318964db1931ffe80d031e8e63628eae",
-    "semantic_hash": "318964db1931ffe80d031e8e63628eae"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/anubis_armor_feet.json": {
-    "mtime": 1785150501.339283,
-    "ast_hash": "60107001a74d3d254c587f95d081f217",
-    "semantic_hash": "60107001a74d3d254c587f95d081f217"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/anubis_armor_head.json": {
-    "mtime": 1785150501.339283,
-    "ast_hash": "55d07c4ee34b36c2e908f4c30730794c",
-    "semantic_hash": "55d07c4ee34b36c2e908f4c30730794c"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/anubis_armor_legs.json": {
-    "mtime": 1785150501.339283,
-    "ast_hash": "76a9f13696fa80cb79f9474ba5303772",
-    "semantic_hash": "76a9f13696fa80cb79f9474ba5303772"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/bamboo_hat.json": {
-    "mtime": 1785150501.339283,
-    "ast_hash": "1aa85a5fdda25a4376ad2ce876fbceb0",
-    "semantic_hash": "1aa85a5fdda25a4376ad2ce876fbceb0"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/centurion_armor_chest.json": {
-    "mtime": 1785150501.340283,
-    "ast_hash": "7dfda0ba6dbe20d6d4a439d7cb796d8b",
-    "semantic_hash": "7dfda0ba6dbe20d6d4a439d7cb796d8b"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/centurion_armor_feet.json": {
-    "mtime": 1785150501.340283,
-    "ast_hash": "327bf5def231d0d4b7c690d7625a348f",
-    "semantic_hash": "327bf5def231d0d4b7c690d7625a348f"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/centurion_armor_head.json": {
-    "mtime": 1785150501.340283,
-    "ast_hash": "acd41318af7796c1270ee5793f936259",
-    "semantic_hash": "acd41318af7796c1270ee5793f936259"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/centurion_armor_legs.json": {
-    "mtime": 1785150501.341283,
-    "ast_hash": "348c25590b28a2ea273871981b3a59f8",
-    "semantic_hash": "348c25590b28a2ea273871981b3a59f8"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/exalted_aurum_armor_chest.json": {
-    "mtime": 1785150501.341283,
-    "ast_hash": "19440aa65798c469f355dcda99f28a3f",
-    "semantic_hash": "19440aa65798c469f355dcda99f28a3f"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/exalted_aurum_armor_feet.json": {
-    "mtime": 1785150501.341283,
-    "ast_hash": "833dff1d21fd36e3948fc825488cdae9",
-    "semantic_hash": "833dff1d21fd36e3948fc825488cdae9"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/exalted_aurum_armor_head.json": {
-    "mtime": 1785150501.341283,
-    "ast_hash": "38973f9c5b946be30eabd4beed76ffa0",
-    "semantic_hash": "38973f9c5b946be30eabd4beed76ffa0"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/exalted_aurum_armor_legs.json": {
-    "mtime": 1785150501.3422832,
-    "ast_hash": "c16d2cbccdddab88975a75c64156060d",
-    "semantic_hash": "c16d2cbccdddab88975a75c64156060d"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/holy_armor_chest.json": {
-    "mtime": 1785150501.3422832,
-    "ast_hash": "10c02997515461020aabcb574fefad37",
-    "semantic_hash": "10c02997515461020aabcb574fefad37"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/holy_armor_feet.json": {
-    "mtime": 1785150501.3422832,
-    "ast_hash": "ed07190927ad98a8fefc1e26027587b8",
-    "semantic_hash": "ed07190927ad98a8fefc1e26027587b8"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/holy_armor_head.json": {
-    "mtime": 1785150501.3422832,
-    "ast_hash": "80f08ff98c55cbb1627598f64459a4cd",
-    "semantic_hash": "80f08ff98c55cbb1627598f64459a4cd"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/holy_armor_legs.json": {
-    "mtime": 1785150501.343283,
-    "ast_hash": "e01a0b9ce580a36535e8c26685e2c6cf",
-    "semantic_hash": "e01a0b9ce580a36535e8c26685e2c6cf"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/iron_plate_armor_chest.json": {
-    "mtime": 1785150501.343283,
-    "ast_hash": "0cb6294316bc7b29021c1c0d68ea2642",
-    "semantic_hash": "0cb6294316bc7b29021c1c0d68ea2642"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/iron_plate_armor_feet.json": {
-    "mtime": 1785150501.343283,
-    "ast_hash": "983af9bc61e7772626b60850f91b7059",
-    "semantic_hash": "983af9bc61e7772626b60850f91b7059"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/iron_plate_armor_head.json": {
-    "mtime": 1785150501.343283,
-    "ast_hash": "4705317b366712374c6a27bd2268bac8",
-    "semantic_hash": "4705317b366712374c6a27bd2268bac8"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/iron_plate_armor_legs.json": {
-    "mtime": 1785150501.343283,
-    "ast_hash": "a468238e006f134961e6ec02e9184559",
-    "semantic_hash": "a468238e006f134961e6ec02e9184559"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/japanese_light_armor_chest.json": {
-    "mtime": 1785150501.3442833,
-    "ast_hash": "cab1b38d3c1b7f9851588c928196343e",
-    "semantic_hash": "cab1b38d3c1b7f9851588c928196343e"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/japanese_light_armor_feet.json": {
-    "mtime": 1785150501.3442833,
-    "ast_hash": "48a0367fa5686837b58c456c04c44c41",
-    "semantic_hash": "48a0367fa5686837b58c456c04c44c41"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/japanese_light_armor_head.json": {
-    "mtime": 1785150501.3442833,
-    "ast_hash": "681a95d75d7f06e44bb7d3daafd1071e",
-    "semantic_hash": "681a95d75d7f06e44bb7d3daafd1071e"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/japanese_light_armor_legs.json": {
-    "mtime": 1785150501.3452835,
-    "ast_hash": "dc680eff96232e0d67362c531c86fc90",
-    "semantic_hash": "dc680eff96232e0d67362c531c86fc90"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/o_yoroi_armor_chest.json": {
-    "mtime": 1785150501.3452835,
-    "ast_hash": "016f59c16f9c13bd11e2bc8370476c15",
-    "semantic_hash": "016f59c16f9c13bd11e2bc8370476c15"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/o_yoroi_armor_feet.json": {
-    "mtime": 1785150501.3472834,
-    "ast_hash": "8782a75b06f61a4ef7e5ec1bc3095d73",
-    "semantic_hash": "8782a75b06f61a4ef7e5ec1bc3095d73"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/o_yoroi_armor_head.json": {
-    "mtime": 1785150501.3472834,
-    "ast_hash": "6f93f5c5151f92d9d740febc24631c62",
-    "semantic_hash": "6f93f5c5151f92d9d740febc24631c62"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/o_yoroi_armor_legs.json": {
-    "mtime": 1785150501.3472834,
-    "ast_hash": "d52d358240f14e433e18018018e00ca4",
-    "semantic_hash": "d52d358240f14e433e18018018e00ca4"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/pharaoh_armor_chest.json": {
-    "mtime": 1785150501.3482833,
-    "ast_hash": "d5d58ebc639b3c3cb5512a7a9062312a",
-    "semantic_hash": "d5d58ebc639b3c3cb5512a7a9062312a"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/pharaoh_armor_feet.json": {
-    "mtime": 1785150501.3482833,
-    "ast_hash": "7187f561721763cd2b4fe7ff291ddd2b",
-    "semantic_hash": "7187f561721763cd2b4fe7ff291ddd2b"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/pharaoh_armor_head.json": {
-    "mtime": 1785150501.3492832,
-    "ast_hash": "c5c5cbf19f780b51287115be77e29124",
-    "semantic_hash": "c5c5cbf19f780b51287115be77e29124"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/pharaoh_armor_legs.json": {
-    "mtime": 1785150501.3492832,
-    "ast_hash": "e49daa10722409ef35c52ad5694f6384",
-    "semantic_hash": "e49daa10722409ef35c52ad5694f6384"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/quetzalcoatl_armor_chest.json": {
-    "mtime": 1785150501.3492832,
-    "ast_hash": "79cbc231edf3f2c7d5f86cc8a6d45371",
-    "semantic_hash": "79cbc231edf3f2c7d5f86cc8a6d45371"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/quetzalcoatl_armor_feet.json": {
-    "mtime": 1785150501.3502827,
-    "ast_hash": "6d6f4dd245af08c1611b511df5f2cffe",
-    "semantic_hash": "6d6f4dd245af08c1611b511df5f2cffe"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/quetzalcoatl_armor_head.json": {
-    "mtime": 1785150501.3502827,
-    "ast_hash": "fc5258f4b9c7ae03f11eb3a2c5a2a080",
-    "semantic_hash": "fc5258f4b9c7ae03f11eb3a2c5a2a080"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/quetzalcoatl_armor_legs.json": {
-    "mtime": 1785150501.3502827,
-    "ast_hash": "2ae3dc5fc50b5c86f79a64d204695695",
-    "semantic_hash": "2ae3dc5fc50b5c86f79a64d204695695"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/raijin_armor_chest.json": {
-    "mtime": 1785150501.351283,
-    "ast_hash": "31e74969778eaf91c5ad65f095439e12",
-    "semantic_hash": "31e74969778eaf91c5ad65f095439e12"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/raijin_armor_feet.json": {
-    "mtime": 1785150501.351283,
-    "ast_hash": "62fe213036663b242b3cb6ec774786d7",
-    "semantic_hash": "62fe213036663b242b3cb6ec774786d7"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/raijin_armor_head.json": {
-    "mtime": 1785150501.351283,
-    "ast_hash": "139f9f0a5f65fbc9900b6d9ddd031dd4",
-    "semantic_hash": "139f9f0a5f65fbc9900b6d9ddd031dd4"
-  },
-  "src/main/resources/data/ageforged_armor/advancements/recipes/combat/raijin_armor_legs.json": {
-    "mtime": 1785150501.351283,
-    "ast_hash": "61d966bf42d172eccad4c3cdb67f8dcd",
-    "semantic_hash": "61d966bf42d172eccad4c3cdb67f8dcd"
-  },
   "src/main/resources/data/ageforged_armor/loot_modifiers/bamboo_hat_in_mineshaft.json": {
-    "mtime": 1785150501.3522828,
-    "ast_hash": "8677cf3363d801c1ab2d1fe935759dfc",
-    "semantic_hash": "8677cf3363d801c1ab2d1fe935759dfc"
+    "mtime": 1785502522.598426,
+    "ast_hash": "5929ffd2954191051bb2c9552b6464e8",
+    "semantic_hash": ""
   },
   "src/main/resources/data/ageforged_armor/loot_modifiers/bamboo_hat_in_shipwreck_supply.json": {
-    "mtime": 1785150501.3522828,
-    "ast_hash": "68d915a82c55570344f561b6f10d2d0d",
-    "semantic_hash": "68d915a82c55570344f561b6f10d2d0d"
+    "mtime": 1785502522.600878,
+    "ast_hash": "cde550fff6840feece8dcd087002b877",
+    "semantic_hash": ""
   },
   "src/main/resources/data/ageforged_armor/loot_modifiers/bamboo_hat_in_village_taiga_house.json": {
-    "mtime": 1785150501.3522828,
-    "ast_hash": "5f495e53646878f9a86186c94864af4f",
-    "semantic_hash": "5f495e53646878f9a86186c94864af4f"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/centurion_in_ruined_portal.json": {
-    "mtime": 1785150501.353283,
-    "ast_hash": "926c4efa82d46600c3531c153998f8cb",
-    "semantic_hash": "926c4efa82d46600c3531c153998f8cb"
+    "mtime": 1785502522.6090734,
+    "ast_hash": "20b4dcb207665feffefc3aa530d64d77",
+    "semantic_hash": ""
   },
   "src/main/resources/data/ageforged_armor/loot_modifiers/exalted_aurum_in_ancient_city.json": {
-    "mtime": 1785150501.353283,
-    "ast_hash": "9cbf32ba613106503c01723cc0aaeab4",
-    "semantic_hash": "9cbf32ba613106503c01723cc0aaeab4"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/holy_in_village_temple.json": {
-    "mtime": 1785150501.353283,
-    "ast_hash": "9c1903daebd7206f30f58e845306f134",
-    "semantic_hash": "9c1903daebd7206f30f58e845306f134"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/iron_plate_in_simple_dungeon.json": {
-    "mtime": 1785150501.354283,
-    "ast_hash": "16738faa47e0cdcc1a6517a7e4209f71",
-    "semantic_hash": "16738faa47e0cdcc1a6517a7e4209f71"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/iron_plate_in_village_armorer.json": {
-    "mtime": 1785150501.354283,
-    "ast_hash": "b4392be337e600fe2dc027cfd88572d8",
-    "semantic_hash": "b4392be337e600fe2dc027cfd88572d8"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/japanese_light_in_simple_dungeon.json": {
-    "mtime": 1785150501.354283,
-    "ast_hash": "67f3b2b7c0ab6f2f1a0e859565c7f7d1",
-    "semantic_hash": "67f3b2b7c0ab6f2f1a0e859565c7f7d1"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/japanese_light_in_village_weaponsmith.json": {
-    "mtime": 1785150501.3552828,
-    "ast_hash": "e20183057cf5476a6b11f16eb5cf7bb4",
-    "semantic_hash": "e20183057cf5476a6b11f16eb5cf7bb4"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/o_yoroi_in_shipwreck_treasure.json": {
-    "mtime": 1785150501.3552828,
-    "ast_hash": "b4118ddf6295bbb9272932b3ff109d0a",
-    "semantic_hash": "b4118ddf6295bbb9272932b3ff109d0a"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/pharaoh_in_desert_pyramid.json": {
-    "mtime": 1785150501.3552828,
-    "ast_hash": "5bcc32cbf18c22f281fe7402046ca959",
-    "semantic_hash": "5bcc32cbf18c22f281fe7402046ca959"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/quetzalcoatl_in_jungle_temple.json": {
-    "mtime": 1785150501.3552828,
-    "ast_hash": "9a2ff4b15d5e6c64a914e06d6d8d55e6",
-    "semantic_hash": "9a2ff4b15d5e6c64a914e06d6d8d55e6"
-  },
-  "src/main/resources/data/ageforged_armor/loot_modifiers/raijin_in_bastion_treasure.json": {
-    "mtime": 1785150501.3562834,
-    "ast_hash": "1ca7d0c001b83a0daeb2c09324461a77",
-    "semantic_hash": "1ca7d0c001b83a0daeb2c09324461a77"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/anubis_armor_chest.json": {
-    "mtime": 1785150501.3562834,
-    "ast_hash": "55888082562e3a6e6e13638ec7c7f950",
-    "semantic_hash": "55888082562e3a6e6e13638ec7c7f950"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/anubis_armor_feet.json": {
-    "mtime": 1785150501.3562834,
-    "ast_hash": "f4ef88d76c972ab1225e8e8c09991af7",
-    "semantic_hash": "f4ef88d76c972ab1225e8e8c09991af7"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/anubis_armor_head.json": {
-    "mtime": 1785150501.3572834,
-    "ast_hash": "e3dc9e85d331cce0b0b5399012cd472b",
-    "semantic_hash": "e3dc9e85d331cce0b0b5399012cd472b"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/anubis_armor_legs.json": {
-    "mtime": 1785150501.3572834,
-    "ast_hash": "541e93e20362e1ded23e1311529ccbca",
-    "semantic_hash": "541e93e20362e1ded23e1311529ccbca"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/bamboo_hat.json": {
-    "mtime": 1785150501.3572834,
-    "ast_hash": "294fba886e9bb406c186f3d0d779f4d7",
-    "semantic_hash": "294fba886e9bb406c186f3d0d779f4d7"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/centurion_armor_chest.json": {
-    "mtime": 1785150501.3582835,
-    "ast_hash": "84574fa796b5f779be98317d01e2f218",
-    "semantic_hash": "84574fa796b5f779be98317d01e2f218"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/centurion_armor_feet.json": {
-    "mtime": 1785150501.3582835,
-    "ast_hash": "cafb594927cdf8fe84177bc52f8ef5a0",
-    "semantic_hash": "cafb594927cdf8fe84177bc52f8ef5a0"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/centurion_armor_head.json": {
-    "mtime": 1785150501.3582835,
-    "ast_hash": "a125f479e16f761344795839077897d7",
-    "semantic_hash": "a125f479e16f761344795839077897d7"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/centurion_armor_legs.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "b683c1607f729df5775c6bfb71aab05f",
-    "semantic_hash": "b683c1607f729df5775c6bfb71aab05f"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/exalted_aurum_armor_chest.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "e713a710e78d4d685b827e0834533007",
-    "semantic_hash": "e713a710e78d4d685b827e0834533007"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/exalted_aurum_armor_feet.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "9a5f525340e935f7c22f1e6b83d38669",
-    "semantic_hash": "9a5f525340e935f7c22f1e6b83d38669"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/exalted_aurum_armor_head.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "02442c03f59ed096359ce4763b3af5b8",
-    "semantic_hash": "02442c03f59ed096359ce4763b3af5b8"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/exalted_aurum_armor_legs.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "d99e57b08601f96edfef3c23a8b7b6ce",
-    "semantic_hash": "d99e57b08601f96edfef3c23a8b7b6ce"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/holy_armor_chest.json": {
-    "mtime": 1785150501.359283,
-    "ast_hash": "71285e7b1c80d0e2c2884a05787ebfe0",
-    "semantic_hash": "71285e7b1c80d0e2c2884a05787ebfe0"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/holy_armor_feet.json": {
-    "mtime": 1785150501.3607478,
-    "ast_hash": "4f8bbcb959dabed79e96b73eafc46017",
-    "semantic_hash": "4f8bbcb959dabed79e96b73eafc46017"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/holy_armor_head.json": {
-    "mtime": 1785150501.3607478,
-    "ast_hash": "89a37ebd39e94aa70951947a9f002137",
-    "semantic_hash": "89a37ebd39e94aa70951947a9f002137"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/holy_armor_legs.json": {
-    "mtime": 1785150501.3607478,
-    "ast_hash": "4a59cfbcbc87423c511745f71004ec73",
-    "semantic_hash": "4a59cfbcbc87423c511745f71004ec73"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/iron_plate_armor_chest.json": {
-    "mtime": 1785150501.3617823,
-    "ast_hash": "7b9d8756f7acdbd6af5624ac07e0e354",
-    "semantic_hash": "7b9d8756f7acdbd6af5624ac07e0e354"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/iron_plate_armor_feet.json": {
-    "mtime": 1785150501.3617823,
-    "ast_hash": "3607410ee2fc52cbed25c8dcb93da943",
-    "semantic_hash": "3607410ee2fc52cbed25c8dcb93da943"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/iron_plate_armor_head.json": {
-    "mtime": 1785150501.3617823,
-    "ast_hash": "2ada4c341671f31d4f014e4d6d7c10b5",
-    "semantic_hash": "2ada4c341671f31d4f014e4d6d7c10b5"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/iron_plate_armor_legs.json": {
-    "mtime": 1785150501.3627825,
-    "ast_hash": "462a66fa39acc4a4ebc200894392dba0",
-    "semantic_hash": "462a66fa39acc4a4ebc200894392dba0"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/japanese_light_armor_chest.json": {
-    "mtime": 1785150501.3627825,
-    "ast_hash": "9e41a410101de79670b41cc277193876",
-    "semantic_hash": "9e41a410101de79670b41cc277193876"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/japanese_light_armor_feet.json": {
-    "mtime": 1785150501.3627825,
-    "ast_hash": "3552f0bfbd8ebfb4dbe2335845d2ab0a",
-    "semantic_hash": "3552f0bfbd8ebfb4dbe2335845d2ab0a"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/japanese_light_armor_head.json": {
-    "mtime": 1785150501.3637846,
-    "ast_hash": "ea4c2a2d06bdc29bb274d82837fddd13",
-    "semantic_hash": "ea4c2a2d06bdc29bb274d82837fddd13"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/japanese_light_armor_legs.json": {
-    "mtime": 1785150501.3637846,
-    "ast_hash": "ed75344c76837965901ba87bb1b33a4f",
-    "semantic_hash": "ed75344c76837965901ba87bb1b33a4f"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/o_yoroi_armor_chest.json": {
-    "mtime": 1785150501.365083,
-    "ast_hash": "9abb79bb8b5d4b47e47e9a0e956368c4",
-    "semantic_hash": "9abb79bb8b5d4b47e47e9a0e956368c4"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/o_yoroi_armor_feet.json": {
-    "mtime": 1785150501.365083,
-    "ast_hash": "265f39728b1f87ff36e276a05e299d79",
-    "semantic_hash": "265f39728b1f87ff36e276a05e299d79"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/o_yoroi_armor_head.json": {
-    "mtime": 1785150501.365083,
-    "ast_hash": "78f8f1fb0fda1e10496089102eaf716c",
-    "semantic_hash": "78f8f1fb0fda1e10496089102eaf716c"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/o_yoroi_armor_legs.json": {
-    "mtime": 1785150501.3661625,
-    "ast_hash": "3af2fcb7bf968168928f23c185d5e510",
-    "semantic_hash": "3af2fcb7bf968168928f23c185d5e510"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/pharaoh_armor_chest.json": {
-    "mtime": 1785150501.3661625,
-    "ast_hash": "b82314443c6378d4cd192425b74f7d3d",
-    "semantic_hash": "b82314443c6378d4cd192425b74f7d3d"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/pharaoh_armor_feet.json": {
-    "mtime": 1785150501.3661625,
-    "ast_hash": "025d434f6c2acc248827a0f71d77e711",
-    "semantic_hash": "025d434f6c2acc248827a0f71d77e711"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/pharaoh_armor_head.json": {
-    "mtime": 1785150501.3661625,
-    "ast_hash": "fcbbe59693928c7d68605d0447ab7c11",
-    "semantic_hash": "fcbbe59693928c7d68605d0447ab7c11"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/pharaoh_armor_legs.json": {
-    "mtime": 1785150501.367448,
-    "ast_hash": "b2e3340fd3da8c362aaf8535ccbaca5d",
-    "semantic_hash": "b2e3340fd3da8c362aaf8535ccbaca5d"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/quetzalcoatl_armor_chest.json": {
-    "mtime": 1785150501.367448,
-    "ast_hash": "0dc71f38350a7ee1eab3cdbc174a4d37",
-    "semantic_hash": "0dc71f38350a7ee1eab3cdbc174a4d37"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/quetzalcoatl_armor_feet.json": {
-    "mtime": 1785150501.367448,
-    "ast_hash": "ceb2916a5b6bc1a19e5229f3775e9859",
-    "semantic_hash": "ceb2916a5b6bc1a19e5229f3775e9859"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/quetzalcoatl_armor_head.json": {
-    "mtime": 1785150501.367448,
-    "ast_hash": "d77f717919ebf6d56024f73dc7739598",
-    "semantic_hash": "d77f717919ebf6d56024f73dc7739598"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/quetzalcoatl_armor_legs.json": {
-    "mtime": 1785150501.3687587,
-    "ast_hash": "60535060d1bf37a70b1633c0656d1913",
-    "semantic_hash": "60535060d1bf37a70b1633c0656d1913"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/raijin_armor_chest.json": {
-    "mtime": 1785150501.3687587,
-    "ast_hash": "8344e07710161a58992d95670a1e4d43",
-    "semantic_hash": "8344e07710161a58992d95670a1e4d43"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/raijin_armor_feet.json": {
-    "mtime": 1785150501.3687587,
-    "ast_hash": "7faacb92d721655b805fec8cbba66360",
-    "semantic_hash": "7faacb92d721655b805fec8cbba66360"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/raijin_armor_head.json": {
-    "mtime": 1785150501.3687587,
-    "ast_hash": "f33aa4f4a7546ac100a46ad8bbeeb159",
-    "semantic_hash": "f33aa4f4a7546ac100a46ad8bbeeb159"
-  },
-  "src/main/resources/data/ageforged_armor/recipe/raijin_armor_legs.json": {
-    "mtime": 1785150501.3699007,
-    "ast_hash": "c287263d1a64c3f4ed7f212d1a8b296b",
-    "semantic_hash": "c287263d1a64c3f4ed7f212d1a8b296b"
+    "mtime": 1785502522.6129007,
+    "ast_hash": "3c1f79db40ccf7b25fdb560eee819639",
+    "semantic_hash": ""
   },
   "src/main/resources/data/minecraft/tags/item/chest_armor.json": {
     "mtime": 1785150501.3699007,
@@ -1544,9 +1084,694 @@
     "ast_hash": "54b3ae0f03d1e27b494871f19494b8ed",
     "semantic_hash": "54b3ae0f03d1e27b494871f19494b8ed"
   },
-  "src/main/resources/data/neoforge/loot_modifiers/global_loot_modifiers.json": {
-    "mtime": 1785150501.3721526,
-    "ast_hash": "abb8152c36124b65fcc627d762ce17dd",
-    "semantic_hash": "abb8152c36124b65fcc627d762ce17dd"
+  "src/main/resources/data/ageforged_armor/loot_modifiers/anubis_armor_in_desert_pyramid.json": {
+    "mtime": 1785502522.596369,
+    "ast_hash": "6008efe2dfff971d0aa8df9c5d6b4daa",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/bamboo_hat_in_village_desert_house.json": {
+    "mtime": 1785502522.6032498,
+    "ast_hash": "18a1ae3abbe88c7e0834c4d3fc0a3cba",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/bamboo_hat_in_village_snowy_house.json": {
+    "mtime": 1785502522.6069329,
+    "ast_hash": "fb04e9b63b105be676d915691927565e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/centurion_armor_in_shipwreck_treasure.json": {
+    "mtime": 1785502522.6102543,
+    "ast_hash": "b0f81c57800acd3b3a77edca24ebb904",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/exalted_aurum_in_bastion_treasure.json": {
+    "mtime": 1785502522.6141338,
+    "ast_hash": "48e0b3d863d9e6ad3d71a01ab9af51c6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/holy_armor_in_stronghold_corridor.json": {
+    "mtime": 1785502522.6165318,
+    "ast_hash": "69fcf844ad2a39b97054d1265179962e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/holy_armor_in_stronghold_library.json": {
+    "mtime": 1785502522.6189084,
+    "ast_hash": "c410c6efb9eb5204f2deadf871cca594",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/iron_plate_armor_in_igloo.json": {
+    "mtime": 1785502522.6240015,
+    "ast_hash": "c1e34210d8872f481a44872dab0277f3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/japanese_light_armor_in_jungle_temple.json": {
+    "mtime": 1785502522.6340168,
+    "ast_hash": "966bce5cef4e605b3c2653572f9b6f24",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/o_yoroi_armor_in_ruined_portal.json": {
+    "mtime": 1785502522.641605,
+    "ast_hash": "707a0aa8ee6e71565948ce569aa2c9db",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/pharaoh_armor_in_desert_pyramid.json": {
+    "mtime": 1785502522.643655,
+    "ast_hash": "f51a290581d4cd3540406796bd35be32",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/quetzalcoatl_armor_in_end_city.json": {
+    "mtime": 1785502522.6461444,
+    "ast_hash": "3ad27106351a6f2f6de36fec5e782aab",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/ageforged_armor/loot_modifiers/raijin_armor_in_end_city.json": {
+    "mtime": 1785502522.6482134,
+    "ast_hash": "718bded8aa822d5c24a46f3209693db4",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1785489186.2560892,
+    "ast_hash": "70dae24a9560aacb97ab2bf74c317dca",
+    "semantic_hash": ""
+  },
+  ".gitlab-ci.yml": {
+    "mtime": 1785150501.051943,
+    "ast_hash": "560448c117d9df9c94a5810ae4b1f6a5",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1785505053.7098281,
+    "ast_hash": "b51ca8c4d6a6760e2497d343ef3afecb",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785150501.051943,
+    "ast_hash": "b1f12e38e60d20d389f66d78d545cfeb",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_AGEFORGED_ARMOR_26-1-2.md": {
+    "mtime": 1785489186.2170703,
+    "ast_hash": "f16fa6c58e3328294d077b89cc9d4272",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1785150501.054095,
+    "ast_hash": "720675b2464c0a137bf2b5a45f04844e",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1785164670.6973069,
+    "ast_hash": "e0907ee6bca794c0624ffbb10383e050",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.10.md": {
+    "mtime": 1785150501.0551033,
+    "ast_hash": "2f840341e5aa537cfcd1f221ec4f5b84",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.11.md": {
+    "mtime": 1785150501.0551033,
+    "ast_hash": "f6b5ef0267fb20835733ccb6c3fc4f70",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.12.md": {
+    "mtime": 1785150501.0551033,
+    "ast_hash": "30c2fa6c883df9e5de785778ea5cc4bb",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.13.md": {
+    "mtime": 1785150501.0551033,
+    "ast_hash": "bcae034f85d77adce45a057588cc26b2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.14.md": {
+    "mtime": 1785150501.0551033,
+    "ast_hash": "20199cc407e8b9c2c2ac16d3c5730ed2",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.15.md": {
+    "mtime": 1785150501.0561266,
+    "ast_hash": "3d418b1cab1bb6adfb49c6f4642c76f6",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.16.md": {
+    "mtime": 1785150501.0561266,
+    "ast_hash": "14cb4b9bec20b99e35d5dae5c0d50624",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.17.md": {
+    "mtime": 1785150501.0561266,
+    "ast_hash": "9ef5cc968d2a4139fb68b1d1aecb0d4c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.18.md": {
+    "mtime": 1785150501.0561266,
+    "ast_hash": "a91d20e15eaf1a1b4208f3950e1f48e9",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.19.md": {
+    "mtime": 1785150501.0561266,
+    "ast_hash": "38ca28e993992aa98d2834c16c8e9d58",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.20.md": {
+    "mtime": 1785150501.0574062,
+    "ast_hash": "6b8c956a1d1cfad1ce3e9f703b28ca13",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.21.md": {
+    "mtime": 1785150501.0574062,
+    "ast_hash": "b7f7d40863f7e4fabf18923f880e9bbc",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.22.md": {
+    "mtime": 1785150501.0574062,
+    "ast_hash": "f4993b17280196e8e747fcc98f682d5b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.23.md": {
+    "mtime": 1785150501.0574062,
+    "ast_hash": "e8c298aee00ab01679781803d09a7668",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.24.md": {
+    "mtime": 1785150501.0574062,
+    "ast_hash": "e85c9a6625e3b7ba45cbdf341c01239d",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.26.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "c5c0debbef14cd73e77b343903ec2cb3",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.27.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "0922dfb415337b46ae402c93dceceeea",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.28.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "d0aade5af8a2b31c7b0e4f81435d90d9",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.29.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "c62e3686c45a2ecbe551278c21bd3bb8",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.30.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "637e7e2a51cd60588b7591091f705d1a",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.31.md": {
+    "mtime": 1785150501.0584328,
+    "ast_hash": "f44785899685929a537a33a4a12cc118",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.32.md": {
+    "mtime": 1785150501.059627,
+    "ast_hash": "4b5ffb0f08e13b1397646e489de5b267",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.33.md": {
+    "mtime": 1785150501.059627,
+    "ast_hash": "2d14de5f3ed4e5c5f00f173e6ca5766c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.34.md": {
+    "mtime": 1785150501.059627,
+    "ast_hash": "a8ced900235b43b4a11fdb3709b84044",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.35.md": {
+    "mtime": 1785150501.059627,
+    "ast_hash": "8878ffb3dd9c2195182dc3f93656596d",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.36.md": {
+    "mtime": 1785150501.059627,
+    "ast_hash": "e012a518dbbe0c3eb4c85a4b7f282579",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.37.md": {
+    "mtime": 1785150501.0606594,
+    "ast_hash": "c7a00f90fa68ff672e183488c3c484a0",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.8.md": {
+    "mtime": 1785150501.0606594,
+    "ast_hash": "e506be791907d71cdd51870165655fc1",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1785164645.6667283,
+    "ast_hash": "5e4367ca6d4c233f40be9b5844763c77",
+    "semantic_hash": ""
+  },
+  "src/main/resources/ageforged_armor.png": {
+    "mtime": 1785150501.2662356,
+    "ast_hash": "93c6557721e27ebf9943fdd8db52d8b7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/ageforged_armor.png": {
+    "mtime": 1785150501.3031938,
+    "ast_hash": "ed662858dbbb41590e119b1c366282d0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/anubis_armor_chest.png": {
+    "mtime": 1785150501.3031938,
+    "ast_hash": "f334eb426657fbaa7f99bf70fe7e9fd9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/anubis_armor_feet.png": {
+    "mtime": 1785150501.3042617,
+    "ast_hash": "1cb657c0725d292dfc36b0a25d71519d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/anubis_armor_head.png": {
+    "mtime": 1785150501.3042617,
+    "ast_hash": "6a3cac5ad2d611873abaaa71978f89bf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/anubis_armor_legs.png": {
+    "mtime": 1785150501.3042617,
+    "ast_hash": "51d9193a6af4d61b39a9cbfceb17f321",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/bamboo_hat.png": {
+    "mtime": 1785150501.3052614,
+    "ast_hash": "7ede56f31ae36e5082127d11e889b262",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/centurion_armor_chest.png": {
+    "mtime": 1785150501.3052614,
+    "ast_hash": "ce6b53c0d7c5e7cd445bbda11b96f735",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/centurion_armor_feet.png": {
+    "mtime": 1785150501.3052614,
+    "ast_hash": "25e69f5f0f1ffc2808ed452af3559cb3",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/centurion_armor_head.png": {
+    "mtime": 1785150501.3063242,
+    "ast_hash": "9b48eedc7a3e22e0f24bf0deb59e8323",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/centurion_armor_legs.png": {
+    "mtime": 1785150501.3063242,
+    "ast_hash": "5da0f8944f282b1ec9769348e5eca343",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/exalted_aurum_armor_chest.png": {
+    "mtime": 1785150501.3063242,
+    "ast_hash": "1fe42b44a76b27a08df164af5746b47c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/exalted_aurum_armor_feet.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "d4b7d4115e45578fbb6c3a4d9a7f8374",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/exalted_aurum_armor_head.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "573075df84f2eaa8af08ed0b10622ec1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/exalted_aurum_armor_legs.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "f8dc428f229e0419220072a94153358c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/holy_armor_chest.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "c5ab3e2dbe9c0909fc3b5cb1300df5c0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/holy_armor_feet.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "949742822cb996bd3370fe82f73e3777",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/holy_armor_head.png": {
+    "mtime": 1785150501.307319,
+    "ast_hash": "1ff9632e62e4a785fdd17e9e78817546",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/holy_armor_legs.png": {
+    "mtime": 1785150501.3085823,
+    "ast_hash": "723f9b908e29cb3b1c6389803635cccf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/iron_plate_armor_chest.png": {
+    "mtime": 1785150501.3085823,
+    "ast_hash": "703211acc343abff5aca21a0ad867a58",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/iron_plate_armor_feet.png": {
+    "mtime": 1785150501.3085823,
+    "ast_hash": "3f999d0e2f22b51bc8195edb2647af19",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/iron_plate_armor_head.png": {
+    "mtime": 1785150501.3085823,
+    "ast_hash": "7deb4473782d1dba17c3587737136574",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/iron_plate_armor_legs.png": {
+    "mtime": 1785150501.3085823,
+    "ast_hash": "9fb7de3009013c25607dfc677facfb47",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/japanese_light_armor_chest.png": {
+    "mtime": 1785150501.3096268,
+    "ast_hash": "c79eec1498e23b0ca71174cbd680b827",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/japanese_light_armor_feet.png": {
+    "mtime": 1785150501.3096268,
+    "ast_hash": "a5f18cf052757ba11854d9b0dda8e551",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/japanese_light_armor_head.png": {
+    "mtime": 1785150501.3096268,
+    "ast_hash": "ded7a485b61f09806be2b31168721033",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/japanese_light_armor_legs.png": {
+    "mtime": 1785150501.3096268,
+    "ast_hash": "928f2064ca57a39000cd84e7deb71e49",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/o_yoroi_armor_chest.png": {
+    "mtime": 1785150501.3096268,
+    "ast_hash": "21216ba488d318bec960bc7ef1d39ae9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/o_yoroi_armor_feet.png": {
+    "mtime": 1785150501.3106441,
+    "ast_hash": "4487395691bbbc8dc3212fd4e432a9c0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/o_yoroi_armor_head.png": {
+    "mtime": 1785150501.3106441,
+    "ast_hash": "3ee93c60b0aaa462a618e8539f0c4d2f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/o_yoroi_armor_legs.png": {
+    "mtime": 1785150501.3106441,
+    "ast_hash": "e092270c17a86322b4d59c3a44268a2c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/pharaoh_armor_chest.png": {
+    "mtime": 1785150501.3106441,
+    "ast_hash": "f9eaa04b39325f1458b1e08a132dda22",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/pharaoh_armor_feet.png": {
+    "mtime": 1785150501.3116727,
+    "ast_hash": "e105e5342d58235ee8e6abf2d9a4257a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/pharaoh_armor_head.png": {
+    "mtime": 1785150501.3116727,
+    "ast_hash": "f6bc84d233034301e4bfefa46a1d4fdc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/pharaoh_armor_legs.png": {
+    "mtime": 1785150501.3126738,
+    "ast_hash": "e97790a8d5f7169e2e590f04261692fd",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/quetzalcoatl_armor_chest.png": {
+    "mtime": 1785150501.3126738,
+    "ast_hash": "f9592e66de07b2ee4a11727911de4846",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/quetzalcoatl_armor_feet.png": {
+    "mtime": 1785150501.3126738,
+    "ast_hash": "1bfe08f9700331c1950e6945738f7a8a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/quetzalcoatl_armor_head.png": {
+    "mtime": 1785150501.3126738,
+    "ast_hash": "a2e32658b13eb872d7aa2b9a995b3f6c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/quetzalcoatl_armor_legs.png": {
+    "mtime": 1785150501.3136723,
+    "ast_hash": "7fb1a044e190a64aec2c95072d64ea2d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/raijin_armor_chest.png": {
+    "mtime": 1785150501.3136723,
+    "ast_hash": "a1a3620a56d89a74271a17bcb97453fc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/raijin_armor_feet.png": {
+    "mtime": 1785150501.3136723,
+    "ast_hash": "12f91627cfb00beb46420f8ffd17de27",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/raijin_armor_head.png": {
+    "mtime": 1785150501.3136723,
+    "ast_hash": "5c2083f7e6ddec10f6e5187f97104787",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/item/raijin_armor_legs.png": {
+    "mtime": 1785150501.3136723,
+    "ast_hash": "f01680bee3aa42f8961cfe74878eee19",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/amber_o_yoroi_armor.png": {
+    "mtime": 1785150501.3146732,
+    "ast_hash": "60741fb44b176fea3dd1245528e048cf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/amber_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3146732,
+    "ast_hash": "e9206d3287b302e8f465f72e249b0c21",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/amethist_o_yoroi_armor.png": {
+    "mtime": 1785150501.3159118,
+    "ast_hash": "c6251296aa6bc2e92511443f06193fb7",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/amethist_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3159118,
+    "ast_hash": "c4f1e40225bdc2dde045c792bd8e0e22",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/anubis_armor.png": {
+    "mtime": 1785150501.3159118,
+    "ast_hash": "1a8654d9e79fcbf0e479f70fa3dfc292",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/anubis_armor_slim.png": {
+    "mtime": 1785150501.316914,
+    "ast_hash": "651326e5801e1f9c9f7216eecafd730e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/ashes_iron_plate_armor.png": {
+    "mtime": 1785150501.316914,
+    "ast_hash": "e50fee614443273875590043b5b8b99a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/ashes_iron_plate_armor_slim.png": {
+    "mtime": 1785150501.316914,
+    "ast_hash": "062fd78f149b5bdf84e224220f78fafa",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/centurion_armor.png": {
+    "mtime": 1785150501.3179846,
+    "ast_hash": "c74a16b75daf2c98720c8f1438ba3029",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/centurion_armor_slim.png": {
+    "mtime": 1785150501.3179846,
+    "ast_hash": "862f52e09faf8b7c927da0965f566df9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/crystal_raijin_armor.png": {
+    "mtime": 1785150501.3179846,
+    "ast_hash": "c841172daf8532b0ea6c835a30515e79",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/crystal_raijin_armor_slim.png": {
+    "mtime": 1785150501.3190043,
+    "ast_hash": "4fc853b10939f484543c5b48520ef14c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/dusk_o_yoroi_armor.png": {
+    "mtime": 1785150501.3190043,
+    "ast_hash": "be3ba99b8e7c18dcf99e11f6e1936f8a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/dusk_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3190043,
+    "ast_hash": "eb41825bfbef9b26e0b046ee03155214",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/exalted_aurum_armor.png": {
+    "mtime": 1785150501.320032,
+    "ast_hash": "a3290f623940487ab93ab30e548ca848",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/exalted_aurum_armor_slim.png": {
+    "mtime": 1785150501.320032,
+    "ast_hash": "769868a38b6285c5e8b33dedd56b6d10",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/holy_armor.png": {
+    "mtime": 1785150501.320032,
+    "ast_hash": "326eebee0f01e6999c36d9bf68ecff6f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/holy_armor_slim.png": {
+    "mtime": 1785150501.320032,
+    "ast_hash": "ce4d20708967bfc76fe56a69a177539d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/ink_o_yoroi_armor.png": {
+    "mtime": 1785150501.321285,
+    "ast_hash": "5d14e5a92173dd712e6d95630ad05d40",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/ink_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.321285,
+    "ast_hash": "632c747c8a0814d6ec2633420e984109",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/iron_plate_armor.png": {
+    "mtime": 1785150501.3232832,
+    "ast_hash": "ebdc23f923bd75e26a7e6e6eaef7051c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/iron_plate_armor_slim.png": {
+    "mtime": 1785150501.3232832,
+    "ast_hash": "21dca64448b4020a1b40fd36702da2fe",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/jade_o_yoroi_armor.png": {
+    "mtime": 1785150501.3232832,
+    "ast_hash": "297583bab904367e09d5d3ecda7b455d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/jade_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3242831,
+    "ast_hash": "4c9d95a7d6530d366271dfbfa12b6371",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/japanese_light_armor.png": {
+    "mtime": 1785150501.3242831,
+    "ast_hash": "e3b0a357cca9a45c83f159eeeb6697a0",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/japanese_light_armor_slim.png": {
+    "mtime": 1785150501.3242831,
+    "ast_hash": "fb46d74308ffd2688d3ba5b90c3a941e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/nightblue_o_yoroi_armor.png": {
+    "mtime": 1785150501.3252828,
+    "ast_hash": "fa35d7fff0ed37caba85a22c728ba1a1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/nightblue_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3252828,
+    "ast_hash": "f4109f0f39907b80253bcdaef2a3b087",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/o_yoroi_armor.png": {
+    "mtime": 1785150501.3252828,
+    "ast_hash": "4057fcbf13ed45c7ca057e3f97f64869",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3252828,
+    "ast_hash": "61c892d5a486c6f1e669667a33cd8687",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/pharaoh_armor.png": {
+    "mtime": 1785150501.326283,
+    "ast_hash": "8607c2b76cc0f7f9317a8275e7c41597",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/pharaoh_armor_slim.png": {
+    "mtime": 1785150501.332283,
+    "ast_hash": "9e9a2644af4aa664d1d0d713f1f81b3c",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/pinky_o_yoroi_armor.png": {
+    "mtime": 1785150501.3332834,
+    "ast_hash": "aa7387d2e2475d1c7dba59c2c09a9422",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/pinky_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.3332834,
+    "ast_hash": "149c37cb93fe850d507b8115059ac6d5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/quetzalcoatl_armor.png": {
+    "mtime": 1785150501.334283,
+    "ast_hash": "c248f1381bf22bd74ddb16ef5549d109",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/quetzalcoatl_armor_slim.png": {
+    "mtime": 1785150501.334283,
+    "ast_hash": "0d90690ae9839f0da9de4f3d7a94decb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/raijin_armor.png": {
+    "mtime": 1785150501.334283,
+    "ast_hash": "ba012d6e44c90f17be7ac4d3248a09ea",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/raijin_armor_slim.png": {
+    "mtime": 1785150501.3352833,
+    "ast_hash": "f2ae6a1f544143547c38b8ddfae40fe9",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_centurion_armor.png": {
+    "mtime": 1785150501.3352833,
+    "ast_hash": "db0960905f3994069e38751d6e0f66bf",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_centurion_armor_slim.png": {
+    "mtime": 1785150501.3352833,
+    "ast_hash": "d7d609c10359501f11570be68b58015d",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_o_yoroi_armor.png": {
+    "mtime": 1785150501.336283,
+    "ast_hash": "9c2a012dd748e41e1a4dc40e0bed983a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_o_yoroi_armor_slim.png": {
+    "mtime": 1785150501.336283,
+    "ast_hash": "c82cd13bf9080fdb4e056a4ac51b206a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_pharaoh_armor.png": {
+    "mtime": 1785150501.336283,
+    "ast_hash": "d7022d50da599c2a933055ce6907396f",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_pharaoh_armor_slim.png": {
+    "mtime": 1785150501.3372827,
+    "ast_hash": "92215416147f6659c07112197f0c1304",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_raijin_armor.png": {
+    "mtime": 1785150501.3372827,
+    "ast_hash": "426e1e44958b47365873cf63318b996e",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_raijin_armor_slim.png": {
+    "mtime": 1785150501.3372827,
+    "ast_hash": "908b5803c60a77c2ef3ab51ac0b41163",
+    "semantic_hash": ""
   }
 }
