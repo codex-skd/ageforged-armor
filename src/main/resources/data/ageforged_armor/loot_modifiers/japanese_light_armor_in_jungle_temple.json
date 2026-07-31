@@ -1,14 +1,14 @@
 {
   "type": "ageforged_armor:add_item",
-  "armor_name": "bamboo_hat",
-  "armor_state": 1.0,
+  "armor_name": "japanese_light_armor",
+  "armor_state": 0.5,
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_taiga_house"
+      "loot_table_id": "minecraft:chests/jungle_temple"
     },
     {
-      "chance": 0.35,
+      "chance": 0.6,
       "condition": "minecraft:random_chance"
     }
   ],

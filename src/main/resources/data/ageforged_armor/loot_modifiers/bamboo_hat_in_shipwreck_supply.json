@@ -11,5 +11,6 @@
       "chance": 0.35,
       "condition": "minecraft:random_chance"
     }
-  ]
+  ],
+  "priority": 0
 }

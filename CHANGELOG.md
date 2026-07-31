@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.1] - 2026-07-31
+
+### Fix
+
+- **41 recetas y el registro global de loot modifiers fallaban al cargar en el servidor**: NeoForge `26.1.2.78` cambió el codec de `Ingredient` — ya no acepta `{"item": "id"}`, exige el id como string simple (o array, o `#tag`). Como las armaduras son solo de loot, se eliminaron las 44 recetas en vez de reescribirlas, junto con sus 41 advancements de "receta desbloqueada" (huérfanas sin receta).
+- **`data/neoforge/loot_modifiers/global_loot_modifiers.json` obsoleto**: esta versión de NeoForge ya no usa el listado de `entries` — escanea directamente cada archivo en `data/*/loot_modifiers/*.json` como modificador individual (dispatch por `"type"`). El archivo ya no lo genera ni lo necesita `GlobalLootModifierProvider`; eliminado.
+- **Loot modifiers desincronizados con el datagen**: el `build.gradle` tenía el run `data` configurado con `clientData()`, pero `AgeforgedArmor.gatherData` escucha `GatherDataEvent.Server`, así que el datagen nunca escribía nada y los 14 JSON en disco habían quedado desfasados respecto a las 17 entradas actuales de `LootModifierProvider`. Corregido a `serverData()` y regenerados los 17 archivos correctos.
+
 ## [1.0.0] - 2026-07-27
 
 ### First Stable Release

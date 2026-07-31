@@ -1,15 +1,16 @@
 {
   "type": "ageforged_armor:add_item",
   "armor_name": "exalted_aurum_armor",
-  "armor_state": 0.7,
+  "armor_state": 0.1,
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
       "loot_table_id": "minecraft:chests/ancient_city"
     },
     {
-      "chance": 0.35,
+      "chance": 0.1,
       "condition": "minecraft:random_chance"
     }
-  ]
+  ],
+  "priority": 0
 }
