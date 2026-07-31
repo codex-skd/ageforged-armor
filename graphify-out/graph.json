@@ -906,7 +906,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant",
-      "community": 110,
+      "community": 4,
       "norm_label": "skinvariant"
     },
     {
@@ -916,7 +916,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_armormodelprovider_skinvariant_gettextureprefix",
-      "community": 110,
+      "community": 4,
       "norm_label": ".gettextureprefix()"
     },
     {
@@ -1506,7 +1506,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_feetanubisarmormodel_feetanubisarmormodel_createlayerdefinition",
-      "community": 28,
+      "community": 5,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -1516,7 +1516,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_feetanubisarmormodel_java_layerdefinition",
-      "community": 28,
+      "community": 5,
       "norm_label": "layerdefinition"
     },
     {
@@ -1536,7 +1536,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel",
-      "community": 19,
+      "community": 5,
       "norm_label": "headanubisarmormodel.java"
     },
     {
@@ -1546,7 +1546,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel",
-      "community": 19,
+      "community": 5,
       "norm_label": "headanubisarmormodel"
     },
     {
@@ -1556,7 +1556,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_java_modelpart",
-      "community": 19,
+      "community": 5,
       "norm_label": "modelpart"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_headanubisarmormodel",
-      "community": 19,
+      "community": 5,
       "norm_label": ".headanubisarmormodel()"
     },
     {
@@ -1576,7 +1576,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_create",
-      "community": 19,
+      "community": 5,
       "norm_label": ".create()"
     },
     {
@@ -1586,7 +1586,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_java_override",
-      "community": 19,
+      "community": 5,
       "norm_label": "override"
     },
     {
@@ -1596,7 +1596,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_createlayerdefinition",
-      "community": 19,
+      "community": 5,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -1606,7 +1606,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_java_layerdefinition",
-      "community": 19,
+      "community": 5,
       "norm_label": "layerdefinition"
     },
     {
@@ -1616,7 +1616,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_createslimlayerdefinition",
-      "community": 19,
+      "community": 5,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -1626,7 +1626,7 @@
       "source_location": "L129",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_anubis_armor_headanubisarmormodel_headanubisarmormodel_setuparmorpartanim",
-      "community": 19,
+      "community": 5,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -1726,7 +1726,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel",
-      "community": 5,
+      "community": 15,
       "norm_label": "chestcenturionarmormodel.java"
     },
     {
@@ -1736,7 +1736,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel",
-      "community": 5,
+      "community": 15,
       "norm_label": "chestcenturionarmormodel"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_chestcenturionarmormodel",
-      "community": 5,
+      "community": 15,
       "norm_label": ".chestcenturionarmormodel()"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_modelpart",
-      "community": 5,
+      "community": 15,
       "norm_label": "modelpart"
     },
     {
@@ -1766,7 +1766,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_create",
-      "community": 5,
+      "community": 15,
       "norm_label": ".create()"
     },
     {
@@ -1776,7 +1776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_override",
-      "community": 5,
+      "community": 15,
       "norm_label": "override"
     },
     {
@@ -1786,7 +1786,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_createlayerdefinition",
-      "community": 5,
+      "community": 15,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -1796,7 +1796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_java_layerdefinition",
-      "community": 5,
+      "community": 15,
       "norm_label": "layerdefinition"
     },
     {
@@ -1806,7 +1806,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_createslimlayerdefinition",
-      "community": 5,
+      "community": 15,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -1816,7 +1816,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_chestcenturionarmormodel_chestcenturionarmormodel_setuparmorpartanim",
-      "community": 5,
+      "community": 15,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -1976,7 +1976,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_headcenturionarmormodel_headcenturionarmormodel_createlayerdefinition",
-      "community": 5,
+      "community": 76,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -1986,7 +1986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_centurion_armor_headcenturionarmormodel_java_layerdefinition",
-      "community": 5,
+      "community": 76,
       "norm_label": "layerdefinition"
     },
     {
@@ -2096,7 +2096,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel",
-      "community": 5,
+      "community": 17,
       "norm_label": "chestexaltedaurumarmormodel.java"
     },
     {
@@ -2106,7 +2106,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel",
-      "community": 5,
+      "community": 17,
       "norm_label": "chestexaltedaurumarmormodel"
     },
     {
@@ -2116,7 +2116,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_java_modelpart",
-      "community": 5,
+      "community": 17,
       "norm_label": "modelpart"
     },
     {
@@ -2126,7 +2126,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel",
-      "community": 5,
+      "community": 17,
       "norm_label": ".chestexaltedaurumarmormodel()"
     },
     {
@@ -2136,7 +2136,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel_create",
-      "community": 5,
+      "community": 17,
       "norm_label": ".create()"
     },
     {
@@ -2146,7 +2146,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_java_override",
-      "community": 5,
+      "community": 17,
       "norm_label": "override"
     },
     {
@@ -2156,7 +2156,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel_createlayerdefinition",
-      "community": 5,
+      "community": 17,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -2166,7 +2166,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_java_layerdefinition",
-      "community": 5,
+      "community": 17,
       "norm_label": "layerdefinition"
     },
     {
@@ -2176,7 +2176,7 @@
       "source_location": "L116",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel_createslimlayerdefinition",
-      "community": 5,
+      "community": 17,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -2186,7 +2186,7 @@
       "source_location": "L197",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_chestexaltedaurumarmormodel_chestexaltedaurumarmormodel_setuparmorpartanim",
-      "community": 5,
+      "community": 17,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -2376,7 +2376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel",
-      "community": 20,
+      "community": 5,
       "norm_label": "legsexaltedaurumarmormodel.java"
     },
     {
@@ -2386,7 +2386,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel",
-      "community": 20,
+      "community": 5,
       "norm_label": "legsexaltedaurumarmormodel"
     },
     {
@@ -2396,7 +2396,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_java_modelpart",
-      "community": 20,
+      "community": 5,
       "norm_label": "modelpart"
     },
     {
@@ -2406,7 +2406,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel",
-      "community": 20,
+      "community": 5,
       "norm_label": ".legsexaltedaurumarmormodel()"
     },
     {
@@ -2416,7 +2416,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel_create",
-      "community": 20,
+      "community": 5,
       "norm_label": ".create()"
     },
     {
@@ -2426,7 +2426,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_java_override",
-      "community": 20,
+      "community": 5,
       "norm_label": "override"
     },
     {
@@ -2436,7 +2436,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel_createlayerdefinition",
-      "community": 20,
+      "community": 5,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -2446,7 +2446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_java_layerdefinition",
-      "community": 20,
+      "community": 5,
       "norm_label": "layerdefinition"
     },
     {
@@ -2456,7 +2456,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel_createslimlayerdefinition",
-      "community": 20,
+      "community": 5,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_legsexaltedaurumarmormodel_legsexaltedaurumarmormodel_setuparmorpartanim",
-      "community": 20,
+      "community": 5,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -2576,7 +2576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel",
-      "community": 34,
+      "community": 14,
       "norm_label": "feetholyarmormodel.java"
     },
     {
@@ -2586,7 +2586,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel",
-      "community": 34,
+      "community": 14,
       "norm_label": "feetholyarmormodel"
     },
     {
@@ -2596,7 +2596,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_modelpart",
-      "community": 34,
+      "community": 14,
       "norm_label": "modelpart"
     },
     {
@@ -2606,7 +2606,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_feetholyarmormodel",
-      "community": 34,
+      "community": 14,
       "norm_label": ".feetholyarmormodel()"
     },
     {
@@ -2616,7 +2616,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_create",
-      "community": 34,
+      "community": 14,
       "norm_label": ".create()"
     },
     {
@@ -2626,7 +2626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_override",
-      "community": 34,
+      "community": 14,
       "norm_label": "override"
     },
     {
@@ -2636,7 +2636,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_createlayerdefinition",
-      "community": 34,
+      "community": 14,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -2646,7 +2646,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_java_layerdefinition",
-      "community": 34,
+      "community": 14,
       "norm_label": "layerdefinition"
     },
     {
@@ -2656,7 +2656,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_holy_armor_feetholyarmormodel_feetholyarmormodel_setuparmorpartanim",
-      "community": 34,
+      "community": 14,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -3376,7 +3376,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_japanese_light_armor_feetjapaneselightarmormodel_feetjapaneselightarmormodel_createlayerdefinition",
-      "community": 39,
+      "community": 5,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -3386,7 +3386,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_japanese_light_armor_feetjapaneselightarmormodel_java_layerdefinition",
-      "community": 39,
+      "community": 5,
       "norm_label": "layerdefinition"
     },
     {
@@ -3956,7 +3956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel",
-      "community": 24,
+      "community": 5,
       "norm_label": "chestpharaoharmormodel.java"
     },
     {
@@ -3966,7 +3966,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel",
-      "community": 24,
+      "community": 5,
       "norm_label": "chestpharaoharmormodel"
     },
     {
@@ -3976,7 +3976,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_chestpharaoharmormodel",
-      "community": 24,
+      "community": 5,
       "norm_label": ".chestpharaoharmormodel()"
     },
     {
@@ -3986,7 +3986,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_modelpart",
-      "community": 24,
+      "community": 5,
       "norm_label": "modelpart"
     },
     {
@@ -3996,7 +3996,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_create",
-      "community": 24,
+      "community": 5,
       "norm_label": ".create()"
     },
     {
@@ -4006,7 +4006,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_override",
-      "community": 24,
+      "community": 5,
       "norm_label": "override"
     },
     {
@@ -4016,7 +4016,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_createlayerdefinition",
-      "community": 24,
+      "community": 5,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4026,7 +4026,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_java_layerdefinition",
-      "community": 24,
+      "community": 5,
       "norm_label": "layerdefinition"
     },
     {
@@ -4036,7 +4036,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_createslimlayerdefinition",
-      "community": 24,
+      "community": 5,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -4046,7 +4046,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_pharaoh_armor_chestpharaoharmormodel_chestpharaoharmormodel_setuparmorpartanim",
-      "community": 24,
+      "community": 5,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -4426,7 +4426,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel",
-      "community": 14,
+      "community": 19,
       "norm_label": "feetquetzalcoatlarmormodel.java"
     },
     {
@@ -4436,7 +4436,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel",
-      "community": 14,
+      "community": 19,
       "norm_label": "feetquetzalcoatlarmormodel"
     },
     {
@@ -4446,7 +4446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_java_modelpart",
-      "community": 14,
+      "community": 19,
       "norm_label": "modelpart"
     },
     {
@@ -4456,7 +4456,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel",
-      "community": 14,
+      "community": 19,
       "norm_label": ".feetquetzalcoatlarmormodel()"
     },
     {
@@ -4466,7 +4466,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel_create",
-      "community": 14,
+      "community": 19,
       "norm_label": ".create()"
     },
     {
@@ -4476,7 +4476,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_java_override",
-      "community": 14,
+      "community": 19,
       "norm_label": "override"
     },
     {
@@ -4486,7 +4486,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel_createlayerdefinition",
-      "community": 14,
+      "community": 19,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4496,7 +4496,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_java_layerdefinition",
-      "community": 14,
+      "community": 19,
       "norm_label": "layerdefinition"
     },
     {
@@ -4506,7 +4506,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_feetquetzalcoatlarmormodel_feetquetzalcoatlarmormodel_setuparmorpartanim",
-      "community": 14,
+      "community": 19,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -4886,7 +4886,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel",
-      "community": 5,
+      "community": 18,
       "norm_label": "headraijinarmormodel.java"
     },
     {
@@ -4896,7 +4896,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel",
-      "community": 5,
+      "community": 18,
       "norm_label": "headraijinarmormodel"
     },
     {
@@ -4906,7 +4906,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_java_modelpart",
-      "community": 5,
+      "community": 18,
       "norm_label": "modelpart"
     },
     {
@@ -4916,7 +4916,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel_headraijinarmormodel",
-      "community": 5,
+      "community": 18,
       "norm_label": ".headraijinarmormodel()"
     },
     {
@@ -4926,7 +4926,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel_create",
-      "community": 5,
+      "community": 18,
       "norm_label": ".create()"
     },
     {
@@ -4936,7 +4936,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_java_override",
-      "community": 5,
+      "community": 18,
       "norm_label": "override"
     },
     {
@@ -4946,7 +4946,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel_createlayerdefinition",
-      "community": 5,
+      "community": 18,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4956,7 +4956,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_java_layerdefinition",
-      "community": 5,
+      "community": 18,
       "norm_label": "layerdefinition"
     },
     {
@@ -4966,7 +4966,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel_createslimlayerdefinition",
-      "community": 5,
+      "community": 18,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -4976,7 +4976,7 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_client_models_raijin_armor_headraijinarmormodel_headraijinarmormodel_setuparmorpartanim",
-      "community": 5,
+      "community": 18,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -5106,7 +5106,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ageforgedarmorconfig",
-      "community": 55,
+      "community": 2,
       "norm_label": "ageforgedarmorconfig.java"
     },
     {
@@ -5116,7 +5116,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ageforgedarmorconfig_ageforgedarmorconfig",
-      "community": 55,
+      "community": 2,
       "norm_label": "ageforgedarmorconfig"
     },
     {
@@ -5126,7 +5126,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "configclasshandler",
-      "community": 55,
+      "community": 2,
       "norm_label": "configclasshandler"
     },
     {
@@ -5146,7 +5146,7 @@
       "source_location": "L169",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_config_ageforgedarmorconfig_ageforgedarmorconfig_createscreen",
-      "community": 55,
+      "community": 1,
       "norm_label": ".createscreen()"
     },
     {
@@ -5156,7 +5156,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "yetanotherconfiglib",
-      "community": 55,
+      "community": 1,
       "norm_label": "yetanotherconfiglib"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_java",
-      "community": 56,
+      "community": 4,
       "norm_label": "centurionskin.java"
     },
     {
@@ -5176,7 +5176,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin",
-      "community": 56,
+      "community": 4,
       "norm_label": "centurionskin"
     },
     {
@@ -5186,7 +5186,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_default",
-      "community": 56,
+      "community": 4,
       "norm_label": "default"
     },
     {
@@ -5196,7 +5196,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_centurionskin_silver_patreon",
-      "community": 56,
+      "community": 4,
       "norm_label": "silver_patreon"
     },
     {
@@ -5206,7 +5206,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_gettextureprefix",
-      "community": 56,
+      "community": 4,
       "norm_label": "gettextureprefix()"
     },
     {
@@ -5226,7 +5226,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_getrequiredtier",
-      "community": 56,
+      "community": 4,
       "norm_label": "getrequiredtier()"
     },
     {
@@ -5236,7 +5236,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_centurionskin_tostring",
-      "community": 56,
+      "community": 4,
       "norm_label": "tostring()"
     },
     {
@@ -5246,7 +5246,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_java",
-      "community": 78,
+      "community": 4,
       "norm_label": "ironplateskin.java"
     },
     {
@@ -5256,7 +5256,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin",
-      "community": 78,
+      "community": 4,
       "norm_label": "ironplateskin"
     },
     {
@@ -5266,7 +5266,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_default",
-      "community": 78,
+      "community": 4,
       "norm_label": "default"
     },
     {
@@ -5276,7 +5276,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_ironplateskin_ashes",
-      "community": 78,
+      "community": 4,
       "norm_label": "ashes"
     },
     {
@@ -5286,7 +5286,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_gettextureprefix",
-      "community": 78,
+      "community": 4,
       "norm_label": "gettextureprefix()"
     },
     {
@@ -5306,7 +5306,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_ironplateskin_tostring",
-      "community": 78,
+      "community": 4,
       "norm_label": "tostring()"
     },
     {
@@ -5316,7 +5316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_oyoroiskin_java",
-      "community": 157,
+      "community": 4,
       "norm_label": "oyoroiskin.java"
     },
     {
@@ -5426,7 +5426,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_oyoroiskin_gettextureprefix",
-      "community": 157,
+      "community": 4,
       "norm_label": "gettextureprefix()"
     },
     {
@@ -5446,7 +5446,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_oyoroiskin_getrequiredtier",
-      "community": 157,
+      "community": 4,
       "norm_label": "getrequiredtier()"
     },
     {
@@ -5456,7 +5456,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_oyoroiskin_tostring",
-      "community": 157,
+      "community": 4,
       "norm_label": "tostring()"
     },
     {
@@ -5466,7 +5466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_java",
-      "community": 57,
+      "community": 4,
       "norm_label": "pharaohskin.java"
     },
     {
@@ -5476,7 +5476,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin",
-      "community": 57,
+      "community": 4,
       "norm_label": "pharaohskin"
     },
     {
@@ -5486,7 +5486,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_default",
-      "community": 57,
+      "community": 4,
       "norm_label": "default"
     },
     {
@@ -5496,7 +5496,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_pharaohskin_silver_patreon",
-      "community": 57,
+      "community": 4,
       "norm_label": "silver_patreon"
     },
     {
@@ -5506,7 +5506,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_gettextureprefix",
-      "community": 57,
+      "community": 4,
       "norm_label": "gettextureprefix()"
     },
     {
@@ -5526,7 +5526,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_getrequiredtier",
-      "community": 57,
+      "community": 4,
       "norm_label": "getrequiredtier()"
     },
     {
@@ -5536,7 +5536,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_pharaohskin_tostring",
-      "community": 57,
+      "community": 4,
       "norm_label": "tostring()"
     },
     {
@@ -5586,7 +5586,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_java",
-      "community": 160,
+      "community": 4,
       "norm_label": "raijinskin.java"
     },
     {
@@ -5596,7 +5596,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin",
-      "community": 110,
+      "community": 4,
       "norm_label": "raijinskin"
     },
     {
@@ -5606,7 +5606,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_default",
-      "community": 110,
+      "community": 4,
       "norm_label": "default"
     },
     {
@@ -5616,7 +5616,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_silver_patreon",
-      "community": 110,
+      "community": 4,
       "norm_label": "silver_patreon"
     },
     {
@@ -5626,7 +5626,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_raijinskin_crystal_patreon",
-      "community": 110,
+      "community": 4,
       "norm_label": "crystal_patreon"
     },
     {
@@ -5636,7 +5636,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_gettextureprefix",
-      "community": 160,
+      "community": 4,
       "norm_label": "gettextureprefix()"
     },
     {
@@ -5656,7 +5656,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_getrequiredtier",
-      "community": 160,
+      "community": 4,
       "norm_label": "getrequiredtier()"
     },
     {
@@ -5666,7 +5666,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_config_raijinskin_tostring",
-      "community": 160,
+      "community": 4,
       "norm_label": "tostring()"
     },
     {
@@ -5896,7 +5896,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_item_hatitem_hatitem_hatitem",
-      "community": 6,
+      "community": 1,
       "norm_label": ".hatitem()"
     },
     {
@@ -5906,7 +5906,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_item_hatitem_hatitem_buildmodifiers",
-      "community": 6,
+      "community": 1,
       "norm_label": ".buildmodifiers()"
     },
     {
@@ -5916,7 +5916,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "itemattributemodifiers",
-      "community": 6,
+      "community": 1,
       "norm_label": "itemattributemodifiers"
     },
     {
@@ -6596,7 +6596,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_loot_loottablestomodify",
-      "community": 55,
+      "community": 2,
       "norm_label": "loottablestomodify.java"
     },
     {
@@ -6606,7 +6606,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_com_skd_ageforgedarmor_loot_loottablestomodify_loottablestomodify",
-      "community": 55,
+      "community": 2,
       "norm_label": "loottablestomodify"
     },
     {
@@ -8460,20 +8460,20 @@
       "norm_label": "claude.md \u2014 ageforged_armor (26.2)"
     },
     {
-      "label": "Paso 0 obligatorio",
+      "label": "Workflow del mod",
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "claude_claude_paso_0_obligatorio",
+      "id": "claude_claude_workflow_del_mod",
       "community": 71,
-      "norm_label": "paso 0 obligatorio"
+      "norm_label": "workflow del mod"
     },
     {
       "label": "Prioridad de instrucciones",
       "file_type": "document",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "claude_claude_prioridad_de_instrucciones",
       "community": 71,
@@ -8500,10 +8500,30 @@
       "norm_label": "changelog"
     },
     {
-      "label": "[1.1.1] - 2026-07-30",
+      "label": "[1.1.2] - 2026-07-31",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
       "source_location": "L7",
+      "_origin": "ast",
+      "id": "changelog_1_1_2_2026_07_31",
+      "community": 57,
+      "norm_label": "[1.1.2] - 2026-07-31"
+    },
+    {
+      "label": "Fix",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "changelog_fix",
+      "community": 57,
+      "norm_label": "fix"
+    },
+    {
+      "label": "[1.1.1] - 2026-07-30",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "changelog_1_1_1_2026_07_30",
       "community": 12,
@@ -8513,9 +8533,9 @@
       "label": "Fix",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "changelog_fix",
+      "id": "changelog_fix_17",
       "community": 12,
       "norm_label": "fix"
     },
@@ -8523,7 +8543,7 @@
       "label": "[1.1.0] - 2026-07-29",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "changelog_1_1_0_2026_07_29",
       "community": 167,
@@ -8533,9 +8553,9 @@
       "label": "Fix",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L24",
       "_origin": "ast",
-      "id": "changelog_fix_16",
+      "id": "changelog_fix_24",
       "community": 167,
       "norm_label": "fix"
     },
@@ -8543,7 +8563,7 @@
       "label": "[1.0.0] - 2026-07-29",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L20",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "changelog_1_0_0_2026_07_29",
       "community": 168,
@@ -8553,7 +8573,7 @@
       "label": "First Stable Release (26.2 track)",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L22",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "changelog_first_stable_release_26_2_track",
       "community": 168,
@@ -8563,7 +8583,7 @@
       "label": "[0.0.0-beta.3] - 2026-07-27",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L30",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3_2026_07_27",
       "community": 163,
@@ -8573,9 +8593,9 @@
       "label": "Fix",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L32",
+      "source_location": "L40",
       "_origin": "ast",
-      "id": "changelog_fix_32",
+      "id": "changelog_fix_40",
       "community": 163,
       "norm_label": "fix"
     },
@@ -8583,67 +8603,67 @@
       "label": "[0.0.0-beta.2] - 2026-07-27",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L36",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2_2026_07_27",
-      "community": 158,
+      "community": 12,
       "norm_label": "[0.0.0-beta.2] - 2026-07-27"
     },
     {
       "label": "Fix",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L38",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "changelog_fix_38",
-      "community": 158,
+      "id": "changelog_fix_46",
+      "community": 12,
       "norm_label": "fix"
     },
     {
       "label": "[0.0.0-beta.1] - 2026-07-27",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L42",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1_2026_07_27",
-      "community": 152,
+      "community": 12,
       "norm_label": "[0.0.0-beta.1] - 2026-07-27"
     },
     {
       "label": "Port to Minecraft 26.2 / NeoForge 26.2.0.32-beta",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "changelog_port_to_minecraft_26_2_neoforge_26_2_0_32_beta",
-      "community": 152,
+      "community": 12,
       "norm_label": "port to minecraft 26.2 / neoforge 26.2.0.32-beta"
     },
     {
       "label": "[0.0.0-beta.35] - 2026-07-24",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L51",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_35_2026_07_24",
-      "community": 12,
+      "community": 55,
       "norm_label": "[0.0.0-beta.35] - 2026-07-24"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L53",
+      "source_location": "L61",
       "_origin": "ast",
       "id": "changelog_fixed",
-      "community": 12,
+      "community": 55,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.34] - 2026-07-24",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L56",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_34_2026_07_24",
       "community": 173,
@@ -8653,9 +8673,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L58",
+      "source_location": "L66",
       "_origin": "ast",
-      "id": "changelog_fixed_58",
+      "id": "changelog_fixed_66",
       "community": 173,
       "norm_label": "fixed"
     },
@@ -8663,27 +8683,27 @@
       "label": "[0.0.0-beta.33] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L61",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_33_2026_07_23",
-      "community": 12,
+      "community": 34,
       "norm_label": "[0.0.0-beta.33] - 2026-07-23"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L63",
+      "source_location": "L71",
       "_origin": "ast",
-      "id": "changelog_fixed_63",
-      "community": 12,
+      "id": "changelog_fixed_71",
+      "community": 34,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.32] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L66",
+      "source_location": "L74",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_32_2026_07_23",
       "community": 159,
@@ -8693,9 +8713,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L68",
+      "source_location": "L76",
       "_origin": "ast",
-      "id": "changelog_fixed_68",
+      "id": "changelog_fixed_76",
       "community": 159,
       "norm_label": "fixed"
     },
@@ -8703,7 +8723,7 @@
       "label": "[0.0.0-beta.31] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L71",
+      "source_location": "L79",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_31_2026_07_23",
       "community": 161,
@@ -8713,9 +8733,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L73",
+      "source_location": "L81",
       "_origin": "ast",
-      "id": "changelog_fixed_73",
+      "id": "changelog_fixed_81",
       "community": 161,
       "norm_label": "fixed"
     },
@@ -8723,7 +8743,7 @@
       "label": "[0.0.0-beta.30] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L76",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_30_2026_07_22",
       "community": 85,
@@ -8733,9 +8753,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L78",
+      "source_location": "L86",
       "_origin": "ast",
-      "id": "changelog_fixed_78",
+      "id": "changelog_fixed_86",
       "community": 85,
       "norm_label": "fixed"
     },
@@ -8743,7 +8763,7 @@
       "label": "Infrastructure",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L81",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "changelog_infrastructure",
       "community": 85,
@@ -8753,7 +8773,7 @@
       "label": "[0.0.0-beta.29] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L86",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_29_2026_07_22",
       "community": 156,
@@ -8763,9 +8783,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L88",
+      "source_location": "L96",
       "_origin": "ast",
-      "id": "changelog_fixed_88",
+      "id": "changelog_fixed_96",
       "community": 156,
       "norm_label": "fixed"
     },
@@ -8773,7 +8793,7 @@
       "label": "[0.0.0-beta.28] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L92",
+      "source_location": "L100",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_28_2026_07_22",
       "community": 70,
@@ -8783,7 +8803,7 @@
       "label": "Refactor",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L94",
+      "source_location": "L102",
       "_origin": "ast",
       "id": "changelog_refactor",
       "community": 70,
@@ -8793,7 +8813,7 @@
       "label": "Docs",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L100",
+      "source_location": "L108",
       "_origin": "ast",
       "id": "changelog_docs",
       "community": 70,
@@ -8803,9 +8823,9 @@
       "label": "Infrastructure",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L104",
+      "source_location": "L112",
       "_origin": "ast",
-      "id": "changelog_infrastructure_104",
+      "id": "changelog_infrastructure_112",
       "community": 70,
       "norm_label": "infrastructure"
     },
@@ -8813,7 +8833,7 @@
       "label": "[0.0.0-beta.27] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L110",
+      "source_location": "L118",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_27_2026_07_17",
       "community": 155,
@@ -8823,9 +8843,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L112",
+      "source_location": "L120",
       "_origin": "ast",
-      "id": "changelog_fixed_112",
+      "id": "changelog_fixed_120",
       "community": 155,
       "norm_label": "fixed"
     },
@@ -8833,7 +8853,7 @@
       "label": "[0.0.0-beta.24] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L117",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_24_2026_07_17",
       "community": 104,
@@ -8843,9 +8863,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L119",
+      "source_location": "L127",
       "_origin": "ast",
-      "id": "changelog_fixed_119",
+      "id": "changelog_fixed_127",
       "community": 104,
       "norm_label": "fixed"
     },
@@ -8853,7 +8873,7 @@
       "label": "[0.0.0-beta.23] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L122",
+      "source_location": "L130",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_23_2026_07_17",
       "community": 102,
@@ -8863,9 +8883,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L124",
+      "source_location": "L132",
       "_origin": "ast",
-      "id": "changelog_fixed_124",
+      "id": "changelog_fixed_132",
       "community": 102,
       "norm_label": "fixed"
     },
@@ -8873,7 +8893,7 @@
       "label": "[0.0.0-beta.22] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L127",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_22_2026_07_17",
       "community": 79,
@@ -8883,7 +8903,7 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L129",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "changelog_added",
       "community": 79,
@@ -8893,9 +8913,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L132",
+      "source_location": "L140",
       "_origin": "ast",
-      "id": "changelog_fixed_132",
+      "id": "changelog_fixed_140",
       "community": 79,
       "norm_label": "fixed"
     },
@@ -8903,7 +8923,7 @@
       "label": "[0.0.0-beta.21] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L135",
+      "source_location": "L143",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_21_2026_07_17",
       "community": 154,
@@ -8913,9 +8933,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L137",
+      "source_location": "L145",
       "_origin": "ast",
-      "id": "changelog_fixed_137",
+      "id": "changelog_fixed_145",
       "community": 154,
       "norm_label": "fixed"
     },
@@ -8923,7 +8943,7 @@
       "label": "[0.0.0-beta.20] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L140",
+      "source_location": "L148",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_20_2026_07_17",
       "community": 153,
@@ -8933,9 +8953,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L142",
+      "source_location": "L150",
       "_origin": "ast",
-      "id": "changelog_fixed_142",
+      "id": "changelog_fixed_150",
       "community": 153,
       "norm_label": "fixed"
     },
@@ -8943,7 +8963,7 @@
       "label": "[0.0.0-beta.19] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L146",
+      "source_location": "L154",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_19_2026_07_17",
       "community": 151,
@@ -8953,9 +8973,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L148",
+      "source_location": "L156",
       "_origin": "ast",
-      "id": "changelog_fixed_148",
+      "id": "changelog_fixed_156",
       "community": 151,
       "norm_label": "fixed"
     },
@@ -8963,7 +8983,7 @@
       "label": "[0.0.0-beta.18] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L152",
+      "source_location": "L160",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_18_2026_07_17",
       "community": 150,
@@ -8973,9 +8993,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L154",
+      "source_location": "L162",
       "_origin": "ast",
-      "id": "changelog_fixed_154",
+      "id": "changelog_fixed_162",
       "community": 150,
       "norm_label": "fixed"
     },
@@ -8983,7 +9003,7 @@
       "label": "[0.0.0-beta.17] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L157",
+      "source_location": "L165",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_17_2026_07_16",
       "community": 111,
@@ -8993,9 +9013,9 @@
       "label": "Docs",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L159",
+      "source_location": "L167",
       "_origin": "ast",
-      "id": "changelog_docs_159",
+      "id": "changelog_docs_167",
       "community": 111,
       "norm_label": "docs"
     },
@@ -9003,27 +9023,27 @@
       "label": "[0.0.0-beta.16] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L162",
+      "source_location": "L170",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_16_2026_07_16",
-      "community": 12,
+      "community": 20,
       "norm_label": "[0.0.0-beta.16] - 2026-07-16"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L164",
+      "source_location": "L172",
       "_origin": "ast",
-      "id": "changelog_fixed_164",
-      "community": 12,
+      "id": "changelog_fixed_172",
+      "community": 20,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.15] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L170",
+      "source_location": "L178",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_15_2026_07_16",
       "community": 75,
@@ -9033,9 +9053,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L172",
+      "source_location": "L180",
       "_origin": "ast",
-      "id": "changelog_fixed_172",
+      "id": "changelog_fixed_180",
       "community": 75,
       "norm_label": "fixed"
     },
@@ -9043,7 +9063,7 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L177",
+      "source_location": "L185",
       "_origin": "ast",
       "id": "changelog_changed",
       "community": 75,
@@ -9053,7 +9073,7 @@
       "label": "[0.0.0-beta.14] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L181",
+      "source_location": "L189",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_14_2026_07_13",
       "community": 166,
@@ -9063,9 +9083,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L183",
+      "source_location": "L191",
       "_origin": "ast",
-      "id": "changelog_changed_183",
+      "id": "changelog_changed_191",
       "community": 166,
       "norm_label": "changed"
     },
@@ -9073,27 +9093,27 @@
       "label": "[0.0.0-beta.13] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L187",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_13_2026_07_13",
-      "community": 103,
+      "community": 12,
       "norm_label": "[0.0.0-beta.13] - 2026-07-13"
     },
     {
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L189",
+      "source_location": "L197",
       "_origin": "ast",
-      "id": "changelog_changed_189",
-      "community": 103,
+      "id": "changelog_changed_197",
+      "community": 12,
       "norm_label": "changed"
     },
     {
       "label": "[0.0.0-beta.12] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L193",
+      "source_location": "L201",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_12_2026_07_13",
       "community": 74,
@@ -9103,9 +9123,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L195",
+      "source_location": "L203",
       "_origin": "ast",
-      "id": "changelog_added_195",
+      "id": "changelog_added_203",
       "community": 74,
       "norm_label": "added"
     },
@@ -9113,9 +9133,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L199",
+      "source_location": "L207",
       "_origin": "ast",
-      "id": "changelog_fixed_199",
+      "id": "changelog_fixed_207",
       "community": 74,
       "norm_label": "fixed"
     },
@@ -9123,7 +9143,7 @@
       "label": "[0.0.0-beta.11] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L203",
+      "source_location": "L211",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_11_2026_07_13",
       "community": 101,
@@ -9133,9 +9153,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L205",
+      "source_location": "L213",
       "_origin": "ast",
-      "id": "changelog_fixed_205",
+      "id": "changelog_fixed_213",
       "community": 101,
       "norm_label": "fixed"
     },
@@ -9143,7 +9163,7 @@
       "label": "[0.0.0-beta.10] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L209",
+      "source_location": "L217",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_10_2026_07_13",
       "community": 162,
@@ -9153,9 +9173,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L211",
+      "source_location": "L219",
       "_origin": "ast",
-      "id": "changelog_fixed_211",
+      "id": "changelog_fixed_219",
       "community": 162,
       "norm_label": "fixed"
     },
@@ -9163,7 +9183,7 @@
       "label": "[0.0.0-beta.9] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L216",
+      "source_location": "L224",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_9_2026_07_13",
       "community": 86,
@@ -9173,9 +9193,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L218",
+      "source_location": "L226",
       "_origin": "ast",
-      "id": "changelog_added_218",
+      "id": "changelog_added_226",
       "community": 86,
       "norm_label": "added"
     },
@@ -9183,9 +9203,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L221",
+      "source_location": "L229",
       "_origin": "ast",
-      "id": "changelog_changed_221",
+      "id": "changelog_changed_229",
       "community": 86,
       "norm_label": "changed"
     },
@@ -9193,27 +9213,27 @@
       "label": "[0.0.0-beta.8] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L224",
+      "source_location": "L232",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_8_2026_07_13",
-      "community": 176,
+      "community": 12,
       "norm_label": "[0.0.0-beta.8] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L226",
+      "source_location": "L234",
       "_origin": "ast",
-      "id": "changelog_fixed_226",
-      "community": 176,
+      "id": "changelog_fixed_234",
+      "community": 12,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.7] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L231",
+      "source_location": "L239",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_7_2026_07_13",
       "community": 175,
@@ -9223,9 +9243,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L233",
+      "source_location": "L241",
       "_origin": "ast",
-      "id": "changelog_fixed_233",
+      "id": "changelog_fixed_241",
       "community": 175,
       "norm_label": "fixed"
     },
@@ -9233,47 +9253,47 @@
       "label": "[0.0.0-beta.6] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L236",
+      "source_location": "L244",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_6_2026_07_13",
-      "community": 12,
+      "community": 56,
       "norm_label": "[0.0.0-beta.6] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L238",
+      "source_location": "L246",
       "_origin": "ast",
-      "id": "changelog_fixed_238",
-      "community": 12,
+      "id": "changelog_fixed_246",
+      "community": 56,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.5] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L241",
+      "source_location": "L249",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_5_2026_07_13",
-      "community": 165,
+      "community": 12,
       "norm_label": "[0.0.0-beta.5] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L243",
+      "source_location": "L251",
       "_origin": "ast",
-      "id": "changelog_fixed_243",
-      "community": 165,
+      "id": "changelog_fixed_251",
+      "community": 12,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.4] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L246",
+      "source_location": "L254",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_4_2026_07_13",
       "community": 164,
@@ -9283,9 +9303,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L248",
+      "source_location": "L256",
       "_origin": "ast",
-      "id": "changelog_fixed_248",
+      "id": "changelog_fixed_256",
       "community": 164,
       "norm_label": "fixed"
     },
@@ -9293,7 +9313,7 @@
       "label": "[0.0.0-beta.3] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L251",
+      "source_location": "L259",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_3_2026_07_13",
       "community": 174,
@@ -9303,9 +9323,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L253",
+      "source_location": "L261",
       "_origin": "ast",
-      "id": "changelog_fixed_253",
+      "id": "changelog_fixed_261",
       "community": 174,
       "norm_label": "fixed"
     },
@@ -9313,27 +9333,27 @@
       "label": "[0.0.0-beta.2] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L256",
+      "source_location": "L264",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_2_2026_07_13",
-      "community": 12,
+      "community": 24,
       "norm_label": "[0.0.0-beta.2] - 2026-07-13"
     },
     {
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L258",
+      "source_location": "L266",
       "_origin": "ast",
-      "id": "changelog_changed_258",
-      "community": 12,
+      "id": "changelog_changed_266",
+      "community": 24,
       "norm_label": "changed"
     },
     {
       "label": "[0.0.0-beta.1] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L262",
+      "source_location": "L270",
       "_origin": "ast",
       "id": "changelog_0_0_0_beta_1_2026_07_13",
       "community": 41,
@@ -9343,9 +9363,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L264",
+      "source_location": "L272",
       "_origin": "ast",
-      "id": "changelog_added_264",
+      "id": "changelog_added_272",
       "community": 41,
       "norm_label": "added"
     },
@@ -9436,448 +9456,108 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "community": 18,
+      "community": 16,
       "norm_label": "flujo de trabajo \u2014 ageforged armor (neoforge)"
+    },
+    {
+      "label": "Espec\u00edfico del mod",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_workflow_ageforged_armor_26_2_espec\u00edfico_del_mod",
+      "community": 16,
+      "norm_label": "especifico del mod"
     },
     {
       "label": "Convenciones de nomenclatura",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L8",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_convenciones_de_nomenclatura",
-      "community": 18,
+      "community": 16,
       "norm_label": "convenciones de nomenclatura"
     },
     {
-      "label": "Ficheros de documentaci\u00f3n",
+      "label": "Organizaci\u00f3n y ramas",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L17",
+      "source_location": "L27",
       "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ficheros_de_documentaci\u00f3n",
-      "community": 18,
-      "norm_label": "ficheros de documentacion"
-    },
-    {
-      "label": "Organizaci\u00f3n en el workspace",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_organizaci\u00f3n_en_el_workspace",
-      "community": 18,
-      "norm_label": "organizacion en el workspace"
-    },
-    {
-      "label": "Tipograf\u00eda",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L63",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_tipograf\u00eda",
-      "community": 18,
-      "norm_label": "tipografia"
+      "id": "docs_workflow_ageforged_armor_26_2_organizaci\u00f3n_y_ramas",
+      "community": 16,
+      "norm_label": "organizacion y ramas"
     },
     {
       "label": "Estructura del proyecto",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L71",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_estructura_del_proyecto",
-      "community": 15,
+      "community": 16,
       "norm_label": "estructura del proyecto"
-    },
-    {
-      "label": "Archivos de CurseForge",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L115",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_archivos_de_curseforge",
-      "community": 15,
-      "norm_label": "archivos de curseforge"
-    },
-    {
-      "label": "Formato de descripciones CurseForge",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L127",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "community": 15,
-      "norm_label": "formato de descripciones curseforge"
-    },
-    {
-      "label": "Estructura de la descripci\u00f3n general",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L138",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_estructura_de_la_descripci\u00f3n_general",
-      "community": 15,
-      "norm_label": "estructura de la descripcion general"
-    },
-    {
-      "label": "Elementos HTML disponibles",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L152",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_elementos_html_disponibles",
-      "community": 15,
-      "norm_label": "elementos html disponibles"
-    },
-    {
-      "label": "Buenas pr\u00e1cticas",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L171",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas",
-      "community": 15,
-      "norm_label": "buenas practicas"
-    },
-    {
-      "label": "Formato del changelog",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L180",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_formato_del_changelog",
-      "community": 15,
-      "norm_label": "formato del changelog"
-    },
-    {
-      "label": "Ejemplo de estructura HTML para release notes",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L191",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ejemplo_de_estructura_html_para_release_notes",
-      "community": 15,
-      "norm_label": "ejemplo de estructura html para release notes"
-    },
-    {
-      "label": "Elementos HTML permitidos",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L207",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_elementos_html_permitidos",
-      "community": 15,
-      "norm_label": "elementos html permitidos"
-    },
-    {
-      "label": "Ramas",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L222",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ramas",
-      "community": 69,
-      "norm_label": "ramas"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L224",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_estructura",
-      "community": 69,
-      "norm_label": "estructura"
-    },
-    {
-      "label": "Ejemplos",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L232",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ejemplos",
-      "community": 69,
-      "norm_label": "ejemplos"
-    },
-    {
-      "label": "Esquema de publicaci\u00f3n",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L239",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_esquema_de_publicaci\u00f3n",
-      "community": 69,
-      "norm_label": "esquema de publicacion"
-    },
-    {
-      "label": "Inicializaci\u00f3n \u00fanica de cada rama `*/main`",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L260",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_inicializaci\u00f3n_\u00fanica_de_cada_rama_main",
-      "community": 69,
-      "norm_label": "inicializacion unica de cada rama `*/main`"
     },
     {
       "label": "Versionado",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L296",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_versionado",
-      "community": 72,
+      "community": 16,
       "norm_label": "versionado"
-    },
-    {
-      "label": "Esquema",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L298",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_esquema",
-      "community": 72,
-      "norm_label": "esquema"
-    },
-    {
-      "label": "\u00bfCu\u00e1ndo incrementar versi\u00f3n?",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L310",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_cu\u00e1ndo_incrementar_versi\u00f3n",
-      "community": 72,
-      "norm_label": "\u00bfcuando incrementar version?"
-    },
-    {
-      "label": "Nombre del JAR",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L321",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_nombre_del_jar",
-      "community": 72,
-      "norm_label": "nombre del jar"
     },
     {
       "label": "Commits (Conventional Commits)",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L339",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_commits_conventional_commits",
-      "community": 87,
+      "community": 16,
       "norm_label": "commits (conventional commits)"
     },
     {
-      "label": "Tipos",
+      "label": "Tags",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L349",
+      "source_location": "L45",
       "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_tipos",
-      "community": 87,
-      "norm_label": "tipos"
+      "id": "docs_workflow_ageforged_armor_26_2_tags",
+      "community": 16,
+      "norm_label": "tags"
     },
     {
-      "label": "Ejemplos",
+      "label": "Flujo por tarea",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L362",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ejemplos_362",
-      "community": 87,
-      "norm_label": "ejemplos"
-    },
-    {
-      "label": "Tags (GitLab)",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L382",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_tags_gitlab",
-      "community": 100,
-      "norm_label": "tags (gitlab)"
-    },
-    {
-      "label": "Formato del tag",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L386",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_formato_del_tag",
-      "community": 100,
-      "norm_label": "formato del tag"
-    },
-    {
-      "label": "Ejemplos",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L395",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_ejemplos_395",
-      "community": 100,
-      "norm_label": "ejemplos"
-    },
-    {
-      "label": "Publicaci\u00f3n a GitHub (CI/CD)",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L409",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
-      "community": 68,
-      "norm_label": "publicacion a github (ci/cd)"
-    },
-    {
-      "label": "Variables de CI/CD (grupo GitLab)",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L419",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_variables_de_ci_cd_grupo_gitlab",
-      "community": 68,
-      "norm_label": "variables de ci/cd (grupo gitlab)"
-    },
-    {
-      "label": "Requisito previo",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L431",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_requisito_previo",
-      "community": 68,
-      "norm_label": "requisito previo"
-    },
-    {
-      "label": ".gitlab-ci.yml",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L435",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_gitlab_ci_yml",
-      "community": 68,
-      "norm_label": ".gitlab-ci.yml"
-    },
-    {
-      "label": "Archivos que pasan a GitHub",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L498",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_archivos_que_pasan_a_github",
-      "community": 68,
-      "norm_label": "archivos que pasan a github"
-    },
-    {
-      "label": "Flujo completo (paso a paso)",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L517",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "community": 17,
-      "norm_label": "flujo completo (paso a paso)"
-    },
-    {
-      "label": "0. Determinar alcance de versi\u00f3n",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L519",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_0_determinar_alcance_de_versi\u00f3n",
-      "community": 17,
-      "norm_label": "0. determinar alcance de version"
-    },
-    {
-      "label": "1. Desarrollo",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L527",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_1_desarrollo",
-      "community": 17,
-      "norm_label": "1. desarrollo"
-    },
-    {
-      "label": "2. Copiar a instancia de pruebas",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L547",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_2_copiar_a_instancia_de_pruebas",
-      "community": 17,
-      "norm_label": "2. copiar a instancia de pruebas"
-    },
-    {
-      "label": "3. Probar en instancia",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L562",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_3_probar_en_instancia",
-      "community": 17,
-      "norm_label": "3. probar en instancia"
-    },
-    {
-      "label": "4. Preparar versi\u00f3n para CurseForge",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L568",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_4_preparar_versi\u00f3n_para_curseforge",
-      "community": 17,
-      "norm_label": "4. preparar version para curseforge"
-    },
-    {
-      "label": "5. Release estable",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L605",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_5_release_estable",
-      "community": 17,
-      "norm_label": "5. release estable"
-    },
-    {
-      "label": "6. Actualizar Knowledge Graph (Graphify)",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L614",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_6_actualizar_knowledge_graph_graphify",
-      "community": 17,
-      "norm_label": "6. actualizar knowledge graph (graphify)"
+      "id": "docs_workflow_ageforged_armor_26_2_flujo_por_tarea",
+      "community": 16,
+      "norm_label": "flujo por tarea"
     },
     {
       "label": "Buenas pr\u00e1cticas",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L645",
+      "source_location": "L84",
       "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas_645",
-      "community": 18,
+      "id": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas",
+      "community": 16,
       "norm_label": "buenas practicas"
     },
     {
       "label": "Idioma",
       "file_type": "document",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L669",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "docs_workflow_ageforged_armor_26_2_idioma",
-      "community": 18,
+      "community": 16,
       "norm_label": "idioma"
-    },
-    {
-      "label": "Historial de versiones del workflow",
-      "file_type": "document",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L682",
-      "_origin": "ast",
-      "id": "docs_workflow_ageforged_armor_26_2_historial_de_versiones_del_workflow",
-      "community": 18,
-      "norm_label": "historial de versiones del workflow"
     },
     {
       "label": "project_description.md",
@@ -26607,20 +26287,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L5",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "claude_claude_claude_md_ageforged_armor_26_2",
-      "target": "claude_claude_paso_0_obligatorio",
+      "target": "claude_claude_prioridad_de_instrucciones",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L5",
       "weight": 1.0,
       "source": "claude_claude_claude_md_ageforged_armor_26_2",
-      "target": "claude_claude_prioridad_de_instrucciones",
+      "target": "claude_claude_workflow_del_mod",
       "confidence_score": 1.0
     },
     {
@@ -26637,7 +26317,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L209",
+      "source_location": "L217",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_10_2026_07_13",
@@ -26647,7 +26327,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L203",
+      "source_location": "L211",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_11_2026_07_13",
@@ -26657,7 +26337,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L193",
+      "source_location": "L201",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_12_2026_07_13",
@@ -26667,7 +26347,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L187",
+      "source_location": "L195",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_13_2026_07_13",
@@ -26677,7 +26357,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L181",
+      "source_location": "L189",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_14_2026_07_13",
@@ -26687,7 +26367,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L170",
+      "source_location": "L178",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_15_2026_07_16",
@@ -26697,7 +26377,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L162",
+      "source_location": "L170",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_16_2026_07_16",
@@ -26707,7 +26387,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L157",
+      "source_location": "L165",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_17_2026_07_16",
@@ -26717,7 +26397,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L152",
+      "source_location": "L160",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_18_2026_07_17",
@@ -26727,7 +26407,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L146",
+      "source_location": "L154",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_19_2026_07_17",
@@ -26737,7 +26417,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L262",
+      "source_location": "L270",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_1_2026_07_13",
@@ -26747,7 +26427,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L42",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_1_2026_07_27",
@@ -26757,7 +26437,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L140",
+      "source_location": "L148",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_20_2026_07_17",
@@ -26767,7 +26447,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L135",
+      "source_location": "L143",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_21_2026_07_17",
@@ -26777,7 +26457,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L127",
+      "source_location": "L135",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_22_2026_07_17",
@@ -26787,7 +26467,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L122",
+      "source_location": "L130",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_23_2026_07_17",
@@ -26797,7 +26477,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L117",
+      "source_location": "L125",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_24_2026_07_17",
@@ -26807,7 +26487,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L110",
+      "source_location": "L118",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_27_2026_07_17",
@@ -26817,7 +26497,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L92",
+      "source_location": "L100",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_28_2026_07_22",
@@ -26827,7 +26507,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L86",
+      "source_location": "L94",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_29_2026_07_22",
@@ -26837,7 +26517,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L256",
+      "source_location": "L264",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_2_2026_07_13",
@@ -26847,7 +26527,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L36",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_2_2026_07_27",
@@ -26857,7 +26537,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L76",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_30_2026_07_22",
@@ -26867,7 +26547,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L71",
+      "source_location": "L79",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_31_2026_07_23",
@@ -26877,7 +26557,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L66",
+      "source_location": "L74",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_32_2026_07_23",
@@ -26887,7 +26567,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L61",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_33_2026_07_23",
@@ -26897,7 +26577,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L56",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_34_2026_07_24",
@@ -26907,7 +26587,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L51",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_35_2026_07_24",
@@ -26917,7 +26597,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L251",
+      "source_location": "L259",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_3_2026_07_13",
@@ -26927,7 +26607,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L30",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_3_2026_07_27",
@@ -26937,7 +26617,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L246",
+      "source_location": "L254",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_4_2026_07_13",
@@ -26947,7 +26627,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L241",
+      "source_location": "L249",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_5_2026_07_13",
@@ -26957,7 +26637,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L236",
+      "source_location": "L244",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_6_2026_07_13",
@@ -26967,7 +26647,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L231",
+      "source_location": "L239",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_7_2026_07_13",
@@ -26977,7 +26657,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L224",
+      "source_location": "L232",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_8_2026_07_13",
@@ -26987,7 +26667,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L216",
+      "source_location": "L224",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_0_0_0_beta_9_2026_07_13",
@@ -26997,7 +26677,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L20",
+      "source_location": "L28",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_1_0_0_2026_07_29",
@@ -27007,7 +26687,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L14",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_1_1_0_2026_07_29",
@@ -27017,7 +26697,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "changelog_changelog",
       "target": "changelog_1_1_1_2026_07_30",
@@ -27027,9 +26707,19 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_1_2_2026_07_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "changelog_1_1_1_2026_07_30",
+      "source": "changelog_1_1_2_2026_07_31",
       "target": "changelog_fix",
       "confidence_score": 1.0
     },
@@ -27037,17 +26727,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "changelog_1_1_0_2026_07_29",
-      "target": "changelog_fix_16",
+      "source": "changelog_1_1_1_2026_07_30",
+      "target": "changelog_fix_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L22",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "changelog_1_1_0_2026_07_29",
+      "target": "changelog_fix_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "changelog_1_0_0_2026_07_29",
       "target": "changelog_first_stable_release_26_2_track",
@@ -27057,27 +26757,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L32",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_3_2026_07_27",
-      "target": "changelog_fix_32",
+      "target": "changelog_fix_40",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L38",
+      "source_location": "L46",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_2_2026_07_27",
-      "target": "changelog_fix_38",
+      "target": "changelog_fix_46",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L52",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_1_2026_07_27",
       "target": "changelog_port_to_minecraft_26_2_neoforge_26_2_0_32_beta",
@@ -27087,7 +26787,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L53",
+      "source_location": "L61",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_35_2026_07_24",
       "target": "changelog_fixed",
@@ -27097,50 +26797,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L58",
+      "source_location": "L66",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_34_2026_07_24",
-      "target": "changelog_fixed_58",
+      "target": "changelog_fixed_66",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L63",
+      "source_location": "L71",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_33_2026_07_23",
-      "target": "changelog_fixed_63",
+      "target": "changelog_fixed_71",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L68",
+      "source_location": "L76",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_32_2026_07_23",
-      "target": "changelog_fixed_68",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_31_2026_07_23",
-      "target": "changelog_fixed_73",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_30_2026_07_22",
-      "target": "changelog_fixed_78",
+      "target": "changelog_fixed_76",
       "confidence_score": 1.0
     },
     {
@@ -27148,6 +26828,26 @@
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
       "source_location": "L81",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_31_2026_07_23",
+      "target": "changelog_fixed_81",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_30_2026_07_22",
+      "target": "changelog_fixed_86",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L89",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_30_2026_07_22",
       "target": "changelog_infrastructure",
@@ -27157,17 +26857,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L88",
+      "source_location": "L96",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_29_2026_07_22",
-      "target": "changelog_fixed_88",
+      "target": "changelog_fixed_96",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L100",
+      "source_location": "L108",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_28_2026_07_22",
       "target": "changelog_docs",
@@ -27177,17 +26877,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L104",
+      "source_location": "L112",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_28_2026_07_22",
-      "target": "changelog_infrastructure_104",
+      "target": "changelog_infrastructure_112",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L94",
+      "source_location": "L102",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_28_2026_07_22",
       "target": "changelog_refactor",
@@ -27197,40 +26897,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L112",
+      "source_location": "L120",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_27_2026_07_17",
-      "target": "changelog_fixed_112",
+      "target": "changelog_fixed_120",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L119",
+      "source_location": "L127",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_24_2026_07_17",
-      "target": "changelog_fixed_119",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_23_2026_07_17",
-      "target": "changelog_fixed_124",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L129",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_22_2026_07_17",
-      "target": "changelog_added",
+      "target": "changelog_fixed_127",
       "confidence_score": 1.0
     },
     {
@@ -27239,7 +26919,7 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L132",
       "weight": 1.0,
-      "source": "changelog_0_0_0_beta_22_2026_07_17",
+      "source": "changelog_0_0_0_beta_23_2026_07_17",
       "target": "changelog_fixed_132",
       "confidence_score": 1.0
     },
@@ -27249,65 +26929,85 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L137",
       "weight": 1.0,
-      "source": "changelog_0_0_0_beta_21_2026_07_17",
-      "target": "changelog_fixed_137",
+      "source": "changelog_0_0_0_beta_22_2026_07_17",
+      "target": "changelog_added",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L142",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_22_2026_07_17",
+      "target": "changelog_fixed_140",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_21_2026_07_17",
+      "target": "changelog_fixed_145",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L150",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_20_2026_07_17",
-      "target": "changelog_fixed_142",
+      "target": "changelog_fixed_150",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L148",
+      "source_location": "L156",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_19_2026_07_17",
-      "target": "changelog_fixed_148",
+      "target": "changelog_fixed_156",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L154",
+      "source_location": "L162",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_18_2026_07_17",
-      "target": "changelog_fixed_154",
+      "target": "changelog_fixed_162",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L159",
+      "source_location": "L167",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_17_2026_07_16",
-      "target": "changelog_docs_159",
+      "target": "changelog_docs_167",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L164",
+      "source_location": "L172",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_16_2026_07_16",
-      "target": "changelog_fixed_164",
+      "target": "changelog_fixed_172",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L177",
+      "source_location": "L185",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_15_2026_07_16",
       "target": "changelog_changed",
@@ -27317,90 +27017,70 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L172",
+      "source_location": "L180",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_15_2026_07_16",
-      "target": "changelog_fixed_172",
+      "target": "changelog_fixed_180",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L183",
+      "source_location": "L191",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_14_2026_07_13",
-      "target": "changelog_changed_183",
+      "target": "changelog_changed_191",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L189",
+      "source_location": "L197",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_13_2026_07_13",
-      "target": "changelog_changed_189",
+      "target": "changelog_changed_197",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L195",
+      "source_location": "L203",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_12_2026_07_13",
-      "target": "changelog_added_195",
+      "target": "changelog_added_203",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L199",
+      "source_location": "L207",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_12_2026_07_13",
-      "target": "changelog_fixed_199",
+      "target": "changelog_fixed_207",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L205",
+      "source_location": "L213",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_11_2026_07_13",
-      "target": "changelog_fixed_205",
+      "target": "changelog_fixed_213",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L211",
+      "source_location": "L219",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_10_2026_07_13",
-      "target": "changelog_fixed_211",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L218",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_9_2026_07_13",
-      "target": "changelog_added_218",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L221",
-      "weight": 1.0,
-      "source": "changelog_0_0_0_beta_9_2026_07_13",
-      "target": "changelog_changed_221",
+      "target": "changelog_fixed_219",
       "confidence_score": 1.0
     },
     {
@@ -27409,78 +27089,98 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L226",
       "weight": 1.0,
-      "source": "changelog_0_0_0_beta_8_2026_07_13",
-      "target": "changelog_fixed_226",
+      "source": "changelog_0_0_0_beta_9_2026_07_13",
+      "target": "changelog_added_226",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L233",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_9_2026_07_13",
+      "target": "changelog_changed_229",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L234",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_8_2026_07_13",
+      "target": "changelog_fixed_234",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L241",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_7_2026_07_13",
-      "target": "changelog_fixed_233",
+      "target": "changelog_fixed_241",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L238",
+      "source_location": "L246",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_6_2026_07_13",
-      "target": "changelog_fixed_238",
+      "target": "changelog_fixed_246",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L243",
+      "source_location": "L251",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_5_2026_07_13",
-      "target": "changelog_fixed_243",
+      "target": "changelog_fixed_251",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L248",
+      "source_location": "L256",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_4_2026_07_13",
-      "target": "changelog_fixed_248",
+      "target": "changelog_fixed_256",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L253",
+      "source_location": "L261",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_3_2026_07_13",
-      "target": "changelog_fixed_253",
+      "target": "changelog_fixed_261",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L258",
+      "source_location": "L266",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_2_2026_07_13",
-      "target": "changelog_changed_258",
+      "target": "changelog_changed_266",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L264",
+      "source_location": "L272",
       "weight": 1.0,
       "source": "changelog_0_0_0_beta_1_2026_07_13",
-      "target": "changelog_added_264",
+      "target": "changelog_added_272",
       "confidence_score": 1.0
     },
     {
@@ -27567,17 +27267,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L645",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas_645",
+      "target": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L339",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
       "target": "docs_workflow_ageforged_armor_26_2_commits_conventional_commits",
@@ -27587,7 +27287,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L8",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
       "target": "docs_workflow_ageforged_armor_26_2_convenciones_de_nomenclatura",
@@ -27597,7 +27297,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L71",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
+      "target": "docs_workflow_ageforged_armor_26_2_espec\u00edfico_del_mod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
       "target": "docs_workflow_ageforged_armor_26_2_estructura_del_proyecto",
@@ -27607,27 +27317,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L517",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
+      "target": "docs_workflow_ageforged_armor_26_2_flujo_por_tarea",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L682",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_historial_de_versiones_del_workflow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L669",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
       "target": "docs_workflow_ageforged_armor_26_2_idioma",
@@ -27637,370 +27337,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L37",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_organizaci\u00f3n_en_el_workspace",
+      "target": "docs_workflow_ageforged_armor_26_2_organizaci\u00f3n_y_ramas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L409",
+      "source_location": "L45",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
+      "target": "docs_workflow_ageforged_armor_26_2_tags",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L222",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_ramas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L382",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_tags_gitlab",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
-      "target": "docs_workflow_ageforged_armor_26_2_tipograf\u00eda",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L296",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "docs_workflow_ageforged_armor_26_2_flujo_de_trabajo_ageforged_armor_neoforge",
       "target": "docs_workflow_ageforged_armor_26_2_versionado",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_convenciones_de_nomenclatura",
-      "target": "docs_workflow_ageforged_armor_26_2_ficheros_de_documentaci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L115",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_estructura_del_proyecto",
-      "target": "docs_workflow_ageforged_armor_26_2_archivos_de_curseforge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L127",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_estructura_del_proyecto",
-      "target": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L171",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_buenas_pr\u00e1cticas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L191",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_ejemplo_de_estructura_html_para_release_notes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L152",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_elementos_html_disponibles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L207",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_elementos_html_permitidos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L138",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_estructura_de_la_descripci\u00f3n_general",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L180",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_formato_de_descripciones_curseforge",
-      "target": "docs_workflow_ageforged_armor_26_2_formato_del_changelog",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L232",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_ramas",
-      "target": "docs_workflow_ageforged_armor_26_2_ejemplos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L239",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_ramas",
-      "target": "docs_workflow_ageforged_armor_26_2_esquema_de_publicaci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L224",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_ramas",
-      "target": "docs_workflow_ageforged_armor_26_2_estructura",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L260",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_ramas",
-      "target": "docs_workflow_ageforged_armor_26_2_inicializaci\u00f3n_\u00fanica_de_cada_rama_main",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L310",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_versionado",
-      "target": "docs_workflow_ageforged_armor_26_2_cu\u00e1ndo_incrementar_versi\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L298",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_versionado",
-      "target": "docs_workflow_ageforged_armor_26_2_esquema",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L321",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_versionado",
-      "target": "docs_workflow_ageforged_armor_26_2_nombre_del_jar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L362",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_commits_conventional_commits",
-      "target": "docs_workflow_ageforged_armor_26_2_ejemplos_362",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L349",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_commits_conventional_commits",
-      "target": "docs_workflow_ageforged_armor_26_2_tipos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L395",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_tags_gitlab",
-      "target": "docs_workflow_ageforged_armor_26_2_ejemplos_395",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L386",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_tags_gitlab",
-      "target": "docs_workflow_ageforged_armor_26_2_formato_del_tag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L498",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
-      "target": "docs_workflow_ageforged_armor_26_2_archivos_que_pasan_a_github",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L435",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
-      "target": "docs_workflow_ageforged_armor_26_2_gitlab_ci_yml",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L431",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
-      "target": "docs_workflow_ageforged_armor_26_2_requisito_previo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L419",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_publicaci\u00f3n_a_github_ci_cd",
-      "target": "docs_workflow_ageforged_armor_26_2_variables_de_ci_cd_grupo_gitlab",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L519",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_0_determinar_alcance_de_versi\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L527",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_1_desarrollo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L547",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_2_copiar_a_instancia_de_pruebas",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L562",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_3_probar_en_instancia",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L568",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_4_preparar_versi\u00f3n_para_curseforge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L605",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_5_release_estable",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md",
-      "source_location": "L614",
-      "weight": 1.0,
-      "source": "docs_workflow_ageforged_armor_26_2_flujo_completo_paso_a_paso",
-      "target": "docs_workflow_ageforged_armor_26_2_6_actualizar_knowledge_graph_graphify",
       "confidence_score": 1.0
     },
     {
@@ -28135,5 +27495,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "19a84d90410429f939f28e347650001e02408998"
+  "built_at_commit": "30d25307f244307d15646116416fd7c72146709b"
 }
