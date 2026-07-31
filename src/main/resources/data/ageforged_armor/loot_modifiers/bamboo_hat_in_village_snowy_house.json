@@ -5,7 +5,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_taiga_house"
+      "loot_table_id": "minecraft:chests/village/village_snowy_house"
     },
     {
       "chance": 0.35,
