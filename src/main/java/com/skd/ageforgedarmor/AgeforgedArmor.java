@@ -26,7 +26,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.skd.ageforgedarmor.client.AgeforgedArmorClient;
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 import com.skd.ageforgedarmor.item.ForgeHumanoidArmorItem;
 import com.skd.ageforgedarmor.item.HatItem;
 import com.skd.ageforgedarmor.item.HumanoidArmorItem;
@@ -120,7 +120,7 @@ public class AgeforgedArmor {
 
         // Client init
         if (FMLEnvironment.getDist().isClient()) {
-            modContainer.registerExtensionPoint(IConfigScreenFactory.class, (modContainer2, parent) -> AOTAConfig.createScreen().generateScreen(parent));
+            modContainer.registerExtensionPoint(IConfigScreenFactory.class, (modContainer2, parent) -> AgeforgedArmorConfig.createScreen().generateScreen(parent));
             modEventBus.addListener(AgeforgedArmorClient::registerLayerDefinitions);
             NeoForge.EVENT_BUS.addListener(AgeforgedArmorClient::playerLoggedInEvent);
         }
@@ -218,14 +218,14 @@ public class AgeforgedArmor {
             // Register Bamboo Hat directly via registerItem to ensure Properties.setId() is called
             DEFERRED_REGISTER.registerItem(Constants.BAMBOO_HAT_NAME,
                     props -> new HatItem(props,
-                            AOTAConfig.get().bambooHatDurability,
-                            AOTAConfig.get().bambooHatHelmetDef,
-                            AOTAConfig.get().bambooHatToughness,
-                            AOTAConfig.get().bambooHatEnchantability),
+                            AgeforgedArmorConfig.get().bambooHatDurability,
+                            AgeforgedArmorConfig.get().bambooHatHelmetDef,
+                            AgeforgedArmorConfig.get().bambooHatToughness,
+                            AgeforgedArmorConfig.get().bambooHatEnchantability),
                     () -> new Item.Properties()
                             .stacksTo(1)
-                            .durability(net.minecraft.world.item.equipment.ArmorType.HELMET.getDurability(AOTAConfig.get().bambooHatDurability))
-                            .attributes(HatItem.buildModifiers(AOTAConfig.get().bambooHatHelmetDef, AOTAConfig.get().bambooHatToughness))
+                            .durability(net.minecraft.world.item.equipment.ArmorType.HELMET.getDurability(AgeforgedArmorConfig.get().bambooHatDurability))
+                            .attributes(HatItem.buildModifiers(AgeforgedArmorConfig.get().bambooHatHelmetDef, AgeforgedArmorConfig.get().bambooHatToughness))
                             .equippable(net.minecraft.world.entity.EquipmentSlot.HEAD));
             ARMORS_LOCATION_FROM_NAME
                     .computeIfAbsent(Constants.BAMBOO_HAT_NAME, s -> new ObjectArrayList<>())

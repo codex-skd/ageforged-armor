@@ -16,9 +16,9 @@ import com.skd.ageforgedarmor.CommonClass;
 import com.skd.ageforgedarmor.Constants;
 import com.skd.ageforgedarmor.client.patreon.ClientPatronState;
 
-public class AOTAConfig {
-    public static ConfigClassHandler<AOTAConfig> CONFIG_CLASS_HANDLER = ConfigClassHandler
-            .createBuilder(AOTAConfig.class)
+public class AgeforgedArmorConfig {
+    public static ConfigClassHandler<AgeforgedArmorConfig> CONFIG_CLASS_HANDLER = ConfigClassHandler
+            .createBuilder(AgeforgedArmorConfig.class)
             .id(Identifier.tryBuild(Constants.MOD_ID, "config"))
             .serializer(config -> GsonConfigSerializerBuilder
                     .create(config)
@@ -162,13 +162,13 @@ public class AOTAConfig {
     @SerialEntry
     public boolean generateRaijinArmor = true;
 
-    public static AOTAConfig get() {
+    public static AgeforgedArmorConfig get() {
         return CONFIG_CLASS_HANDLER.instance();
     }
 
     public static YetAnotherConfigLib createScreen() {
         return YetAnotherConfigLib.create(CONFIG_CLASS_HANDLER,
-                (AOTAConfig defaults, AOTAConfig config, YetAnotherConfigLib.Builder builder) -> {
+                (AgeforgedArmorConfig defaults, AgeforgedArmorConfig config, YetAnotherConfigLib.Builder builder) -> {
 
                     // Body Type option -- always visible, always synced
                     var preferredModelOption = Option.<PreferredModel>createBuilder()

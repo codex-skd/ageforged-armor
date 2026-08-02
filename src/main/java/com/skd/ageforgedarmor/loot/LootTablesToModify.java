@@ -2,7 +2,7 @@ package com.skd.ageforgedarmor.loot;
 
 import com.google.common.collect.ImmutableMap;
 import com.skd.ageforgedarmor.Constants;
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 
 import java.util.Map;
 
@@ -28,16 +28,16 @@ public final class LootTablesToModify {
     public static final String END_CITY_TREASURE = "minecraft:chests/end_city_treasure";
 
     public static final Map<String, Boolean> ARMOR_GENERATION_MAP = ImmutableMap.<String, Boolean>builder()
-            .put(Constants.BAMBOO_HAT_NAME,          AOTAConfig.get().generateBambooHat)
-            .put(Constants.ANUBIS_ARMOR_NAME,        AOTAConfig.get().generateAnubisArmor)
-            .put(Constants.CENTURION_ARMOR_NAME,     AOTAConfig.get().generateCenturionArmor)
-            .put(Constants.EXALTED_AURUM_ARMOR_NAME, AOTAConfig.get().generateExaltedAurumArmor)
-            .put(Constants.HOLY_ARMOR_NAME,           AOTAConfig.get().generateHolyArmor)
-            .put(Constants.IRON_PLATE_ARMOR_NAME,    AOTAConfig.get().generateIronPlateArmor)
-            .put(Constants.JAPANESE_LIGHT_ARMOR_NAME,AOTAConfig.get().generateJapaneseLightArmor)
-            .put(Constants.O_YOROI_ARMOR_NAME,       AOTAConfig.get().generateOYoroiArmor)
-            .put(Constants.PHARAOH_ARMOR_NAME,       AOTAConfig.get().generatePharaohArmor)
-            .put(Constants.QUETZALCOATL_ARMOR_NAME,  AOTAConfig.get().generateQuetzalcoatlArmor)
-            .put(Constants.RAIJIN_ARMOR_NAME,        AOTAConfig.get().generateRaijinArmor)
+            .put(Constants.BAMBOO_HAT_NAME,          AgeforgedArmorConfig.get().generateBambooHat)
+            .put(Constants.ANUBIS_ARMOR_NAME,        AgeforgedArmorConfig.get().generateAnubisArmor)
+            .put(Constants.CENTURION_ARMOR_NAME,     AgeforgedArmorConfig.get().generateCenturionArmor)
+            .put(Constants.EXALTED_AURUM_ARMOR_NAME, AgeforgedArmorConfig.get().generateExaltedAurumArmor)
+            .put(Constants.HOLY_ARMOR_NAME,           AgeforgedArmorConfig.get().generateHolyArmor)
+            .put(Constants.IRON_PLATE_ARMOR_NAME,    AgeforgedArmorConfig.get().generateIronPlateArmor)
+            .put(Constants.JAPANESE_LIGHT_ARMOR_NAME,AgeforgedArmorConfig.get().generateJapaneseLightArmor)
+            .put(Constants.O_YOROI_ARMOR_NAME,       AgeforgedArmorConfig.get().generateOYoroiArmor)
+            .put(Constants.PHARAOH_ARMOR_NAME,       AgeforgedArmorConfig.get().generatePharaohArmor)
+            .put(Constants.QUETZALCOATL_ARMOR_NAME,  AgeforgedArmorConfig.get().generateQuetzalcoatlArmor)
+            .put(Constants.RAIJIN_ARMOR_NAME,        AgeforgedArmorConfig.get().generateRaijinArmor)
             .build();
 }

@@ -17,7 +17,7 @@ import net.minecraft.world.level.storage.loot.providers.number.NumberProvider;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.common.loot.LootModifier;
 import com.skd.ageforgedarmor.AgeforgedArmor;
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
@@ -53,7 +53,7 @@ public class AgeforgedArmorLootModifier extends LootModifier {
 
         boolean shouldGenerate = LootTablesToModify.ARMOR_GENERATION_MAP.getOrDefault(armorSetName, false);
 
-        if (AOTAConfig.get().generateArmorLoot && shouldGenerate) {
+        if (AgeforgedArmorConfig.get().generateArmorLoot && shouldGenerate) {
             List<Identifier> armorPieceLocations = AgeforgedArmor.ItemRegistryImpl
                     .ARMORS_LOCATION_FROM_NAME
                     .get(armorSetName);
