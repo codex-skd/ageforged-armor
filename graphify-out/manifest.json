@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/AgeforgedArmor.java": {
-    "mtime": 1785328061.58501,
-    "ast_hash": "4da32248dd22d7f4d2a53e5c1cb1368e",
+    "mtime": 1785679818.3710313,
+    "ast_hash": "134f62b4421a9e90a8376f23bf39786b",
     "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/ArmorSetEffectHandler.java": {
@@ -1105,8 +1105,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_AGEFORGED_ARMOR_26-2.md": {
-    "mtime": 1785489186.520195,
-    "ast_hash": "4467eb3009ba6e39133ba6f1983f6ec8",
+    "mtime": 1785626678.1379025,
+    "ast_hash": "bb8e4b6d57b355115ad7dbb7f471c448",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -1657,6 +1657,11 @@
   "src/main/resources/data/ageforged_armor/loot_modifiers/raijin_armor_in_end_city.json": {
     "mtime": 1785502475.3935716,
     "ast_hash": "718bded8aa822d5c24a46f3209693db4",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.2.md": {
+    "mtime": 1785507823.1974063,
+    "ast_hash": "52bf7e44f2d590e4a9ef553f64200a75",
     "semantic_hash": ""
   }
 }
