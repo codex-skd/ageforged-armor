@@ -1276,7 +1276,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_src_main_java_com_skd_ageforgedarmor_client_models_armormodel_armormodel_templatelayerdefinition",
-      "community": 5,
+      "community": 14,
       "norm_label": ".templatelayerdefinition()"
     },
     {
@@ -2206,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_java",
-      "community": 30,
+      "community": 0,
       "norm_label": "feetexaltedaurumarmormodel.java"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel",
-      "community": 30,
+      "community": 0,
       "norm_label": "feetexaltedaurumarmormodel"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel",
-      "community": 30,
+      "community": 0,
       "norm_label": ".feetexaltedaurumarmormodel()"
     },
     {
@@ -2246,7 +2246,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel_create",
-      "community": 30,
+      "community": 0,
       "norm_label": ".create()"
     },
     {
@@ -2266,7 +2266,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel_createlayerdefinition",
-      "community": 30,
+      "community": 0,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -2286,7 +2286,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_exalted_aurum_feetexaltedaurumarmormodel_feetexaltedaurumarmormodel_setuparmorpartanim",
-      "community": 30,
+      "community": 0,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -2856,7 +2856,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_java",
-      "community": 19,
+      "community": 14,
       "norm_label": "chestironplatearmormodel.java"
     },
     {
@@ -2866,7 +2866,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel",
-      "community": 19,
+      "community": 14,
       "norm_label": "chestironplatearmormodel"
     },
     {
@@ -2886,7 +2886,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_chestironplatearmormodel",
-      "community": 19,
+      "community": 14,
       "norm_label": ".chestironplatearmormodel()"
     },
     {
@@ -2896,7 +2896,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_create",
-      "community": 19,
+      "community": 14,
       "norm_label": ".create()"
     },
     {
@@ -2916,7 +2916,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_createlayerdefinition",
-      "community": 19,
+      "community": 14,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -2936,7 +2936,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_createslimlayerdefinition",
-      "community": 19,
+      "community": 14,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -2946,7 +2946,7 @@
       "source_location": "L153",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_iron_plate_armor_chestironplatearmormodel_chestironplatearmormodel_setuparmorpartanim",
-      "community": 19,
+      "community": 14,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -3786,7 +3786,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_java",
-      "community": 0,
+      "community": 30,
       "norm_label": "headoyoroiarmormodel.java"
     },
     {
@@ -3796,7 +3796,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_headoyoroiarmormodel",
-      "community": 0,
+      "community": 30,
       "norm_label": "headoyoroiarmormodel"
     },
     {
@@ -3806,7 +3806,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_headoyoroiarmormodel_headoyoroiarmormodel",
-      "community": 0,
+      "community": 30,
       "norm_label": ".headoyoroiarmormodel()"
     },
     {
@@ -3826,7 +3826,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_headoyoroiarmormodel_create",
-      "community": 0,
+      "community": 30,
       "norm_label": ".create()"
     },
     {
@@ -3846,7 +3846,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_headoyoroiarmormodel_createlayerdefinition",
-      "community": 0,
+      "community": 30,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -3866,7 +3866,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_o_yoroi_armor_headoyoroiarmormodel_headoyoroiarmormodel_setuparmorpartanim",
-      "community": 0,
+      "community": 30,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -4336,7 +4336,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_java",
-      "community": 5,
+      "community": 19,
       "norm_label": "chestquetzalcoatlarmormodel.java"
     },
     {
@@ -4346,7 +4346,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel",
-      "community": 5,
+      "community": 19,
       "norm_label": "chestquetzalcoatlarmormodel"
     },
     {
@@ -4366,7 +4366,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel",
-      "community": 5,
+      "community": 19,
       "norm_label": ".chestquetzalcoatlarmormodel()"
     },
     {
@@ -4376,7 +4376,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel_create",
-      "community": 5,
+      "community": 19,
       "norm_label": ".create()"
     },
     {
@@ -4396,7 +4396,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel_createlayerdefinition",
-      "community": 5,
+      "community": 19,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4416,7 +4416,7 @@
       "source_location": "L221",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel_createslimlayerdefinition",
-      "community": 5,
+      "community": 19,
       "norm_label": ".createslimlayerdefinition()"
     },
     {
@@ -4426,7 +4426,7 @@
       "source_location": "L409",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_chestquetzalcoatlarmormodel_chestquetzalcoatlarmormodel_setuparmorpartanim",
-      "community": 5,
+      "community": 19,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -4526,7 +4526,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_java",
-      "community": 0,
+      "community": 54,
       "norm_label": "headquetzalcoatlarmormodel.java"
     },
     {
@@ -4536,7 +4536,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel",
-      "community": 0,
+      "community": 54,
       "norm_label": "headquetzalcoatlarmormodel"
     },
     {
@@ -4556,7 +4556,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel",
-      "community": 0,
+      "community": 54,
       "norm_label": ".headquetzalcoatlarmormodel()"
     },
     {
@@ -4566,7 +4566,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel_create",
-      "community": 0,
+      "community": 54,
       "norm_label": ".create()"
     },
     {
@@ -4586,7 +4586,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel_createlayerdefinition",
-      "community": 0,
+      "community": 54,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4606,7 +4606,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_headquetzalcoatlarmormodel_headquetzalcoatlarmormodel_setuparmorpartanim",
-      "community": 0,
+      "community": 54,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -4616,7 +4616,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_java",
-      "community": 54,
+      "community": 0,
       "norm_label": "legsquetzalcoatlarmormodel.java"
     },
     {
@@ -4626,7 +4626,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel",
-      "community": 54,
+      "community": 0,
       "norm_label": "legsquetzalcoatlarmormodel"
     },
     {
@@ -4646,7 +4646,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel",
-      "community": 54,
+      "community": 0,
       "norm_label": ".legsquetzalcoatlarmormodel()"
     },
     {
@@ -4656,7 +4656,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel_create",
-      "community": 54,
+      "community": 0,
       "norm_label": ".create()"
     },
     {
@@ -4676,7 +4676,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel_createlayerdefinition",
-      "community": 54,
+      "community": 0,
       "norm_label": ".createlayerdefinition()"
     },
     {
@@ -4696,7 +4696,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_src_main_java_com_skd_ageforgedarmor_client_models_quetzalcoatl_armor_legsquetzalcoatlarmormodel_legsquetzalcoatlarmormodel_setuparmorpartanim",
-      "community": 54,
+      "community": 0,
       "norm_label": ".setuparmorpartanim()"
     },
     {
@@ -8485,7 +8485,7 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_md",
+      "id": "changelog",
       "community": 1,
       "norm_label": "changelog.md"
     },
@@ -8495,157 +8495,177 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
+      "id": "changelog_changelog",
       "community": 1,
       "norm_label": "changelog"
+    },
+    {
+      "label": "[1.0.2] - 2026-08-02",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "changelog_1_0_2_2026_08_02",
+      "community": 192,
+      "norm_label": "[1.0.2] - 2026-08-02"
+    },
+    {
+      "label": "Change",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "changelog_change",
+      "community": 192,
+      "norm_label": "change"
     },
     {
       "label": "[1.0.1] - 2026-07-31",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L14",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_1_2026_07_31",
-      "community": 192,
+      "id": "changelog_1_0_1_2026_07_31",
+      "community": 191,
       "norm_label": "[1.0.1] - 2026-07-31"
     },
     {
       "label": "Fix",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L16",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fix",
-      "community": 192,
+      "id": "changelog_fix",
+      "community": 191,
       "norm_label": "fix"
     },
     {
       "label": "[1.0.0] - 2026-07-27",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L22",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_0_2026_07_27",
-      "community": 191,
+      "id": "changelog_1_0_0_2026_07_27",
+      "community": 190,
       "norm_label": "[1.0.0] - 2026-07-27"
     },
     {
       "label": "First Stable Release",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L17",
+      "source_location": "L24",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_first_stable_release",
-      "community": 191,
+      "id": "changelog_first_stable_release",
+      "community": 190,
       "norm_label": "first stable release"
     },
     {
       "label": "[0.0.0-beta.35] - 2026-07-24",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L27",
+      "source_location": "L34",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_35_2026_07_24",
-      "community": 187,
+      "id": "changelog_0_0_0_beta_35_2026_07_24",
+      "community": 184,
       "norm_label": "[0.0.0-beta.35] - 2026-07-24"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L29",
+      "source_location": "L36",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed",
-      "community": 187,
+      "id": "changelog_fixed",
+      "community": 184,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.34] - 2026-07-24",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L32",
+      "source_location": "L39",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_34_2026_07_24",
-      "community": 186,
+      "id": "changelog_0_0_0_beta_34_2026_07_24",
+      "community": 183,
       "norm_label": "[0.0.0-beta.34] - 2026-07-24"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L34",
+      "source_location": "L41",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_34",
-      "community": 186,
+      "id": "changelog_fixed_41",
+      "community": 183,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.33] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L37",
+      "source_location": "L44",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_33_2026_07_23",
-      "community": 185,
+      "id": "changelog_0_0_0_beta_33_2026_07_23",
+      "community": 182,
       "norm_label": "[0.0.0-beta.33] - 2026-07-23"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L39",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_39",
-      "community": 185,
+      "id": "changelog_fixed_46",
+      "community": 182,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.32] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L42",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_32_2026_07_23",
-      "community": 184,
+      "id": "changelog_0_0_0_beta_32_2026_07_23",
+      "community": 181,
       "norm_label": "[0.0.0-beta.32] - 2026-07-23"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L44",
+      "source_location": "L51",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_44",
-      "community": 184,
+      "id": "changelog_fixed_51",
+      "community": 181,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.31] - 2026-07-23",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L47",
+      "source_location": "L54",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_31_2026_07_23",
-      "community": 183,
+      "id": "changelog_0_0_0_beta_31_2026_07_23",
+      "community": 180,
       "norm_label": "[0.0.0-beta.31] - 2026-07-23"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L49",
+      "source_location": "L56",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_49",
-      "community": 183,
+      "id": "changelog_fixed_56",
+      "community": 180,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.30] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L52",
+      "source_location": "L59",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_30_2026_07_22",
+      "id": "changelog_0_0_0_beta_30_2026_07_22",
       "community": 164,
       "norm_label": "[0.0.0-beta.30] - 2026-07-22"
     },
@@ -8653,9 +8673,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L54",
+      "source_location": "L61",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_54",
+      "id": "changelog_fixed_61",
       "community": 164,
       "norm_label": "fixed"
     },
@@ -8663,9 +8683,9 @@
       "label": "Infrastructure",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L57",
+      "source_location": "L64",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_infrastructure",
+      "id": "changelog_infrastructure",
       "community": 164,
       "norm_label": "infrastructure"
     },
@@ -8673,29 +8693,29 @@
       "label": "[0.0.0-beta.29] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L62",
+      "source_location": "L69",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_29_2026_07_22",
-      "community": 181,
+      "id": "changelog_0_0_0_beta_29_2026_07_22",
+      "community": 179,
       "norm_label": "[0.0.0-beta.29] - 2026-07-22"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L64",
+      "source_location": "L71",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_64",
-      "community": 181,
+      "id": "changelog_fixed_71",
+      "community": 179,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.28] - 2026-07-22",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L68",
+      "source_location": "L75",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_28_2026_07_22",
+      "id": "changelog_0_0_0_beta_28_2026_07_22",
       "community": 56,
       "norm_label": "[0.0.0-beta.28] - 2026-07-22"
     },
@@ -8703,9 +8723,9 @@
       "label": "Refactor",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L70",
+      "source_location": "L77",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_refactor",
+      "id": "changelog_refactor",
       "community": 56,
       "norm_label": "refactor"
     },
@@ -8713,9 +8733,9 @@
       "label": "Docs",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L76",
+      "source_location": "L83",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_docs",
+      "id": "changelog_docs",
       "community": 56,
       "norm_label": "docs"
     },
@@ -8723,9 +8743,9 @@
       "label": "Infrastructure",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L80",
+      "source_location": "L87",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_infrastructure_80",
+      "id": "changelog_infrastructure_87",
       "community": 56,
       "norm_label": "infrastructure"
     },
@@ -8733,31 +8753,11 @@
       "label": "[0.0.0-beta.27] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L86",
-      "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_27_2026_07_17",
-      "community": 180,
-      "norm_label": "[0.0.0-beta.27] - 2026-07-17"
-    },
-    {
-      "label": "Fixed",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_88",
-      "community": 180,
-      "norm_label": "fixed"
-    },
-    {
-      "label": "[0.0.0-beta.24] - 2026-07-17",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
       "source_location": "L93",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_24_2026_07_17",
-      "community": 179,
-      "norm_label": "[0.0.0-beta.24] - 2026-07-17"
+      "id": "changelog_0_0_0_beta_27_2026_07_17",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.27] - 2026-07-17"
     },
     {
       "label": "Fixed",
@@ -8765,37 +8765,57 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L95",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_95",
-      "community": 179,
+      "id": "changelog_fixed_95",
+      "community": 1,
+      "norm_label": "fixed"
+    },
+    {
+      "label": "[0.0.0-beta.24] - 2026-07-17",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_24_2026_07_17",
+      "community": 178,
+      "norm_label": "[0.0.0-beta.24] - 2026-07-17"
+    },
+    {
+      "label": "Fixed",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "changelog_fixed_102",
+      "community": 178,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.23] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L98",
+      "source_location": "L105",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_23_2026_07_17",
-      "community": 178,
+      "id": "changelog_0_0_0_beta_23_2026_07_17",
+      "community": 177,
       "norm_label": "[0.0.0-beta.23] - 2026-07-17"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L100",
+      "source_location": "L107",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_100",
-      "community": 178,
+      "id": "changelog_fixed_107",
+      "community": 177,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.22] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L103",
+      "source_location": "L110",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_22_2026_07_17",
+      "id": "changelog_0_0_0_beta_22_2026_07_17",
       "community": 163,
       "norm_label": "[0.0.0-beta.22] - 2026-07-17"
     },
@@ -8803,9 +8823,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L105",
+      "source_location": "L112",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added",
+      "id": "changelog_added",
       "community": 163,
       "norm_label": "added"
     },
@@ -8813,9 +8833,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L108",
+      "source_location": "L115",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_108",
+      "id": "changelog_fixed_115",
       "community": 163,
       "norm_label": "fixed"
     },
@@ -8823,29 +8843,29 @@
       "label": "[0.0.0-beta.21] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L111",
+      "source_location": "L118",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_21_2026_07_17",
-      "community": 177,
+      "id": "changelog_0_0_0_beta_21_2026_07_17",
+      "community": 1,
       "norm_label": "[0.0.0-beta.21] - 2026-07-17"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L113",
+      "source_location": "L120",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_113",
-      "community": 177,
+      "id": "changelog_fixed_120",
+      "community": 1,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.20] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L116",
+      "source_location": "L123",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_20_2026_07_17",
+      "id": "changelog_0_0_0_beta_20_2026_07_17",
       "community": 176,
       "norm_label": "[0.0.0-beta.20] - 2026-07-17"
     },
@@ -8853,9 +8873,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L118",
+      "source_location": "L125",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_118",
+      "id": "changelog_fixed_125",
       "community": 176,
       "norm_label": "fixed"
     },
@@ -8863,29 +8883,29 @@
       "label": "[0.0.0-beta.19] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L122",
+      "source_location": "L129",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_19_2026_07_17",
-      "community": 1,
+      "id": "changelog_0_0_0_beta_19_2026_07_17",
+      "community": 175,
       "norm_label": "[0.0.0-beta.19] - 2026-07-17"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L124",
+      "source_location": "L131",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_124",
-      "community": 1,
+      "id": "changelog_fixed_131",
+      "community": 175,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.18] - 2026-07-17",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L128",
+      "source_location": "L135",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_18_2026_07_17",
+      "id": "changelog_0_0_0_beta_18_2026_07_17",
       "community": 174,
       "norm_label": "[0.0.0-beta.18] - 2026-07-17"
     },
@@ -8893,9 +8913,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L130",
+      "source_location": "L137",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_130",
+      "id": "changelog_fixed_137",
       "community": 174,
       "norm_label": "fixed"
     },
@@ -8903,9 +8923,9 @@
       "label": "[0.0.0-beta.17] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L133",
+      "source_location": "L140",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_17_2026_07_16",
+      "id": "changelog_0_0_0_beta_17_2026_07_16",
       "community": 173,
       "norm_label": "[0.0.0-beta.17] - 2026-07-16"
     },
@@ -8913,9 +8933,9 @@
       "label": "Docs",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L135",
+      "source_location": "L142",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_docs_135",
+      "id": "changelog_docs_142",
       "community": 173,
       "norm_label": "docs"
     },
@@ -8923,9 +8943,9 @@
       "label": "[0.0.0-beta.16] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L138",
+      "source_location": "L145",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_16_2026_07_16",
+      "id": "changelog_0_0_0_beta_16_2026_07_16",
       "community": 172,
       "norm_label": "[0.0.0-beta.16] - 2026-07-16"
     },
@@ -8933,9 +8953,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L140",
+      "source_location": "L147",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_140",
+      "id": "changelog_fixed_147",
       "community": 172,
       "norm_label": "fixed"
     },
@@ -8943,9 +8963,9 @@
       "label": "[0.0.0-beta.15] - 2026-07-16",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L146",
+      "source_location": "L153",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_15_2026_07_16",
+      "id": "changelog_0_0_0_beta_15_2026_07_16",
       "community": 162,
       "norm_label": "[0.0.0-beta.15] - 2026-07-16"
     },
@@ -8953,9 +8973,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L148",
+      "source_location": "L155",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_148",
+      "id": "changelog_fixed_155",
       "community": 162,
       "norm_label": "fixed"
     },
@@ -8963,9 +8983,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L153",
+      "source_location": "L160",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed",
+      "id": "changelog_changed",
       "community": 162,
       "norm_label": "changed"
     },
@@ -8973,9 +8993,9 @@
       "label": "[0.0.0-beta.14] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L157",
+      "source_location": "L164",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_14_2026_07_13",
+      "id": "changelog_0_0_0_beta_14_2026_07_13",
       "community": 171,
       "norm_label": "[0.0.0-beta.14] - 2026-07-13"
     },
@@ -8983,9 +9003,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L159",
+      "source_location": "L166",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_159",
+      "id": "changelog_changed_166",
       "community": 171,
       "norm_label": "changed"
     },
@@ -8993,9 +9013,9 @@
       "label": "[0.0.0-beta.13] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L163",
+      "source_location": "L170",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_13_2026_07_13",
+      "id": "changelog_0_0_0_beta_13_2026_07_13",
       "community": 170,
       "norm_label": "[0.0.0-beta.13] - 2026-07-13"
     },
@@ -9003,9 +9023,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L165",
+      "source_location": "L172",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_165",
+      "id": "changelog_changed_172",
       "community": 170,
       "norm_label": "changed"
     },
@@ -9013,9 +9033,9 @@
       "label": "[0.0.0-beta.12] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L169",
+      "source_location": "L176",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_12_2026_07_13",
+      "id": "changelog_0_0_0_beta_12_2026_07_13",
       "community": 161,
       "norm_label": "[0.0.0-beta.12] - 2026-07-13"
     },
@@ -9023,9 +9043,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L171",
+      "source_location": "L178",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_171",
+      "id": "changelog_added_178",
       "community": 161,
       "norm_label": "added"
     },
@@ -9033,9 +9053,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L175",
+      "source_location": "L182",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_175",
+      "id": "changelog_fixed_182",
       "community": 161,
       "norm_label": "fixed"
     },
@@ -9043,9 +9063,9 @@
       "label": "[0.0.0-beta.11] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L179",
+      "source_location": "L186",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_11_2026_07_13",
+      "id": "changelog_0_0_0_beta_11_2026_07_13",
       "community": 169,
       "norm_label": "[0.0.0-beta.11] - 2026-07-13"
     },
@@ -9053,9 +9073,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L181",
+      "source_location": "L188",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_181",
+      "id": "changelog_fixed_188",
       "community": 169,
       "norm_label": "fixed"
     },
@@ -9063,9 +9083,9 @@
       "label": "[0.0.0-beta.10] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L185",
+      "source_location": "L192",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_10_2026_07_13",
+      "id": "changelog_0_0_0_beta_10_2026_07_13",
       "community": 1,
       "norm_label": "[0.0.0-beta.10] - 2026-07-13"
     },
@@ -9073,9 +9093,9 @@
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L187",
+      "source_location": "L194",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_187",
+      "id": "changelog_fixed_194",
       "community": 1,
       "norm_label": "fixed"
     },
@@ -9083,9 +9103,9 @@
       "label": "[0.0.0-beta.9] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L192",
+      "source_location": "L199",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_9_2026_07_13",
+      "id": "changelog_0_0_0_beta_9_2026_07_13",
       "community": 165,
       "norm_label": "[0.0.0-beta.9] - 2026-07-13"
     },
@@ -9093,9 +9113,9 @@
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L194",
+      "source_location": "L201",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_194",
+      "id": "changelog_added_201",
       "community": 165,
       "norm_label": "added"
     },
@@ -9103,9 +9123,9 @@
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L197",
+      "source_location": "L204",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_197",
+      "id": "changelog_changed_204",
       "community": 165,
       "norm_label": "changed"
     },
@@ -9113,31 +9133,11 @@
       "label": "[0.0.0-beta.8] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L200",
-      "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_8_2026_07_13",
-      "community": 190,
-      "norm_label": "[0.0.0-beta.8] - 2026-07-13"
-    },
-    {
-      "label": "Fixed",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L202",
-      "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_202",
-      "community": 190,
-      "norm_label": "fixed"
-    },
-    {
-      "label": "[0.0.0-beta.7] - 2026-07-13",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
       "source_location": "L207",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_7_2026_07_13",
+      "id": "changelog_0_0_0_beta_8_2026_07_13",
       "community": 189,
-      "norm_label": "[0.0.0-beta.7] - 2026-07-13"
+      "norm_label": "[0.0.0-beta.8] - 2026-07-13"
     },
     {
       "label": "Fixed",
@@ -9145,128 +9145,148 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L209",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_209",
+      "id": "changelog_fixed_209",
       "community": 189,
+      "norm_label": "fixed"
+    },
+    {
+      "label": "[0.0.0-beta.7] - 2026-07-13",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L214",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_7_2026_07_13",
+      "community": 188,
+      "norm_label": "[0.0.0-beta.7] - 2026-07-13"
+    },
+    {
+      "label": "Fixed",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L216",
+      "_origin": "ast",
+      "id": "changelog_fixed_216",
+      "community": 188,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.6] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L212",
+      "source_location": "L219",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_6_2026_07_13",
-      "community": 1,
+      "id": "changelog_0_0_0_beta_6_2026_07_13",
+      "community": 187,
       "norm_label": "[0.0.0-beta.6] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L214",
+      "source_location": "L221",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_214",
-      "community": 1,
+      "id": "changelog_fixed_221",
+      "community": 187,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.5] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L217",
+      "source_location": "L224",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_5_2026_07_13",
-      "community": 1,
+      "id": "changelog_0_0_0_beta_5_2026_07_13",
+      "community": 186,
       "norm_label": "[0.0.0-beta.5] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L219",
+      "source_location": "L226",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_219",
-      "community": 1,
+      "id": "changelog_fixed_226",
+      "community": 186,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.4] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L222",
+      "source_location": "L229",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_4_2026_07_13",
-      "community": 188,
+      "id": "changelog_0_0_0_beta_4_2026_07_13",
+      "community": 1,
       "norm_label": "[0.0.0-beta.4] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L224",
+      "source_location": "L231",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_224",
-      "community": 188,
+      "id": "changelog_fixed_231",
+      "community": 1,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.3] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L227",
+      "source_location": "L234",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_3_2026_07_13",
-      "community": 1,
+      "id": "changelog_0_0_0_beta_3_2026_07_13",
+      "community": 185,
       "norm_label": "[0.0.0-beta.3] - 2026-07-13"
     },
     {
       "label": "Fixed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L229",
+      "source_location": "L236",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_229",
-      "community": 1,
+      "id": "changelog_fixed_236",
+      "community": 185,
       "norm_label": "fixed"
     },
     {
       "label": "[0.0.0-beta.2] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L232",
+      "source_location": "L239",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_2_2026_07_13",
-      "community": 182,
+      "id": "changelog_0_0_0_beta_2_2026_07_13",
+      "community": 1,
       "norm_label": "[0.0.0-beta.2] - 2026-07-13"
     },
     {
       "label": "Changed",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L234",
+      "source_location": "L241",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_234",
-      "community": 182,
+      "id": "changelog_changed_241",
+      "community": 1,
       "norm_label": "changed"
     },
     {
       "label": "[0.0.0-beta.1] - 2026-07-13",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L238",
+      "source_location": "L245",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_1_2026_07_13",
-      "community": 175,
+      "id": "changelog_0_0_0_beta_1_2026_07_13",
+      "community": 1,
       "norm_label": "[0.0.0-beta.1] - 2026-07-13"
     },
     {
       "label": "Added",
       "file_type": "document",
       "source_file": "CHANGELOG.md",
-      "source_location": "L240",
+      "source_location": "L247",
       "_origin": "ast",
-      "id": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_240",
-      "community": 175,
+      "id": "changelog_added_247",
+      "community": 1,
       "norm_label": "added"
     },
     {
@@ -10088,6 +10108,16 @@
       "id": "docs_curseforge_versions_1_0_1",
       "community": 199,
       "norm_label": "1.0.1.md"
+    },
+    {
+      "label": "1.0.2.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/1.0.2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_1_0_2",
+      "community": 370,
+      "norm_label": "1.0.2.md"
     }
   ],
   "links": [
@@ -21138,328 +21168,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_md",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L185",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_10_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L179",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_11_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L169",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_12_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L163",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_13_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L157",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_14_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L146",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_15_2026_07_16",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L138",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_16_2026_07_16",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L133",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_17_2026_07_16",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_18_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_19_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L238",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_1_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L116",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_20_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_21_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L103",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_22_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_23_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L93",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_24_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_27_2026_07_17",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_28_2026_07_22",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_29_2026_07_22",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L232",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_2_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_30_2026_07_22",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_31_2026_07_23",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_32_2026_07_23",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_33_2026_07_23",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_34_2026_07_24",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_35_2026_07_24",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L227",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_3_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L222",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_4_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L217",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_5_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L212",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_6_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L207",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_7_2026_07_13",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L200",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_8_2026_07_13",
+      "source": "changelog",
+      "target": "changelog_changelog",
       "confidence_score": 1.0
     },
     {
@@ -21468,268 +21178,48 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L192",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_9_2026_07_13",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_10_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L15",
+      "source_location": "L186",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_0_2026_07_27",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_11_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L7",
+      "source_location": "L176",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changelog",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_1_2026_07_31",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_12_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L9",
+      "source_location": "L170",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_1_2026_07_31",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fix",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_13_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L17",
+      "source_location": "L164",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_1_0_0_2026_07_27",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_first_stable_release",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_35_2026_07_24",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_34_2026_07_24",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_34",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_33_2026_07_23",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_39",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_32_2026_07_23",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_44",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_31_2026_07_23",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_49",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_30_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_54",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_30_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_infrastructure",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_29_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_64",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_28_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_docs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_28_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_infrastructure_80",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L70",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_28_2026_07_22",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_refactor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_27_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_88",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_24_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_95",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L100",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_23_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_100",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L105",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_22_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L108",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_22_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_108",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L113",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_21_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_113",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_20_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_118",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_19_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_124",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L130",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_18_2026_07_17",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_130",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L135",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_17_2026_07_16",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_docs_135",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L140",
-      "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_16_2026_07_16",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_140",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_14_2026_07_13",
       "confidence_score": 1.0
     },
     {
@@ -21738,158 +21228,208 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L153",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_15_2026_07_16",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_15_2026_07_16",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L148",
+      "source_location": "L145",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_15_2026_07_16",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_148",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_16_2026_07_16",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L159",
+      "source_location": "L140",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_14_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_159",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_17_2026_07_16",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L165",
+      "source_location": "L135",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_13_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_165",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_18_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L171",
+      "source_location": "L129",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_12_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_171",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_19_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L175",
+      "source_location": "L245",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_12_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_175",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_1_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L181",
+      "source_location": "L123",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_11_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_181",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_20_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L187",
+      "source_location": "L118",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_10_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_187",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_21_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L194",
+      "source_location": "L110",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_9_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_194",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_22_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L197",
+      "source_location": "L105",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_9_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_197",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_23_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L202",
+      "source_location": "L100",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_8_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_202",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_24_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L209",
+      "source_location": "L93",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_7_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_209",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_27_2026_07_17",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L214",
+      "source_location": "L75",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_6_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_214",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_28_2026_07_22",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L219",
+      "source_location": "L69",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_5_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_219",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_29_2026_07_22",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L224",
+      "source_location": "L239",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_4_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_224",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_2_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L229",
+      "source_location": "L59",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_3_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_fixed_229",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_30_2026_07_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_31_2026_07_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_32_2026_07_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_33_2026_07_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_34_2026_07_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_35_2026_07_24",
       "confidence_score": 1.0
     },
     {
@@ -21898,18 +21438,528 @@
       "source_file": "CHANGELOG.md",
       "source_location": "L234",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_2_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_changed_234",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_3_2026_07_13",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CHANGELOG.md",
-      "source_location": "L240",
+      "source_location": "L229",
       "weight": 1.0,
-      "source": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_0_0_0_beta_1_2026_07_13",
-      "target": "g_proyectos_mods_minecraft_ageforged_armor_26_1_2_changelog_added_240",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_4_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_5_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_6_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_7_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_8_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_9_2026_07_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_0_0_2026_07_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_0_1_2026_07_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_1_0_2_2026_08_02",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "changelog_1_0_2_2026_08_02",
+      "target": "changelog_change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "changelog_1_0_1_2026_07_31",
+      "target": "changelog_fix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "changelog_1_0_0_2026_07_27",
+      "target": "changelog_first_stable_release",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_35_2026_07_24",
+      "target": "changelog_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_34_2026_07_24",
+      "target": "changelog_fixed_41",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_33_2026_07_23",
+      "target": "changelog_fixed_46",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_32_2026_07_23",
+      "target": "changelog_fixed_51",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_31_2026_07_23",
+      "target": "changelog_fixed_56",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_30_2026_07_22",
+      "target": "changelog_fixed_61",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_30_2026_07_22",
+      "target": "changelog_infrastructure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_29_2026_07_22",
+      "target": "changelog_fixed_71",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_28_2026_07_22",
+      "target": "changelog_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_28_2026_07_22",
+      "target": "changelog_infrastructure_87",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_28_2026_07_22",
+      "target": "changelog_refactor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_27_2026_07_17",
+      "target": "changelog_fixed_95",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_24_2026_07_17",
+      "target": "changelog_fixed_102",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_23_2026_07_17",
+      "target": "changelog_fixed_107",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_22_2026_07_17",
+      "target": "changelog_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_22_2026_07_17",
+      "target": "changelog_fixed_115",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_21_2026_07_17",
+      "target": "changelog_fixed_120",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_20_2026_07_17",
+      "target": "changelog_fixed_125",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_19_2026_07_17",
+      "target": "changelog_fixed_131",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_18_2026_07_17",
+      "target": "changelog_fixed_137",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_17_2026_07_16",
+      "target": "changelog_docs_142",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_16_2026_07_16",
+      "target": "changelog_fixed_147",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_15_2026_07_16",
+      "target": "changelog_changed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_15_2026_07_16",
+      "target": "changelog_fixed_155",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_14_2026_07_13",
+      "target": "changelog_changed_166",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_13_2026_07_13",
+      "target": "changelog_changed_172",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_12_2026_07_13",
+      "target": "changelog_added_178",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_12_2026_07_13",
+      "target": "changelog_fixed_182",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_11_2026_07_13",
+      "target": "changelog_fixed_188",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_10_2026_07_13",
+      "target": "changelog_fixed_194",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_9_2026_07_13",
+      "target": "changelog_added_201",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_9_2026_07_13",
+      "target": "changelog_changed_204",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_8_2026_07_13",
+      "target": "changelog_fixed_209",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_7_2026_07_13",
+      "target": "changelog_fixed_216",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_6_2026_07_13",
+      "target": "changelog_fixed_221",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_5_2026_07_13",
+      "target": "changelog_fixed_226",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_4_2026_07_13",
+      "target": "changelog_fixed_231",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_3_2026_07_13",
+      "target": "changelog_fixed_236",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_2_2026_07_13",
+      "target": "changelog_changed_241",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_1_2026_07_13",
+      "target": "changelog_added_247",
       "confidence_score": 1.0
     },
     {
@@ -22394,5 +22444,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8c171c86a9c9d3a67d1869ccdfbd879270270777"
+  "built_at_commit": "8f1d3a2dc4dfe22eb28fd80a33c4728d6ee694f6"
 }

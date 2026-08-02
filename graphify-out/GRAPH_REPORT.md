@@ -1,16 +1,16 @@
 # Graph Report - 26.1.2  (2026-08-02)
 
 ## Corpus Check
-- 266 files · ~134,453 words
+- 267 files · ~134,606 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1007 nodes · 1176 edges · 370 communities (47 shown, 323 thin omitted)
+- 1010 nodes · 1178 edges · 371 communities (48 shown, 323 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8c171c86`
+- Built from commit: `8f1d3a2d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -366,7 +366,7 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `ArmorModel` - 138 edges
-2. `Changelog` - 36 edges
+2. `Changelog` - 37 edges
 3. `ArmorModelProvider` - 26 edges
 4. `ArmorSetEffectHandler` - 21 edges
 5. `ArmorModelSupplier` - 15 edges
@@ -391,15 +391,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (370 total, 323 thin omitted)
+## Communities (371 total, 323 thin omitted)
 
 ### Community 0 - "ArmorModel"
 Cohesion: 0.15
-Nodes (5): HeadOYoroiArmorModel, HeadQuetzalcoatlArmorModel, ArmorModel, HumanoidModel, MeshDefinition
+Nodes (5): FeetExaltedAurumArmorModel, LegsQuetzalcoatlArmorModel, ArmorModel, HumanoidModel, MeshDefinition
 
 ### Community 1 - "AgeforgedArmor.java"
-Cohesion: 0.17
-Nodes (11): [0.0.0-beta.10] - 2026-07-13, [0.0.0-beta.19] - 2026-07-17, [0.0.0-beta.3] - 2026-07-13, [0.0.0-beta.5] - 2026-07-13, [0.0.0-beta.6] - 2026-07-13, Changelog, Fixed, Fixed (+3 more)
+Cohesion: 0.14
+Nodes (13): [0.0.0-beta.10] - 2026-07-13, [0.0.0-beta.1] - 2026-07-13, [0.0.0-beta.21] - 2026-07-17, [0.0.0-beta.27] - 2026-07-17, [0.0.0-beta.2] - 2026-07-13, [0.0.0-beta.4] - 2026-07-13, Added, Changed (+5 more)
 
 ### Community 2 - "CustomPacketPayload"
 Cohesion: 0.08
@@ -494,7 +494,7 @@ Cohesion: 0.67
 Nodes (3): [0.0.0-beta.9] - 2026-07-13, Added, Changed
 
 ## Knowledge Gaps
-- **109 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+104 more)
+- **110 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+105 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **323 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -502,16 +502,16 @@ Nodes (3): [0.0.0-beta.9] - 2026-07-13, Added, Changed
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ArmorModel` connect `ArmorModel` to `HumanoidRenderState`, `.templateLayerDefinition`, `HumanoidArmorItem.java`, `LegsExaltedAurumArmorModel`, `ChestHolyArmorModel`, `ChestJapaneseLightArmorModel`, `ChestQuetzalcoatlArmorModel`, `ChestRaijinArmorModel`, `HeadRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `LegsHolyArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `FeetPharaohArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`, `gradlew`, `build.gradle`, `CallbackInfo`, `ArmorMaterial`, `ArmorType`, `DeferredRegister`, `Holder`, `Identifier`, `IEventBus`, `Item`?**
-  _High betweenness centrality (0.199) - this node is a cross-community bridge._
+  _High betweenness centrality (0.198) - this node is a cross-community bridge._
 - **Why does `ArmorModelProvider` connect `HumanoidRenderState` to `ArmorModel`, `OYoroiSkin`, `HatItem.java`?**
   _High betweenness centrality (0.107) - this node is a cross-community bridge._
 - **Why does `AgeforgedArmor` connect `FeetQuetzalcoatlArmorModel` to `PatronConfig`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **What connects `Constants`, `ClientPatronState`, `DEFAULT` to the rest of the system?**
-  _109 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _110 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `AgeforgedArmor.java` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `CustomPacketPayload` be split into smaller, more focused modules?**
   _Cohesion score 0.07547169811320754 - nodes in this community are weakly interconnected._
 - **Should `HumanoidRenderState` be split into smaller, more focused modules?**
   _Cohesion score 0.08163265306122448 - nodes in this community are weakly interconnected._
-- **Should `OYoroiSkin` be split into smaller, more focused modules?**
-  _Cohesion score 0.045454545454545456 - nodes in this community are weakly interconnected._
