@@ -44,7 +44,6 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
@@ -63,8 +62,8 @@ public class AgeforgedArmor {
         LOGGER.info("Mod ID: {}, pack.mcmeta format: 64", MOD_ID);
         LOGGER.info("Assets: assets/{}/textures/item/, assets/{}/textures/models/armor/", MOD_ID, MOD_ID);
 
-        // Correct Forge path: .minecraft/config/<modid>.json (DO NOT prefix with "config/")
-        Constants.CONFIG_PATH = FMLPaths.CONFIGDIR.get().resolve(MOD_ID + ".json");
+        // Correct Forge path: .minecraft/config/<modid>/<modid>.json (DO NOT prefix with "config/")
+        Constants.CONFIG_PATH = FMLPaths.CONFIGDIR.get().resolve(MOD_ID).resolve(MOD_ID + ".json");
 
         /*
          * ================================================================
@@ -72,9 +71,10 @@ public class AgeforgedArmor {
          *  TEMPORARY CONFIG MIGRATION FIX (Forge only)
          *
          *  Objective:
-         *   - If an old file exists in ".minecraft/config/config/<modid>.json",
-         *     copy it to ".minecraft/config/<modid>.json" IF IT DOESN'T ALREADY EXIST.
-         *   - Delete the old file, then attempt to delete the
+         *   - If an old config file exists in ".minecraft/config/config/<modid>.json"
+         *     or ".minecraft/config/<modid>.json", copy it to the current location
+         *     ".minecraft/config/<modid>/<modid>.json" IF IT DOESN'T ALREADY EXIST.
+         *   - Delete the old files, then attempt to delete the
          *     ".minecraft/config/config" folder ONLY if it is empty.
          *
          *  Safety:
@@ -142,56 +142,66 @@ public class AgeforgedArmor {
 
     // ===== TEMPORARY CONFIG MIGRATION FIX (see TODO above) =====
     private static void migrateForgeConfigIfNeeded() {
-        final Path configDir = FMLPaths.CONFIGDIR.get();        // .../.minecraft/config
-        final Path oldDir    = configDir.resolve("config");      // .../.minecraft/config/config
-        final Path oldFile   = oldDir.resolve(MOD_ID + ".json"); // old location
-        final Path newFile   = configDir.resolve(MOD_ID + ".json"); // new correct location
+        final Path newFile    = Constants.CONFIG_PATH;                       // .../.minecraft/config/<modid>/<modid>.json
+        final Path oldDir     = FMLPaths.CONFIGDIR.get().resolve("config");  // .../.minecraft/config/config
+        final Path oldFile    = oldDir.resolve(MOD_ID + ".json");            // very old location
+        final Path legacyFile = FMLPaths.CONFIGDIR.get().resolve(MOD_ID + ".json"); // previous location
 
         try {
-            if (Files.exists(oldFile)) {
-                // Copy only if the new file doesn't exist
-                if (!Files.exists(newFile)) {
-                    try {
-                        Files.createDirectories(newFile.getParent());
-                        Files.copy(oldFile, newFile, StandardCopyOption.REPLACE_EXISTING);
-                        LOGGER.info("[{}] Configuration migrated from '{}' to '{}'.", MOD_ID, oldFile, newFile);
-                    } catch (IOException e) {
-                        LOGGER.warn("[{}] Failed to copy old configuration '{}' to '{}': {}",
-                                MOD_ID, oldFile, newFile, e.getMessage());
-                    }
-                } else {
-                    LOGGER.info("[{}] New configuration file already present: '{}'. " +
-                            "The old one will be cleaned up if possible.", MOD_ID, newFile);
-                }
+            Files.createDirectories(newFile.getParent());
+        } catch (IOException e) {
+            LOGGER.warn("[{}] Failed to create config directory '{}': {}",
+                    MOD_ID, newFile.getParent(), e.getMessage());
+        }
 
-                // Delete old file (best-effort)
-                try {
-                    Files.deleteIfExists(oldFile);
-                } catch (IOException e) {
-                    LOGGER.warn("[{}] Failed to delete old configuration file '{}': {}",
-                            MOD_ID, oldFile, e.getMessage());
-                }
+        migrateSingleConfig(oldFile, newFile);
+        migrateSingleConfig(legacyFile, newFile);
+        cleanupIfEmpty(oldDir);
+    }
 
-                // Try to delete the '.../config/config' folder if it's empty
-                try {
-                    if (Files.isDirectory(oldDir)) {
-                        try (DirectoryStream<Path> ds = Files.newDirectoryStream(oldDir)) {
-                            Iterator<Path> it = ds.iterator();
-                            if (!it.hasNext()) {
-                                Files.delete(oldDir);
-                                LOGGER.info("[{}] Old folder '{}' deleted (was empty).", MOD_ID, oldDir);
-                            } else {
-                                LOGGER.info("[{}] Old folder '{}' kept (contents detected).", MOD_ID, oldDir);
-                            }
-                        }
+    private static void migrateSingleConfig(Path oldFile, Path newFile) {
+        if (!Files.exists(oldFile)) {
+            return;
+        }
+
+        if (!Files.exists(newFile)) {
+            try {
+                Files.copy(oldFile, newFile, StandardCopyOption.REPLACE_EXISTING);
+                LOGGER.info("[{}] Configuration migrated from '{}' to '{}'.", MOD_ID, oldFile, newFile);
+            } catch (IOException e) {
+                LOGGER.warn("[{}] Failed to copy old configuration '{}' to '{}': {}",
+                        MOD_ID, oldFile, newFile, e.getMessage());
+            }
+        } else {
+            LOGGER.info("[{}] New configuration file already present: '{}'. " +
+                    "The old one will be cleaned up if possible.", MOD_ID, newFile);
+        }
+
+        // Delete old file (best-effort)
+        try {
+            Files.deleteIfExists(oldFile);
+        } catch (IOException e) {
+            LOGGER.warn("[{}] Failed to delete old configuration file '{}': {}",
+                    MOD_ID, oldFile, e.getMessage());
+        }
+    }
+
+    private static void cleanupIfEmpty(Path dir) {
+        // Try to delete the folder if it's empty
+        try {
+            if (Files.isDirectory(dir)) {
+                try (DirectoryStream<Path> ds = Files.newDirectoryStream(dir)) {
+                    if (!ds.iterator().hasNext()) {
+                        Files.delete(dir);
+                        LOGGER.info("[{}] Old folder '{}' deleted (was empty).", MOD_ID, dir);
+                    } else {
+                        LOGGER.info("[{}] Old folder '{}' kept (contents detected).", MOD_ID, dir);
                     }
-                } catch (IOException e) {
-                    LOGGER.warn("[{}] Failed to clean up old folder '{}': {}",
-                            MOD_ID, oldDir, e.getMessage());
                 }
             }
-        } catch (Exception e) {
-            LOGGER.warn("[{}] Problem during configuration migration: {}", MOD_ID, e.getMessage());
+        } catch (IOException e) {
+            LOGGER.warn("[{}] Failed to clean up old folder '{}': {}",
+                    MOD_ID, dir, e.getMessage());
         }
     }
     // ===================== END TEMPORARY MIGRATION FIX =====================
