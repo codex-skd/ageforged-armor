@@ -1,6 +1,6 @@
 package com.skd.ageforgedarmor;
 
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 import com.skd.ageforgedarmor.config.PreferredModel;
 import com.skd.ageforgedarmor.config.SkinSyncState;
 import com.skd.ageforgedarmor.networking.ConfigSyncNetworkHandler;
@@ -21,7 +21,7 @@ public class CommonClass {
 
     public static void init() {
         SetBonusRegistry.init();
-        AOTAConfig.CONFIG_CLASS_HANDLER.load();
+        AgeforgedArmorConfig.CONFIG_CLASS_HANDLER.load();
         CONFIG_SYNC_HANDLER.setup();
         CONFIG_SYNC_HANDLER.registerHandler(uuidPreferredModelHashMap -> {
             CURRENT_PREFERRED_MODEL_MAP = uuidPreferredModelHashMap;

@@ -10,7 +10,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import com.skd.ageforgedarmor.CommonClass;
 import com.skd.ageforgedarmor.client.models.ArmorModel;
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 import com.skd.ageforgedarmor.config.PreferredModel;
 import com.skd.ageforgedarmor.config.SkinSyncState;
 import org.apache.logging.log4j.LogManager;
@@ -83,7 +83,7 @@ public class ArmorModelProvider {
     public static boolean isSlim(Entity entity) {
         if (entity == null) return false;
         if (entity == Minecraft.getInstance().player) {
-            return AOTAConfig.get().preferredModel == PreferredModel.FEMALE;
+            return AgeforgedArmorConfig.get().preferredModel == PreferredModel.FEMALE;
         }
         if (CommonClass.CURRENT_PREFERRED_MODEL_MAP.containsKey(entity.getUUID())) {
             return CommonClass.CURRENT_PREFERRED_MODEL_MAP.get(entity.getUUID()) == PreferredModel.FEMALE;

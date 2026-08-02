@@ -6,7 +6,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
-import com.skd.ageforgedarmor.config.AOTAConfig;
+import com.skd.ageforgedarmor.config.AgeforgedArmorConfig;
 import com.skd.ageforgedarmor.config.PreferredModel;
 import com.skd.ageforgedarmor.config.SkinSyncState;
 import com.skd.ageforgedarmor.networking.packets.GlobalPreferenceSyncPayload;
@@ -28,10 +28,10 @@ public class ForgeConfigSyncNetworkHandler implements ConfigSyncNetworkHandler {
     @Override
     public void syncConfig() {
         if (Minecraft.getInstance().getConnection() != null) {
-            ClientPacketDistributor.sendToServer(new PreferenceSyncPayload(AOTAConfig.get().preferredModel));
+            ClientPacketDistributor.sendToServer(new PreferenceSyncPayload(AgeforgedArmorConfig.get().preferredModel));
             ClientPacketDistributor.sendToServer(new SkinSyncPayload(
-                new SkinSyncState(AOTAConfig.get().oYoroiSkin, AOTAConfig.get().ironPlateSkin,
-                    AOTAConfig.get().centurionSkin, AOTAConfig.get().raijinSkin, AOTAConfig.get().pharaohSkin)));
+                new SkinSyncState(AgeforgedArmorConfig.get().oYoroiSkin, AgeforgedArmorConfig.get().ironPlateSkin,
+                    AgeforgedArmorConfig.get().centurionSkin, AgeforgedArmorConfig.get().raijinSkin, AgeforgedArmorConfig.get().pharaohSkin)));
         }
     }
 
