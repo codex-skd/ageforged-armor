@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.3] - 2026-08-02
+
+### Change
+
+- **Archivos de configuración movidos a `config/ageforged_armor/`**: el mod ahora genera todos sus archivos dentro de una carpeta dedicada en lugar de la raíz de `config/`. La config principal queda en `config/ageforged_armor/ageforged_armor.json` y la caché de Patreon en `config/ageforged_armor/ageforged_armor_patrons_cache.json`.
+- **Migración automática**: en el primer arranque se copian las configs de las ubicaciones antiguas (`config/ageforged_armor.json` y `config/config/ageforged_armor.json`) a la nueva carpeta, y se limpian los archivos antiguos. Los ajustes del jugador se conservan.
+
 ## [1.1.2] - 2026-07-31
 
 ### Fix
