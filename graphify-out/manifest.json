@@ -15,9 +15,9 @@
     "semantic_hash": "99e779284ca5df48a056afa6a0bf2cd1"
   },
   "src/main/java/com/skd/ageforgedarmor/AgeforgedArmor.java": {
-    "mtime": 1785150501.2219648,
-    "ast_hash": "16ba080ffcf4978a46f7f4b1db4a6836",
-    "semantic_hash": "16ba080ffcf4978a46f7f4b1db4a6836"
+    "mtime": 1785679839.609204,
+    "ast_hash": "05a7de07d38947481e633f29d4494c94",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/ageforgedarmor/ArmorSetEffectHandler.java": {
     "mtime": 1785150501.2229648,
@@ -1170,8 +1170,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_AGEFORGED_ARMOR_26-1-2.md": {
-    "mtime": 1785489186.2170703,
-    "ast_hash": "f16fa6c58e3328294d077b89cc9d4272",
+    "mtime": 1785626678.1368623,
+    "ast_hash": "35fbfb737c478d026a72b47a1c3bf5fd",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -1180,8 +1180,8 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785164670.6973069,
-    "ast_hash": "e0907ee6bca794c0624ffbb10383e050",
+    "mtime": 1785507933.8930886,
+    "ast_hash": "bf62948f1bafb229894da97d10e210e1",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.10.md": {
@@ -1772,6 +1772,11 @@
   "src/main/resources/assets/ageforged_armor/textures/models/armor/silver_raijin_armor_slim.png": {
     "mtime": 1785150501.3372827,
     "ast_hash": "908b5803c60a77c2ef3ab51ac0b41163",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1785507828.4170604,
+    "ast_hash": "298c71b01e7e573cf5edeacdc3fcba71",
     "semantic_hash": ""
   }
 }
