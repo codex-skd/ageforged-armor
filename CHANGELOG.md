@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.3] - 2026-08-02
+
+### Refactor
+
+- **Clases `AOTA*` renombradas a naming propio**: `AOTAConfig` → `AgeforgedArmorConfig`, `AotAMaterials` → `AgeforgedArmorMaterials`, `AotATags` → `AgeforgedArmorTags` (residuo del fork "Armor of the Ages"). Sin cambios de gameplay ni de config.
+
 ## [1.0.2] - 2026-08-02
 
 ### Change
