@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.4] - 2026-08-05
+
+### Change
+
+- **Recompilado contra NeoForge `26.2.0.37-beta`**: bump de `neo_version` en `gradle.properties` (`26.2.0.32-beta` → `26.2.0.37-beta`). Sin cambios de código; verificado con `runServer` (arranque sin errores).
+
 ## [1.1.3] - 2026-08-02
 
 ### Change
