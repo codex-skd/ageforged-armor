@@ -1,16 +1,16 @@
-# Graph Report - 26.2  (2026-08-02)
+# Graph Report - 26.2  (2026-08-05)
 
 ## Corpus Check
-- 244 files · ~132,357 words
+- 245 files · ~132,413 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 981 nodes · 1173 edges · 353 communities (34 shown, 319 thin omitted)
+- 984 nodes · 1175 edges · 354 communities (36 shown, 318 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a06db716`
+- Built from commit: `8167b553`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,7 +30,6 @@
 - ChestExaltedAurumArmorModel
 - LegsExaltedAurumArmorModel
 - ChestHolyArmorModel
-- ChestIronPlateArmorModel
 - ChestJapaneseLightArmorModel
 - ChestQuetzalcoatlArmorModel
 - ChestRaijinArmorModel
@@ -360,7 +359,7 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `ArmorModel` - 138 edges
-2. `Changelog` - 42 edges
+2. `Changelog` - 43 edges
 3. `ArmorModelProvider` - 26 edges
 4. `ArmorSetEffectHandler` - 21 edges
 5. `ArmorModelSupplier` - 15 edges
@@ -385,7 +384,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (353 total, 319 thin omitted)
+## Communities (354 total, 318 thin omitted)
 
 ### Community 1 - "AgeforgedArmor.java"
 Cohesion: 0.06
@@ -396,8 +395,8 @@ Cohesion: 0.08
 Nodes (14): CustomPacketPayload, ForgeConfigSyncNetworkHandler, NeoForgePacketHandlers, NeoForgePayloadRegistry, DisablePreferencesPayload, DisableSkinSyncPayload, GlobalPreferenceSyncPayload, GlobalSkinSyncPayload (+6 more)
 
 ### Community 3 - "HumanoidRenderState"
-Cohesion: 0.07
-Nodes (16): AbstractClientPlayer, Avatar, AvatarRenderState, ArmorModelProvider, MixedArmorModelProvider, SkinnedMixedArmorModelProvider, ArmorModelSupplier, MixinAvatarRenderer (+8 more)
+Cohesion: 0.08
+Nodes (15): AbstractClientPlayer, Avatar, ArmorModelProvider, MixedArmorModelProvider, SkinnedMixedArmorModelProvider, ArmorModelSupplier, MixinAvatarRenderer, MixinHumanoidArmorLayer (+7 more)
 
 ### Community 4 - "OYoroiSkin"
 Cohesion: 0.05
@@ -409,7 +408,7 @@ Nodes (21): ChatFormatting, HumanoidArmorItem, CommonClass, AgeforgedArmorTags, 
 
 ### Community 7 - "HumanoidArmorItem.java"
 Cohesion: 0.14
-Nodes (13): [0.0.0-beta.13] - 2026-07-13, [0.0.0-beta.16] - 2026-07-16, [0.0.0-beta.18] - 2026-07-17, [0.0.0-beta.19] - 2026-07-17, [0.0.0-beta.4] - 2026-07-13, [1.1.0] - 2026-07-29, Changed, Changelog (+5 more)
+Nodes (13): [0.0.0-beta.14] - 2026-07-13, [0.0.0-beta.16] - 2026-07-16, [0.0.0-beta.17] - 2026-07-16, [0.0.0-beta.29] - 2026-07-22, [0.0.0-beta.3] - 2026-07-27, [0.0.0-beta.8] - 2026-07-13, Changed, Changelog (+5 more)
 
 ### Community 8 - "ArmorSetEffectHandler"
 Cohesion: 0.19
@@ -431,9 +430,9 @@ Nodes (6): Ageforged Armor, Armor Sets, Development, Features, License, Requirem
 Cohesion: 0.17
 Nodes (11): Buenas prácticas, Commits (Conventional Commits), Convenciones de nomenclatura, Específico del mod, Estructura del proyecto, Flujo de trabajo — Ageforged Armor (NeoForge), Flujo por tarea, Idioma (+3 more)
 
-### Community 39 - "FeetRaijinArmorModel"
-Cohesion: 0.18
-Nodes (5): ArmorModel, FeetOYoroiArmorModel, HeadQuetzalcoatlArmorModel, MeshDefinition, PlayerModel
+### Community 42 - "gradlew"
+Cohesion: 0.16
+Nodes (6): AvatarRenderState, ArmorModel, HeadIronPlateArmorModel, FeetPharaohArmorModel, MeshDefinition, PlayerModel
 
 ### Community 52 - "Holder"
 Cohesion: 0.50
@@ -480,24 +479,24 @@ Cohesion: 0.38
 Nodes (4): LootModifierProvider, GlobalLootModifierProvider, PackOutput, Provider
 
 ## Knowledge Gaps
-- **102 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+97 more)
+- **103 isolated node(s):** `Constants`, `ClientPatronState`, `DEFAULT`, `SILVER_PATREON`, `DEFAULT` (+98 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **319 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **318 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ArmorModel` connect `FeetRaijinArmorModel` to `ArmorModel`, `HumanoidRenderState`, `.templateLayerDefinition`, `HeadAnubisArmorModel`, `LegsExaltedAurumArmorModel`, `ChestHolyArmorModel`, `ChestIronPlateArmorModel`, `ChestQuetzalcoatlArmorModel`, `ChestRaijinArmorModel`, `HeadRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `LegsHolyArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `FeetPharaohArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `AgeforgedArmorClient`, `PreferredModel`, `gradlew`, `SkinSyncState.java`, `LootTablesToModify.java`, `build.gradle`, `CallbackInfo`, `ArmorMaterial`, `ArmorType`, `DeferredRegister`?**
-  _High betweenness centrality (0.233) - this node is a cross-community bridge._
-- **Why does `ArmorModelProvider` connect `HumanoidRenderState` to `OYoroiSkin`, `HatItem.java`, `FeetRaijinArmorModel`?**
-  _High betweenness centrality (0.122) - this node is a cross-community bridge._
+- **Why does `ArmorModel` connect `gradlew` to `ArmorModel`, `HumanoidRenderState`, `.templateLayerDefinition`, `HeadAnubisArmorModel`, `LegsExaltedAurumArmorModel`, `ChestHolyArmorModel`, `ChestIronPlateArmorModel`, `ChestQuetzalcoatlArmorModel`, `ChestRaijinArmorModel`, `HeadRaijinArmorModel`, `FeetAnubisArmorModel`, `LegsAnubisArmorModel`, `FeetCenturionArmorModel`, `HeadCenturionArmorModel`, `LegsCenturionArmorModel`, `FeetExaltedAurumArmorModel`, `HeadExaltedAurumArmorModel`, `FeetHolyArmorModel`, `LegsHolyArmorModel`, `LegsIronPlateArmorModel`, `FeetJapaneseLightArmorModel`, `HeadJapaneseLightArmorModel`, `FeetOYoroiArmorModel`, `HeadOYoroiArmorModel`, `LegsOYoroiArmorModel`, `FeetQuetzalcoatlArmorModel`, `HeadQuetzalcoatlArmorModel`, `LegsQuetzalcoatlArmorModel`, `FeetRaijinArmorModel`, `AgeforgedArmorClient`, `PreferredModel`, `SkinSyncState.java`, `LootTablesToModify.java`, `build.gradle`, `CallbackInfo`, `ArmorMaterial`, `ArmorType`, `DeferredRegister`?**
+  _High betweenness centrality (0.231) - this node is a cross-community bridge._
+- **Why does `ArmorModelProvider` connect `HumanoidRenderState` to `gradlew`, `OYoroiSkin`, `HatItem.java`?**
+  _High betweenness centrality (0.121) - this node is a cross-community bridge._
 - **Why does `HumanoidArmorItem` connect `HatItem.java` to `AgeforgedArmor.java`, `HumanoidRenderState`?**
   _High betweenness centrality (0.049) - this node is a cross-community bridge._
 - **What connects `Constants`, `ClientPatronState`, `DEFAULT` to the rest of the system?**
-  _102 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _103 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `AgeforgedArmor.java` be split into smaller, more focused modules?**
   _Cohesion score 0.061224489795918366 - nodes in this community are weakly interconnected._
 - **Should `CustomPacketPayload` be split into smaller, more focused modules?**
   _Cohesion score 0.07547169811320754 - nodes in this community are weakly interconnected._
 - **Should `HumanoidRenderState` be split into smaller, more focused modules?**
-  _Cohesion score 0.07329462989840348 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07918367346938776 - nodes in this community are weakly interconnected._
