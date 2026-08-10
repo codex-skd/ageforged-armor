@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.5] - 2026-08-10
+
+### Fix
+
+- **La armadura custom no se dibujaba en nada que no fuera un jugador real (Armor Stand, previews de tooltips)**: `MixinHumanoidArmorLayer` siempre vaciaba la pieza vainilla y delegaba el render a nuestro modelo propio, pero ese modelo (`ArmorModel`, que extiende `PlayerModel` por compatibilidad con BetterCombat/PlayerAnimationLib) solo acepta un `AvatarRenderState`. Cualquier otro portador — un Armor Stand, o la entidad falsa que usan mods como Legendary Tooltips para renderizar una vista previa 3D del ítem en el tooltip — fallaba esa comprobación de tipo y no dibujaba nada: recuadro vacío en el tooltip, o pieza invisible en un Armor Stand real.
+- **Fix**: cuando quien la lleva puesta no es un jugador real, ahora se construye un `AvatarRenderState` de usar y tirar con los mismos datos de pose (posición de animación, rotación, pose de brazos, etc.) para que el modelo custom se pueda dibujar igualmente. Sin cambios de comportamiento para jugadores reales.
+
 ## [1.1.4] - 2026-08-05
 
 ### Change
