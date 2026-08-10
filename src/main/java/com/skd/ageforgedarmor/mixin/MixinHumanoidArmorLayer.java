@@ -35,7 +35,9 @@ public abstract class MixinHumanoidArmorLayer {
     private void wrapRenderArmorPiece(HumanoidArmorLayer instance, PoseStack poseStack, SubmitNodeCollector collector, ItemStack stack,
                                        EquipmentSlot slot, int packedLight, HumanoidRenderState state,
                                        Operation<Void> original) {
-        if (stack.getItem() instanceof HumanoidArmorItem) {
+        boolean useCustomModel = stack.getItem() instanceof HumanoidArmorItem armorItem
+                && armorItem.getModelProvider() != null;
+        if (useCustomModel) {
             original.call(instance, poseStack, collector, ItemStack.EMPTY, slot, packedLight, state);
         } else {
             original.call(instance, poseStack, collector, stack, slot, packedLight, state);
@@ -66,9 +68,12 @@ public abstract class MixinHumanoidArmorLayer {
         if (provider == null) return;
 
         // ArmorModel extends PlayerModel (so PlayerAnimationLib's PlayerModel.setupAnim() mixin
-        // applies to it), which only accepts AvatarRenderState - skip gracefully if a non-player
-        // humanoid (e.g. a mob) somehow ends up wearing this armor.
-        if (!(renderState instanceof AvatarRenderState avatarState)) return;
+        // applies to it when worn by a real player), which only accepts AvatarRenderState - both
+        // setupAnim() and submitModel() are generically bound to that type. For any other wearer
+        // (an ArmorStand, or the fake entity mods like Legendary Tooltips use to preview items),
+        // build a throwaway AvatarRenderState carrying the same pose data instead of skipping the
+        // render entirely.
+        AvatarRenderState avatarState = renderState instanceof AvatarRenderState real ? real : toAvatarRenderState(renderState);
 
         ArmorModel model = provider.getArmorModel(Minecraft.getInstance().player);
         if (model == null) return;
@@ -91,6 +96,32 @@ public abstract class MixinHumanoidArmorLayer {
                             net.minecraft.client.renderer.rendertype.RenderTypes.armorEntityGlint(),
                             packedLight, OverlayTexture.NO_OVERLAY, -1, null, 0, null);
         }
+    }
+
+    // Only carries pose data (used by HumanoidModel.setupAnim/submitModel); AvatarRenderState-only
+    // fields (skin, cape, parrots...) are left at their constructor defaults since PlayerModel's
+    // own setupAnim() override never reads them (confirmed by decompiling 26.2.0.37-beta).
+    @Unique
+    private static AvatarRenderState toAvatarRenderState(HumanoidRenderState source) {
+        AvatarRenderState state = new AvatarRenderState();
+        state.walkAnimationPos = source.walkAnimationPos;
+        state.walkAnimationSpeed = source.walkAnimationSpeed;
+        state.ageInTicks = source.ageInTicks;
+        state.xRot = source.xRot;
+        state.yRot = source.yRot;
+        state.swimAmount = source.swimAmount;
+        state.speedValue = source.speedValue;
+        state.isCrouching = source.isCrouching;
+        state.isFallFlying = source.isFallFlying;
+        state.isPassenger = source.isPassenger;
+        state.isUsingItem = source.isUsingItem;
+        state.useItemHand = source.useItemHand;
+        state.leftArmPose = source.leftArmPose;
+        state.rightArmPose = source.rightArmPose;
+        state.mainArm = source.mainArm;
+        state.attackArm = source.attackArm;
+        state.attackTime = source.attackTime;
+        return state;
     }
 
     @Unique
