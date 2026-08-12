@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.6] - 2026-08-12
+
+### Change
+
+- **Nombre de JAR con versión del cargador**: el artefacto ahora se compila como `ageforged_armor-26.2-neoforge-26.2.0.37-beta-1.1.6.jar` (se añade la versión de cargador/NeoForge al nombre del archivo). Empaquetado y documentación; sin cambios de funcionalidad.
+
+
 ## [1.1.5] - 2026-08-10
 
 ### Fix
