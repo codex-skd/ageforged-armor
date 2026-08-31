@@ -169,3 +169,8 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// Bundle the MIT license (original: Pierre C / Dawn of Time; fork: Stalking Dragons) into the jar.
+tasks.named('jar', Jar).configure {
+    from(rootProject.file('LICENSE'))
+}
